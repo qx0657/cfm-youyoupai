@@ -1,26 +1,28 @@
 # CF 悠悠牌资料库
 
-面向 CF Mobile 悠悠牌/自走棋模式的静态资料库。项目把 APK 中解析出的卡牌、阵营、地图、增益和攻略数据整理成 JSON 与图片资源，再由 React/Vite 单页应用展示，并提供一个本地管理后台用于维护人工覆盖数据、攻略视频和推荐阵容。
+面向 CF Mobile 悠悠牌/自走棋模式的资料库。项目把 APK 中解析出的卡牌、阵营、地图、增益和攻略数据整理成 JSON 与图片资源，再由 React/Vite 单页应用展示，并提供受 Basic Auth 保护的管理后台用于维护人工覆盖数据、攻略视频和推荐阵容。
 
 ## 在线访问
 
 当前站点：[http://cfuu.dpdns.org/](http://cfuu.dpdns.org/)
+
+管理后台：[http://cfuu.dpdns.org/admin/](http://cfuu.dpdns.org/admin/)（需要授权）
 
 ## 功能概览
 
 - 卡牌资料库：角色、武器、投掷物、道具、消耗品、增益卡统一检索与筛选。
 - 阵营与羁绊：展示阵营说明、阶段效果和关联角色。
 - 基础资料：规则指南、商店概率、术语解释、地图效果。
-- 阵容推荐：内置阵容方案，并支持通过本地管理后台维护扩展阵容。
+- 阵容推荐：内置阵容方案，并支持通过管理后台维护扩展阵容。
 - 视频攻略：维护抖音、快手等平台视频链接快照，静态站点不依赖平台 API。
-- 本地管理后台：Basic Auth 保护的本地后台，可编辑卡牌覆盖、阵营说明、推荐阵容和视频条目。
+- 管理后台：Basic Auth 保护的后台，可编辑卡牌覆盖、阵营说明、推荐阵容和视频条目。
 
 ## 目录结构
 
 ```text
 .
 ├── cfuu/                       # React 19 + Vite 6 前端项目
-│   ├── admin/                  # 本地管理后台页面
+│   ├── admin/                  # 管理后台页面
 │   ├── data/                   # 人工覆盖与扩展数据
 │   ├── public/                 # 静态 JSON 和图片资源
 │   ├── scripts/                # 数据准备、管理后台、部署脚本
@@ -54,7 +56,7 @@ npm run dev
 ```powershell
 npm run build          # TypeScript 检查 + Vite 生产构建
 npm run preview        # 预览 dist 构建结果
-npm run admin          # 启动本地管理端，端口 5174
+npm run admin          # 启动管理后台服务，默认端口 5174
 npm run prepare:data   # 用 cfuu/data 覆盖数据重新生成 public/data
 ```
 
@@ -78,7 +80,15 @@ npm run pipeline -- --apk "F:\path\to\com.tencent.tmgp.cf.apk" --clean
 
 ## 管理后台
 
-项目包含一个仅供本地使用的管理后台，用来维护静态站点的人工数据层。后台由 `cfuu/scripts/admin-server.mjs` 提供服务，页面位于 `cfuu/admin/`，默认监听 `127.0.0.1:5174`。
+项目包含一个管理后台，用来维护站点的人工数据层。后台页面位于 `cfuu/admin/`，接口和静态文件由 `cfuu/scripts/admin-server.mjs` 提供服务，并通过 Basic Auth 保护。
+
+当前线上后台入口：
+
+```text
+http://cfuu.dpdns.org/admin/
+```
+
+部署时通常由服务器反向代理到管理后台服务。该服务默认监听 `127.0.0.1:5174`，也可以在开发机上直接运行。
 
 启动前建议设置 Basic Auth 账号密码：
 
@@ -180,6 +190,6 @@ npm run deploy
 - `autochess_dump/`
 - `node_modules/`
 - `cfuu/dist/`
-- `.env.deploy`、密钥、日志、管理端备份
+- `.env.deploy`、密钥、日志、管理后台备份
 
 公开仓库提交前请确认没有包含部署密钥、账号令牌、APK 原包或本地中间产物。
