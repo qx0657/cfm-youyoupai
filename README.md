@@ -172,9 +172,13 @@ npm run deploy
 
 `.env.deploy` 包含私有部署信息，不提交到 Git。
 
-## Credits
+## Contributors / Credits
 
-本工程在开发、文档整理和工程化过程中由 Codex 与 Claude AI 参与辅助实现。
+- qx0657：项目维护、数据整理、部署与内容校对。
+- Codex：参与工程实现、文档整理、Git/GitHub 工作流与代码维护辅助。
+- Claude AI：参与早期工程实现、资料整理与文档辅助。
+
+GitHub 右侧的 Contributors 统计由提交作者自动生成；AI 工具没有独立提交账号时，不会出现在该自动统计中。
 
 ## 提交约定
 
