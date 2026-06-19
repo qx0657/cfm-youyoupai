@@ -1,6 +1,6 @@
 # CF 悠悠牌资料库
 
-面向 CF Mobile 悠悠牌/自走棋模式的静态资料库。项目把 APK 中解析出的卡牌、阵营、地图、增益和攻略数据整理成 JSON 与图片资源，再由 React/Vite 单页应用展示。
+面向 CF Mobile 悠悠牌/自走棋模式的静态资料库。项目把 APK 中解析出的卡牌、阵营、地图、增益和攻略数据整理成 JSON 与图片资源，再由 React/Vite 单页应用展示，并提供一个本地管理后台用于维护人工覆盖数据、攻略视频和推荐阵容。
 
 ## 在线访问
 
@@ -11,19 +11,19 @@
 - 卡牌资料库：角色、武器、投掷物、道具、消耗品、增益卡统一检索与筛选。
 - 阵营与羁绊：展示阵营说明、阶段效果和关联角色。
 - 基础资料：规则指南、商店概率、术语解释、地图效果。
-- 阵容推荐：内置阵容方案，并支持通过本地管理端维护扩展阵容。
+- 阵容推荐：内置阵容方案，并支持通过本地管理后台维护扩展阵容。
 - 视频攻略：维护抖音、快手等平台视频链接快照，静态站点不依赖平台 API。
-- 本地管理端：用于维护覆盖数据、自定义卡牌、阵容和视频条目。
+- 本地管理后台：Basic Auth 保护的本地后台，可编辑卡牌覆盖、阵营说明、推荐阵容和视频条目。
 
 ## 目录结构
 
 ```text
 .
 ├── cfuu/                       # React 19 + Vite 6 前端项目
-│   ├── admin/                  # 本地管理端页面
+│   ├── admin/                  # 本地管理后台页面
 │   ├── data/                   # 人工覆盖与扩展数据
 │   ├── public/                 # 静态 JSON 和图片资源
-│   ├── scripts/                # 数据准备、管理端、部署脚本
+│   ├── scripts/                # 数据准备、管理后台、部署脚本
 │   └── src/                    # 单页应用源码
 ├── Maps/                       # 地图原始二进制文件
 ├── autochess_dump/             # APK 解析中间产物，本地生成，不提交
@@ -76,9 +76,38 @@ npm run pipeline -- --apk "F:\path\to\com.tencent.tmgp.cf.apk" --clean
 
 更多细节见 [cfuu/PIPELINE.md](cfuu/PIPELINE.md)。
 
+## 管理后台
+
+项目包含一个仅供本地使用的管理后台，用来维护静态站点的人工数据层。后台由 `cfuu/scripts/admin-server.mjs` 提供服务，页面位于 `cfuu/admin/`，默认监听 `127.0.0.1:5174`。
+
+启动前建议设置 Basic Auth 账号密码：
+
+```powershell
+cd .\cfuu
+$env:CFUU_ADMIN_USER="admin"
+$env:CFUU_ADMIN_PASSWORD="change-me"
+npm run admin
+```
+
+启动后访问：
+
+```text
+http://127.0.0.1:5174/admin/
+```
+
+后台能力：
+
+- 卡牌维护：编辑名称、品质、阵营、关键词、描述和隐藏状态。
+- 自定义卡牌：基于消耗品卡牌复制出自定义条目。
+- 阵营维护：编辑阵营展示名、关键词分类、描述、阶段效果和隐藏状态。
+- 视频攻略：解析并维护抖音、快手视频攻略条目。
+- 推荐阵容：新增、编辑、复制、删除阵容方案，维护角色、武器、道具、地图、增益和视频链接。
+
+后台写入 `cfuu/data/` 后会自动执行 `prepare-data.mjs`，把人工数据重新合并到 `cfuu/public/data/`。每次写入前会在 `cfuu/data/override-backups/` 生成本地备份，该目录不提交。
+
 ## 人工覆盖数据
 
-管理端和数据准备脚本主要读取 `cfuu/data/`：
+管理后台和数据准备脚本主要读取 `cfuu/data/`：
 
 - `card-overrides.json`：卡牌名称、阵营、关键词、描述等覆盖。
 - `custom-cards.json`：人工新增卡牌。
@@ -86,14 +115,12 @@ npm run pipeline -- --apk "F:\path\to\com.tencent.tmgp.cf.apk" --clean
 - `recommended-lineups.json`：推荐阵容扩展数据。
 - `video-guides.json`：视频攻略条目。
 
-运行管理端：
+只需要重建静态数据时，可以不启动后台，直接运行：
 
 ```powershell
 cd .\cfuu
-npm run admin
+npm run prepare:data
 ```
-
-管理端会在写入前生成本地备份到 `cfuu/data/override-backups/`，该目录不提交。
 
 ## 前端架构
 
