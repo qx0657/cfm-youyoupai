@@ -17,6 +17,24 @@
 - 视频攻略：维护抖音、快手等平台视频链接快照，静态站点不依赖平台 API。
 - 管理后台：Basic Auth 保护的后台，可编辑卡牌覆盖、阵营说明、推荐阵容和视频条目。
 
+## 界面截图
+
+### 卡牌资料库
+
+![卡牌资料库](docs/screenshots/library-all.png)
+
+### 阵营羁绊
+
+![阵营羁绊](docs/screenshots/factions.png)
+
+### 推荐阵容
+
+![推荐阵容](docs/screenshots/lineups.png)
+
+### 管理后台
+
+![管理后台](docs/screenshots/admin-cards.png)
+
 ## 目录结构
 
 ```text
