@@ -1,0 +1,219 @@
+[
+  {
+    "index": 1,
+    "category": "throwable",
+    "name": "王者之势烟雾弹",
+    "resource": "Icon_ZiZouQi_DaoJu_Wangzhezhishi",
+    "png": "autochess_dump\\organized_throwables\\throwable_cards\\001_Icon_ZiZouQi_DaoJu_Wangzhezhishi.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_DaoJu_02\\Icon_ZiZouQi_DaoJu_Wangzhezhishi.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_DaoJu_02",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [
+      "使目标的攻击减半",
+      "攻击减少50%"
+    ],
+    "plain_descriptions": [
+      "使目标的攻击减半",
+      "攻击减少50%"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 13,
+    "string_start_index": 48,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_throwable_card_previews\\composited_cards\\001_Icon_ZiZouQi_DaoJu_Wangzhezhishi.png",
+    "quality_source": "default_throwable_gold",
+    "quality_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\054_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_WeaponAndRole_JinSe.png",
+    "frame_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\052_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_WeaponAndRole_Bg.png"
+  },
+  {
+    "index": 2,
+    "category": "throwable",
+    "name": "雷霆王者闪光弹",
+    "resource": "Icon_ZiZouQi_DaoJu_Wangzhezhisuo",
+    "png": "autochess_dump\\organized_throwables\\throwable_cards\\002_Icon_ZiZouQi_DaoJu_Wangzhezhisuo.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_DaoJu_02\\Icon_ZiZouQi_DaoJu_Wangzhezhisuo.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_DaoJu_02",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [
+      "使目标眩晕1回合",
+      "眩晕1回合"
+    ],
+    "plain_descriptions": [
+      "使目标眩晕1回合",
+      "眩晕1回合"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 12,
+    "string_start_index": 44,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_throwable_card_previews\\composited_cards\\002_Icon_ZiZouQi_DaoJu_Wangzhezhisuo.png",
+    "quality_source": "default_throwable_gold",
+    "quality_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\054_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_WeaponAndRole_JinSe.png",
+    "frame_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\052_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_WeaponAndRole_Bg.png"
+  },
+  {
+    "index": 3,
+    "category": "throwable",
+    "name": "王者之翼手雷",
+    "resource": "Icon_ZiZouQi_DaoJu_Wangzhezhiyi",
+    "png": "autochess_dump\\organized_throwables\\throwable_cards\\003_Icon_ZiZouQi_DaoJu_Wangzhezhiyi.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_DaoJu_02\\Icon_ZiZouQi_DaoJu_Wangzhezhiyi.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_DaoJu_02",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [
+      "对目标造成50%攻击力的伤害"
+    ],
+    "plain_descriptions": [
+      "对目标造成50%攻击力的伤害"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 11,
+    "string_start_index": 40,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_throwable_card_previews\\composited_cards\\003_Icon_ZiZouQi_DaoJu_Wangzhezhiyi.png",
+    "quality_source": "default_throwable_gold",
+    "quality_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\054_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_WeaponAndRole_JinSe.png",
+    "frame_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\052_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_WeaponAndRole_Bg.png"
+  },
+  {
+    "index": 4,
+    "category": "throwable",
+    "name": "烛九阴燃烧弹",
+    "resource": "Icon_ZiZouQi_DaoJu_Zujiuying",
+    "png": "autochess_dump\\organized_throwables\\throwable_cards\\004_Icon_ZiZouQi_DaoJu_Zujiuying.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_DaoJu_02\\Icon_ZiZouQi_DaoJu_Zujiuying.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_DaoJu_02",
+    "quality": "gold",
+    "keywords": [
+      "燃烧"
+    ],
+    "descriptions": [
+      "使对方全体目标<KeyWord>燃烧</KeyWord>，每次行动前生命-10",
+      "燃烧"
+    ],
+    "plain_descriptions": [
+      "使对方全体目标燃烧，每次行动前生命-10",
+      "燃烧"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 14,
+    "string_start_index": 54,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_throwable_card_previews\\composited_cards\\004_Icon_ZiZouQi_DaoJu_Zujiuying.png",
+    "quality_source": "default_throwable_gold",
+    "quality_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\054_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_WeaponAndRole_JinSe.png",
+    "frame_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\052_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_WeaponAndRole_Bg.png"
+  },
+  {
+    "index": 5,
+    "category": "throwable",
+    "name": "燃烧弹",
+    "resource": "Icon_ZiZouQi_DaoJu_putongranshaodan",
+    "png": "autochess_dump\\organized_throwables\\throwable_cards\\005_Icon_ZiZouQi_DaoJu_putongranshaodan.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_DaoJu_02\\Icon_ZiZouQi_DaoJu_putongranshaodan.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_DaoJu_02",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename",
+    "composited_card_png": "autochess_dump\\organized_throwable_card_previews\\composited_cards\\005_Icon_ZiZouQi_DaoJu_putongranshaodan.png",
+    "quality_source": "known_throwable_resource_quality",
+    "quality_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\055_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_WeaponAndRole_LanSe.png",
+    "frame_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\052_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_WeaponAndRole_Bg.png"
+  },
+  {
+    "index": 6,
+    "category": "throwable",
+    "name": "闪光弹",
+    "resource": "Icon_ZiZouQi_DaoJu_putongshanguangdan",
+    "png": "autochess_dump\\organized_throwables\\throwable_cards\\006_Icon_ZiZouQi_DaoJu_putongshanguangdan.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_DaoJu_02\\Icon_ZiZouQi_DaoJu_putongshanguangdan.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_DaoJu_02",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename",
+    "composited_card_png": "autochess_dump\\organized_throwable_card_previews\\composited_cards\\006_Icon_ZiZouQi_DaoJu_putongshanguangdan.png",
+    "quality_source": "known_throwable_resource_quality",
+    "quality_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\055_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_WeaponAndRole_LanSe.png",
+    "frame_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\052_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_WeaponAndRole_Bg.png"
+  },
+  {
+    "index": 7,
+    "category": "throwable",
+    "name": "手雷",
+    "resource": "Icon_ZiZouQi_DaoJu_putongshoulei",
+    "png": "autochess_dump\\organized_throwables\\throwable_cards\\007_Icon_ZiZouQi_DaoJu_putongshoulei.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_DaoJu_02\\Icon_ZiZouQi_DaoJu_putongshoulei.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_DaoJu_02",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [
+      "对目标造成8点伤害"
+    ],
+    "plain_descriptions": [
+      "对目标造成8点伤害"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 27,
+    "string_start_index": 100,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_throwable_card_previews\\composited_cards\\007_Icon_ZiZouQi_DaoJu_putongshoulei.png",
+    "quality_source": "known_throwable_resource_quality",
+    "quality_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\055_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_WeaponAndRole_LanSe.png",
+    "frame_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\052_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_WeaponAndRole_Bg.png"
+  },
+  {
+    "index": 8,
+    "category": "throwable",
+    "name": "烟雾弹",
+    "resource": "Icon_ZiZouQi_DaoJu_putongyanwudan",
+    "png": "autochess_dump\\organized_throwables\\throwable_cards\\008_Icon_ZiZouQi_DaoJu_putongyanwudan.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_DaoJu_02\\Icon_ZiZouQi_DaoJu_putongyanwudan.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_DaoJu_02",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename",
+    "composited_card_png": "autochess_dump\\organized_throwable_card_previews\\composited_cards\\008_Icon_ZiZouQi_DaoJu_putongyanwudan.png",
+    "quality_source": "known_throwable_resource_quality",
+    "quality_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\055_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_WeaponAndRole_LanSe.png",
+    "frame_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\052_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_WeaponAndRole_Bg.png"
+  },
+  {
+    "index": 9,
+    "category": "throwable",
+    "name": "紫电熔岩",
+    "resource": "Icon_ZiZouQi_Weapon_WZZY_ZiDianRongYan",
+    "png": "autochess_dump\\organized_throwables\\throwable_cards\\009_Icon_ZiZouQi_Weapon_WZZY_ZiDianRongYan.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_02\\Icon_ZiZouQi_Weapon_WZZY_ZiDianRongYan.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_02",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename",
+    "composited_card_png": "autochess_dump\\organized_throwable_card_previews\\composited_cards\\009_Icon_ZiZouQi_Weapon_WZZY_ZiDianRongYan.png",
+    "quality_source": "default_throwable_gold",
+    "quality_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\054_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_WeaponAndRole_JinSe.png",
+    "frame_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\052_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_WeaponAndRole_Bg.png"
+  }
+]

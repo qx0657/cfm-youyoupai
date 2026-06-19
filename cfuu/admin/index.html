@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow, noarchive" />
+    <title>CF 悠悠牌管理后台</title>
+    <link rel="stylesheet" href="/admin/admin.css?v=20260616-redesign" />
+  </head>
+  <body>
+    <main class="admin-shell">
+      <!-- Sidebar navigation -->
+      <nav class="admin-sidebar">
+        <div class="sidebar-brand">
+          <span>CF 悠悠牌</span>
+          <small>资料库管理</small>
+        </div>
+        <a href="#/cards" class="sidebar-link active" data-page="cards">卡牌管理</a>
+        <a href="#/factions" class="sidebar-link" data-page="factions">阵营管理</a>
+        <a href="#/videos" class="sidebar-link" data-page="videos">视频攻略</a>
+        <a href="#/lineups" class="sidebar-link" data-page="lineups">推荐阵容</a>
+      </nav>
+
+      <!-- Browser panel (left) -->
+      <section class="browser-panel">
+        <header class="admin-header">
+          <div>
+            <h1 id="pageTitle">卡牌管理</h1>
+            <p id="pageDesc">快速定位卡牌，编辑名称、隐藏状态、词条和描述。</p>
+          </div>
+          <button id="reloadButton" type="button">刷新</button>
+        </header>
+
+        <div class="toolbar">
+          <label class="search-box">
+            <span>搜索</span>
+            <input id="searchInput" placeholder="名称、资源名、词条、描述" />
+          </label>
+          <div class="filter-row" id="filterRow">
+            <label>
+              <span>类型</span>
+              <select id="categoryFilter">
+                <option value="all">全部类型</option>
+                <option value="role">角色</option>
+                <option value="weapon">武器</option>
+                <option value="throwable">投掷物</option>
+                <option value="item">道具</option>
+                <option value="consume">消耗</option>
+                <option value="buff">增益</option>
+              </select>
+            </label>
+            <label>
+              <span>品质</span>
+              <select id="qualityFilter">
+                <option value="all">全部品质</option>
+                <option value="red">红</option>
+                <option value="gold">金</option>
+                <option value="purple">紫</option>
+                <option value="blue">蓝</option>
+                <option value="green">绿</option>
+                <option value="grey">灰</option>
+              </select>
+            </label>
+            <label>
+              <span>显示</span>
+              <select id="hiddenFilter">
+                <option value="all">全部显示状态</option>
+                <option value="visible">未隐藏</option>
+                <option value="hidden">已隐藏</option>
+              </select>
+            </label>
+          </div>
+          <button id="addVideoButton" class="hidden" type="button">添加视频</button>
+          <button id="addLineupButton" class="hidden" type="button">添加阵容</button>
+        </div>
+
+        <div class="result-count" id="resultCount"></div>
+        <div class="card-list" id="cardList"></div>
+      </section>
+
+      <!-- Editor panel (right) -->
+      <aside class="editor-panel">
+        <div id="emptyState" class="empty-state">
+          <h2>选择一条资料</h2>
+          <p>修改会保存到本地 overrides 文件，再运行 prepare:data 后进入网页数据。</p>
+        </div>
+
+        <!-- Card editor -->
+        <form id="editorForm" class="editor-form hidden">
+          <header class="editor-header">
+            <div>
+              <span id="cardMeta"></span>
+              <h2 id="editorTitle"></h2>
+              <code id="resourceText"></code>
+            </div>
+            <div class="editor-actions">
+              <button id="deleteButton" class="danger hidden" type="button">删除</button>
+              <button id="duplicateButton" class="secondary hidden" type="button">复制消耗牌</button>
+              <button id="resetButton" class="secondary" type="button">恢复默认</button>
+              <button id="saveButton" type="submit">保存</button>
+            </div>
+          </header>
+
+          <div class="editor-body">
+            <section class="preview-column">
+              <div class="image-frame">
+                <img id="cardImage" alt="" />
+                <span id="qualityBadge" class="quality-badge hidden"></span>
+              </div>
+              <label class="toggle-row">
+                <input id="hiddenInput" type="checkbox" />
+                <span id="hiddenLabel">隐藏这张卡牌</span>
+              </label>
+            </section>
+
+            <section class="field-grid">
+              <label>
+                <span>名称</span>
+                <input id="nameInput" />
+              </label>
+              <label id="qualityField">
+                <span id="qualityLabel">品质（按卡牌背景识别）</span>
+                <select id="qualityInput" disabled>
+                  <option value="">未知</option>
+                  <option value="grey" style="background:#3b4654;color:#edf4ff">灰</option>
+                  <option value="green" style="background:#0f5d3d;color:#c7ffe0">绿</option>
+                  <option value="blue" style="background:#123f8f;color:#d8e8ff">蓝</option>
+                  <option value="purple" style="background:#56309a;color:#f0dcff">紫</option>
+                  <option value="gold" style="background:#7a5a12;color:#fff0b8">金</option>
+                  <option value="red" style="background:#8a2632;color:#ffe0e4">红</option>
+                </select>
+              </label>
+              <label id="keywordCategoryField" class="hidden">
+                <span>关键词分类</span>
+                <input id="keywordCategoryInput" />
+              </label>
+              <label id="factionsField">
+                <span>阵营</span>
+                <div class="multi-select" id="factionsPicker">
+                  <button id="factionsToggle" class="multi-select-toggle" type="button">选择阵营</button>
+                  <div id="factionsMenu" class="multi-select-menu hidden"></div>
+                </div>
+              </label>
+              <label>
+                <span id="keywordsLabel">词条</span>
+                <textarea id="keywordsInput" rows="4" placeholder="每行一个词条"></textarea>
+              </label>
+              <label class="wide">
+                <span id="descriptionsLabel">描述</span>
+                <textarea id="descriptionsInput" rows="8" placeholder="每行一条描述"></textarea>
+                <small id="descriptionsHint" class="field-hint">每行一条描述。</small>
+              </label>
+            </section>
+          </div>
+          <p class="save-status" id="saveStatus"></p>
+        </form>
+
+        <!-- Video editor -->
+        <form id="videoEditorForm" class="editor-form hidden">
+          <header class="editor-header">
+            <div>
+              <span id="videoEditorMeta">视频攻略</span>
+              <h2 id="videoEditorTitle">添加视频</h2>
+              <code id="videoIdText"></code>
+            </div>
+            <div class="editor-actions">
+              <button id="deleteVideoButton" class="danger hidden" type="button">删除</button>
+              <button id="saveVideoButton" type="submit">保存</button>
+            </div>
+          </header>
+
+          <div class="video-link-parser">
+            <label>
+              <span>视频链接或分享文本</span>
+              <textarea id="videoUrlInput" rows="3" placeholder="粘贴抖音或快手的视频链接，也可以直接粘贴完整分享文本"></textarea>
+            </label>
+            <button id="parseVideoButton" class="secondary" type="button">解析链接</button>
+          </div>
+
+          <div class="editor-body">
+            <section class="preview-column">
+              <div class="image-frame video-cover-preview">
+                <img id="videoCoverPreview" alt="" />
+                <span id="videoPlatformBadge" class="video-platform-badge"></span>
+              </div>
+              <label class="toggle-row">
+                <input id="videoHiddenInput" type="checkbox" />
+                <span>隐藏这个视频</span>
+              </label>
+            </section>
+
+            <section class="field-grid video-field-grid">
+              <label>
+                <span>平台</span>
+                <select id="videoPlatformInput">
+                  <option value="douyin">抖音</option>
+                  <option value="kuaishou">快手</option>
+                </select>
+              </label>
+              <label>
+                <span>显示顺序</span>
+                <input id="videoOrderInput" type="number" min="0" step="1" value="0" />
+              </label>
+              <label class="wide">
+                <span>标题</span>
+                <input id="videoTitleInput" />
+              </label>
+              <label>
+                <span>作者</span>
+                <input id="videoAuthorInput" />
+              </label>
+              <label>
+                <span>攻略类型</span>
+                <input id="videoCategoryInput" list="videoCategories" placeholder="例如：新手教学" />
+                <datalist id="videoCategories">
+                  <option value="新手教学"></option>
+                  <option value="阵容流派"></option>
+                  <option value="卡牌攻略"></option>
+                  <option value="上分技巧"></option>
+                  <option value="版本解析"></option>
+                  <option value="其他攻略"></option>
+                </datalist>
+              </label>
+              <label>
+                <span>发布日期</span>
+                <input id="videoPublishedAtInput" type="date" />
+              </label>
+              <label>
+                <span>时长</span>
+                <input id="videoDurationInput" placeholder="例如：03:25" />
+              </label>
+              <label>
+                <span>热度数值</span>
+                <input id="videoPopularityInput" type="number" min="0" step="1" value="0" />
+              </label>
+              <label>
+                <span>热度文字</span>
+                <input id="videoPopularityLabelInput" placeholder="例如：精选推荐" />
+              </label>
+              <label class="wide">
+                <span>封面图片地址</span>
+                <input id="videoCoverInput" placeholder="解析后自动填入，也可手工填写" />
+              </label>
+            </section>
+          </div>
+          <p class="save-status" id="videoSaveStatus"></p>
+        </form>
+
+        <!-- Lineup editor -->
+        <form id="lineupEditorForm" class="editor-form hidden">
+          <header class="editor-header">
+            <div>
+              <span>推荐阵容管理</span>
+              <h2 id="lineupEditorTitle">添加推荐阵容</h2>
+              <code id="lineupIdText"></code>
+            </div>
+            <div class="editor-actions">
+              <button id="deleteLineupButton" class="danger hidden" type="button">删除</button>
+              <button id="duplicateLineupButton" class="secondary hidden" type="button">复制</button>
+              <button id="saveLineupButton" type="submit">保存</button>
+            </div>
+          </header>
+
+          <section class="lineup-main-fields">
+            <div class="lineup-title-fields">
+              <label><span>阵容名称</span><input id="lineupNameInput" placeholder="例如：遗言消灭流" required /></label>
+              <label><span>短标签</span><input id="lineupLabelInput" placeholder="例如：遗言联动" /></label>
+              <label class="toggle-row compact-toggle"><input id="lineupHiddenInput" type="checkbox" /><span>隐藏这个阵容</span></label>
+            </div>
+            <input id="lineupOrderInput" type="hidden" value="0" />
+            <label><span>阵容简介</span><textarea id="lineupSummaryInput" rows="3" placeholder="说明核心角色、主要联动与玩法目标"></textarea></label>
+            <label><span>关键词</span><textarea id="lineupKeywordsInput" rows="3" placeholder="每行一个"></textarea></label>
+          </section>
+
+          <!-- Strategy points with chips -->
+          <section class="lineup-editor-section">
+            <header><span>构筑要点</span><small>点击添加，拖拽排序</small></header>
+            <div class="strategy-chip-input">
+              <input id="lineupStrategyAddInput" placeholder="输入构筑要点后按回车或点击添加" />
+              <button id="lineupStrategyAddButton" type="button" class="secondary">添加</button>
+            </div>
+            <div id="lineupStrategyChips" class="chip-list sortable-list"></div>
+          </section>
+
+          <!-- Slot editor with autocomplete -->
+          <section class="lineup-editor-section">
+            <header><span>角色站位与装备</span><small>前三格为前排，后三格为后排；均可留空。</small></header>
+            <div id="lineupSlotsEditor" class="lineup-slots-editor"></div>
+          </section>
+
+          <!-- Map & buffs -->
+          <section class="lineup-editor-section">
+            <header><span>地图与增益</span><small>从现有资料中选择。</small></header>
+            <div class="field-grid lineup-support-fields">
+              <label><span>推荐地图</span><select id="lineupMapInput"></select></label>
+              <label><span>增益 1</span><select id="lineupBuff1Input"></select></label>
+              <label><span>增益 2</span><select id="lineupBuff2Input"></select></label>
+            </div>
+          </section>
+
+          <section class="lineup-editor-section">
+            <header><span>相关视频</span><small>可添加多个平台链接，前台阵容详情会展示。</small></header>
+            <div id="lineupVideosEditor" class="lineup-videos-editor"></div>
+            <button id="addLineupVideoButton" class="secondary" type="button">添加视频链接</button>
+          </section>
+          <p class="save-status" id="lineupSaveStatus"></p>
+        </form>
+      </aside>
+    </main>
+    <script type="module" src="/admin/admin.js?v=20260616-redesign"></script>
+  </body>
+</html>

@@ -1,0 +1,829 @@
+[
+  {
+    "name": "隐袭",
+    "keyword_category": "消灭",
+    "description": "隐袭角色获得消灭技能",
+    "stage_effects": [
+      "消灭：永久获得+2+2",
+      "消灭：永久获得+4+4"
+    ],
+    "role_ids": [
+      11235,
+      11239,
+      11236,
+      11237,
+      11238,
+      11240,
+      11234
+    ],
+    "roles": [
+      {
+        "role_id": 11235,
+        "name": "甄梦",
+        "name_source": "inferred_by_role_table_order"
+      },
+      {
+        "role_id": 11239,
+        "name": "子涵",
+        "name_source": "inferred_by_role_table_order"
+      },
+      {
+        "role_id": 11236,
+        "name": "萝拉",
+        "name_source": "inferred_by_role_table_order"
+      },
+      {
+        "role_id": 11237,
+        "name": "赛丝",
+        "name_source": "inferred_by_role_table_order"
+      },
+      {
+        "role_id": 11238,
+        "name": "凌霄",
+        "name_source": "inferred_by_role_table_order"
+      },
+      {
+        "role_id": 11240,
+        "name": null,
+        "name_source": null
+      },
+      {
+        "role_id": 11234,
+        "name": "幻影",
+        "name_source": "inferred_by_role_table_order"
+      }
+    ],
+    "source_table": "AutoChessTrammelsDataTable",
+    "source_start_index": 8,
+    "raw_values": [
+      "角色羁绊",
+      "隐袭角色获得消灭技能",
+      "消灭：永久获得+2+2",
+      "6u",
+      "6N",
+      "11235",
+      "11239",
+      "11236",
+      "11237",
+      "11238",
+      "11240",
+      "11234",
+      "消灭：永久获得+4+4"
+    ]
+  },
+  {
+    "name": "保卫者",
+    "keyword_category": "护盾",
+    "description": "战斗中，保卫者每次失去护盾时，获得属性",
+    "stage_effects": [
+      "永久获得+3+2",
+      "永久获得+6+4"
+    ],
+    "role_ids": [
+      11208,
+      11213,
+      11214,
+      11209,
+      11210,
+      11212,
+      11211,
+      11248
+    ],
+    "roles": [
+      {
+        "role_id": 11208,
+        "name": "斯沃特",
+        "name_source": "inferred_by_role_table_order"
+      },
+      {
+        "role_id": 11213,
+        "name": "赛斯",
+        "name_source": "inferred_by_role_table_order"
+      },
+      {
+        "role_id": 11214,
+        "name": "孤狼",
+        "name_source": "inferred_by_role_table_order"
+      },
+      {
+        "role_id": 11209,
+        "name": "灵动武士",
+        "name_source": "inferred_by_role_table_order"
+      },
+      {
+        "role_id": 11210,
+        "name": "蔡文昭",
+        "name_source": "inferred_by_role_table_order"
+      },
+      {
+        "role_id": 11212,
+        "name": "潘多拉",
+        "name_source": "inferred_by_role_table_order"
+      },
+      {
+        "role_id": 11211,
+        "name": "王者零",
+        "name_source": "inferred_by_role_table_order"
+      },
+      {
+        "role_id": 11248,
+        "name": null,
+        "name_source": null
+      }
+    ],
+    "source_table": "AutoChessTrammelsDataTable",
+    "source_start_index": 22,
+    "raw_values": [
+      "角色羁绊9",
+      "战斗中，保卫者每次失去护盾时，获得属性",
+      "永久获得+3+2",
+      "永久获得+3+2au",
+      "ON",
+      "11208",
+      "11213",
+      "11214",
+      "11209",
+      "11210",
+      "11212",
+      "11211",
+      "11248",
+      "永久获得+6+4",
+      "永久获得+6+4au"
+    ]
+  },
+  {
+    "name": "幽灵",
+    "keyword_category": "生化幽灵",
+    "description": "场上所有角色阵亡时，召唤钢铁终结者",
+    "stage_effects": [
+      "具有你战斗中召唤生化幽灵的25%的攻和50%的血",
+      "具有你战斗中召唤生化幽灵的50%的攻和100%的血"
+    ],
+    "role_ids": [
+      11219,
+      11215,
+      11221,
+      11218,
+      11300,
+      11220,
+      11274,
+      11305
+    ],
+    "roles": [
+      {
+        "role_id": 11219,
+        "name": "战魔",
+        "name_source": "inferred_by_role_table_order"
+      },
+      {
+        "role_id": 11215,
+        "name": "灵魂忍者",
+        "name_source": "inferred_by_role_table_order"
+      },
+      {
+        "role_id": 11221,
+        "name": "疯狂宝贝",
+        "name_source": "inferred_by_role_table_order"
+      },
+      {
+        "role_id": 11218,
+        "name": "变异宝贝",
+        "name_source": "inferred_by_role_table_order"
+      },
+      {
+        "role_id": 11300,
+        "name": null,
+        "name_source": null
+      },
+      {
+        "role_id": 11220,
+        "name": "女皇终结者",
+        "name_source": "inferred_by_role_table_order"
+      },
+      {
+        "role_id": 11274,
+        "name": null,
+        "name_source": null
+      },
+      {
+        "role_id": 11305,
+        "name": null,
+        "name_source": null
+      }
+    ],
+    "source_table": "AutoChessTrammelsDataTable",
+    "source_start_index": 38,
+    "raw_values": [
+      "角色羁绊3",
+      "场上所有角色阵亡时，召唤钢铁终结者",
+      "具有你战斗中召唤生化幽灵的25%的攻和50%的血<",
+      "具有你战斗中召唤生化幽灵的25%的攻和50%的血",
+      "60007,0,11216,1",
+      "11219",
+      "11215",
+      "11221",
+      "11218",
+      "11300",
+      "11220",
+      "11274",
+      "11305",
+      "具有你战斗中召唤生化幽灵的50%的攻和100%的血",
+      "60007,0,11216,2"
+    ]
+  },
+  {
+    "name": "山海经",
+    "keyword_category": "成长",
+    "description": "山海经角色获得成长技能",
+    "stage_effects": [
+      "成长：永久获得+1+2",
+      "成长：永久获得+2+4"
+    ],
+    "role_ids": [
+      11202,
+      11203,
+      11206,
+      11205,
+      11207,
+      11201,
+      11204
+    ],
+    "roles": [
+      {
+        "role_id": 11202,
+        "name": "斯薇特",
+        "name_source": "inferred_by_role_table_order"
+      },
+      {
+        "role_id": 11203,
+        "name": "关小雨",
+        "name_source": "inferred_by_role_table_order"
+      },
+      {
+        "role_id": 11206,
+        "name": "杨玉凝",
+        "name_source": "inferred_by_role_table_order"
+      },
+      {
+        "role_id": 11205,
+        "name": "龙妹",
+        "name_source": "inferred_by_role_table_order"
+      },
+      {
+        "role_id": 11207,
+        "name": "九尾狐",
+        "name_source": "inferred_by_role_table_order"
+      },
+      {
+        "role_id": 11201,
+        "name": "刀锋",
+        "name_source": "inferred_by_role_table_order"
+      },
+      {
+        "role_id": 11204,
+        "name": "烛九阴",
+        "name_source": "inferred_by_role_table_order"
+      }
+    ],
+    "source_table": "AutoChessTrammelsDataTable",
+    "source_start_index": 54,
+    "raw_values": [
+      "山海经角色获得成长技能",
+      "成长：永久获得+1+2",
+      "1u",
+      "11202",
+      "11203",
+      "11206",
+      "11205",
+      "11207",
+      "11201",
+      "11204",
+      "成长：永久获得+2+4"
+    ]
+  },
+  {
+    "name": "HeartShot",
+    "keyword_category": "快手",
+    "description": "HeartShot角色触发快手时，其永久获得属性",
+    "stage_effects": [
+      "获得+2+2",
+      "获得+4+4"
+    ],
+    "role_ids": [
+      11223,
+      11224,
+      11222,
+      11226,
+      11225,
+      11273
+    ],
+    "roles": [
+      {
+        "role_id": 11223,
+        "name": "雾蒙蒙",
+        "name_source": "inferred_by_role_table_order"
+      },
+      {
+        "role_id": 11224,
+        "name": "雨墨",
+        "name_source": "inferred_by_role_table_order"
+      },
+      {
+        "role_id": 11222,
+        "name": "岚兮儿",
+        "name_source": "inferred_by_role_table_order"
+      },
+      {
+        "role_id": 11226,
+        "name": "晴雅",
+        "name_source": "inferred_by_role_table_order"
+      },
+      {
+        "role_id": 11225,
+        "name": "云悠悠",
+        "name_source": "inferred_by_role_table_order"
+      },
+      {
+        "role_id": 11273,
+        "name": null,
+        "name_source": null
+      }
+    ],
+    "source_table": "AutoChessTrammelsDataTable",
+    "source_start_index": 66,
+    "raw_values": [
+      "角色羁绊6",
+      "HeartShot角色触发快手时，其永久获得属性",
+      "获得+2+2",
+      "Wu",
+      "GN",
+      "11223",
+      "11224",
+      "11222",
+      "11226",
+      "11225",
+      "11273",
+      "获得+4+4"
+    ]
+  },
+  {
+    "name": "潜伏者",
+    "keyword_category": "飞刀",
+    "description": "潜伏者获得",
+    "stage_effects": [
+      "遗言：使所有友方获得增伤"
+    ],
+    "role_ids": [
+      11233,
+      11230,
+      11228,
+      11231,
+      11232,
+      11229,
+      11227
+    ],
+    "roles": [
+      {
+        "role_id": 11233,
+        "name": "傲骨",
+        "name_source": "inferred_by_role_table_order"
+      },
+      {
+        "role_id": 11230,
+        "name": "猎鹰",
+        "name_source": "inferred_by_role_table_order"
+      },
+      {
+        "role_id": 11228,
+        "name": "铁骑",
+        "name_source": "inferred_by_role_table_order"
+      },
+      {
+        "role_id": 11231,
+        "name": "白狼",
+        "name_source": "inferred_by_role_table_order"
+      },
+      {
+        "role_id": 11232,
+        "name": "灵狐者",
+        "name_source": "inferred_by_role_table_order"
+      },
+      {
+        "role_id": 11229,
+        "name": "猎狐者",
+        "name_source": "inferred_by_role_table_order"
+      },
+      {
+        "role_id": 11227,
+        "name": "奥摩",
+        "name_source": "inferred_by_role_table_order"
+      }
+    ],
+    "source_table": "AutoChessTrammelsDataTable",
+    "source_start_index": 79,
+    "raw_values": [
+      "角色羁绊4",
+      "潜伏者获得",
+      "遗言：使所有友方获得增伤",
+      "1层增伤",
+      "11233",
+      "11230",
+      "11228",
+      "11231",
+      "11232",
+      "11229",
+      "11227",
+      "2层增伤"
+    ]
+  },
+  {
+    "name": "葫芦娃",
+    "keyword_category": "召唤",
+    "description": "场上葫芦娃阵亡时，召唤金刚葫芦娃/爷爷",
+    "stage_effects": [
+      "金刚葫芦娃获得场上其余葫芦娃50%的属性",
+      "获得属性",
+      "爷爷获得场上其余葫芦娃100%的属性"
+    ],
+    "role_ids": [
+      11266,
+      11267,
+      11268,
+      11269,
+      11270,
+      11271,
+      11314
+    ],
+    "roles": [
+      {
+        "role_id": 11266,
+        "name": null,
+        "name_source": null
+      },
+      {
+        "role_id": 11267,
+        "name": null,
+        "name_source": null
+      },
+      {
+        "role_id": 11268,
+        "name": null,
+        "name_source": null
+      },
+      {
+        "role_id": 11269,
+        "name": null,
+        "name_source": null
+      },
+      {
+        "role_id": 11270,
+        "name": null,
+        "name_source": null
+      },
+      {
+        "role_id": 11271,
+        "name": null,
+        "name_source": null
+      },
+      {
+        "role_id": 11314,
+        "name": null,
+        "name_source": null
+      }
+    ],
+    "source_table": "AutoChessTrammelsDataTable",
+    "source_start_index": 92,
+    "raw_values": [
+      "角色羁绊7",
+      "场上葫芦娃阵亡时，召唤金刚葫芦娃/爷爷",
+      "金刚葫芦娃获得场上其余葫芦娃50%的属性",
+      "获得属性f",
+      "11315,1",
+      "11266",
+      "11267",
+      "11268",
+      "11269",
+      "11270",
+      "11271",
+      "11314",
+      "爷爷获得场上其余葫芦娃100%的属性",
+      "11272,2"
+    ]
+  },
+  {
+    "name": "谍报特工",
+    "keyword_category": "不动",
+    "description": "谍报特工受到攻击时，所有友方永久获得生命",
+    "stage_effects": [
+      "获得+2生命",
+      "获得+4生命"
+    ],
+    "role_ids": [
+      11275,
+      11276,
+      11277,
+      11278,
+      11279,
+      11280,
+      11292
+    ],
+    "roles": [
+      {
+        "role_id": 11275,
+        "name": null,
+        "name_source": null
+      },
+      {
+        "role_id": 11276,
+        "name": null,
+        "name_source": null
+      },
+      {
+        "role_id": 11277,
+        "name": null,
+        "name_source": null
+      },
+      {
+        "role_id": 11278,
+        "name": null,
+        "name_source": null
+      },
+      {
+        "role_id": 11279,
+        "name": null,
+        "name_source": null
+      },
+      {
+        "role_id": 11280,
+        "name": null,
+        "name_source": null
+      },
+      {
+        "role_id": 11292,
+        "name": null,
+        "name_source": null
+      }
+    ],
+    "source_table": "AutoChessTrammelsDataTable",
+    "source_start_index": 107,
+    "raw_values": [
+      "角色羁绊<",
+      "谍报特工受到攻击时，所有友方永久获得生命",
+      "获得+2生命",
+      "/N",
+      "11275",
+      "11276",
+      "11277",
+      "11278",
+      "11279",
+      "11280",
+      "11292",
+      "获得+4生命"
+    ]
+  },
+  {
+    "name": "审判之眼",
+    "keyword_category": "商店",
+    "description": "回合开始时，使商店角色永久获得属性",
+    "stage_effects": [
+      "获得+1+1"
+    ],
+    "role_ids": [
+      11286,
+      11287,
+      11288,
+      11289,
+      11290,
+      11291
+    ],
+    "roles": [
+      {
+        "role_id": 11286,
+        "name": null,
+        "name_source": null
+      },
+      {
+        "role_id": 11287,
+        "name": null,
+        "name_source": null
+      },
+      {
+        "role_id": 11288,
+        "name": null,
+        "name_source": null
+      },
+      {
+        "role_id": 11289,
+        "name": null,
+        "name_source": null
+      },
+      {
+        "role_id": 11290,
+        "name": null,
+        "name_source": null
+      },
+      {
+        "role_id": 11291,
+        "name": null,
+        "name_source": null
+      }
+    ],
+    "source_table": "AutoChessTrammelsDataTable",
+    "source_start_index": 120,
+    "raw_values": [
+      "回合开始时，使商店角色永久获得属性",
+      "获得+1+1",
+      "yd",
+      "11286",
+      "11287",
+      "11288",
+      "11289",
+      "11290",
+      "11291"
+    ]
+  },
+  {
+    "name": "铠甲勇士",
+    "keyword_category": "变身",
+    "description": "通过集齐晶石，可使炎龙侠变身为帝皇侠",
+    "stage_effects": [
+      "商店中随机刷新出铠甲晶石，炎龙侠装备所有5个晶石后，可变身为帝皇侠"
+    ],
+    "role_ids": [
+      11302
+    ],
+    "roles": [
+      {
+        "role_id": 11302,
+        "name": null,
+        "name_source": null
+      }
+    ],
+    "source_table": "AutoChessTrammelsDataTable",
+    "source_start_index": 130,
+    "raw_values": [
+      "通过集齐晶石，可使炎龙侠变身为帝皇侠",
+      "商店中随机刷新出铠甲晶石，炎龙侠装备所有5个晶石后，可变身为帝皇侠",
+      "11302"
+    ]
+  },
+  {
+    "name": "鸿运星光",
+    "keyword_category": "金币",
+    "description": "战斗开始时，根据金币总数获得金币",
+    "stage_effects": [
+      "每有8金币，获得1金币",
+      "获得金币",
+      "每有4金币，获得1金币"
+    ],
+    "role_ids": [
+      11282,
+      11283,
+      11284,
+      11285
+    ],
+    "roles": [
+      {
+        "role_id": 11282,
+        "name": null,
+        "name_source": null
+      },
+      {
+        "role_id": 11283,
+        "name": null,
+        "name_source": null
+      },
+      {
+        "role_id": 11284,
+        "name": null,
+        "name_source": null
+      },
+      {
+        "role_id": 11285,
+        "name": null,
+        "name_source": null
+      }
+    ],
+    "source_table": "AutoChessTrammelsDataTable",
+    "source_start_index": 134,
+    "raw_values": [
+      "角色羁绊0",
+      "战斗开始时，根据金币总数获得金币",
+      "每有8金币，获得1金币",
+      "获得金币",
+      "11282",
+      "11283",
+      "11284",
+      "11285",
+      "每有4金币，获得1金币"
+    ]
+  },
+  {
+    "name": "核心兵器",
+    "keyword_category": "协同",
+    "description": "可对其使用任意阵营的协同牌，使用协同牌时，使其获得属性，其身上每有1张协同牌，增强效果",
+    "stage_effects": [
+      "获得+1+1，每张协同牌额外+1+1",
+      "获得+2+2，每张协同牌额外+2+2"
+    ],
+    "role_ids": [
+      11316,
+      11317,
+      11318,
+      11319,
+      11320
+    ],
+    "roles": [
+      {
+        "role_id": 11316,
+        "name": null,
+        "name_source": null
+      },
+      {
+        "role_id": 11317,
+        "name": null,
+        "name_source": null
+      },
+      {
+        "role_id": 11318,
+        "name": null,
+        "name_source": null
+      },
+      {
+        "role_id": 11319,
+        "name": null,
+        "name_source": null
+      },
+      {
+        "role_id": 11320,
+        "name": null,
+        "name_source": null
+      }
+    ],
+    "source_table": "AutoChessTrammelsDataTable",
+    "source_start_index": 144,
+    "raw_values": [
+      "可对其使用任意阵营的协同牌，使用协同牌时，使其获得属性，其身上每有1张协同牌，增强效果",
+      "获得+1+1，每张协同牌额外+1+1",
+      "1,1",
+      "11316",
+      "11317",
+      "11318",
+      "11319",
+      "11320",
+      "获得+2+2，每张协同牌额外+2+2",
+      "2,2",
+      "瀴4",
+      "最潬慢杬浡浥湡条牥",
+      "獡敳獴",
+      "畁潴桃獥味慲浭汥",
+      "瑡呡扡敬",
+      "誻9",
+      "麱胦",
+      "薹軨",
+      "誻3",
+      "誸触",
+      "貼迥",
+      "鎻胨",
+      "颈雦",
+      "股<",
+      "銧觨",
+      "邈闩",
+      "肊菨",
+      "效牡却潨t",
+      "誻6",
+      "效牡却潨",
+      "込胨",
+      "誻4",
+      "覜迥",
+      "誻7",
+      "誸釨",
+      "醇裥",
+      "骈釨",
+      "鞾鳥",
+      "誸藥",
+      "馽釨",
+      "誻<",
+      "貼触",
+      "鞾铧",
+      "讧韦",
+      "螿鯩",
+      "邽駦",
+      "鶸髧",
+      "辚鳦",
+      "螤触",
+      "邿飦",
+      "誻0",
+      "膸胦",
+      "鞾蟩",
+      "貼軨",
+      "莿藥",
+      "蒚跥",
+      "貐觧",
+      "貼藥",
+      "辯鳦",
+      "辍郥",
+      "袕黦"
+    ]
+  }
+]

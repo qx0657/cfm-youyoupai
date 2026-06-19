@@ -1,0 +1,178 @@
+[
+  {
+    "id": "consume-custom-1781439049531-fqtbd0",
+    "sourceId": "consume-Icon_ZiZouQi_XiaoHao_ZiDan_BLUE",
+    "resource": "Custom_Consume_1781439049531-fqtbd0",
+    "category": "consume",
+    "name": "攻击训练Lv2（复制）",
+    "createdAt": "2026-06-14T12:10:49.532Z"
+  },
+  {
+    "id": "consume-custom-1781439121333-8ipndk",
+    "sourceId": "consume-Icon_ZiZouQi_XiaoHao_TouKui_BLUE",
+    "resource": "Custom_Consume_1781439121333-8ipndk",
+    "category": "consume",
+    "name": "强健体魄Lv2（复制）",
+    "createdAt": "2026-06-14T12:12:01.335Z"
+  },
+  {
+    "id": "consume-custom-1781439148166-476s94",
+    "sourceId": "consume-Icon_ZiZouQi_XiaoHao_YaoJi_BLUE",
+    "resource": "Custom_Consume_1781439148166-476s94",
+    "category": "consume",
+    "name": "战备补给Lv2（复制）",
+    "createdAt": "2026-06-14T12:12:28.167Z"
+  },
+  {
+    "id": "consume-custom-1781439173240-tuujj0",
+    "sourceId": "consume-Icon_ZiZouQi_XiaoHao_JieZhi_BLUE",
+    "resource": "Custom_Consume_1781439173240-tuujj0",
+    "category": "consume",
+    "name": "潜能激发Lv2（复制）",
+    "createdAt": "2026-06-14T12:12:53.242Z"
+  },
+  {
+    "id": "consume-custom-1781439188447-nol7z2",
+    "sourceId": "consume-Icon_ZiZouQi_XiaoHao_C4_BLUE",
+    "resource": "Custom_Consume_1781439188447-nol7z2",
+    "category": "consume",
+    "name": "自爆步兵Lv2（复制）",
+    "createdAt": "2026-06-14T12:13:08.450Z"
+  },
+  {
+    "id": "consume-custom-1781439225959-jmkrj7",
+    "sourceId": "consume-Icon_ZiZouQi_XiaoHao_BaoXiang_BLUE",
+    "resource": "Custom_Consume_1781439225959-jmkrj7",
+    "category": "consume",
+    "name": "武器补给Lv2（复制）",
+    "createdAt": "2026-06-14T12:13:45.960Z"
+  },
+  {
+    "id": "consume-custom-1781441799906-klresi",
+    "sourceId": "consume-Icon_ZiZouQi_XiaoHao_JieZhi_PURPLE",
+    "resource": "Custom_Consume_1781441799906-klresi",
+    "category": "consume",
+    "name": "潜能激发Lv3（复制）",
+    "createdAt": "2026-06-14T12:56:39.907Z"
+  },
+  {
+    "id": "consume-custom-1781442455799-7a61ng",
+    "sourceId": "consume-Icon_ZiZouQi_XiaoHao_BaoXiang_PURPLE",
+    "resource": "Custom_Consume_1781442455799-7a61ng",
+    "category": "consume",
+    "name": "武器补给Lv3（复制）",
+    "createdAt": "2026-06-14T13:07:35.800Z"
+  },
+  {
+    "id": "consume-custom-1781442527698-bqo9f9",
+    "sourceId": "consume-Icon_ZiZouQi_XiaoHao_TouKui_PURPLE",
+    "resource": "Custom_Consume_1781442527698-bqo9f9",
+    "category": "consume",
+    "name": "防御训练Lv3（复制）",
+    "createdAt": "2026-06-14T13:08:47.700Z"
+  },
+  {
+    "id": "consume-custom-1781442662056-otm4l1",
+    "sourceId": "consume-Icon_ZiZouQi_XiaoHao_ZiDan_PURPLE",
+    "resource": "Custom_Consume_1781442662056-otm4l1",
+    "category": "consume",
+    "name": "攻击训练Lv3（复制）",
+    "createdAt": "2026-06-14T13:11:02.057Z"
+  },
+  {
+    "id": "consume-custom-1781442717731-uubdfa",
+    "sourceId": "consume-Icon_ZiZouQi_XiaoHao_YaoJi_PURPLE",
+    "resource": "Custom_Consume_1781442717731-uubdfa",
+    "category": "consume",
+    "name": "制式精锐Lv3（复制）",
+    "createdAt": "2026-06-14T13:11:57.732Z"
+  },
+  {
+    "id": "consume-custom-1781442814333-pkx432",
+    "sourceId": "consume-Icon_ZiZouQi_XiaoHao_JieZhi_PURPLE",
+    "resource": "Custom_Consume_1781442814333-pkx432",
+    "category": "consume",
+    "name": "体能激发Lv3（复制）",
+    "createdAt": "2026-06-14T13:13:34.334Z"
+  },
+  {
+    "id": "consume-custom-1781442850059-y1lho7",
+    "sourceId": "consume-Icon_ZiZouQi_XiaoHao_BaoXiang_PURPLE",
+    "resource": "Custom_Consume_1781442850059-y1lho7",
+    "category": "consume",
+    "name": "新人入队Lv3（复制）",
+    "createdAt": "2026-06-14T13:14:10.060Z"
+  },
+  {
+    "id": "consume-custom-1781445641704-wwtby2",
+    "sourceId": "consume-Icon_ZiZouQi_XiaoHao_ShuaXin_GOLD",
+    "resource": "Custom_Consume_1781445641704-wwtby2",
+    "category": "consume",
+    "name": "暗箱操作Lv4（复制）",
+    "createdAt": "2026-06-14T14:00:41.704Z"
+  },
+  {
+    "id": "consume-custom-1781445765763-ei0uoj",
+    "sourceId": "consume-Icon_ZiZouQi_XiaoHao_YaoJi_GOLD",
+    "resource": "Custom_Consume_1781445765763-ei0uoj",
+    "category": "consume",
+    "name": "速成训练Lv4（复制）",
+    "createdAt": "2026-06-14T14:02:45.763Z"
+  },
+  {
+    "id": "consume-custom-1781445843800-p41ybx",
+    "sourceId": "consume-Icon_ZiZouQi_XiaoHao_JinBi_GOLD",
+    "resource": "Custom_Consume_1781445843800-p41ybx",
+    "category": "consume",
+    "name": "先机致富Lv4（复制）",
+    "createdAt": "2026-06-14T14:04:03.801Z"
+  },
+  {
+    "id": "consume-custom-1781446166313-qz9aec",
+    "sourceId": "consume-Icon_ZiZouQi_XiaoHao_C4_GOLD",
+    "resource": "Custom_Consume_1781446166313-qz9aec",
+    "category": "consume",
+    "name": "先发制人Lv4（复制）",
+    "createdAt": "2026-06-14T14:09:26.314Z"
+  },
+  {
+    "id": "consume-custom-1781446200003-tj2lp1",
+    "sourceId": "consume-Icon_ZiZouQi_XiaoHao_JinBi_GOLD",
+    "resource": "Custom_Consume_1781446200003-tj2lp1",
+    "category": "consume",
+    "name": "遗产继承Lv4（复制）",
+    "createdAt": "2026-06-14T14:10:00.004Z"
+  },
+  {
+    "id": "consume-custom-1781446265147-lokb5v",
+    "sourceId": "consume-Icon_ZiZouQi_XiaoHao_BaoXiang_GOLD",
+    "resource": "Custom_Consume_1781446265147-lokb5v",
+    "category": "consume",
+    "name": "新人入队Lv4（复制）",
+    "createdAt": "2026-06-14T14:11:05.147Z"
+  },
+  {
+    "id": "consume-custom-1781446285201-lk11ph",
+    "sourceId": "consume-Icon_ZiZouQi_XiaoHao_BaoXiang_GOLD",
+    "resource": "Custom_Consume_1781446285201-lk11ph",
+    "category": "consume",
+    "name": "武器补给Lv4（复制）",
+    "createdAt": "2026-06-14T14:11:25.202Z"
+  },
+  {
+    "id": "consume-custom-1781446306714-ib47cm",
+    "sourceId": "consume-Icon_ZiZouQi_XiaoHao_BaoXiang_GOLD",
+    "resource": "Custom_Consume_1781446306714-ib47cm",
+    "category": "consume",
+    "name": "道具补给Lv4（复制）",
+    "createdAt": "2026-06-14T14:11:46.715Z"
+  },
+  {
+    "id": "consume-custom-1781446548872-w71wmb",
+    "sourceId": "consume-Icon_ZiZouQi_XiaoHao_ShuaXin_GOLD",
+    "resource": "Custom_Consume_1781446548872-w71wmb",
+    "category": "consume",
+    "name": "精致之选Lv4（复制）",
+    "createdAt": "2026-06-14T14:15:48.873Z"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2026-06-19T18:35:12.318Z",
+  "counts": {
+    "roles": 127,
+    "weapons": 64,
+    "throwables": 9,
+    "items": 51,
+    "consumes": 99,
+    "buffs": 53,
+    "factions": 12,
+    "maps": 13,
+    "cards": 425
+  }
+}

@@ -1,0 +1,1625 @@
+[
+  {
+    "index": 1,
+    "name": "81式-瑜",
+    "base_resource": "Icon_ZiZouQi_WuQi_81_yu",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_81_yu_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\001_Icon_ZiZouQi_WuQi_81_yu.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\001_Icon_ZiZouQi_WuQi_81_yu.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_02\\Icon_ZiZouQi_WuQi_81_yu_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_02",
+    "keywords": [
+      "子弹"
+    ],
+    "descriptions": [
+      "攻击后，随机2名友方获得自身50%攻击",
+      "获得攻击",
+      "<KeyWord>子弹</KeyWord>+1，攻击后，随机2名友方获得自身50%攻击"
+    ],
+    "plain_descriptions": [
+      "攻击后，随机2名友方获得自身50%攻击",
+      "获得攻击",
+      "子弹+1，攻击后，随机2名友方获得自身50%攻击"
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 11,
+    "string_start_index": 83,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 2,
+    "name": "9A91-魔蜥",
+    "base_resource": "Icon_ZiZouQi_WuQi_9A91_moxi",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_9A91_moxi_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\002_Icon_ZiZouQi_WuQi_9A91_moxi.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\002_Icon_ZiZouQi_WuQi_9A91_moxi.png",
+    "quality": "purple",
+    "quality_source": "known_weapon_resource_quality",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_01\\Icon_ZiZouQi_WuQi_9A91_moxi_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_01",
+    "keywords": [
+      "消灭",
+      "生化幽灵",
+      "子弹"
+    ],
+    "descriptions": [
+      "<KeyWord>消灭</KeyWord>：使你本局的<KeyWord>生化幽灵</KeyWord>获得+2+3",
+      "获得+2+3",
+      "<KeyWord>子弹</KeyWord>+1，<KeyWord>消灭</KeyWord>：使你本局的<KeyWord>生化幽灵</KeyWord>获得+4+6",
+      "获得+4+6"
+    ],
+    "plain_descriptions": [
+      "消灭：使你本局的生化幽灵获得+2+3",
+      "获得+2+3",
+      "子弹+1，消灭：使你本局的生化幽灵获得+4+6",
+      "获得+4+6"
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 26,
+    "string_start_index": 180,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 3,
+    "name": "A180-地狱凤凰",
+    "base_resource": "Icon_ZiZouQi_WuQi_A180_DiYuFengHuang",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_A180_DiYuFengHuang_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\003_Icon_ZiZouQi_WuQi_A180_DiYuFengHuang.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\003_Icon_ZiZouQi_WuQi_A180_DiYuFengHuang.png",
+    "quality": "purple",
+    "quality_source": "known_weapon_resource_quality",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_02\\Icon_ZiZouQi_WuQi_A180_DiYuFengHuang_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_02",
+    "keywords": [
+      "燃烧",
+      "子弹"
+    ],
+    "descriptions": [
+      "攻击时，使目标获得1层<KeyWord>燃烧</KeyWord>",
+      "获得燃烧",
+      "<KeyWord>子弹</KeyWord>+1，攻击时，使目标获得2层<KeyWord>燃烧</KeyWord>"
+    ],
+    "plain_descriptions": [
+      "攻击时，使目标获得1层燃烧",
+      "获得燃烧",
+      "子弹+1，攻击时，使目标获得2层燃烧"
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 32,
+    "string_start_index": 208,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 4,
+    "name": "AK12-天启",
+    "base_resource": "Icon_ZiZouQi_WuQi_AK12_TianQi",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_AK12_TianQi_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\004_Icon_ZiZouQi_WuQi_AK12_TianQi.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\004_Icon_ZiZouQi_WuQi_AK12_TianQi.png",
+    "quality": "purple",
+    "quality_source": "known_weapon_resource_quality",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_02\\Icon_ZiZouQi_WuQi_AK12_TianQi_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_02",
+    "keywords": [
+      "子弹"
+    ],
+    "descriptions": [
+      "阵亡时，获得击杀者的武器牌复制",
+      "死亡时，获得击杀者的武器牌复制",
+      "<KeyWord>子弹</KeyWord>+1，阵亡时，获得击杀的武器牌复制2张",
+      "死亡时，获得击杀的武器牌复制2张"
+    ],
+    "plain_descriptions": [
+      "阵亡时，获得击杀者的武器牌复制",
+      "死亡时，获得击杀者的武器牌复制",
+      "子弹+1，阵亡时，获得击杀的武器牌复制2张",
+      "死亡时，获得击杀的武器牌复制2张"
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 39,
+    "string_start_index": 246,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 5,
+    "name": "AK47-奉先",
+    "base_resource": "Icon_ZiZouQi_WuQi_AK47_FengXian",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_AK47_FengXian_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\005_Icon_ZiZouQi_WuQi_AK47_FengXian.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\005_Icon_ZiZouQi_WuQi_AK47_FengXian.png",
+    "quality": "purple",
+    "quality_source": "known_weapon_resource_quality",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_02\\Icon_ZiZouQi_WuQi_AK47_FengXian_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_02",
+    "keywords": [
+      "子弹"
+    ],
+    "descriptions": [
+      "友方阵亡时，自身永久+2+4",
+      "<KeyWord>子弹</KeyWord>+1，友方阵亡时，自身永久+4+8"
+    ],
+    "plain_descriptions": [
+      "友方阵亡时，自身永久+2+4",
+      "子弹+1，友方阵亡时，自身永久+4+8"
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 30,
+    "string_start_index": 202,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 6,
+    "name": "AK47-无影",
+    "base_resource": "Icon_ZiZouQi_WuQi_AK47_WuYing",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_AK47_WuYing_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\006_Icon_ZiZouQi_WuQi_AK47_WuYing.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\006_Icon_ZiZouQi_WuQi_AK47_WuYing.png",
+    "quality": "purple",
+    "quality_source": "known_weapon_resource_quality",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_02\\Icon_ZiZouQi_WuQi_AK47_WuYing_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_02",
+    "keywords": [],
+    "descriptions": [
+      "众多武器的替身，免费购买"
+    ],
+    "plain_descriptions": [
+      "众多武器的替身，免费购买"
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 31,
+    "string_start_index": 206,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 7,
+    "name": "AK47-元让",
+    "base_resource": "Icon_ZiZouQi_WuQi_AK47_YuanRang",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_AK47_YuanRang_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\007_Icon_ZiZouQi_WuQi_AK47_YuanRang.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\007_Icon_ZiZouQi_WuQi_AK47_YuanRang.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_02\\Icon_ZiZouQi_WuQi_AK47_YuanRang_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_02",
+    "keywords": [
+      "子弹"
+    ],
+    "descriptions": [
+      "受到伤害时，所有友方永久+1+2",
+      "<KeyWord>子弹</KeyWord>+1，受到伤害时，所有友方永久+2+4"
+    ],
+    "plain_descriptions": [
+      "受到伤害时，所有友方永久+1+2",
+      "子弹+1，受到伤害时，所有友方永久+2+4"
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 28,
+    "string_start_index": 192,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 8,
+    "name": "AK47-火麒麟",
+    "base_resource": "Icon_ZiZouQi_WuQi_AK47_huoqilin",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_AK47_huoqilin_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\008_Icon_ZiZouQi_WuQi_AK47_huoqilin.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\008_Icon_ZiZouQi_WuQi_AK47_huoqilin.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_01\\Icon_ZiZouQi_WuQi_AK47_huoqilin_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_01",
+    "keywords": [
+      "子弹"
+    ],
+    "descriptions": [
+      "同列另一名友方攻击时，自身对其目标追加攻击,触发1次",
+      "追加攻击",
+      "<KeyWord>子弹</KeyWord>+1，同列另一名友方攻击时，自身对其目标追加攻击,触发2次"
+    ],
+    "plain_descriptions": [
+      "同列另一名友方攻击时，自身对其目标追加攻击,触发1次",
+      "追加攻击",
+      "子弹+1，同列另一名友方攻击时，自身对其目标追加攻击,触发2次"
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 14,
+    "string_start_index": 102,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 9,
+    "name": "AN94-超新星",
+    "base_resource": "Icon_ZiZouQi_WuQi_AN94_chaoxinxing",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_AN94_chaoxinxing_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\009_Icon_ZiZouQi_WuQi_AN94_chaoxinxing.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\009_Icon_ZiZouQi_WuQi_AN94_chaoxinxing.png",
+    "quality": "purple",
+    "quality_source": "known_weapon_resource_quality",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_01\\Icon_ZiZouQi_WuQi_AN94_chaoxinxing_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_01",
+    "keywords": [],
+    "descriptions": [
+      "攻击后，获得造成伤害值25%的生命",
+      "获得生命",
+      "攻击后，获得造成伤害值50%的生命"
+    ],
+    "plain_descriptions": [
+      "攻击后，获得造成伤害值25%的生命",
+      "获得生命",
+      "攻击后，获得造成伤害值50%的生命"
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 13,
+    "string_start_index": 95,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 10,
+    "name": "AWM-天龙",
+    "base_resource": "Icon_ZiZouQi_WuQi_AWM_tianlong",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_AWM_tianlong_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\010_Icon_ZiZouQi_WuQi_AWM_tianlong.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\010_Icon_ZiZouQi_WuQi_AWM_tianlong.png",
+    "quality": "purple",
+    "quality_source": "known_weapon_resource_quality",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_01\\Icon_ZiZouQi_WuQi_AWM_tianlong_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_01",
+    "keywords": [
+      "穿透",
+      "消灭"
+    ],
+    "descriptions": [
+      "<KeyWord>穿透</KeyWord>，造成50%伤害，<KeyWord>消灭</KeyWord>：永久+2+2",
+      "<KeyWord>穿透</KeyWord>，造成100%伤害，<KeyWord>消灭</KeyWord>：永久+4+4",
+      "获得+4+4"
+    ],
+    "plain_descriptions": [
+      "穿透，造成50%伤害，消灭：永久+2+2",
+      "穿透，造成100%伤害，消灭：永久+4+4",
+      "获得+4+4"
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 7,
+    "string_start_index": 54,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 11,
+    "name": "AN94-侵蚀",
+    "base_resource": "Icon_ZiZouQi_WuQi_An94_QinShi",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_An94_QinShi_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\011_Icon_ZiZouQi_WuQi_An94_QinShi.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\011_Icon_ZiZouQi_WuQi_An94_QinShi.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_02\\Icon_ZiZouQi_WuQi_An94_QinShi_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_02",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "weapon_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename"
+  },
+  {
+    "index": 12,
+    "name": "CBJ-MS-毒蜂",
+    "base_resource": "Icon_ZiZouQi_WuQi_CBJ_DuFeng",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_CBJ_DuFeng_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\012_Icon_ZiZouQi_WuQi_CBJ_DuFeng.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\012_Icon_ZiZouQi_WuQi_CBJ_DuFeng.png",
+    "quality": "purple",
+    "quality_source": "known_weapon_resource_quality",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_02\\Icon_ZiZouQi_WuQi_CBJ_DuFeng_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_02",
+    "keywords": [
+      "护盾",
+      "子弹"
+    ],
+    "descriptions": [
+      "<KeyWord>护盾</KeyWord>，友方失去<KeyWord>护盾</KeyWord>时，自身永久+1+2",
+      "<KeyWord>子弹</KeyWord>+1，<KeyWord>护盾</KeyWord>，友方失去<KeyWord>护盾</KeyWord>时，自身永久+2+4"
+    ],
+    "plain_descriptions": [
+      "护盾，友方失去护盾时，自身永久+1+2",
+      "子弹+1，护盾，友方失去护盾时，自身永久+2+4"
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 33,
+    "string_start_index": 213,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 13,
+    "name": "CZS2-善财童子",
+    "base_resource": "Icon_ZiZouQi_WuQi_CZS2_shancaitongzi",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_CZS2_shancaitongzi_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\013_Icon_ZiZouQi_WuQi_CZS2_shancaitongzi.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\013_Icon_ZiZouQi_WuQi_CZS2_shancaitongzi.png",
+    "quality": "purple",
+    "quality_source": "known_weapon_resource_quality",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_01\\Icon_ZiZouQi_WuQi_CZS2_shancaitongzi_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_01",
+    "keywords": [
+      "子弹"
+    ],
+    "descriptions": [
+      "攻击时，所有友方+1+2",
+      "获得+1+2",
+      "<KeyWord>子弹</KeyWord>+1，攻击时，所有友方+2+4",
+      "获得+2+4"
+    ],
+    "plain_descriptions": [
+      "攻击时，所有友方+1+2",
+      "获得+1+2",
+      "子弹+1，攻击时，所有友方+2+4",
+      "获得+2+4"
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 2,
+    "string_start_index": 15,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 14,
+    "name": "HK416-朱雀",
+    "base_resource": "Icon_ZiZouQi_WuQi_HK416_ZhuQue03",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_HK416_ZhuQue03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\014_Icon_ZiZouQi_WuQi_HK416_ZhuQue03.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\014_Icon_ZiZouQi_WuQi_HK416_ZhuQue03.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_03\\Icon_ZiZouQi_WuQi_HK416_ZhuQue03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_03",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "weapon_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename"
+  },
+  {
+    "index": 15,
+    "name": "HK416-极光",
+    "base_resource": "Icon_ZiZouQi_WuQi_HK416_jiguang",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_HK416_jiguang_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\015_Icon_ZiZouQi_WuQi_HK416_jiguang.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\015_Icon_ZiZouQi_WuQi_HK416_jiguang.png",
+    "quality": "purple",
+    "quality_source": "known_weapon_resource_quality",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_01\\Icon_ZiZouQi_WuQi_HK416_jiguang_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_01",
+    "keywords": [
+      "子弹"
+    ],
+    "descriptions": [
+      "受到攻击前，对攻击者造成3点伤害2次",
+      "<KeyWord>子弹</KeyWord>+1，受到攻击前，对攻击者造成3点伤害4次2",
+      "受到攻击前，对攻击者造成3点伤害4次"
+    ],
+    "plain_descriptions": [
+      "受到攻击前，对攻击者造成3点伤害2次",
+      "子弹+1，受到攻击前，对攻击者造成3点伤害4次2",
+      "受到攻击前，对攻击者造成3点伤害4次"
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 37,
+    "string_start_index": 233,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 16,
+    "name": "黑龙魂",
+    "base_resource": "Icon_ZiZouQi_WuQi_HeiLongHun",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_HeiLongHun_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\016_Icon_ZiZouQi_WuQi_HeiLongHun.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\016_Icon_ZiZouQi_WuQi_HeiLongHun.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_02\\Icon_ZiZouQi_WuQi_HeiLongHun_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_02",
+    "keywords": [],
+    "descriptions": [
+      "攻击后，对后排所有角色造成25%伤害0",
+      "攻击后，对后排所有角色造成25%伤害",
+      "攻击后，对后排所有角色造成50%伤害0",
+      "攻击后，对后排所有角色造成50%伤害"
+    ],
+    "plain_descriptions": [
+      "攻击后，对后排所有角色造成25%伤害0",
+      "攻击后，对后排所有角色造成25%伤害",
+      "攻击后，对后排所有角色造成50%伤害0",
+      "攻击后，对后排所有角色造成50%伤害"
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 38,
+    "string_start_index": 239,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 17,
+    "name": "极光剑",
+    "base_resource": "Icon_ZiZouQi_WuQi_JiGuangJian",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_JiGuangJian_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\017_Icon_ZiZouQi_WuQi_JiGuangJian.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\017_Icon_ZiZouQi_WuQi_JiGuangJian.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_03\\Icon_ZiZouQi_WuQi_JiGuangJian_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_03",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "weapon_table_index": 42,
+    "string_start_index": 255,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 18,
+    "name": "加特林-堡垒",
+    "base_resource": "Icon_ZiZouQi_WuQi_JiaTeLin_BaoLei03",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_JiaTeLin_BaoLei03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\018_Icon_ZiZouQi_WuQi_JiaTeLin_BaoLei03.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\018_Icon_ZiZouQi_WuQi_JiaTeLin_BaoLei03.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_03\\Icon_ZiZouQi_WuQi_JiaTeLin_BaoLei03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_03",
+    "keywords": [
+      "反击",
+      "子弹"
+    ],
+    "descriptions": [
+      "阵亡时，召唤一个具有无法行动，<KeyWord>反击</KeyWord>的堡垒小车，其具有携带者50%属性",
+      "<KeyWord>子弹</KeyWord>+1，阵亡时，召唤一个具有无法行动，<KeyWord>反击</KeyWord>的堡垒小车，其具有携带者100%属性"
+    ],
+    "plain_descriptions": [
+      "阵亡时，召唤一个具有无法行动，反击的堡垒小车，其具有携带者50%属性",
+      "子弹+1，阵亡时，召唤一个具有无法行动，反击的堡垒小车，其具有携带者100%属性"
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 40,
+    "string_start_index": 251,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 19,
+    "name": "加特林-暴雷车",
+    "base_resource": "Icon_ZiZouQi_WuQi_JiaTeLin_BaoLeiChe03",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_JiaTeLin_BaoLeiChe03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\019_Icon_ZiZouQi_WuQi_JiaTeLin_BaoLeiChe03.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\019_Icon_ZiZouQi_WuQi_JiaTeLin_BaoLeiChe03.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_03\\Icon_ZiZouQi_WuQi_JiaTeLin_BaoLeiChe03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_03",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "weapon_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename"
+  },
+  {
+    "index": 20,
+    "name": "KAC-变色龙",
+    "base_resource": "Icon_ZiZouQi_WuQi_KAC_bianselong",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_KAC_bianselong_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\020_Icon_ZiZouQi_WuQi_KAC_bianselong.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\020_Icon_ZiZouQi_WuQi_KAC_bianselong.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_01\\Icon_ZiZouQi_WuQi_KAC_bianselong_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_01",
+    "keywords": [],
+    "descriptions": [
+      "可以和任意其他武器进行合成，自身无法合成"
+    ],
+    "plain_descriptions": [
+      "可以和任意其他武器进行合成，自身无法合成"
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 24,
+    "string_start_index": 168,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 21,
+    "name": "KSG-孟获",
+    "base_resource": "Icon_ZiZouQi_WuQi_KSG_MengHuo03",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_KSG_MengHuo03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\021_Icon_ZiZouQi_WuQi_KSG_MengHuo03.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\021_Icon_ZiZouQi_WuQi_KSG_MengHuo03.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_03\\Icon_ZiZouQi_WuQi_KSG_MengHuo03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_03",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "weapon_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename"
+  },
+  {
+    "index": 22,
+    "name": "KSG-黑骑士",
+    "base_resource": "Icon_ZiZouQi_WuQi_KSG_heiqishi",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_KSG_heiqishi_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\022_Icon_ZiZouQi_WuQi_KSG_heiqishi.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\022_Icon_ZiZouQi_WuQi_KSG_heiqishi.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_01\\Icon_ZiZouQi_WuQi_KSG_heiqishi_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_01",
+    "keywords": [
+      "散射",
+      "成长"
+    ],
+    "descriptions": [
+      "<KeyWord>散射</KeyWord>，造成25%伤害，自身<KeyWord>成长</KeyWord>效果额外触发1次",
+      "自身成长效果额外触发1次",
+      "<KeyWord>散射</KeyWord>，造成50%伤害，自身<KeyWord>成长</KeyWord>效果额外触发2次",
+      "自身成长效果额外触发2次"
+    ],
+    "plain_descriptions": [
+      "散射，造成25%伤害，自身成长效果额外触发1次",
+      "自身成长效果额外触发1次",
+      "散射，造成50%伤害，自身成长效果额外触发2次",
+      "自身成长效果额外触发2次"
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 10,
+    "string_start_index": 75,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 23,
+    "name": "烈焰刀",
+    "base_resource": "Icon_ZiZouQi_WuQi_LieYanDao",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_LieYanDao_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\023_Icon_ZiZouQi_WuQi_LieYanDao.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\023_Icon_ZiZouQi_WuQi_LieYanDao.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_03\\Icon_ZiZouQi_WuQi_LieYanDao_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_03",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "weapon_table_index": 41,
+    "string_start_index": 254,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 24,
+    "name": "M1216-血月",
+    "base_resource": "Icon_ZiZouQi_WuQi_M1216_xueyue",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_M1216_xueyue_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\024_Icon_ZiZouQi_WuQi_M1216_xueyue.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\024_Icon_ZiZouQi_WuQi_M1216_xueyue.png",
+    "quality": "purple",
+    "quality_source": "known_weapon_resource_quality",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_01\\Icon_ZiZouQi_WuQi_M1216_xueyue_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_01",
+    "keywords": [
+      "散射",
+      "成长"
+    ],
+    "descriptions": [
+      "<KeyWord>散射</KeyWord>，造成25%伤害，友方触发<KeyWord>成长</KeyWord>时，自身永久+1+2",
+      "<KeyWord>散射</KeyWord>，造成50%伤害，友方触发<KeyWord>成长</KeyWord>时，自身永久+2+4"
+    ],
+    "plain_descriptions": [
+      "散射，造成25%伤害，友方触发成长时，自身永久+1+2",
+      "散射，造成50%伤害，友方触发成长时，自身永久+2+4"
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 9,
+    "string_start_index": 68,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 25,
+    "name": "M14EBR-暗夜",
+    "base_resource": "Icon_ZiZouQi_WuQi_M14EBR_anye",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_M14EBR_anye_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\025_Icon_ZiZouQi_WuQi_M14EBR_anye.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\025_Icon_ZiZouQi_WuQi_M14EBR_anye.png",
+    "quality": "blue",
+    "quality_source": "known_weapon_resource_quality",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_01\\Icon_ZiZouQi_WuQi_M14EBR_anye_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_01",
+    "keywords": [],
+    "descriptions": [
+      "受到攻击时+1+2",
+      "受到攻击时+2+4"
+    ],
+    "plain_descriptions": [
+      "受到攻击时+1+2",
+      "受到攻击时+2+4"
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 12,
+    "string_start_index": 89,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 26,
+    "name": "M16-恶魔",
+    "base_resource": "Icon_ZiZouQi_WuQi_M16_EMo03",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_M16_EMo03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\026_Icon_ZiZouQi_WuQi_M16_EMo03.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\026_Icon_ZiZouQi_WuQi_M16_EMo03.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_03\\Icon_ZiZouQi_WuQi_M16_EMo03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_03",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "weapon_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename"
+  },
+  {
+    "index": 27,
+    "name": "M200-幻神",
+    "base_resource": "Icon_ZiZouQi_WuQi_M200_huanshen",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_M200_huanshen_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\027_Icon_ZiZouQi_WuQi_M200_huanshen.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\027_Icon_ZiZouQi_WuQi_M200_huanshen.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_01\\Icon_ZiZouQi_WuQi_M200_huanshen_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_01",
+    "keywords": [
+      "穿透",
+      "消灭"
+    ],
+    "descriptions": [
+      "<KeyWord>穿透</KeyWord>，造成50%伤害，攻击后，触发自身<KeyWord>消灭</KeyWord>效果1次",
+      "触发自身消灭效果1次_",
+      "<KeyWord>穿透</KeyWord>，造成100%伤害，攻击后，触发自身<KeyWord>消灭</KeyWord>效果2次",
+      "触发自身消灭效果2次_"
+    ],
+    "plain_descriptions": [
+      "穿透，造成50%伤害，攻击后，触发自身消灭效果1次",
+      "触发自身消灭效果1次_",
+      "穿透，造成100%伤害，攻击后，触发自身消灭效果2次",
+      "触发自身消灭效果2次_"
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 8,
+    "string_start_index": 62,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 28,
+    "name": "M249-追猎",
+    "base_resource": "Icon_ZiZouQi_WuQi_M249_zuilie",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_M249_zuilie_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\028_Icon_ZiZouQi_WuQi_M249_zuilie.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\028_Icon_ZiZouQi_WuQi_M249_zuilie.png",
+    "quality": "purple",
+    "quality_source": "known_weapon_resource_quality",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_01\\Icon_ZiZouQi_WuQi_M249_zuilie_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_01",
+    "keywords": [
+      "子弹"
+    ],
+    "descriptions": [
+      "自身造成伤害时，同排友方+1+1",
+      "<KeyWord>子弹</KeyWord>+1，自身造成伤害时，同排友方+2+2"
+    ],
+    "plain_descriptions": [
+      "自身造成伤害时，同排友方+1+1",
+      "子弹+1，自身造成伤害时，同排友方+2+2"
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 18,
+    "string_start_index": 128,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 29,
+    "name": "M4A1-星象",
+    "base_resource": "Icon_ZiZouQi_WuQi_M4A1_XingXiang",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_M4A1_XingXiang_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\029_Icon_ZiZouQi_WuQi_M4A1_XingXiang.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\029_Icon_ZiZouQi_WuQi_M4A1_XingXiang.png",
+    "quality": "purple",
+    "quality_source": "known_weapon_resource_quality",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_02\\Icon_ZiZouQi_WuQi_M4A1_XingXiang_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_02",
+    "keywords": [
+      "子弹"
+    ],
+    "descriptions": [
+      "免疫敌方投掷物效果",
+      "<KeyWord>子弹</KeyWord>+1，免疫敌方投掷物效果"
+    ],
+    "plain_descriptions": [
+      "免疫敌方投掷物效果",
+      "子弹+1，免疫敌方投掷物效果"
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 43,
+    "string_start_index": 256,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 30,
+    "name": "M4A1-雷神",
+    "base_resource": "Icon_ZiZouQi_WuQi_M4A1_leishen",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_M4A1_leishen_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\030_Icon_ZiZouQi_WuQi_M4A1_leishen.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\030_Icon_ZiZouQi_WuQi_M4A1_leishen.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_01\\Icon_ZiZouQi_WuQi_M4A1_leishen_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_01",
+    "keywords": [
+      "反击",
+      "子弹"
+    ],
+    "descriptions": [
+      "<KeyWord>反击</KeyWord>1次，受到攻击时，永久+3+6",
+      "<KeyWord>子弹</KeyWord>+1，<KeyWord>反击</KeyWord>1次，受到攻击时，永久+6+12"
+    ],
+    "plain_descriptions": [
+      "反击1次，受到攻击时，永久+3+6",
+      "子弹+1，反击1次，受到攻击时，永久+6+12"
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 15,
+    "string_start_index": 108,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 31,
+    "name": "MG36-威震天",
+    "base_resource": "Icon_ZiZouQi_WuQi_MG36_weizhentian",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_MG36_weizhentian_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\031_Icon_ZiZouQi_WuQi_MG36_weizhentian.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\031_Icon_ZiZouQi_WuQi_MG36_weizhentian.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_01\\Icon_ZiZouQi_WuQi_MG36_weizhentian_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_01",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "weapon_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename"
+  },
+  {
+    "index": 32,
+    "name": "MG3-雏凤",
+    "base_resource": "Icon_ZiZouQi_WuQi_MG3_chufeng",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_MG3_chufeng_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\032_Icon_ZiZouQi_WuQi_MG3_chufeng.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\032_Icon_ZiZouQi_WuQi_MG3_chufeng.png",
+    "quality": "blue",
+    "quality_source": "known_weapon_resource_quality",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_01\\Icon_ZiZouQi_WuQi_MG3_chufeng_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_01",
+    "keywords": [],
+    "descriptions": [
+      "自身造成伤害时，永久生命+1",
+      "自身造成伤害时，永久生命+2"
+    ],
+    "plain_descriptions": [
+      "自身造成伤害时，永久生命+1",
+      "自身造成伤害时，永久生命+2"
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 19,
+    "string_start_index": 135,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 33,
+    "name": "MK47-云舞",
+    "base_resource": "Icon_ZiZouQi_WuQi_MK47_yunwu",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_MK47_yunwu_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\033_Icon_ZiZouQi_WuQi_MK47_yunwu.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\033_Icon_ZiZouQi_WuQi_MK47_yunwu.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_01\\Icon_ZiZouQi_WuQi_MK47_yunwu_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_01",
+    "keywords": [
+      "快手",
+      "子弹"
+    ],
+    "descriptions": [
+      "自身的<KeyWord>快手</KeyWord>效果额外触发1次%",
+      "自身的快手效果额外触发1次",
+      "<KeyWord>子弹</KeyWord>+1，自身的<KeyWord>快手</KeyWord>效果额外触发2次",
+      "自身的快手效果额外触发2次"
+    ],
+    "plain_descriptions": [
+      "自身的快手效果额外触发1次%",
+      "自身的快手效果额外触发1次",
+      "子弹+1，自身的快手效果额外触发2次",
+      "自身的快手效果额外触发2次"
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 22,
+    "string_start_index": 154,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 34,
+    "name": "MK5-极光",
+    "base_resource": "Icon_ZiZouQi_WuQi_MK5_jiguang",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_MK5_jiguang_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\034_Icon_ZiZouQi_WuQi_MK5_jiguang.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\034_Icon_ZiZouQi_WuQi_MK5_jiguang.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_01\\Icon_ZiZouQi_WuQi_MK5_jiguang_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_01",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "weapon_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename"
+  },
+  {
+    "index": 35,
+    "name": "MK5-机械纪元",
+    "base_resource": "Icon_ZiZouQi_WuQi_MK5_jixiejiyuan",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_MK5_jixiejiyuan_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\035_Icon_ZiZouQi_WuQi_MK5_jixiejiyuan.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\035_Icon_ZiZouQi_WuQi_MK5_jixiejiyuan.png",
+    "quality": "blue",
+    "quality_source": "known_weapon_resource_quality",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_01\\Icon_ZiZouQi_WuQi_MK5_jixiejiyuan_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_01",
+    "keywords": [],
+    "descriptions": [
+      "攻击时，永久+1+1",
+      "获得+1+1",
+      "攻击时，永久+2+2",
+      "获得+2+2"
+    ],
+    "plain_descriptions": [
+      "攻击时，永久+1+1",
+      "获得+1+1",
+      "攻击时，永久+2+2",
+      "获得+2+2"
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 4,
+    "string_start_index": 31,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 36,
+    "name": "P90-孟获",
+    "base_resource": "Icon_ZiZouQi_WuQi_P90_MengHuo03",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_P90_MengHuo03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\036_Icon_ZiZouQi_WuQi_P90_MengHuo03.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\036_Icon_ZiZouQi_WuQi_P90_MengHuo03.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_03\\Icon_ZiZouQi_WuQi_P90_MengHuo03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_03",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "weapon_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename"
+  },
+  {
+    "index": 37,
+    "name": "P90-突突兔",
+    "base_resource": "Icon_ZiZouQi_WuQi_P90_tututu",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_P90_tututu_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\037_Icon_ZiZouQi_WuQi_P90_tututu.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\037_Icon_ZiZouQi_WuQi_P90_tututu.png",
+    "quality": "purple",
+    "quality_source": "known_weapon_resource_quality",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_02\\Icon_ZiZouQi_WuQi_P90_tututu_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_02",
+    "keywords": [
+      "子弹"
+    ],
+    "descriptions": [
+      "友方攻击时，自身+3+6",
+      "<KeyWord>子弹</KeyWord>+1，友方攻击时，自身+6+12"
+    ],
+    "plain_descriptions": [
+      "友方攻击时，自身+3+6",
+      "子弹+1，友方攻击时，自身+6+12"
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 6,
+    "string_start_index": 47,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 38,
+    "name": "QBZ97-岚舞",
+    "base_resource": "Icon_ZiZouQi_WuQi_QBZ97_lanwu",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_QBZ97_lanwu_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\038_Icon_ZiZouQi_WuQi_QBZ97_lanwu.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\038_Icon_ZiZouQi_WuQi_QBZ97_lanwu.png",
+    "quality": "purple",
+    "quality_source": "known_weapon_resource_quality",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_02\\Icon_ZiZouQi_WuQi_QBZ97_lanwu_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_02",
+    "keywords": [
+      "快手",
+      "子弹"
+    ],
+    "descriptions": [
+      "友方触发<KeyWord>快手</KeyWord>时，自身+2+4",
+      "<KeyWord>子弹</KeyWord>+1，友方触发<KeyWord>快手</KeyWord>时，自身+4+8"
+    ],
+    "plain_descriptions": [
+      "友方触发快手时，自身+2+4",
+      "子弹+1，友方触发快手时，自身+4+8"
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 21,
+    "string_start_index": 149,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 39,
+    "name": "RPK-盘龙",
+    "base_resource": "Icon_ZiZouQi_WuQi_RPK_panlong",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_RPK_panlong_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\039_Icon_ZiZouQi_WuQi_RPK_panlong.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\039_Icon_ZiZouQi_WuQi_RPK_panlong.png",
+    "quality": "blue",
+    "quality_source": "known_weapon_resource_quality",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_02\\Icon_ZiZouQi_WuQi_RPK_panlong_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_02",
+    "keywords": [],
+    "descriptions": [
+      "攻击前，对随机目标造成3点伤害",
+      "攻击前，对随机目标造成6点伤害"
+    ],
+    "plain_descriptions": [
+      "攻击前，对随机目标造成3点伤害",
+      "攻击前，对随机目标造成6点伤害"
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 17,
+    "string_start_index": 122,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 40,
+    "name": "Light-白虎",
+    "base_resource": "Icon_ZiZouQi_WuQi_SCAR_Light_baihu",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_SCAR_Light_baihu_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\040_Icon_ZiZouQi_WuQi_SCAR_Light_baihu.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\040_Icon_ZiZouQi_WuQi_SCAR_Light_baihu.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_02\\Icon_ZiZouQi_WuQi_SCAR_Light_baihu_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_02",
+    "keywords": [
+      "遗言",
+      "子弹"
+    ],
+    "descriptions": [
+      "自身的<KeyWord>遗言</KeyWord>效果额外触发1次%",
+      "自身的遗言效果额外触发1次",
+      "<KeyWord>子弹</KeyWord>+1，<自身的<KeyWord>遗言</KeyWord>效果额外触发2次",
+      "自身的遗言效果额外触发2次"
+    ],
+    "plain_descriptions": [
+      "自身的遗言效果额外触发1次%",
+      "自身的遗言效果额外触发1次",
+      "子弹+1，<自身的遗言效果额外触发2次",
+      "自身的遗言效果额外触发2次"
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 25,
+    "string_start_index": 174,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 41,
+    "name": "SKS-夜鼎",
+    "base_resource": "Icon_ZiZouQi_WuQi_SKS_yeding",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_SKS_yeding_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\041_Icon_ZiZouQi_WuQi_SKS_yeding.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\041_Icon_ZiZouQi_WuQi_SKS_yeding.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_02\\Icon_ZiZouQi_WuQi_SKS_yeding_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_02",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "weapon_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename"
+  },
+  {
+    "index": 42,
+    "name": "SPAS12-擎天柱",
+    "base_resource": "Icon_ZiZouQi_WuQi_SPAS12_qintianzhu",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_SPAS12_qintianzhu_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\042_Icon_ZiZouQi_WuQi_SPAS12_qintianzhu.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\042_Icon_ZiZouQi_WuQi_SPAS12_qintianzhu.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_02\\Icon_ZiZouQi_WuQi_SPAS12_qintianzhu_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_02",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "weapon_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename"
+  },
+  {
+    "index": 43,
+    "name": "沙漠之鹰-游骑兵",
+    "base_resource": "Icon_ZiZouQi_WuQi_ShaYing_YouQiBing",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_ShaYing_YouQiBing_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\043_Icon_ZiZouQi_WuQi_ShaYing_YouQiBing.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\043_Icon_ZiZouQi_WuQi_ShaYing_YouQiBing.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_03\\Icon_ZiZouQi_WuQi_ShaYing_YouQiBing_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_03",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "weapon_table_index": 1,
+    "string_start_index": 9,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 44,
+    "name": "TAC-晴舞",
+    "base_resource": "Icon_ZiZouQi_WuQi_TAC_qingwu",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_TAC_qingwu_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\044_Icon_ZiZouQi_WuQi_TAC_qingwu.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\044_Icon_ZiZouQi_WuQi_TAC_qingwu.png",
+    "quality": "purple",
+    "quality_source": "known_weapon_resource_quality",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_02\\Icon_ZiZouQi_WuQi_TAC_qingwu_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_02",
+    "keywords": [
+      "穿透",
+      "快手"
+    ],
+    "descriptions": [
+      "<KeyWord>穿透</KeyWord>，造成50%伤害，<KeyWord>快手</KeyWord>：对随机2个目标造成5点伤害",
+      "对随机2个目标造成5点伤害",
+      "<KeyWord>穿透</KeyWord>，造成100%伤害，<KeyWord>快手</KeyWord>：对随机2个目标造成5点伤害2次",
+      "对随机2个目标造成5点伤害2次"
+    ],
+    "plain_descriptions": [
+      "穿透，造成50%伤害，快手：对随机2个目标造成5点伤害",
+      "对随机2个目标造成5点伤害",
+      "穿透，造成100%伤害，快手：对随机2个目标造成5点伤害2次",
+      "对随机2个目标造成5点伤害2次"
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 23,
+    "string_start_index": 161,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 45,
+    "name": "VEPR12-本初",
+    "base_resource": "Icon_ZiZouQi_WuQi_VEPR12_BenChu",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_VEPR12_BenChu_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\045_Icon_ZiZouQi_WuQi_VEPR12_BenChu.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\045_Icon_ZiZouQi_WuQi_VEPR12_BenChu.png",
+    "quality": "purple",
+    "quality_source": "known_weapon_resource_quality",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_03\\Icon_ZiZouQi_WuQi_VEPR12_BenChu_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_03",
+    "keywords": [
+      "散射",
+      "消灭"
+    ],
+    "descriptions": [
+      "<KeyWord>散射</KeyWord>，造成25%伤害，<KeyWord>消灭</KeyWord>：金币+1",
+      "金币+1b[",
+      "<KeyWord>散射</KeyWord>，造成50%伤害，<KeyWord>消灭</KeyWord>：金币+2",
+      "金币+2b["
+    ],
+    "plain_descriptions": [
+      "散射，造成25%伤害，消灭：金币+1",
+      "金币+1b[",
+      "散射，造成50%伤害，消灭：金币+2",
+      "金币+2b["
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 29,
+    "string_start_index": 196,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 46,
+    "name": "VEPR12-宙斯",
+    "base_resource": "Icon_ZiZouQi_WuQi_VEPR12_zhousi",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_VEPR12_zhousi_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\046_Icon_ZiZouQi_WuQi_VEPR12_zhousi.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\046_Icon_ZiZouQi_WuQi_VEPR12_zhousi.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_02\\Icon_ZiZouQi_WuQi_VEPR12_zhousi_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_02",
+    "keywords": [
+      "散射",
+      "消灭",
+      "护盾"
+    ],
+    "descriptions": [
+      "<KeyWord>散射</KeyWord>，造成25%伤害，<KeyWord>消灭</KeyWord>：自身获得<KeyWord>护盾</KeyWord>",
+      "获得护盾",
+      "<KeyWord>散射</KeyWord>，造成50%伤害，<KeyWord>消灭</KeyWord>：自身以及随机1名友方获得<KeyWord>护盾</KeyWord>"
+    ],
+    "plain_descriptions": [
+      "散射，造成25%伤害，消灭：自身获得护盾",
+      "获得护盾",
+      "散射，造成50%伤害，消灭：自身以及随机1名友方获得护盾"
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 27,
+    "string_start_index": 187,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 47,
+    "name": "亡命之徒-鬼魅双生",
+    "base_resource": "Icon_ZiZouQi_WuQi_WangMingZhiTu_GuiMeiShuangSheng",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_WangMingZhiTu_GuiMeiShuangSheng_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\047_Icon_ZiZouQi_WuQi_WangMingZhiTu_GuiMeiShuangSheng.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\047_Icon_ZiZouQi_WuQi_WangMingZhiTu_GuiMeiShuangSheng.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_03\\Icon_ZiZouQi_WuQi_WangMingZhiTu_GuiMeiShuangSheng_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_03",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "weapon_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename"
+  },
+  {
+    "index": 48,
+    "name": "王者之心",
+    "base_resource": "Icon_ZiZouQi_WuQi_WangZheZhiXin",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_WangZheZhiXin_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\048_Icon_ZiZouQi_WuQi_WangZheZhiXin.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\048_Icon_ZiZouQi_WuQi_WangZheZhiXin.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_03\\Icon_ZiZouQi_WuQi_WangZheZhiXin_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_03",
+    "keywords": [
+      "子弹"
+    ],
+    "descriptions": [
+      "战斗开始时，2名没有武器的友方装备随机武器",
+      "<KeyWord>子弹</KeyWord>+1，战斗开始时，4名没有武器的友方装备随机武器",
+      "子弹+1，战斗开始时，4名没有武器的友方装备随机武器"
+    ],
+    "plain_descriptions": [
+      "战斗开始时，2名没有武器的友方装备随机武器",
+      "子弹+1，战斗开始时，4名没有武器的友方装备随机武器"
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 36,
+    "string_start_index": 227,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 49,
+    "name": "王者之翼",
+    "base_resource": "Icon_ZiZouQi_WuQi_WangZheZhiYi",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_WangZheZhiYi_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\049_Icon_ZiZouQi_WuQi_WangZheZhiYi.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\049_Icon_ZiZouQi_WuQi_WangZheZhiYi.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_03\\Icon_ZiZouQi_WuQi_WangZheZhiYi_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_03",
+    "keywords": [
+      "护盾",
+      "子弹",
+      "连续行动"
+    ],
+    "descriptions": [
+      "攻击时，无视目标<KeyWord>护盾</KeyWord>",
+      "<KeyWord>子弹</KeyWord>+1，攻击时，无视目标<KeyWord>护盾</KeyWord>，<KeyWord>连续行动</KeyWord>1次"
+    ],
+    "plain_descriptions": [
+      "攻击时，无视目标护盾",
+      "子弹+1，攻击时，无视目标护盾，连续行动1次"
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 34,
+    "string_start_index": 216,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 50,
+    "name": "王者之影",
+    "base_resource": "Icon_ZiZouQi_WuQi_WangZheZhiYing",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_WangZheZhiYing_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\050_Icon_ZiZouQi_WuQi_WangZheZhiYing.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\050_Icon_ZiZouQi_WuQi_WangZheZhiYing.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_03\\Icon_ZiZouQi_WuQi_WangZheZhiYing_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_03",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "weapon_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename"
+  },
+  {
+    "index": 51,
+    "name": "巴雷特-毁灭",
+    "base_resource": "Icon_ZiZouQi_WuQi_baleite_huimie",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_baleite_huimie_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\051_Icon_ZiZouQi_WuQi_baleite_huimie.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\051_Icon_ZiZouQi_WuQi_baleite_huimie.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_01\\Icon_ZiZouQi_WuQi_baleite_huimie_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_01",
+    "keywords": [
+      "穿透"
+    ],
+    "descriptions": [
+      "<KeyWord>穿透</KeyWord>，造成50%伤害，攻击时，移除目标遗言，触发1次",
+      "穿透，攻击时，移除目标遗言，触发1次",
+      "<KeyWord>穿透</KeyWord>，造成100%伤害，攻击时，移除目标遗言，触发2次",
+      "穿透，攻击时，移除目标遗言，触发2次"
+    ],
+    "plain_descriptions": [
+      "穿透，造成50%伤害，攻击时，移除目标遗言，触发1次",
+      "穿透，攻击时，移除目标遗言，触发1次",
+      "穿透，造成100%伤害，攻击时，移除目标遗言，触发2次",
+      "穿透，攻击时，移除目标遗言，触发2次"
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 35,
+    "string_start_index": 219,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 52,
+    "name": "cop",
+    "base_resource": "Icon_ZiZouQi_WuQi_cop",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_cop_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\052_Icon_ZiZouQi_WuQi_cop.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\052_Icon_ZiZouQi_WuQi_cop.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_03\\Icon_ZiZouQi_WuQi_cop_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_03",
+    "keywords": [],
+    "descriptions": [
+      "攻击后，获得2层增伤，并对4个敌方造成5点伤害",
+      "2层增伤",
+      "攻击后，获得4层增伤，并对4个敌方造成10点伤害",
+      "4层增伤"
+    ],
+    "plain_descriptions": [
+      "攻击后，获得2层增伤，并对4个敌方造成5点伤害",
+      "2层增伤",
+      "攻击后，获得4层增伤，并对4个敌方造成10点伤害",
+      "4层增伤"
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 44,
+    "string_start_index": 259,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 53,
+    "name": "COP-雷霆王者",
+    "base_resource": "Icon_ZiZouQi_WuQi_cop_LeiTingWangZhe",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_cop_LeiTingWangZhe_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\053_Icon_ZiZouQi_WuQi_cop_LeiTingWangZhe.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\053_Icon_ZiZouQi_WuQi_cop_LeiTingWangZhe.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_03\\Icon_ZiZouQi_WuQi_cop_LeiTingWangZhe_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_03",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "weapon_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename"
+  },
+  {
+    "index": 54,
+    "name": "COP-雷霆",
+    "base_resource": "Icon_ZiZouQi_WuQi_cop_LeiTing",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_cop_LeiTing_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\054_Icon_ZiZouQi_WuQi_cop_LeiTing.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\054_Icon_ZiZouQi_WuQi_cop_LeiTing.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_03\\Icon_ZiZouQi_WuQi_cop_LeiTing_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_03",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "weapon_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename"
+  },
+  {
+    "index": 55,
+    "name": "夺命之镰",
+    "base_resource": "Icon_ZiZouQi_WuQi_duomingzhilian",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_duomingzhilian_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\055_Icon_ZiZouQi_WuQi_duomingzhilian.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\055_Icon_ZiZouQi_WuQi_duomingzhilian.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_01\\Icon_ZiZouQi_WuQi_duomingzhilian_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_01",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "weapon_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename"
+  },
+  {
+    "index": 56,
+    "name": "加特林-炼狱",
+    "base_resource": "Icon_ZiZouQi_WuQi_jiatelin_lianyu",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_jiatelin_lianyu_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\056_Icon_ZiZouQi_WuQi_jiatelin_lianyu.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\056_Icon_ZiZouQi_WuQi_jiatelin_lianyu.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_01\\Icon_ZiZouQi_WuQi_jiatelin_lianyu_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_01",
+    "keywords": [
+      "子弹"
+    ],
+    "descriptions": [
+      "自身造成伤害时，永久+2+4",
+      "<KeyWord>子弹</KeyWord>+1，自身造成伤害时，永久+4+8",
+      "获得+4+8"
+    ],
+    "plain_descriptions": [
+      "自身造成伤害时，永久+2+4",
+      "子弹+1，自身造成伤害时，永久+4+8",
+      "获得+4+8"
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 16,
+    "string_start_index": 114,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 57,
+    "name": "刘易斯-天使",
+    "base_resource": "Icon_ZiZouQi_WuQi_liuyisi_tianshi",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_liuyisi_tianshi_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\057_Icon_ZiZouQi_WuQi_liuyisi_tianshi.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\057_Icon_ZiZouQi_WuQi_liuyisi_tianshi.png",
+    "quality": "purple",
+    "quality_source": "known_weapon_resource_quality",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_01\\Icon_ZiZouQi_WuQi_liuyisi_tianshi_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_01",
+    "keywords": [
+      "成长",
+      "增伤",
+      "子弹"
+    ],
+    "descriptions": [
+      "<KeyWord>成长</KeyWord>：<KeyWord>增伤</KeyWord>+1",
+      "增伤+1",
+      "<KeyWord>子弹</KeyWord>+1，<KeyWord>成长</KeyWord>：<KeyWord>增伤</KeyWord>+2",
+      "增伤+2"
+    ],
+    "plain_descriptions": [
+      "成长：增伤+1",
+      "增伤+1",
+      "子弹+1，成长：增伤+2",
+      "增伤+2"
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 20,
+    "string_start_index": 142,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 58,
+    "name": "刘易斯-血月",
+    "base_resource": "Icon_ZiZouQi_WuQi_liuyisi_xueyue",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_liuyisi_xueyue_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\058_Icon_ZiZouQi_WuQi_liuyisi_xueyue.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\058_Icon_ZiZouQi_WuQi_liuyisi_xueyue.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_01\\Icon_ZiZouQi_WuQi_liuyisi_xueyue_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_01",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "weapon_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename"
+  },
+  {
+    "index": 59,
+    "name": "气锤-摩羯座",
+    "base_resource": "Icon_ZiZouQi_WuQi_qichui_mojiezuo",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_qichui_mojiezuo_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\059_Icon_ZiZouQi_WuQi_qichui_mojiezuo.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\059_Icon_ZiZouQi_WuQi_qichui_mojiezuo.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_02\\Icon_ZiZouQi_WuQi_qichui_mojiezuo_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_02",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "weapon_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename"
+  },
+  {
+    "index": 60,
+    "name": "擎天",
+    "base_resource": "Icon_ZiZouQi_WuQi_qingtian",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_qingtian_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\060_Icon_ZiZouQi_WuQi_qingtian.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\060_Icon_ZiZouQi_WuQi_qingtian.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_02\\Icon_ZiZouQi_WuQi_qingtian_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_02",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "weapon_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename"
+  },
+  {
+    "index": 61,
+    "name": "沙漠之鹰-游骑兵",
+    "base_resource": "Icon_ZiZouQi_WuQi_shamozhiying_youqibing",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_shamozhiying_youqibing_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\061_Icon_ZiZouQi_WuQi_shamozhiying_youqibing.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\061_Icon_ZiZouQi_WuQi_shamozhiying_youqibing.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_02\\Icon_ZiZouQi_WuQi_shamozhiying_youqibing_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_02",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "weapon_table_index": 1,
+    "string_start_index": 9,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 62,
+    "name": "斯泰尔-恶魔",
+    "base_resource": "Icon_ZiZouQi_WuQi_sitaieremo",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_sitaieremo_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\062_Icon_ZiZouQi_WuQi_sitaieremo.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\062_Icon_ZiZouQi_WuQi_sitaieremo.png",
+    "quality": "purple",
+    "quality_source": "known_weapon_resource_quality",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_02\\Icon_ZiZouQi_WuQi_sitaieremo_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_02",
+    "keywords": [
+      "子弹"
+    ],
+    "descriptions": [
+      "攻击时，获得1张消耗牌",
+      "<KeyWord>子弹</KeyWord>+1，攻击时，获得2张消耗牌",
+      "攻击时，获得2张消耗牌"
+    ],
+    "plain_descriptions": [
+      "攻击时，获得1张消耗牌",
+      "子弹+1，攻击时，获得2张消耗牌",
+      "攻击时，获得2张消耗牌"
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 3,
+    "string_start_index": 24,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 63,
+    "name": "汤姆逊-烈龙",
+    "base_resource": "Icon_ZiZouQi_WuQi_tomxunlielong",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_tomxunlielong_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\063_Icon_ZiZouQi_WuQi_tomxunlielong.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\063_Icon_ZiZouQi_WuQi_tomxunlielong.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_02\\Icon_ZiZouQi_WuQi_tomxunlielong_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_02",
+    "keywords": [
+      "连续行动",
+      "子弹"
+    ],
+    "descriptions": [
+      "<KeyWord>连续行动</KeyWord>1次，攻击前永久+3+6",
+      "获得+3+6",
+      "<KeyWord>子弹</KeyWord>+1，<KeyWord>连续行动</KeyWord>1次，攻击前永久+6+12",
+      "获得+6+12"
+    ],
+    "plain_descriptions": [
+      "连续行动1次，攻击前永久+3+6",
+      "获得+3+6",
+      "子弹+1，连续行动1次，攻击前永久+6+12",
+      "获得+6+12"
+    ],
+    "brief_descriptions": [],
+    "weapon_table_index": 5,
+    "string_start_index": 40,
+    "match_status": "matched_by_manual_resource_alias"
+  },
+  {
+    "index": 64,
+    "name": "屠龙",
+    "base_resource": "Icon_ZiZouQi_WuQi_tulong",
+    "weapon_resource": "Icon_ZiZouQi_WuQi_tulong_03",
+    "weapon_png": "autochess_dump\\organized_weapons\\weapon_cards\\064_Icon_ZiZouQi_WuQi_tulong.png",
+    "composited_card_png": "autochess_dump\\organized_weapon_card_previews\\composited_cards\\064_Icon_ZiZouQi_WuQi_tulong.png",
+    "quality": "gold",
+    "quality_source": "default_weapon_gold",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Weapon_HandCards_02\\Icon_ZiZouQi_WuQi_tulong_03.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Weapon_HandCards_02",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "weapon_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename"
+  }
+]

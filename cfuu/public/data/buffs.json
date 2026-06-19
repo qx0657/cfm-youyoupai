@@ -1,0 +1,1128 @@
+[
+  {
+    "index": 1,
+    "category": "buff",
+    "name": "武器仓库",
+    "resource": "Icon_ZiZouQi_RL_BaoXiang_Blue",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\001_Icon_ZiZouQi_RL_BaoXiang_Blue.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_01\\Icon_ZiZouQi_RL_BaoXiang_Blue.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_01",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [
+      "获得所有品质的武器卡各1张"
+    ],
+    "plain_descriptions": [
+      "获得所有品质的武器卡各1张"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 46,
+    "string_start_index": 163,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 2,
+    "category": "buff",
+    "name": "武器仓库",
+    "resource": "Icon_ZiZouQi_RL_BaoXiang_Golden",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\002_Icon_ZiZouQi_RL_BaoXiang_Golden.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_01\\Icon_ZiZouQi_RL_BaoXiang_Golden.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_01",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [
+      "获得所有品质的武器卡各1张"
+    ],
+    "plain_descriptions": [
+      "获得所有品质的武器卡各1张"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 46,
+    "string_start_index": 163,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 3,
+    "category": "buff",
+    "name": "武器仓库",
+    "resource": "Icon_ZiZouQi_RL_BaoXiang_Purple",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\003_Icon_ZiZouQi_RL_BaoXiang_Purple.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_01\\Icon_ZiZouQi_RL_BaoXiang_Purple.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_01",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [
+      "获得所有品质的武器卡各1张"
+    ],
+    "plain_descriptions": [
+      "获得所有品质的武器卡各1张"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 46,
+    "string_start_index": 163,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 4,
+    "category": "buff",
+    "name": "成长性",
+    "resource": "Icon_ZiZouQi_RL_ChengZhang_Blue",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\004_Icon_ZiZouQi_RL_ChengZhang_Blue.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_01\\Icon_ZiZouQi_RL_ChengZhang_Blue.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_01",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [
+      "你的角色获得成长：永久+2+4"
+    ],
+    "plain_descriptions": [
+      "你的角色获得成长：永久+2+4"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 66,
+    "string_start_index": 246,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 5,
+    "category": "buff",
+    "name": "成长性",
+    "resource": "Icon_ZiZouQi_RL_ChengZhang_Golden",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\005_Icon_ZiZouQi_RL_ChengZhang_Golden.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_01\\Icon_ZiZouQi_RL_ChengZhang_Golden.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_01",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [
+      "你的角色获得成长：永久+2+4"
+    ],
+    "plain_descriptions": [
+      "你的角色获得成长：永久+2+4"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 66,
+    "string_start_index": 246,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 6,
+    "category": "buff",
+    "name": "成长性",
+    "resource": "Icon_ZiZouQi_RL_ChengZhang_Purple",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\006_Icon_ZiZouQi_RL_ChengZhang_Purple.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_01\\Icon_ZiZouQi_RL_ChengZhang_Purple.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_01",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [
+      "你的角色获得成长：永久+2+4"
+    ],
+    "plain_descriptions": [
+      "你的角色获得成长：永久+2+4"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 66,
+    "string_start_index": 246,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 7,
+    "category": "buff",
+    "name": "随意开火",
+    "resource": "Icon_ZiZouQi_RL_DanJia_Blue",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\007_Icon_ZiZouQi_RL_DanJia_Blue.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_01\\Icon_ZiZouQi_RL_DanJia_Blue.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_01",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [
+      "获得2张随机橙色武器卡以及2张道具卡：弹夹"
+    ],
+    "plain_descriptions": [
+      "获得2张随机橙色武器卡以及2张道具卡：弹夹"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 49,
+    "string_start_index": 176,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 8,
+    "category": "buff",
+    "name": "随意开火",
+    "resource": "Icon_ZiZouQi_RL_DanJia_Golden",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\008_Icon_ZiZouQi_RL_DanJia_Golden.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_01\\Icon_ZiZouQi_RL_DanJia_Golden.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_01",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [
+      "获得2张随机橙色武器卡以及2张道具卡：弹夹"
+    ],
+    "plain_descriptions": [
+      "获得2张随机橙色武器卡以及2张道具卡：弹夹"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 49,
+    "string_start_index": 176,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 9,
+    "category": "buff",
+    "name": "随意开火",
+    "resource": "Icon_ZiZouQi_RL_DanJia_Purple",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\009_Icon_ZiZouQi_RL_DanJia_Purple.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_01\\Icon_ZiZouQi_RL_DanJia_Purple.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_01",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [
+      "获得2张随机橙色武器卡以及2张道具卡：弹夹"
+    ],
+    "plain_descriptions": [
+      "获得2张随机橙色武器卡以及2张道具卡：弹夹"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 49,
+    "string_start_index": 176,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 10,
+    "category": "buff",
+    "name": "道具批发商",
+    "resource": "Icon_ZiZouQi_RL_DaoJuWei_Blue",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\010_Icon_ZiZouQi_RL_DaoJuWei_Blue.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_01\\Icon_ZiZouQi_RL_DaoJuWei_Blue.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_01",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [
+      "获得2张道具牌，你的角色道具栏+1"
+    ],
+    "plain_descriptions": [
+      "获得2张道具牌，你的角色道具栏+1"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 54,
+    "string_start_index": 195,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 11,
+    "category": "buff",
+    "name": "道具批发商",
+    "resource": "Icon_ZiZouQi_RL_DaoJuWei_Golden",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\011_Icon_ZiZouQi_RL_DaoJuWei_Golden.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_01\\Icon_ZiZouQi_RL_DaoJuWei_Golden.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_01",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [
+      "获得2张道具牌，你的角色道具栏+1"
+    ],
+    "plain_descriptions": [
+      "获得2张道具牌，你的角色道具栏+1"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 54,
+    "string_start_index": 195,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 12,
+    "category": "buff",
+    "name": "道具批发商",
+    "resource": "Icon_ZiZouQi_RL_DaoJuWei_Purple",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\012_Icon_ZiZouQi_RL_DaoJuWei_Purple.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_01\\Icon_ZiZouQi_RL_DaoJuWei_Purple.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_01",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [
+      "获得2张道具牌，你的角色道具栏+1"
+    ],
+    "plain_descriptions": [
+      "获得2张道具牌，你的角色道具栏+1"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 54,
+    "string_start_index": 195,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 13,
+    "category": "buff",
+    "name": "点金手",
+    "resource": "Icon_ZiZouQi_RL_DianJin_Blue",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\013_Icon_ZiZouQi_RL_DianJin_Blue.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_01\\Icon_ZiZouQi_RL_DianJin_Blue.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_01",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [
+      "获得1张点金/",
+      "获得1张点金（使1名角色变为金色）"
+    ],
+    "plain_descriptions": [
+      "获得1张点金/",
+      "获得1张点金（使1名角色变为金色）"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 60,
+    "string_start_index": 219,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 14,
+    "category": "buff",
+    "name": "点金手",
+    "resource": "Icon_ZiZouQi_RL_DianJin_Golden",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\014_Icon_ZiZouQi_RL_DianJin_Golden.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_01\\Icon_ZiZouQi_RL_DianJin_Golden.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_01",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [
+      "获得1张点金/",
+      "获得1张点金（使1名角色变为金色）"
+    ],
+    "plain_descriptions": [
+      "获得1张点金/",
+      "获得1张点金（使1名角色变为金色）"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 60,
+    "string_start_index": 219,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 15,
+    "category": "buff",
+    "name": "点金手",
+    "resource": "Icon_ZiZouQi_RL_DianJin_Purple",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\015_Icon_ZiZouQi_RL_DianJin_Purple.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_01\\Icon_ZiZouQi_RL_DianJin_Purple.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_01",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [
+      "获得1张点金/",
+      "获得1张点金（使1名角色变为金色）"
+    ],
+    "plain_descriptions": [
+      "获得1张点金/",
+      "获得1张点金（使1名角色变为金色）"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 60,
+    "string_start_index": 219,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 16,
+    "category": "buff",
+    "name": "替补登场",
+    "resource": "Icon_ZiZouQi_RL_DianTai_Blue",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\016_Icon_ZiZouQi_RL_DianTai_Blue.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_01\\Icon_ZiZouQi_RL_DianTai_Blue.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_01",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [
+      "战斗结束时，获得场上随机角色的复制"
+    ],
+    "plain_descriptions": [
+      "战斗结束时，获得场上随机角色的复制"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 58,
+    "string_start_index": 213,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 17,
+    "category": "buff",
+    "name": "替补登场",
+    "resource": "Icon_ZiZouQi_RL_DianTai_Golden",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\017_Icon_ZiZouQi_RL_DianTai_Golden.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_02\\Icon_ZiZouQi_RL_DianTai_Golden.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_02",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [
+      "战斗结束时，获得场上随机角色的复制"
+    ],
+    "plain_descriptions": [
+      "战斗结束时，获得场上随机角色的复制"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 58,
+    "string_start_index": 213,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 18,
+    "category": "buff",
+    "name": "替补登场",
+    "resource": "Icon_ZiZouQi_RL_DianTai_Purple",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\018_Icon_ZiZouQi_RL_DianTai_Purple.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_02\\Icon_ZiZouQi_RL_DianTai_Purple.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_02",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [
+      "战斗结束时，获得场上随机角色的复制"
+    ],
+    "plain_descriptions": [
+      "战斗结束时，获得场上随机角色的复制"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 58,
+    "string_start_index": 213,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 19,
+    "category": "buff",
+    "name": "防弹衣",
+    "resource": "Icon_ZiZouQi_RL_FangDanYi_Blue",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\019_Icon_ZiZouQi_RL_FangDanYi_Blue.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_02\\Icon_ZiZouQi_RL_FangDanYi_Blue.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_02",
+    "quality": "blue",
+    "keywords": [
+      "防护"
+    ],
+    "descriptions": [
+      "<KeyWord>防护</KeyWord>+3，减少每次受到的伤害",
+      "防护+3，减少每次受到的伤害"
+    ],
+    "plain_descriptions": [
+      "防护+3，减少每次受到的伤害"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 21,
+    "string_start_index": 80,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 20,
+    "category": "buff",
+    "name": "防弹衣",
+    "resource": "Icon_ZiZouQi_RL_FangDanYi_Golden",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\020_Icon_ZiZouQi_RL_FangDanYi_Golden.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_02\\Icon_ZiZouQi_RL_FangDanYi_Golden.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_02",
+    "quality": "gold",
+    "keywords": [
+      "防护"
+    ],
+    "descriptions": [
+      "<KeyWord>防护</KeyWord>+3，减少每次受到的伤害",
+      "防护+3，减少每次受到的伤害"
+    ],
+    "plain_descriptions": [
+      "防护+3，减少每次受到的伤害"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 21,
+    "string_start_index": 80,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 21,
+    "category": "buff",
+    "name": "防弹衣",
+    "resource": "Icon_ZiZouQi_RL_FangDanYi_Purple",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\021_Icon_ZiZouQi_RL_FangDanYi_Purple.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_02\\Icon_ZiZouQi_RL_FangDanYi_Purple.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_02",
+    "quality": "purple",
+    "keywords": [
+      "防护"
+    ],
+    "descriptions": [
+      "<KeyWord>防护</KeyWord>+3，减少每次受到的伤害",
+      "防护+3，减少每次受到的伤害"
+    ],
+    "plain_descriptions": [
+      "防护+3，减少每次受到的伤害"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 21,
+    "string_start_index": 80,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 22,
+    "category": "buff",
+    "name": "及时支援+",
+    "resource": "Icon_ZiZouQi_RL_FuZhiJueSe_Blue",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\022_Icon_ZiZouQi_RL_FuZhiJueSe_Blue.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_02\\Icon_ZiZouQi_RL_FuZhiJueSe_Blue.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_02",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [
+      "获得1张随机金色橙卡角色"
+    ],
+    "plain_descriptions": [
+      "获得1张随机金色橙卡角色"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 48,
+    "string_start_index": 172,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 23,
+    "category": "buff",
+    "name": "及时支援+",
+    "resource": "Icon_ZiZouQi_RL_FuZhiJueSe_Golden",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\023_Icon_ZiZouQi_RL_FuZhiJueSe_Golden.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_02\\Icon_ZiZouQi_RL_FuZhiJueSe_Golden.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_02",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [
+      "获得1张随机金色橙卡角色"
+    ],
+    "plain_descriptions": [
+      "获得1张随机金色橙卡角色"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 48,
+    "string_start_index": 172,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 24,
+    "category": "buff",
+    "name": "及时支援+",
+    "resource": "Icon_ZiZouQi_RL_FuZhiJueSe_Purple",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\024_Icon_ZiZouQi_RL_FuZhiJueSe_Purple.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_02\\Icon_ZiZouQi_RL_FuZhiJueSe_Purple.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_02",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [
+      "获得1张随机金色橙卡角色"
+    ],
+    "plain_descriptions": [
+      "获得1张随机金色橙卡角色"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 48,
+    "string_start_index": 172,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 25,
+    "category": "buff",
+    "name": "罐头",
+    "resource": "Icon_ZiZouQi_RL_GuanTou_Golden",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\025_Icon_ZiZouQi_RL_GuanTou_Golden.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_05\\Icon_ZiZouQi_RL_GuanTou_Golden.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_05",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_resource_token"
+  },
+  {
+    "index": 26,
+    "category": "buff",
+    "name": "罐头",
+    "resource": "Icon_ZiZouQi_RL_GuanTou_Purple",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\026_Icon_ZiZouQi_RL_GuanTou_Purple.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_05\\Icon_ZiZouQi_RL_GuanTou_Purple.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_05",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_resource_token"
+  },
+  {
+    "index": 27,
+    "category": "buff",
+    "name": "盾墙",
+    "resource": "Icon_ZiZouQi_RL_HuDun_Blue",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\027_Icon_ZiZouQi_RL_HuDun_Blue.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_02\\Icon_ZiZouQi_RL_HuDun_Blue.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_02",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [
+      "你的前排护盾+1"
+    ],
+    "plain_descriptions": [
+      "你的前排护盾+1"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 59,
+    "string_start_index": 216,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 28,
+    "category": "buff",
+    "name": "盾墙",
+    "resource": "Icon_ZiZouQi_RL_HuDun_Golden",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\028_Icon_ZiZouQi_RL_HuDun_Golden.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_02\\Icon_ZiZouQi_RL_HuDun_Golden.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_02",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [
+      "你的前排护盾+1"
+    ],
+    "plain_descriptions": [
+      "你的前排护盾+1"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 59,
+    "string_start_index": 216,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 29,
+    "category": "buff",
+    "name": "盾墙",
+    "resource": "Icon_ZiZouQi_RL_HuDun_Purple",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\029_Icon_ZiZouQi_RL_HuDun_Purple.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_02\\Icon_ZiZouQi_RL_HuDun_Purple.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_02",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [
+      "你的前排护盾+1"
+    ],
+    "plain_descriptions": [
+      "你的前排护盾+1"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 59,
+    "string_start_index": 216,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 30,
+    "category": "buff",
+    "name": "噬魂",
+    "resource": "Icon_ZiZouQi_RL_JiSha_Blue",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\030_Icon_ZiZouQi_RL_JiSha_Blue.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_03\\Icon_ZiZouQi_RL_JiSha_Blue.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_03",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [
+      "你的角色获得消灭：永久+2+2",
+      "获得+2+2"
+    ],
+    "plain_descriptions": [
+      "你的角色获得消灭：永久+2+2",
+      "获得+2+2"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 65,
+    "string_start_index": 241,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 31,
+    "category": "buff",
+    "name": "噬魂",
+    "resource": "Icon_ZiZouQi_RL_JiSha_Golden",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\031_Icon_ZiZouQi_RL_JiSha_Golden.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_03\\Icon_ZiZouQi_RL_JiSha_Golden.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_03",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [
+      "你的角色获得消灭：永久+2+2",
+      "获得+2+2"
+    ],
+    "plain_descriptions": [
+      "你的角色获得消灭：永久+2+2",
+      "获得+2+2"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 65,
+    "string_start_index": 241,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 32,
+    "category": "buff",
+    "name": "噬魂",
+    "resource": "Icon_ZiZouQi_RL_JiSha_Purple",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\032_Icon_ZiZouQi_RL_JiSha_Purple.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_03\\Icon_ZiZouQi_RL_JiSha_Purple.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_03",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [
+      "你的角色获得消灭：永久+2+2",
+      "获得+2+2"
+    ],
+    "plain_descriptions": [
+      "你的角色获得消灭：永久+2+2",
+      "获得+2+2"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 65,
+    "string_start_index": 241,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 33,
+    "category": "buff",
+    "name": "意外之财",
+    "resource": "Icon_ZiZouQi_RL_JinBi_Blue",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\033_Icon_ZiZouQi_RL_JinBi_Blue.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_02\\Icon_ZiZouQi_RL_JinBi_Blue.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_02",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [
+      "金币+5"
+    ],
+    "plain_descriptions": [
+      "金币+5"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 45,
+    "string_start_index": 160,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 34,
+    "category": "buff",
+    "name": "意外之财",
+    "resource": "Icon_ZiZouQi_RL_JinBi_Golden",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\034_Icon_ZiZouQi_RL_JinBi_Golden.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_02\\Icon_ZiZouQi_RL_JinBi_Golden.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_02",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [
+      "金币+5"
+    ],
+    "plain_descriptions": [
+      "金币+5"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 45,
+    "string_start_index": 160,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 35,
+    "category": "buff",
+    "name": "意外之财",
+    "resource": "Icon_ZiZouQi_RL_JinBi_Purple",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\035_Icon_ZiZouQi_RL_JinBi_Purple.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_02\\Icon_ZiZouQi_RL_JinBi_Purple.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_02",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [
+      "金币+5"
+    ],
+    "plain_descriptions": [
+      "金币+5"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 45,
+    "string_start_index": 160,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 36,
+    "category": "buff",
+    "name": "经验主义",
+    "resource": "Icon_ZiZouQi_RL_JingYan_Blue",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\036_Icon_ZiZouQi_RL_JingYan_Blue.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_02\\Icon_ZiZouQi_RL_JingYan_Blue.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_02",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [
+      "经验+6，提升商店等级进度"
+    ],
+    "plain_descriptions": [
+      "经验+6，提升商店等级进度"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 50,
+    "string_start_index": 181,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 37,
+    "category": "buff",
+    "name": "经验主义",
+    "resource": "Icon_ZiZouQi_RL_JingYan_Golden",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\037_Icon_ZiZouQi_RL_JingYan_Golden.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_02\\Icon_ZiZouQi_RL_JingYan_Golden.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_02",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [
+      "经验+6，提升商店等级进度"
+    ],
+    "plain_descriptions": [
+      "经验+6，提升商店等级进度"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 50,
+    "string_start_index": 181,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 38,
+    "category": "buff",
+    "name": "经验主义",
+    "resource": "Icon_ZiZouQi_RL_JingYan_Purple",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\038_Icon_ZiZouQi_RL_JingYan_Purple.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_03\\Icon_ZiZouQi_RL_JingYan_Purple.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_03",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [
+      "经验+6，提升商店等级进度"
+    ],
+    "plain_descriptions": [
+      "经验+6，提升商店等级进度"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 50,
+    "string_start_index": 181,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 39,
+    "category": "buff",
+    "name": "免费门票",
+    "resource": "Icon_ZiZouQi_RL_MianFeiShuaXin_Blue",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\039_Icon_ZiZouQi_RL_MianFeiShuaXin_Blue.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_03\\Icon_ZiZouQi_RL_MianFeiShuaXin_Blue.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_03",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [
+      "每回合获得1次免费刷新"
+    ],
+    "plain_descriptions": [
+      "每回合获得1次免费刷新"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 43,
+    "string_start_index": 152,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 40,
+    "category": "buff",
+    "name": "免费门票",
+    "resource": "Icon_ZiZouQi_RL_MianFeiShuaXin_Golden",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\040_Icon_ZiZouQi_RL_MianFeiShuaXin_Golden.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_03\\Icon_ZiZouQi_RL_MianFeiShuaXin_Golden.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_03",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [
+      "每回合获得1次免费刷新"
+    ],
+    "plain_descriptions": [
+      "每回合获得1次免费刷新"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 43,
+    "string_start_index": 152,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 41,
+    "category": "buff",
+    "name": "免费门票",
+    "resource": "Icon_ZiZouQi_RL_MianFeiShuaXin_Purple",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\041_Icon_ZiZouQi_RL_MianFeiShuaXin_Purple.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_03\\Icon_ZiZouQi_RL_MianFeiShuaXin_Purple.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_03",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [
+      "每回合获得1次免费刷新"
+    ],
+    "plain_descriptions": [
+      "每回合获得1次免费刷新"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 43,
+    "string_start_index": 152,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 42,
+    "category": "buff",
+    "name": "队员集结",
+    "resource": "Icon_ZiZouQi_RL_NvTuan_Blue",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\042_Icon_ZiZouQi_RL_NvTuan_Blue.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_03\\Icon_ZiZouQi_RL_NvTuan_Blue.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_03",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [
+      "获得绿色以上品质的角色卡各1张"
+    ],
+    "plain_descriptions": [
+      "获得绿色以上品质的角色卡各1张"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 44,
+    "string_start_index": 154,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 43,
+    "category": "buff",
+    "name": "队员集结",
+    "resource": "Icon_ZiZouQi_RL_NvTuan_Golden",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\043_Icon_ZiZouQi_RL_NvTuan_Golden.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_03\\Icon_ZiZouQi_RL_NvTuan_Golden.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_03",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [
+      "获得绿色以上品质的角色卡各1张"
+    ],
+    "plain_descriptions": [
+      "获得绿色以上品质的角色卡各1张"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 44,
+    "string_start_index": 154,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 44,
+    "category": "buff",
+    "name": "队员集结",
+    "resource": "Icon_ZiZouQi_RL_NvTuan_Purple",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\044_Icon_ZiZouQi_RL_NvTuan_Purple.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_03\\Icon_ZiZouQi_RL_NvTuan_Purple.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_03",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [
+      "获得绿色以上品质的角色卡各1张"
+    ],
+    "plain_descriptions": [
+      "获得绿色以上品质的角色卡各1张"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 44,
+    "string_start_index": 154,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 65,
+    "category": "buff",
+    "name": "营养均衡",
+    "resource": "Icon_ZiZouQi_RL_XueLiang_Blue",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\065_Icon_ZiZouQi_RL_XueLiang_Blue.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_05\\Icon_ZiZouQi_RL_XueLiang_Blue.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_05",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [
+      "角色战斗中攻击力增加时，永久生命+1",
+      "生命+1"
+    ],
+    "plain_descriptions": [
+      "角色战斗中攻击力增加时，永久生命+1",
+      "生命+1"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 67,
+    "string_start_index": 251,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 66,
+    "category": "buff",
+    "name": "营养均衡",
+    "resource": "Icon_ZiZouQi_RL_XueLiang_Golden",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\066_Icon_ZiZouQi_RL_XueLiang_Golden.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_05\\Icon_ZiZouQi_RL_XueLiang_Golden.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_05",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [
+      "角色战斗中攻击力增加时，永久生命+1",
+      "生命+1"
+    ],
+    "plain_descriptions": [
+      "角色战斗中攻击力增加时，永久生命+1",
+      "生命+1"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 67,
+    "string_start_index": 251,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 67,
+    "category": "buff",
+    "name": "营养均衡",
+    "resource": "Icon_ZiZouQi_RL_XueLiang_Purple",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\067_Icon_ZiZouQi_RL_XueLiang_Purple.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_05\\Icon_ZiZouQi_RL_XueLiang_Purple.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_05",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [
+      "角色战斗中攻击力增加时，永久生命+1",
+      "生命+1"
+    ],
+    "plain_descriptions": [
+      "角色战斗中攻击力增加时，永久生命+1",
+      "生命+1"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 67,
+    "string_start_index": 251,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 71,
+    "category": "buff",
+    "name": "稳健射击+",
+    "resource": "Icon_ZiZouQi_RL_ZengShang_Blue",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\071_Icon_ZiZouQi_RL_ZengShang_Blue.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_05\\Icon_ZiZouQi_RL_ZengShang_Blue.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_05",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [
+      "你的角色增伤+4，增加武器及技能伤害",
+      "增伤+4，增加武器及技能伤害"
+    ],
+    "plain_descriptions": [
+      "你的角色增伤+4，增加武器及技能伤害",
+      "增伤+4，增加武器及技能伤害"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 52,
+    "string_start_index": 187,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 72,
+    "category": "buff",
+    "name": "稳健射击+",
+    "resource": "Icon_ZiZouQi_RL_ZengShang_Golden",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\072_Icon_ZiZouQi_RL_ZengShang_Golden.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_05\\Icon_ZiZouQi_RL_ZengShang_Golden.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_05",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [
+      "你的角色增伤+4，增加武器及技能伤害",
+      "增伤+4，增加武器及技能伤害"
+    ],
+    "plain_descriptions": [
+      "你的角色增伤+4，增加武器及技能伤害",
+      "增伤+4，增加武器及技能伤害"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 52,
+    "string_start_index": 187,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 73,
+    "category": "buff",
+    "name": "稳健射击+",
+    "resource": "Icon_ZiZouQi_RL_ZengShang_Purple",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\073_Icon_ZiZouQi_RL_ZengShang_Purple.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_05\\Icon_ZiZouQi_RL_ZengShang_Purple.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_05",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [
+      "你的角色增伤+4，增加武器及技能伤害",
+      "增伤+4，增加武器及技能伤害"
+    ],
+    "plain_descriptions": [
+      "你的角色增伤+4，增加武器及技能伤害",
+      "增伤+4，增加武器及技能伤害"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 52,
+    "string_start_index": 187,
+    "match_status": "matched_by_resource_alias"
+  },
+  {
+    "index": 74,
+    "category": "buff",
+    "name": "快手",
+    "resource": "Icon_ZiZouQi_RL_kuaishou_Blue",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\074_Icon_ZiZouQi_RL_kuaishou_Blue.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_03\\Icon_ZiZouQi_RL_kuaishou_Blue.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_03",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_resource_token"
+  },
+  {
+    "index": 75,
+    "category": "buff",
+    "name": "快手",
+    "resource": "Icon_ZiZouQi_RL_kuaishou_Golden",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\075_Icon_ZiZouQi_RL_kuaishou_Golden.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_03\\Icon_ZiZouQi_RL_kuaishou_Golden.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_03",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_resource_token"
+  },
+  {
+    "index": 76,
+    "category": "buff",
+    "name": "快手",
+    "resource": "Icon_ZiZouQi_RL_kuaishou_Purple",
+    "png": "autochess_dump\\organized_consume_buffs\\buff_cards\\076_Icon_ZiZouQi_RL_kuaishou_Purple.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_RLBuff_03\\Icon_ZiZouQi_RL_kuaishou_Purple.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_RLBuff_03",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_resource_token"
+  }
+]

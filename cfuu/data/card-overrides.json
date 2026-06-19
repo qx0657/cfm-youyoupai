@@ -1,0 +1,4666 @@
+{
+  "role-Icon_ZiZouQi_JueSe_Bosaidong_QFZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_Bosaidong_QFZ",
+    "resource": "Icon_ZiZouQi_JueSe_Bosaidong_QFZ",
+    "category": "role",
+    "name": "波塞冬",
+    "quality": "green",
+    "factions": [
+      "审判之眼"
+    ],
+    "keywords": [],
+    "descriptions": [
+      "商店中的角色+3+3",
+      "商店中的角色+6+6"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_XiangSuYunYouYou": {
+    "id": "role-Icon_ZiZouQi_JueSe_XiangSuYunYouYou",
+    "resource": "Icon_ZiZouQi_JueSe_XiangSuYunYouYou",
+    "category": "role",
+    "name": "像素云悠悠",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "皮肤卡"
+    ],
+    "hidden": true
+  },
+  "throwable-Icon_ZiZouQi_DaoJu_putongranshaodan": {
+    "id": "throwable-Icon_ZiZouQi_DaoJu_putongranshaodan",
+    "resource": "Icon_ZiZouQi_DaoJu_putongranshaodan",
+    "category": "throwable",
+    "name": "燃烧弹",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true,
+    "quality": "blue"
+  },
+  "throwable-Icon_ZiZouQi_DaoJu_putongshanguangdan": {
+    "id": "throwable-Icon_ZiZouQi_DaoJu_putongshanguangdan",
+    "resource": "Icon_ZiZouQi_DaoJu_putongshanguangdan",
+    "category": "throwable",
+    "name": "闪光弹",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true,
+    "quality": "blue"
+  },
+  "throwable-Icon_ZiZouQi_DaoJu_putongshoulei": {
+    "id": "throwable-Icon_ZiZouQi_DaoJu_putongshoulei",
+    "resource": "Icon_ZiZouQi_DaoJu_putongshoulei",
+    "category": "throwable",
+    "name": "手雷",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "对目标造成8点伤害"
+    ],
+    "hidden": false,
+    "quality": "blue"
+  },
+  "throwable-Icon_ZiZouQi_DaoJu_putongyanwudan": {
+    "id": "throwable-Icon_ZiZouQi_DaoJu_putongyanwudan",
+    "resource": "Icon_ZiZouQi_DaoJu_putongyanwudan",
+    "category": "throwable",
+    "name": "烟雾弹",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true,
+    "quality": "blue"
+  },
+  "throwable-Icon_ZiZouQi_Weapon_WZZY_ZiDianRongYan": {
+    "id": "throwable-Icon_ZiZouQi_Weapon_WZZY_ZiDianRongYan",
+    "resource": "Icon_ZiZouQi_Weapon_WZZY_ZiDianRongYan",
+    "category": "throwable",
+    "name": "紫电熔岩",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true,
+    "quality": "gold"
+  },
+  "role-Icon_ZiZouQi_JueSe_AoGu_BWZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_AoGu_BWZ",
+    "resource": "Icon_ZiZouQi_JueSe_AoGu_BWZ",
+    "category": "role",
+    "name": "傲骨",
+    "quality": "gold",
+    "factions": [
+      "隐袭"
+    ],
+    "keywords": [
+      "消灭"
+    ],
+    "descriptions": [
+      "消灭：随机其他友方永久获得+1+1(+1+1)，随本局友方总消灭次数提升",
+      "消灭：随机其他友方永久获得+2+2(+2+2)，随本局友方总消灭次数提升"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_HongEr_BWZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_HongEr_BWZ",
+    "resource": "Icon_ZiZouQi_JueSe_HongEr_BWZ",
+    "category": "role",
+    "name": "虹儿",
+    "quality": "gold",
+    "factions": [
+      "HeartShot"
+    ],
+    "keywords": [
+      "快手"
+    ],
+    "descriptions": [
+      "友方快手效果触发2次（同名唯一生效）",
+      "友方快手效果触发3次（同名唯一生效）"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_Ying_QFZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_Ying_QFZ",
+    "resource": "Icon_ZiZouQi_JueSe_Ying_QFZ",
+    "category": "role",
+    "name": "Icon_ZiZouQi_JueSe_Ying_QFZ",
+    "factions": [],
+    "keywords": [
+      "快手"
+    ],
+    "descriptions": [
+      "友方触发快手时，自己永久+2+3",
+      "获得+2+3",
+      "友方触发快手时，自己永久+4+6",
+      "获得+4+6"
+    ],
+    "hidden": true,
+    "quality": "gold"
+  },
+  "role-Icon_ZiZouQi_JueSe_Chan": {
+    "id": "role-Icon_ZiZouQi_JueSe_Chan",
+    "resource": "Icon_ZiZouQi_JueSe_Chan",
+    "category": "role",
+    "name": "蝉",
+    "quality": "purple",
+    "factions": [
+      "潜伏者"
+    ],
+    "keywords": [
+      "遗言"
+    ],
+    "descriptions": [
+      "同排友方收到伤害时，自身获得遗言：对随机目标造成3点伤害",
+      "同排友方收到伤害时，自身获得遗言：对随机目标造成3点伤害2次"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_Tong_QFZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_Tong_QFZ",
+    "resource": "Icon_ZiZouQi_JueSe_Tong_QFZ",
+    "category": "role",
+    "name": "Icon_ZiZouQi_JueSe_Tong_QFZ",
+    "factions": [
+      "保卫者"
+    ],
+    "keywords": [
+      "遗言",
+      "护盾"
+    ],
+    "descriptions": [
+      "遗言：对友方造成1点伤害，并使其获得1层护盾",
+      "遗言：对友方造成1点伤害，并使其获得1层护盾，触发2次"
+    ],
+    "hidden": true,
+    "quality": "gold"
+  },
+  "role-Icon_ZiZouQi_JueSe_NaTaSha_QFZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_NaTaSha_QFZ",
+    "resource": "Icon_ZiZouQi_JueSe_NaTaSha_QFZ",
+    "category": "role",
+    "name": "娜塔莎",
+    "quality": "blue",
+    "factions": [
+      "保卫者"
+    ],
+    "keywords": [
+      "协同",
+      "护盾"
+    ],
+    "descriptions": [
+      "协同，护盾，失去护盾时，自身获得+2+2",
+      "协同，护盾，失去护盾时，自身获得+4+4"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_DiYu": {
+    "id": "role-Icon_ZiZouQi_JueSe_DiYu",
+    "resource": "Icon_ZiZouQi_JueSe_DiYu",
+    "category": "role",
+    "name": "地狱终结者",
+    "quality": "gold",
+    "factions": [
+      "幽灵"
+    ],
+    "keywords": [],
+    "descriptions": [
+      "自身获得属性时，翻倍",
+      "自身获得属性时，翻3倍"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_WuYi": {
+    "id": "role-Icon_ZiZouQi_JueSe_WuYi",
+    "resource": "Icon_ZiZouQi_JueSe_WuYi",
+    "category": "role",
+    "name": "巫医",
+    "quality": "purple",
+    "factions": [
+      "幽灵"
+    ],
+    "keywords": [
+      "遗言"
+    ],
+    "descriptions": [
+      "遗言：获得1张具有协同的生化幽灵",
+      "遗言：获得1张金色具有协同的生化幽灵"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_LvJuRen": {
+    "id": "role-Icon_ZiZouQi_JueSe_LvJuRen",
+    "resource": "Icon_ZiZouQi_JueSe_LvJuRen",
+    "category": "role",
+    "name": "绿巨人",
+    "quality": "green",
+    "factions": [
+      "幽灵"
+    ],
+    "keywords": [
+      "遗言"
+    ],
+    "descriptions": [
+      "遗言：召唤生化幽灵，并使你本局的生化幽灵+1+1",
+      "遗言：召唤金色生化幽灵，并使你本局的生化幽灵+2+2"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_Mantuoluo": {
+    "id": "role-Icon_ZiZouQi_JueSe_Mantuoluo",
+    "resource": "Icon_ZiZouQi_JueSe_Mantuoluo",
+    "category": "role",
+    "name": "曼陀罗09",
+    "quality": "gold",
+    "factions": [
+      "谍报特工"
+    ],
+    "keywords": [],
+    "descriptions": [
+      "无法攻击，其他友方攻击前，获得自身的攻击",
+      "无法攻击，其他友方攻击前，获得自身2倍的攻击"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_ManTuoLuo_QFZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_ManTuoLuo_QFZ",
+    "resource": "Icon_ZiZouQi_JueSe_ManTuoLuo_QFZ",
+    "category": "role",
+    "name": "曼陀罗",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true,
+    "quality": "gold"
+  },
+  "role-Icon_ZiZouQi_JueSe_LuoKe_QFZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_LuoKe_QFZ",
+    "resource": "Icon_ZiZouQi_JueSe_LuoKe_QFZ",
+    "category": "role",
+    "name": "洛克",
+    "quality": "purple",
+    "factions": [
+      "谍报特工"
+    ],
+    "keywords": [],
+    "descriptions": [
+      "攻击前，获得自身攻击力50%的生命",
+      "攻击前，获得自身攻击力100%的生命"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_Chun": {
+    "id": "role-Icon_ZiZouQi_JueSe_Chun",
+    "resource": "Icon_ZiZouQi_JueSe_Chun",
+    "category": "role",
+    "name": "春",
+    "quality": "purple",
+    "factions": [
+      "谍报特工"
+    ],
+    "keywords": [],
+    "descriptions": [
+      "无法攻击，友方谍报特工角色收到攻击前，造成1次其攻击50%的伤害",
+      "无法攻击，友方谍报特工角色收到攻击前，造成1次其攻击的伤害"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_YeMeiGui_QFZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_YeMeiGui_QFZ",
+    "resource": "Icon_ZiZouQi_JueSe_YeMeiGui_QFZ",
+    "category": "role",
+    "name": "夜玫瑰",
+    "quality": "purple",
+    "factions": [
+      "谍报特工"
+    ],
+    "keywords": [
+      "协同"
+    ],
+    "descriptions": [
+      "协同：友方攻击时，自身获得+2+2",
+      "协同：友方攻击时，自身获得+4+4"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_QianLongDui_BWZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_QianLongDui_BWZ",
+    "resource": "Icon_ZiZouQi_JueSe_QianLongDui_BWZ",
+    "category": "role",
+    "name": "潜龙队",
+    "quality": "blue",
+    "factions": [
+      "谍报特工"
+    ],
+    "keywords": [],
+    "descriptions": [
+      "无法攻击，友方在战斗中获得攻击时，自身永久+2生命",
+      "无法攻击，友方在战斗中获得攻击时，自身永久+4生命"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_MaQue_QFZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_MaQue_QFZ",
+    "resource": "Icon_ZiZouQi_JueSe_MaQue_QFZ",
+    "category": "role",
+    "name": "麻雀",
+    "quality": "blue",
+    "factions": [
+      "谍报特工"
+    ],
+    "keywords": [
+      "成长"
+    ],
+    "descriptions": [
+      "无法攻击，成长：所有无法攻击友方+2+3",
+      "无法攻击，成长：所有无法攻击友方+4+6"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_Anying_QFZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_Anying_QFZ",
+    "resource": "Icon_ZiZouQi_JueSe_Anying_QFZ",
+    "category": "role",
+    "name": "暗影",
+    "quality": "green",
+    "factions": [
+      "谍报特工"
+    ],
+    "keywords": [],
+    "descriptions": [
+      "攻击前，永久+1+1",
+      "攻击前，永久+2+2"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_ShenPanZhe_QFZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_ShenPanZhe_QFZ",
+    "resource": "Icon_ZiZouQi_JueSe_ShenPanZhe_QFZ",
+    "category": "role",
+    "name": "审判者",
+    "quality": "gold",
+    "factions": [
+      "审判之眼"
+    ],
+    "keywords": [],
+    "descriptions": [
+      "刷新商店时，1名友方获得随机1张被刷走的角色牌的属性",
+      "刷新商店时，1名友方获得随机1张被刷走的角色牌200%的属性"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_Taiyangshen_BWZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_Taiyangshen_BWZ",
+    "resource": "Icon_ZiZouQi_JueSe_Taiyangshen_BWZ",
+    "category": "role",
+    "name": "太阳神",
+    "quality": "purple",
+    "factions": [
+      "审判之眼"
+    ],
+    "keywords": [
+      "成长"
+    ],
+    "descriptions": [
+      "成长：获得商店中随机1张角色牌的属性",
+      "成长：获得商店中随机1张角色牌的2倍的属性"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_Yueshen_BWZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_Yueshen_BWZ",
+    "resource": "Icon_ZiZouQi_JueSe_Yueshen_BWZ",
+    "category": "role",
+    "name": "月神",
+    "quality": "purple",
+    "factions": [
+      "审判之眼"
+    ],
+    "keywords": [],
+    "descriptions": [
+      "使用消耗牌使，使你本局商店中的角色+1+2",
+      "使用消耗牌使，使你本局商店中的角色+2+4"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_Duotianshi": {
+    "id": "role-Icon_ZiZouQi_JueSe_Duotianshi",
+    "resource": "Icon_ZiZouQi_JueSe_Duotianshi",
+    "category": "role",
+    "name": "堕天使",
+    "quality": "purple",
+    "factions": [
+      "审判之眼"
+    ],
+    "keywords": [
+      "遗言"
+    ],
+    "descriptions": [
+      "遗言：你本局商店中的角色+1+3",
+      "遗言：你本局商店中的角色+2+6"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_Yadianna_BWZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_Yadianna_BWZ",
+    "resource": "Icon_ZiZouQi_JueSe_Yadianna_BWZ",
+    "category": "role",
+    "name": "雅典娜",
+    "quality": "blue",
+    "factions": [
+      "审判之眼"
+    ],
+    "keywords": [
+      "成长"
+    ],
+    "descriptions": [
+      "成长：本局商店中的角色+1+2",
+      "成长：本局商店中的角色+2+4"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_DaJi_QFZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_DaJi_QFZ",
+    "resource": "Icon_ZiZouQi_JueSe_DaJi_QFZ",
+    "category": "role",
+    "name": "妲姬",
+    "quality": "gold",
+    "factions": [
+      "鸿运星光"
+    ],
+    "keywords": [],
+    "descriptions": [
+      "你的金币加成类技能效果翻倍（同名唯一生效）",
+      "你的金币加成类技能效果变为3倍（同名唯一生效）"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_HuDie_QFZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_HuDie_QFZ",
+    "resource": "Icon_ZiZouQi_JueSe_HuDie_QFZ",
+    "category": "role",
+    "name": "蝴蝶",
+    "quality": "purple",
+    "factions": [
+      "鸿运星光"
+    ],
+    "keywords": [
+      "成长"
+    ],
+    "descriptions": [
+      "成长：+1+1，每有4金币，额外+1+1",
+      "成长：+2+2，每有2金币，额外+1+1"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_NvMei_QFZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_NvMei_QFZ",
+    "resource": "Icon_ZiZouQi_JueSe_NvMei_QFZ",
+    "category": "role",
+    "name": "牛妹",
+    "quality": "purple",
+    "factions": [
+      "鸿运星光"
+    ],
+    "keywords": [
+      "成长"
+    ],
+    "descriptions": [
+      "成长：所有友方，每有6金币+1+1",
+      "成长：所有友方，每有3金币+1+1"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_Shuxue_BWZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_Shuxue_BWZ",
+    "resource": "Icon_ZiZouQi_JueSe_Shuxue_BWZ",
+    "category": "role",
+    "name": "蜀雪",
+    "quality": "blue",
+    "factions": [
+      "鸿运星光"
+    ],
+    "keywords": [
+      "快手"
+    ],
+    "descriptions": [
+      "快手：对2个敌人造成等同金币数50%的伤害",
+      "快手：对2个敌人造成等同金币数的伤害"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_Tianzhu": {
+    "id": "role-Icon_ZiZouQi_JueSe_Tianzhu",
+    "resource": "Icon_ZiZouQi_JueSe_Tianzhu",
+    "category": "role",
+    "name": "天蛛",
+    "quality": "gold",
+    "factions": [
+      "核心兵器"
+    ],
+    "keywords": [
+      "成长",
+      "协同"
+    ],
+    "descriptions": [
+      "成长：获得1张具有协同的异性机甲，并使你本剧的异性机甲获得+2+2",
+      "成长：获得2张具有协同的异性机甲，并使你本剧的异性机甲获得+4+4"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_SunWuKong_QFZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_SunWuKong_QFZ",
+    "resource": "Icon_ZiZouQi_JueSe_SunWuKong_QFZ",
+    "category": "role",
+    "name": "孙悟空",
+    "quality": "gold",
+    "factions": [
+      "核心兵器"
+    ],
+    "keywords": [
+      "连续行动",
+      "协同"
+    ],
+    "descriptions": [
+      "连续行动*1，攻击时，所有友方永久获得+1+1，自身每有一张协同牌，提升此效果",
+      "连续行动*1，攻击时，所有友方永久获得+2+2，自身每有一张协同牌，提升此效果"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_FengHuangYiXing": {
+    "id": "role-Icon_ZiZouQi_JueSe_FengHuangYiXing",
+    "resource": "Icon_ZiZouQi_JueSe_FengHuangYiXing",
+    "category": "role",
+    "name": "凤凰",
+    "quality": "purple",
+    "factions": [
+      "核心兵器"
+    ],
+    "keywords": [],
+    "descriptions": [
+      "无法攻击，友方攻击时，使你的异形机甲获得+1+1",
+      "无法攻击，友方攻击时，使你的异形机甲获得+2+2"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_N22_QFZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_N22_QFZ",
+    "resource": "Icon_ZiZouQi_JueSe_N22_QFZ",
+    "category": "role",
+    "name": "N22",
+    "quality": "blue",
+    "factions": [
+      "核心兵器"
+    ],
+    "keywords": [
+      "协同"
+    ],
+    "descriptions": [
+      "攻击时，获得1张具有协同的异形机甲",
+      "攻击时，获得2张具有协同的异形机甲"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_SanWa": {
+    "id": "role-Icon_ZiZouQi_JueSe_SanWa",
+    "resource": "Icon_ZiZouQi_JueSe_SanWa",
+    "category": "role",
+    "name": "三娃",
+    "quality": "gold",
+    "factions": [
+      "葫芦娃"
+    ],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "role-Icon_ZiZouQi_JueSe_ErWa": {
+    "id": "role-Icon_ZiZouQi_JueSe_ErWa",
+    "resource": "Icon_ZiZouQi_JueSe_ErWa",
+    "category": "role",
+    "name": "二娃",
+    "quality": "gold",
+    "factions": [
+      "葫芦娃"
+    ],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "role-Icon_ZiZouQi_JueSe_LiuWa": {
+    "id": "role-Icon_ZiZouQi_JueSe_LiuWa",
+    "resource": "Icon_ZiZouQi_JueSe_LiuWa",
+    "category": "role",
+    "name": "六娃",
+    "quality": "gold",
+    "factions": [
+      "葫芦娃"
+    ],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "role-Icon_ZiZouQi_JueSe_QiWa": {
+    "id": "role-Icon_ZiZouQi_JueSe_QiWa",
+    "resource": "Icon_ZiZouQi_JueSe_QiWa",
+    "category": "role",
+    "name": "七娃",
+    "quality": "gold",
+    "factions": [
+      "葫芦娃"
+    ],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "role-Icon_ZiZouQi_JueSe_WuWa": {
+    "id": "role-Icon_ZiZouQi_JueSe_WuWa",
+    "resource": "Icon_ZiZouQi_JueSe_WuWa",
+    "category": "role",
+    "name": "五娃",
+    "quality": "gold",
+    "factions": [
+      "葫芦娃"
+    ],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "role-Icon_ZiZouQi_JueSe_SiWa": {
+    "id": "role-Icon_ZiZouQi_JueSe_SiWa",
+    "resource": "Icon_ZiZouQi_JueSe_SiWa",
+    "category": "role",
+    "name": "四娃",
+    "quality": "gold",
+    "factions": [
+      "葫芦娃"
+    ],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "role-Icon_ZiZouQi_JueSe_DaWa": {
+    "id": "role-Icon_ZiZouQi_JueSe_DaWa",
+    "resource": "Icon_ZiZouQi_JueSe_DaWa",
+    "category": "role",
+    "name": "大娃",
+    "quality": "gold",
+    "factions": [
+      "葫芦娃"
+    ],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "role-Icon_ZiZouQi_JueSe_YeYe": {
+    "id": "role-Icon_ZiZouQi_JueSe_YeYe",
+    "resource": "Icon_ZiZouQi_JueSe_YeYe",
+    "category": "role",
+    "name": "爷爷",
+    "quality": "gold",
+    "factions": [
+      "葫芦娃"
+    ],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "role-Icon_ZiZouQi_JueSe_XiaRiLingHu": {
+    "id": "role-Icon_ZiZouQi_JueSe_XiaRiLingHu",
+    "resource": "Icon_ZiZouQi_JueSe_XiaRiLingHu",
+    "category": "role",
+    "name": "夏日灵狐",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "皮肤卡"
+    ],
+    "hidden": true
+  },
+  "role-Icon_ZiZouQi_JueSe_ZhiChangLingHu": {
+    "id": "role-Icon_ZiZouQi_JueSe_ZhiChangLingHu",
+    "resource": "Icon_ZiZouQi_JueSe_ZhiChangLingHu",
+    "category": "role",
+    "name": "职场灵狐",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "皮肤卡"
+    ],
+    "hidden": true
+  },
+  "role-Icon_ZiZouQi_JueSe_JingZheQingYa": {
+    "id": "role-Icon_ZiZouQi_JueSe_JingZheQingYa",
+    "resource": "Icon_ZiZouQi_JueSe_JingZheQingYa",
+    "category": "role",
+    "name": "惊蛰晴雅",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true,
+    "quality": "gold"
+  },
+  "role-Icon_ZiZouQi_JueSe_JiGuanShe": {
+    "id": "role-Icon_ZiZouQi_JueSe_JiGuanShe",
+    "resource": "Icon_ZiZouQi_JueSe_JiGuanShe",
+    "category": "role",
+    "name": "机关蛇",
+    "quality": "purple",
+    "factions": [
+      "核心兵器"
+    ],
+    "keywords": [
+      "协同"
+    ],
+    "descriptions": [
+      "使用协同牌时，对随机1名友方使用1次未加成复制",
+      "使用协同牌时，对随机2名友方使用1次未加成复制"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_Luoyi": {
+    "id": "role-Icon_ZiZouQi_JueSe_Luoyi",
+    "resource": "Icon_ZiZouQi_JueSe_Luoyi",
+    "category": "role",
+    "name": "洛伊",
+    "quality": "green",
+    "factions": [],
+    "keywords": [
+      "嘲讽",
+      "护盾"
+    ],
+    "descriptions": [
+      "嘲讽，护盾",
+      "嘲讽，护盾"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_DaoFeng_BWZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_DaoFeng_BWZ",
+    "resource": "Icon_ZiZouQi_JueSe_DaoFeng_BWZ",
+    "category": "role",
+    "name": "刀锋",
+    "quality": "gold",
+    "factions": [
+      "山海经"
+    ],
+    "keywords": [
+      "成长"
+    ],
+    "descriptions": [
+      "成长：友方+1+1，本局每次触发后，提升此效果",
+      "成长：友方+2+2，本局每次触发后，提升此效果"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_ZhuJiuYin": {
+    "id": "role-Icon_ZiZouQi_JueSe_ZhuJiuYin",
+    "resource": "Icon_ZiZouQi_JueSe_ZhuJiuYin",
+    "category": "role",
+    "name": "烛九阴",
+    "quality": "gold",
+    "factions": [
+      "山海经"
+    ],
+    "keywords": [
+      "成长"
+    ],
+    "descriptions": [
+      "友方触发成长时，自身+2+5",
+      "友方触发成长时，自身+4+10"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_WangZheLing_BWZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_WangZheLing_BWZ",
+    "resource": "Icon_ZiZouQi_JueSe_WangZheLing_BWZ",
+    "category": "role",
+    "name": "王者零",
+    "factions": [
+      "保卫者"
+    ],
+    "keywords": [
+      "遗言",
+      "护盾"
+    ],
+    "descriptions": [
+      "遗言：对友方造成1点伤害，并使其获得1层护盾",
+      "遗言：对友方造成1点伤害，并使其获得1层护盾，触发2次"
+    ],
+    "hidden": false,
+    "quality": "gold"
+  },
+  "role-Icon_ZiZouQi_JueSe_AoWa_QFZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_AoWa_QFZ",
+    "resource": "Icon_ZiZouQi_JueSe_AoWa_QFZ",
+    "category": "role",
+    "name": "奥娃",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true,
+    "quality": "gold"
+  },
+  "role-Icon_ZiZouQi_JueSe_ZiHan_BWZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_ZiHan_BWZ",
+    "resource": "Icon_ZiZouQi_JueSe_ZiHan_BWZ",
+    "category": "role",
+    "name": "子涵",
+    "factions": [
+      "隐袭"
+    ],
+    "keywords": [
+      "快手"
+    ],
+    "descriptions": [
+      "快手：敌方攻击-4生命-4",
+      "获得-4-4"
+    ],
+    "hidden": true,
+    "quality": "gold"
+  },
+  "role-Icon_ZiZouQi_JueSe_Kui_BWZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_Kui_BWZ",
+    "resource": "Icon_ZiZouQi_JueSe_Kui_BWZ",
+    "category": "role",
+    "name": "葵",
+    "quality": "blue",
+    "factions": [
+      "隐袭"
+    ],
+    "keywords": [
+      "消灭"
+    ],
+    "descriptions": [
+      "消灭：自身永久+2+4",
+      "消灭：自身永久+4+8"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_LuoLa_QFZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_LuoLa_QFZ",
+    "resource": "Icon_ZiZouQi_JueSe_LuoLa_QFZ",
+    "category": "role",
+    "name": "萝拉",
+    "factions": [
+      "隐袭"
+    ],
+    "keywords": [
+      "消灭"
+    ],
+    "descriptions": [
+      "消灭：友方永久+3+3",
+      "获得+3+3",
+      "消灭：友方永久+6+6",
+      "获得+6+6"
+    ],
+    "hidden": true,
+    "quality": "purple"
+  },
+  "role-Icon_ZiZouQi_JueSe_ZhongXiaoKui": {
+    "id": "role-Icon_ZiZouQi_JueSe_ZhongXiaoKui",
+    "resource": "Icon_ZiZouQi_JueSe_ZhongXiaoKui",
+    "category": "role",
+    "name": "钟小葵",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true,
+    "quality": "gold"
+  },
+  "weapon-Icon_ZiZouQi_WuQi_SKS_yeding": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_SKS_yeding",
+    "resource": "Icon_ZiZouQi_WuQi_SKS_yeding",
+    "category": "weapon",
+    "name": "SKS-夜鼎",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true,
+    "quality": "gold"
+  },
+  "weapon-Icon_ZiZouQi_WuQi_SPAS12_qintianzhu": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_SPAS12_qintianzhu",
+    "resource": "Icon_ZiZouQi_WuQi_SPAS12_qintianzhu",
+    "category": "weapon",
+    "name": "SPAS12-擎天柱",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true,
+    "quality": "gold"
+  },
+  "weapon-Icon_ZiZouQi_WuQi_P90_MengHuo03": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_P90_MengHuo03",
+    "resource": "Icon_ZiZouQi_WuQi_P90_MengHuo03",
+    "category": "weapon",
+    "name": "P90-孟获",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true,
+    "quality": "gold"
+  },
+  "weapon-Icon_ZiZouQi_WuQi_MK5_jiguang": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_MK5_jiguang",
+    "resource": "Icon_ZiZouQi_WuQi_MK5_jiguang",
+    "category": "weapon",
+    "name": "MK5-极光",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true,
+    "quality": "gold"
+  },
+  "weapon-Icon_ZiZouQi_WuQi_M16_EMo03": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_M16_EMo03",
+    "resource": "Icon_ZiZouQi_WuQi_M16_EMo03",
+    "category": "weapon",
+    "name": "M16-恶魔",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true,
+    "quality": "gold"
+  },
+  "weapon-Icon_ZiZouQi_WuQi_MG36_weizhentian": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_MG36_weizhentian",
+    "resource": "Icon_ZiZouQi_WuQi_MG36_weizhentian",
+    "category": "weapon",
+    "name": "MG36-威震天",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true,
+    "quality": "gold"
+  },
+  "weapon-Icon_ZiZouQi_WuQi_HK416_ZhuQue03": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_HK416_ZhuQue03",
+    "resource": "Icon_ZiZouQi_WuQi_HK416_ZhuQue03",
+    "category": "weapon",
+    "name": "HK416-朱雀",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true,
+    "quality": "gold"
+  },
+  "weapon-Icon_ZiZouQi_WuQi_liuyisi_xueyue": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_liuyisi_xueyue",
+    "resource": "Icon_ZiZouQi_WuQi_liuyisi_xueyue",
+    "category": "weapon",
+    "name": "刘易斯-血月",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true,
+    "quality": "gold"
+  },
+  "weapon-Icon_ZiZouQi_WuQi_qichui_mojiezuo": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_qichui_mojiezuo",
+    "resource": "Icon_ZiZouQi_WuQi_qichui_mojiezuo",
+    "category": "weapon",
+    "name": "气锤-摩羯座",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true,
+    "quality": "gold"
+  },
+  "weapon-Icon_ZiZouQi_WuQi_qingtian": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_qingtian",
+    "resource": "Icon_ZiZouQi_WuQi_qingtian",
+    "category": "weapon",
+    "name": "擎天",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true,
+    "quality": "gold"
+  },
+  "weapon-Icon_ZiZouQi_WuQi_ShaYing_YouQiBing": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_ShaYing_YouQiBing",
+    "resource": "Icon_ZiZouQi_WuQi_ShaYing_YouQiBing",
+    "category": "weapon",
+    "name": "沙漠之鹰-游骑兵",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true,
+    "quality": "gold"
+  },
+  "weapon-Icon_ZiZouQi_WuQi_tulong": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_tulong",
+    "resource": "Icon_ZiZouQi_WuQi_tulong",
+    "category": "weapon",
+    "name": "屠龙",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true,
+    "quality": "gold"
+  },
+  "weapon-Icon_ZiZouQi_WuQi_WangZheZhiYing": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_WangZheZhiYing",
+    "resource": "Icon_ZiZouQi_WuQi_WangZheZhiYing",
+    "category": "weapon",
+    "name": "王者之影",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "自身获得属性时，翻倍"
+    ],
+    "hidden": true
+  },
+  "role-Icon_ZiZouQi_JueSe_DianCiTanKe": {
+    "id": "role-Icon_ZiZouQi_JueSe_DianCiTanKe",
+    "resource": "Icon_ZiZouQi_JueSe_DianCiTanKe",
+    "category": "role",
+    "name": "电磁坦克",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "友方阵亡时，获得等同于其生命的攻击",
+      "友方阵亡时，获得等同于其2倍生命的攻击"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_Fenliezhe": {
+    "id": "role-Icon_ZiZouQi_JueSe_Fenliezhe",
+    "resource": "Icon_ZiZouQi_JueSe_Fenliezhe",
+    "category": "role",
+    "name": "分裂者",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "可以和任意其他卡牌进行合成，自己无法进行合成"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_TaiTan": {
+    "id": "role-Icon_ZiZouQi_JueSe_TaiTan",
+    "resource": "Icon_ZiZouQi_JueSe_TaiTan",
+    "category": "role",
+    "name": "泰坦",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [
+      "遗言"
+    ],
+    "descriptions": [
+      "友方遗言效果触发2次（同名唯一生效）",
+      "友方遗言效果触发3次（同名唯一生效）"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_DiHuangXia": {
+    "id": "role-Icon_ZiZouQi_JueSe_DiHuangXia",
+    "resource": "Icon_ZiZouQi_JueSe_DiHuangXia",
+    "category": "role",
+    "name": "帝皇侠",
+    "quality": "gold",
+    "factions": [
+      "铠甲勇士"
+    ],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "role-Icon_ZiZouQi_JueSe_YanLongXia": {
+    "id": "role-Icon_ZiZouQi_JueSe_YanLongXia",
+    "resource": "Icon_ZiZouQi_JueSe_YanLongXia",
+    "category": "role",
+    "name": "炎龙侠",
+    "quality": "gold",
+    "factions": [
+      "铠甲勇士"
+    ],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "throwable-Icon_ZiZouQi_DaoJu_Wangzhezhisuo": {
+    "id": "throwable-Icon_ZiZouQi_DaoJu_Wangzhezhisuo",
+    "resource": "Icon_ZiZouQi_DaoJu_Wangzhezhisuo",
+    "category": "throwable",
+    "name": "雷霆王者闪光弹",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "使目标眩晕1回合"
+    ],
+    "hidden": false
+  },
+  "throwable-Icon_ZiZouQi_DaoJu_Wangzhezhishi": {
+    "id": "throwable-Icon_ZiZouQi_DaoJu_Wangzhezhishi",
+    "resource": "Icon_ZiZouQi_DaoJu_Wangzhezhishi",
+    "category": "throwable",
+    "name": "王者之势烟雾弹",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "使目标的攻击减半"
+    ],
+    "hidden": false
+  },
+  "throwable-Icon_ZiZouQi_DaoJu_Zujiuying": {
+    "id": "throwable-Icon_ZiZouQi_DaoJu_Zujiuying",
+    "resource": "Icon_ZiZouQi_DaoJu_Zujiuying",
+    "category": "throwable",
+    "name": "烛九阴燃烧弹",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [
+      "燃烧"
+    ],
+    "descriptions": [
+      "使对方全体目标燃烧，每次行动前生命-10"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_AoMo_QFZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_AoMo_QFZ",
+    "resource": "Icon_ZiZouQi_JueSe_AoMo_QFZ",
+    "category": "role",
+    "name": "奥摩",
+    "quality": "gold",
+    "factions": [
+      "潜伏者"
+    ],
+    "keywords": [],
+    "descriptions": [
+      "友方造成伤害时，自身永久+2+5",
+      "友方造成伤害时，自身永久+4+10"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_BuLianShi_BWZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_BuLianShi_BWZ",
+    "resource": "Icon_ZiZouQi_JueSe_BuLianShi_BWZ",
+    "category": "role",
+    "name": "步练师",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "role-Icon_ZiZouQi_JueSe_GangTie": {
+    "id": "role-Icon_ZiZouQi_JueSe_GangTie",
+    "resource": "Icon_ZiZouQi_JueSe_GangTie",
+    "category": "role",
+    "name": "钢铁终结者",
+    "quality": "gold",
+    "factions": [
+      "幽灵"
+    ],
+    "keywords": [
+      "消灭",
+      "生化幽灵"
+    ],
+    "descriptions": [
+      "攻击对所有敌人造成伤害，消灭：召唤生化幽灵",
+      "攻击对所有敌人造成伤害，消灭：召唤金色生化幽灵"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_GaoBaoYiXing": {
+    "id": "role-Icon_ZiZouQi_JueSe_GaoBaoYiXing",
+    "resource": "Icon_ZiZouQi_JueSe_GaoBaoYiXing",
+    "category": "role",
+    "name": "高爆异形",
+    "quality": "green",
+    "factions": [
+      "核心兵器"
+    ],
+    "keywords": [
+      "协同"
+    ],
+    "descriptions": [
+      "协同，攻击时，使所有友方获得+3+3",
+      "协同，攻击时，使所有友方获得+6+6"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_HuiTuiYiXing": {
+    "id": "role-Icon_ZiZouQi_JueSe_HuiTuiYiXing",
+    "resource": "Icon_ZiZouQi_JueSe_HuiTuiYiXing",
+    "category": "role",
+    "name": "回退异形",
+    "quality": "green",
+    "factions": [
+      "核心兵器"
+    ],
+    "keywords": [
+      "协同"
+    ],
+    "descriptions": [
+      "协同，刷新时，获得+1+2",
+      "协同，刷新时，获得+2+4"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_ZiBaoYiXing": {
+    "id": "role-Icon_ZiZouQi_JueSe_ZiBaoYiXing",
+    "resource": "Icon_ZiZouQi_JueSe_ZiBaoYiXing",
+    "category": "role",
+    "name": "自爆异形",
+    "quality": "green",
+    "factions": [
+      "核心兵器"
+    ],
+    "keywords": [
+      "协同"
+    ],
+    "descriptions": [
+      "协同，攻击时，对随机2名敌方造成5点伤害",
+      "协同，攻击时，对随机2名敌方造成10点伤害"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_LuZhangYiXing": {
+    "id": "role-Icon_ZiZouQi_JueSe_LuZhangYiXing",
+    "resource": "Icon_ZiZouQi_JueSe_LuZhangYiXing",
+    "category": "role",
+    "name": "路障异形",
+    "quality": "green",
+    "factions": [
+      "核心兵器"
+    ],
+    "keywords": [
+      "协同"
+    ],
+    "descriptions": [
+      "协同，每回合免费刷新1次",
+      "协同，每回合免费刷新2次"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_LieHuZhe_QFZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_LieHuZhe_QFZ",
+    "resource": "Icon_ZiZouQi_JueSe_LieHuZhe_QFZ",
+    "category": "role",
+    "name": "猎狐者",
+    "quality": "gold",
+    "factions": [
+      "潜伏者"
+    ],
+    "keywords": [],
+    "descriptions": [
+      "友方攻击前，自己对3个目标造成6点伤害",
+      "友方攻击前，自己对3个目标造成6点伤害，触发2次"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_NvHuang": {
+    "id": "role-Icon_ZiZouQi_JueSe_NvHuang",
+    "resource": "Icon_ZiZouQi_JueSe_NvHuang",
+    "category": "role",
+    "name": "女皇终结者",
+    "quality": "gold",
+    "factions": [
+      "幽灵"
+    ],
+    "keywords": [],
+    "descriptions": [
+      "召唤卡牌时，随机友方获得被召唤卡的属性",
+      "召唤卡牌时，随机友方获得被召唤卡2倍的属性"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_Shengquanlieshou": {
+    "id": "role-Icon_ZiZouQi_JueSe_Shengquanlieshou",
+    "resource": "Icon_ZiZouQi_JueSe_Shengquanlieshou",
+    "category": "role",
+    "name": "圣拳猎手",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [
+      "护盾"
+    ],
+    "descriptions": [
+      "护盾，造成伤害时，回复等同于伤害值50%的生命",
+      "护盾，造成伤害时，回复等同于伤害值的生命"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_Wumei_QFZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_Wumei_QFZ",
+    "resource": "Icon_ZiZouQi_JueSe_Wumei_QFZ",
+    "category": "role",
+    "name": "武媚",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [
+      "成长"
+    ],
+    "descriptions": [
+      "友方成长效果触发2次（同名唯一生效）",
+      "友方成长效果触发3次（同名唯一生效）"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_XiangXiang_BWZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_XiangXiang_BWZ",
+    "resource": "Icon_ZiZouQi_JueSe_XiangXiang_BWZ",
+    "category": "role",
+    "name": "香香",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "攻击前，移除目标，触发1次",
+      "攻击前，移除目标，触发2次"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_ZhongJiLieShou": {
+    "id": "role-Icon_ZiZouQi_JueSe_ZhongJiLieShou",
+    "resource": "Icon_ZiZouQi_JueSe_ZhongJiLieShou",
+    "category": "role",
+    "name": "终极猎手",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "攻击后，对目标造成50%攻击的伤害3次",
+      "攻击后，对目标造成100%攻击的伤害3次"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_ZhenMeng_QFZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_ZhenMeng_QFZ",
+    "resource": "Icon_ZiZouQi_JueSe_ZhenMeng_QFZ",
+    "category": "role",
+    "name": "甄梦",
+    "quality": "gold",
+    "factions": [
+      "隐袭"
+    ],
+    "keywords": [
+      "消灭"
+    ],
+    "descriptions": [
+      "其他友方攻击后，触发自身消灭效果",
+      "其他友方攻击后，触发自身消灭效果2次"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_PuTongYiXing": {
+    "id": "role-Icon_ZiZouQi_JueSe_PuTongYiXing",
+    "resource": "Icon_ZiZouQi_JueSe_PuTongYiXing",
+    "category": "role",
+    "name": "普通异形",
+    "quality": "green",
+    "factions": [
+      "核心兵器"
+    ],
+    "keywords": [
+      "协同"
+    ],
+    "descriptions": [],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_Lieying_QFZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_Lieying_QFZ",
+    "resource": "Icon_ZiZouQi_JueSe_Lieying_QFZ",
+    "category": "role",
+    "name": "猎鹰",
+    "quality": "blue",
+    "factions": [
+      "潜伏者"
+    ],
+    "keywords": [
+      "遗言"
+    ],
+    "descriptions": [
+      "遗言：对场上所有其他角色造成1点伤害",
+      "遗言：对场上所有其他角色造成1点伤害2次"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_FengKuangBaoBei": {
+    "id": "role-Icon_ZiZouQi_JueSe_FengKuangBaoBei",
+    "resource": "Icon_ZiZouQi_JueSe_FengKuangBaoBei",
+    "category": "role",
+    "name": "疯狂宝贝",
+    "quality": "blue",
+    "factions": [
+      "幽灵"
+    ],
+    "keywords": [
+      "成长",
+      "生化幽灵"
+    ],
+    "descriptions": [
+      "成长：本局你的生化幽灵+3+2",
+      "成长：本局你的生化幽灵+6+4"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_Chitianshi_BWZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_Chitianshi_BWZ",
+    "resource": "Icon_ZiZouQi_JueSe_Chitianshi_BWZ",
+    "category": "role",
+    "name": "炽天使",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [
+      "成长"
+    ],
+    "descriptions": [
+      "成长：金币+1",
+      "成长：金币+2"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_WuMengMeng_BWZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_WuMengMeng_BWZ",
+    "resource": "Icon_ZiZouQi_JueSe_WuMengMeng_BWZ",
+    "category": "role",
+    "name": "雾蒙蒙",
+    "quality": "green",
+    "factions": [
+      "HeartShot"
+    ],
+    "keywords": [
+      "快手"
+    ],
+    "descriptions": [
+      "快手：获得自身攻击50%的生命",
+      "快手：获得自身攻击100%的生命"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_SiWoTe_BWZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_SiWoTe_BWZ",
+    "resource": "Icon_ZiZouQi_JueSe_SiWoTe_BWZ",
+    "category": "role",
+    "name": "斯沃特",
+    "quality": "green",
+    "factions": [
+      "保卫者"
+    ],
+    "keywords": [
+      "护盾"
+    ],
+    "descriptions": [
+      "护盾，受到攻击前，永久攻击+1",
+      "护盾，受到攻击前，永久攻击+2"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_LongYe_QFZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_LongYe_QFZ",
+    "resource": "Icon_ZiZouQi_JueSe_LongYe_QFZ",
+    "category": "role",
+    "name": "龙野",
+    "quality": "green",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "战斗结束后，获得1次免费刷新",
+      "战斗结束后，获得2次免费刷新"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_LingHuZhe_QFZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_LingHuZhe_QFZ",
+    "resource": "Icon_ZiZouQi_JueSe_LingHuZhe_QFZ",
+    "category": "role",
+    "name": "灵狐者",
+    "quality": "green",
+    "factions": [
+      "潜伏者"
+    ],
+    "keywords": [],
+    "descriptions": [
+      "自身受到伤害时，对随机一名敌方目标造成3点伤害",
+      "自身受到伤害时，对随机一名敌方目标造成3点伤害2次"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_Lan": {
+    "id": "role-Icon_ZiZouQi_JueSe_Lan",
+    "resource": "Icon_ZiZouQi_JueSe_Lan",
+    "category": "role",
+    "name": "兰",
+    "quality": "green",
+    "factions": [],
+    "keywords": [
+      "成长"
+    ],
+    "descriptions": [
+      "成长：经验+1",
+      "成长：经验+2"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_Huanying": {
+    "id": "role-Icon_ZiZouQi_JueSe_Huanying",
+    "resource": "Icon_ZiZouQi_JueSe_Huanying",
+    "category": "role",
+    "name": "幻影",
+    "quality": "green",
+    "factions": [
+      "隐袭"
+    ],
+    "keywords": [
+      "消灭"
+    ],
+    "descriptions": [
+      "消灭：造成3点伤害",
+      "消灭：造成3点伤害2次"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_YuMo_BWZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_YuMo_BWZ",
+    "resource": "Icon_ZiZouQi_JueSe_YuMo_BWZ",
+    "category": "role",
+    "name": "雨墨",
+    "quality": "blue",
+    "factions": [
+      "HeartShot"
+    ],
+    "keywords": [
+      "快手"
+    ],
+    "descriptions": [
+      "友方触发快手时，自己永久+2+3",
+      "友方触发快手时，自己永久+4+6"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_Ying": {
+    "id": "role-Icon_ZiZouQi_JueSe_Ying",
+    "resource": "Icon_ZiZouQi_JueSe_Ying",
+    "category": "role",
+    "name": "樱",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [
+      "增伤"
+    ],
+    "descriptions": [
+      "友方获得2次增伤",
+      "友方获得4次增伤"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_TieQi_QFZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_TieQi_QFZ",
+    "resource": "Icon_ZiZouQi_JueSe_TieQi_QFZ",
+    "category": "role",
+    "name": "铁骑",
+    "quality": "blue",
+    "factions": [
+      "潜伏者"
+    ],
+    "keywords": [],
+    "descriptions": [
+      "攻击后，对其他角色造成1点伤害",
+      "攻击后，对其他角色造成1点伤害2次"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_SaiSi_BWZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_SaiSi_BWZ",
+    "resource": "Icon_ZiZouQi_JueSe_SaiSi_BWZ",
+    "category": "role",
+    "name": "赛斯",
+    "quality": "blue",
+    "factions": [
+      "保卫者"
+    ],
+    "keywords": [
+      "护盾"
+    ],
+    "descriptions": [
+      "护盾，友方失去护盾时，造成3点伤害",
+      "护盾，友方失去护盾时，造成3点伤害2次"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_GuanXiaoYu_BWZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_GuanXiaoYu_BWZ",
+    "resource": "Icon_ZiZouQi_JueSe_GuanXiaoYu_BWZ",
+    "category": "role",
+    "name": "关小雨",
+    "quality": "blue",
+    "factions": [
+      "山海经"
+    ],
+    "keywords": [
+      "成长"
+    ],
+    "descriptions": [
+      "友方触发成长时+1+2",
+      "友方触发成长时+2+4"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_GuLang_QFZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_GuLang_QFZ",
+    "resource": "Icon_ZiZouQi_JueSe_GuLang_QFZ",
+    "category": "role",
+    "name": "孤狼",
+    "quality": "blue",
+    "factions": [
+      "保卫者"
+    ],
+    "keywords": [
+      "护盾",
+      "成长"
+    ],
+    "descriptions": [
+      "护盾，成长：有护盾的友方+2+1",
+      "护盾，成长：有护盾的友方+4+2"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_WeiZhuangYouLing": {
+    "id": "role-Icon_ZiZouQi_JueSe_WeiZhuangYouLing",
+    "resource": "Icon_ZiZouQi_JueSe_WeiZhuangYouLing",
+    "category": "role",
+    "name": "伪装幽灵",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [
+      "备战"
+    ],
+    "descriptions": [
+      "备战2回合，变形为一张随机橙色角色",
+      "备战2回合，变形为一张随机金色橙色角色"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_PanDuoLa_BWZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_PanDuoLa_BWZ",
+    "resource": "Icon_ZiZouQi_JueSe_PanDuoLa_BWZ",
+    "category": "role",
+    "name": "潘多拉",
+    "quality": "purple",
+    "factions": [
+      "保卫者"
+    ],
+    "keywords": [
+      "遗言",
+      "护盾",
+      "增伤"
+    ],
+    "descriptions": [
+      "遗言：有护盾的友方获得+4+4以及2层增伤",
+      "遗言：有护盾的友方获得+8+8以及4层增伤"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_MoYiLong": {
+    "id": "role-Icon_ZiZouQi_JueSe_MoYiLong",
+    "resource": "Icon_ZiZouQi_JueSe_MoYiLong",
+    "category": "role",
+    "name": "魔翼龙",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [
+      "遗言"
+    ],
+    "descriptions": [
+      "遗言：使随机敌方攻击和生命各减半1次",
+      "遗言：使随机敌方攻击和生命各减半2次"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_LuoLa": {
+    "id": "role-Icon_ZiZouQi_JueSe_LuoLa",
+    "resource": "Icon_ZiZouQi_JueSe_LuoLa",
+    "category": "role",
+    "name": "萝拉",
+    "quality": "purple",
+    "factions": [
+      "隐袭"
+    ],
+    "keywords": [
+      "消灭"
+    ],
+    "descriptions": [
+      "消灭：友方永久+3+3",
+      "消灭：友方永久+6+6"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_LongMei_QFZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_LongMei_QFZ",
+    "resource": "Icon_ZiZouQi_JueSe_LongMei_QFZ",
+    "category": "role",
+    "name": "龙妹",
+    "quality": "purple",
+    "factions": [
+      "山海经"
+    ],
+    "keywords": [
+      "成长"
+    ],
+    "descriptions": [
+      "成长：获得1张消耗牌",
+      "成长：获得2张消耗牌"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_LingDongWuShi_BWZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_LingDongWuShi_BWZ",
+    "resource": "Icon_ZiZouQi_JueSe_LingDongWuShi_BWZ",
+    "category": "role",
+    "name": "灵动武士",
+    "quality": "purple",
+    "factions": [
+      "保卫者"
+    ],
+    "keywords": [
+      "护盾"
+    ],
+    "descriptions": [
+      "护盾，失去护盾时，造成4点伤害2次",
+      "护盾，失去护盾时，造成4点伤害4次"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_LanXiEr_BWZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_LanXiEr_BWZ",
+    "resource": "Icon_ZiZouQi_JueSe_LanXiEr_BWZ",
+    "category": "role",
+    "name": "岚兮儿",
+    "quality": "purple",
+    "factions": [
+      "HeartShot"
+    ],
+    "keywords": [
+      "快手",
+      "护盾"
+    ],
+    "descriptions": [
+      "快手：2个友方获得护盾",
+      "快手：4个友方获得护盾"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_Fuchouzhe_BWZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_Fuchouzhe_BWZ",
+    "resource": "Icon_ZiZouQi_JueSe_Fuchouzhe_BWZ",
+    "category": "role",
+    "name": "复仇者",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [
+      "遗言"
+    ],
+    "descriptions": [
+      "使消灭自身的角色，生命变为1",
+      "使消灭自身的角色，生命变为1"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_CaiWenZhao_BWZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_CaiWenZhao_BWZ",
+    "resource": "Icon_ZiZouQi_JueSe_CaiWenZhao_BWZ",
+    "category": "role",
+    "name": "蔡文昭",
+    "quality": "purple",
+    "factions": [
+      "保卫者"
+    ],
+    "keywords": [
+      "护盾"
+    ],
+    "descriptions": [
+      "友方失去护盾时，所有友方永久+3+4",
+      "友方失去护盾时，所有友方永久+6+8"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_BianYiBaoBei": {
+    "id": "role-Icon_ZiZouQi_JueSe_BianYiBaoBei",
+    "resource": "Icon_ZiZouQi_JueSe_BianYiBaoBei",
+    "category": "role",
+    "name": "变异宝贝",
+    "quality": "purple",
+    "factions": [
+      "幽灵"
+    ],
+    "keywords": [
+      "快手",
+      "遗言",
+      "生化幽灵"
+    ],
+    "descriptions": [
+      "快手：同排角色获得遗言：召唤一只“生化幽灵”",
+      "快手：同排角色获得遗言：召唤一只金色“生化幽灵”"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_BaiLang_QFZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_BaiLang_QFZ",
+    "resource": "Icon_ZiZouQi_JueSe_BaiLang_QFZ",
+    "category": "role",
+    "name": "白狼",
+    "quality": "purple",
+    "factions": [
+      "潜伏者"
+    ],
+    "keywords": [
+      "遗言"
+    ],
+    "descriptions": [
+      "友方受伤时：永久+1+2",
+      "友方受伤时：永久+2+4"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_Younai_QFZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_Younai_QFZ",
+    "resource": "Icon_ZiZouQi_JueSe_Younai_QFZ",
+    "category": "role",
+    "name": "由乃",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "role-Icon_ZiZouQi_JueSe_ZhuRong": {
+    "id": "role-Icon_ZiZouQi_JueSe_ZhuRong",
+    "resource": "Icon_ZiZouQi_JueSe_ZhuRong",
+    "category": "role",
+    "name": "祝融",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "role-Icon_ZiZouQi_JueSe_ShengDanLingHu": {
+    "id": "role-Icon_ZiZouQi_JueSe_ShengDanLingHu",
+    "resource": "Icon_ZiZouQi_JueSe_ShengDanLingHu",
+    "category": "role",
+    "name": "圣诞灵狐",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "皮肤卡"
+    ],
+    "hidden": true
+  },
+  "role-Icon_ZiZouQi_JueSe_WuMeiYaoJi_BWZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_WuMeiYaoJi_BWZ",
+    "resource": "Icon_ZiZouQi_JueSe_WuMeiYaoJi_BWZ",
+    "category": "role",
+    "name": "妩媚妖姬",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [
+      "遗言"
+    ],
+    "descriptions": [
+      "友方受到攻击后，触发其自身的遗言效果",
+      "友方受到攻击后，触发其自身的遗言效果2次"
+    ],
+    "hidden": false
+  },
+  "weapon-Icon_ZiZouQi_WuQi_KSG_MengHuo03": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_KSG_MengHuo03",
+    "resource": "Icon_ZiZouQi_WuQi_KSG_MengHuo03",
+    "category": "weapon",
+    "name": "KSG-孟获",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "weapon-Icon_ZiZouQi_WuQi_An94_QinShi": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_An94_QinShi",
+    "resource": "Icon_ZiZouQi_WuQi_An94_QinShi",
+    "category": "weapon",
+    "name": "AN94-侵蚀",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "weapon-Icon_ZiZouQi_WuQi_cop_LeiTing": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_cop_LeiTing",
+    "resource": "Icon_ZiZouQi_WuQi_cop_LeiTing",
+    "category": "weapon",
+    "name": "COP-雷霆",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "weapon-Icon_ZiZouQi_WuQi_cop_LeiTingWangZhe": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_cop_LeiTingWangZhe",
+    "resource": "Icon_ZiZouQi_WuQi_cop_LeiTingWangZhe",
+    "category": "weapon",
+    "name": "COP-雷霆王者",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "weapon-Icon_ZiZouQi_WuQi_cop": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_cop",
+    "resource": "Icon_ZiZouQi_WuQi_cop",
+    "category": "weapon",
+    "name": "cop",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [
+      "增伤"
+    ],
+    "descriptions": [
+      "攻击后，获得2层增伤，并对4个敌方造成5点伤害",
+      "攻击后，获得4层增伤，并对4个敌方造成10点伤害"
+    ],
+    "hidden": false
+  },
+  "weapon-Icon_ZiZouQi_WuQi_duomingzhilian": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_duomingzhilian",
+    "resource": "Icon_ZiZouQi_WuQi_duomingzhilian",
+    "category": "weapon",
+    "name": "夺命之镰",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "weapon-Icon_ZiZouQi_WuQi_JiaTeLin_BaoLeiChe03": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_JiaTeLin_BaoLeiChe03",
+    "resource": "Icon_ZiZouQi_WuQi_JiaTeLin_BaoLeiChe03",
+    "category": "weapon",
+    "name": "加特林-暴雷车",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "weapon-Icon_ZiZouQi_WuQi_JiaTeLin_BaoLei03": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_JiaTeLin_BaoLei03",
+    "resource": "Icon_ZiZouQi_WuQi_JiaTeLin_BaoLei03",
+    "category": "weapon",
+    "name": "加特林-堡垒",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [
+      "反击",
+      "子弹"
+    ],
+    "descriptions": [
+      "阵亡时，召唤一个具有无法行动，反击的堡垒小车，其具有携带者50%属性",
+      "子弹+1，阵亡时，召唤一个具有无法行动，反击的堡垒小车，其具有携带者100%属性"
+    ],
+    "hidden": true
+  },
+  "weapon-Icon_ZiZouQi_WuQi_JiGuangJian": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_JiGuangJian",
+    "resource": "Icon_ZiZouQi_WuQi_JiGuangJian",
+    "category": "weapon",
+    "name": "极光剑",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "weapon-Icon_ZiZouQi_WuQi_LieYanDao": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_LieYanDao",
+    "resource": "Icon_ZiZouQi_WuQi_LieYanDao",
+    "category": "weapon",
+    "name": "烈焰刀",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "weapon-Icon_ZiZouQi_WuQi_shamozhiying_youqibing": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_shamozhiying_youqibing",
+    "resource": "Icon_ZiZouQi_WuQi_shamozhiying_youqibing",
+    "category": "weapon",
+    "name": "沙漠之鹰-游骑兵",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "weapon-Icon_ZiZouQi_WuQi_WangMingZhiTu_GuiMeiShuangSheng": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_WangMingZhiTu_GuiMeiShuangSheng",
+    "resource": "Icon_ZiZouQi_WuQi_WangMingZhiTu_GuiMeiShuangSheng",
+    "category": "weapon",
+    "name": "亡命之徒-鬼魅双生",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "item-Icon_ZiZouQi_DaoJu_gaojibeibao": {
+    "id": "item-Icon_ZiZouQi_DaoJu_gaojibeibao",
+    "resource": "Icon_ZiZouQi_DaoJu_gaojibeibao",
+    "category": "item",
+    "name": "高级背包",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "item-Icon_ZiZouQi_DaoJu_gaojidanjia": {
+    "id": "item-Icon_ZiZouQi_DaoJu_gaojidanjia",
+    "resource": "Icon_ZiZouQi_DaoJu_gaojidanjia",
+    "category": "item",
+    "name": "高级弹夹",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "item-Icon_ZiZouQi_DaoJu_FengHuang": {
+    "id": "item-Icon_ZiZouQi_DaoJu_FengHuang",
+    "resource": "Icon_ZiZouQi_DaoJu_FengHuang",
+    "category": "item",
+    "name": "凤凰戒指",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [
+      "遗言"
+    ],
+    "descriptions": [
+      "遗言：手牌角色获得+5+5",
+      "获得+5+5"
+    ],
+    "hidden": true
+  },
+  "item-Icon_ZiZouQi_DaoJu_MiaoBianGuaShi": {
+    "id": "item-Icon_ZiZouQi_DaoJu_MiaoBianGuaShi",
+    "resource": "Icon_ZiZouQi_DaoJu_MiaoBianGuaShi",
+    "category": "item",
+    "name": "地虎晶石",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [
+      "反击"
+    ],
+    "descriptions": [
+      "反击1次"
+    ],
+    "hidden": true
+  },
+  "item-Icon_ZiZouQi_DaoJu_jiyinyaoji": {
+    "id": "item-Icon_ZiZouQi_DaoJu_jiyinyaoji",
+    "resource": "Icon_ZiZouQi_DaoJu_jiyinyaoji",
+    "category": "item",
+    "name": "基因药剂",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "item-Icon_ZiZouQi_DaoJu_jiyinxinpian": {
+    "id": "item-Icon_ZiZouQi_DaoJu_jiyinxinpian",
+    "resource": "Icon_ZiZouQi_DaoJu_jiyinxinpian",
+    "category": "item",
+    "name": "基因芯片",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "item-Icon_ZiZouQi_DaoJu_huoqilingbaoxiang": {
+    "id": "item-Icon_ZiZouQi_DaoJu_huoqilingbaoxiang",
+    "resource": "Icon_ZiZouQi_DaoJu_huoqilingbaoxiang",
+    "category": "item",
+    "name": "火麒麟宝箱",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "item-Icon_ZiZouQi_DaoJu_huangjinniudan": {
+    "id": "item-Icon_ZiZouQi_DaoJu_huangjinniudan",
+    "resource": "Icon_ZiZouQi_DaoJu_huangjinniudan",
+    "category": "item",
+    "name": "黄金扭蛋",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "item-Icon_ZiZouQi_DaoJu_MaiKeFeng": {
+    "id": "item-Icon_ZiZouQi_DaoJu_MaiKeFeng",
+    "resource": "Icon_ZiZouQi_DaoJu_MaiKeFeng",
+    "category": "item",
+    "name": "麦克风",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "item-Icon_ZiZouQi_DaoJu_QiangTuo": {
+    "id": "item-Icon_ZiZouQi_DaoJu_QiangTuo",
+    "resource": "Icon_ZiZouQi_DaoJu_QiangTuo",
+    "category": "item",
+    "name": "枪托",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "item-Icon_ZiZouQi_DaoJu_wuseyu": {
+    "id": "item-Icon_ZiZouQi_DaoJu_wuseyu",
+    "resource": "Icon_ZiZouQi_DaoJu_wuseyu",
+    "category": "item",
+    "name": "五色羽",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "item-Icon_ZiZouQi_DaoJu_xiaomieyinxiaoka": {
+    "id": "item-Icon_ZiZouQi_DaoJu_xiaomieyinxiaoka",
+    "resource": "Icon_ZiZouQi_DaoJu_xiaomieyinxiaoka",
+    "category": "item",
+    "name": "消灭营销卡",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "item-Icon_ZiZouQi_DaoJu_wusezhu": {
+    "id": "item-Icon_ZiZouQi_DaoJu_wusezhu",
+    "resource": "Icon_ZiZouQi_DaoJu_wusezhu",
+    "category": "item",
+    "name": "五色珠",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "item-Icon_ZiZouQi_DaoJu_shenghuabaoshi": {
+    "id": "item-Icon_ZiZouQi_DaoJu_shenghuabaoshi",
+    "resource": "Icon_ZiZouQi_DaoJu_shenghuabaoshi",
+    "category": "item",
+    "name": "生化宝石",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "item-Icon_ZiZouQi_DaoJu_NvHuangBeiShi": {
+    "id": "item-Icon_ZiZouQi_DaoJu_NvHuangBeiShi",
+    "resource": "Icon_ZiZouQi_DaoJu_NvHuangBeiShi",
+    "category": "item",
+    "name": "女皇背饰",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "item-Icon_ZiZouQi_DaoJu_kuanggongmao": {
+    "id": "item-Icon_ZiZouQi_DaoJu_kuanggongmao",
+    "resource": "Icon_ZiZouQi_DaoJu_kuanggongmao",
+    "category": "item",
+    "name": "矿工帽",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "item-Icon_ZiZouQi_DaoJu_jiezhi": {
+    "id": "item-Icon_ZiZouQi_DaoJu_jiezhi",
+    "resource": "Icon_ZiZouQi_DaoJu_jiezhi",
+    "category": "item",
+    "name": "戒指",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "item-Icon_ZiZouQi_DaoJu_sibeijing": {
+    "id": "item-Icon_ZiZouQi_DaoJu_sibeijing",
+    "resource": "Icon_ZiZouQi_DaoJu_sibeijing",
+    "category": "item",
+    "name": "四倍镜",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "item-Icon_ZiZouQi_DaoJu_zhulongtou": {
+    "id": "item-Icon_ZiZouQi_DaoJu_zhulongtou",
+    "resource": "Icon_ZiZouQi_DaoJu_zhulongtou",
+    "category": "item",
+    "name": "烛龙头",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "item-Icon_ZiZouQi_DaoJu_nvbaxianglian": {
+    "id": "item-Icon_ZiZouQi_DaoJu_nvbaxianglian",
+    "resource": "Icon_ZiZouQi_DaoJu_nvbaxianglian",
+    "category": "item",
+    "name": "女娲项链",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "item-Icon_ZiZouQi_DaoJu_HuMuJing": {
+    "id": "item-Icon_ZiZouQi_DaoJu_HuMuJing",
+    "resource": "Icon_ZiZouQi_DaoJu_HuMuJing",
+    "category": "item",
+    "name": "护目镜",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "item-Icon_ZiZouQi_DaoJu_hongbaijiC4": {
+    "id": "item-Icon_ZiZouQi_DaoJu_hongbaijiC4",
+    "resource": "Icon_ZiZouQi_DaoJu_hongbaijiC4",
+    "category": "item",
+    "name": "红白机 C4",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "item-Icon_ZiZouQi_DaoJu_gaojifangdantoukui": {
+    "id": "item-Icon_ZiZouQi_DaoJu_gaojifangdantoukui",
+    "resource": "Icon_ZiZouQi_DaoJu_gaojifangdantoukui",
+    "category": "item",
+    "name": "高级防弹头盔",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "item-Icon_ZiZouQi_DaoJu_fangdantoukui": {
+    "id": "item-Icon_ZiZouQi_DaoJu_fangdantoukui",
+    "resource": "Icon_ZiZouQi_DaoJu_fangdantoukui",
+    "category": "item",
+    "name": "防弹头盔",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "item-Icon_ZiZouQi_DaoJu_Guangxuemiaozhunjing": {
+    "id": "item-Icon_ZiZouQi_DaoJu_Guangxuemiaozhunjing",
+    "resource": "Icon_ZiZouQi_DaoJu_Guangxuemiaozhunjing",
+    "category": "item",
+    "name": "光学瞄准镜",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "item-Icon_ZiZouQi_DaoJu_HuangJinGaoBao": {
+    "id": "item-Icon_ZiZouQi_DaoJu_HuangJinGaoBao",
+    "resource": "Icon_ZiZouQi_DaoJu_HuangJinGaoBao",
+    "category": "item",
+    "name": "黄金高爆",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "item-Icon_ZiZouQi_DaoJu_MoLong": {
+    "id": "item-Icon_ZiZouQi_DaoJu_MoLong",
+    "resource": "Icon_ZiZouQi_DaoJu_MoLong",
+    "category": "item",
+    "name": "魔龙",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "item-Icon_ZiZouQi_DaoJu_YanLongGuaShi": {
+    "id": "item-Icon_ZiZouQi_DaoJu_YanLongGuaShi",
+    "resource": "Icon_ZiZouQi_DaoJu_YanLongGuaShi",
+    "category": "item",
+    "name": "炎龙晶石",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [
+      "消灭"
+    ],
+    "descriptions": [
+      "消灭：永久+3+3",
+      "获得+3+3"
+    ],
+    "hidden": true
+  },
+  "item-Icon_ZiZouQi_DaoJu_FengYingGuaShi": {
+    "id": "item-Icon_ZiZouQi_DaoJu_FengYingGuaShi",
+    "resource": "Icon_ZiZouQi_DaoJu_FengYingGuaShi",
+    "category": "item",
+    "name": "风鹰晶石",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [
+      "快手"
+    ],
+    "descriptions": [
+      "快手：造成5点伤害3次"
+    ],
+    "hidden": true
+  },
+  "item-Icon_ZiZouQi_DaoJu_HeiXiGuaShi": {
+    "id": "item-Icon_ZiZouQi_DaoJu_HeiXiGuaShi",
+    "resource": "Icon_ZiZouQi_DaoJu_HeiXiGuaShi",
+    "category": "item",
+    "name": "黑犀晶石",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [
+      "护盾",
+      "成长"
+    ],
+    "descriptions": [
+      "护盾，成长：+3生命",
+      "生命+3"
+    ],
+    "hidden": true
+  },
+  "item-Icon_ZiZouQi_DaoJu_XueAoGuaShi": {
+    "id": "item-Icon_ZiZouQi_DaoJu_XueAoGuaShi",
+    "resource": "Icon_ZiZouQi_DaoJu_XueAoGuaShi",
+    "category": "item",
+    "name": "雪獒晶石",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "造成伤害时，永久获得+1攻击",
+      "攻击+1"
+    ],
+    "hidden": true
+  },
+  "role-Icon_ZiZouQi_JueSe_JinGe_QFZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_JinGe_QFZ",
+    "resource": "Icon_ZiZouQi_JueSe_JinGe_QFZ",
+    "category": "role",
+    "name": "金戈",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "role-Icon_ZiZouQi_JueSe_SongYuQi": {
+    "id": "role-Icon_ZiZouQi_JueSe_SongYuQi",
+    "resource": "Icon_ZiZouQi_JueSe_SongYuQi",
+    "category": "role",
+    "name": "宋雨琦",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "role-Icon_ZiZouQi_JueSe_JiuShiZhu_QFZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_JiuShiZhu_QFZ",
+    "resource": "Icon_ZiZouQi_JueSe_JiuShiZhu_QFZ",
+    "category": "role",
+    "name": "救世主",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "role-Icon_ZiZouQi_JueSe_Mulan": {
+    "id": "role-Icon_ZiZouQi_JueSe_Mulan",
+    "resource": "Icon_ZiZouQi_JueSe_Mulan",
+    "category": "role",
+    "name": "木兰",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "role-Icon_ZiZouQi_JueSe_Qiaoyue_BWZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_Qiaoyue_BWZ",
+    "resource": "Icon_ZiZouQi_JueSe_Qiaoyue_BWZ",
+    "category": "role",
+    "name": "乔月",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "role-Icon_ZiZouQi_JueSe_HeiAnJinGang": {
+    "id": "role-Icon_ZiZouQi_JueSe_HeiAnJinGang",
+    "resource": "Icon_ZiZouQi_JueSe_HeiAnJinGang",
+    "category": "role",
+    "name": "黑暗金刚",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [
+      "散射"
+    ],
+    "descriptions": [
+      "散射（PVE卡牌）"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_Ling_QFZ": {
+    "id": "role-Icon_ZiZouQi_JueSe_Ling_QFZ",
+    "resource": "Icon_ZiZouQi_JueSe_Ling_QFZ",
+    "category": "role",
+    "name": "洛克",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "role-Icon_ZiZouQi_JueSe_Tong": {
+    "id": "role-Icon_ZiZouQi_JueSe_Tong",
+    "resource": "Icon_ZiZouQi_JueSe_Tong",
+    "category": "role",
+    "name": "瞳",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "同排友方攻击后，随机获得1张角色牌",
+      "同排友方攻击后，随机获得2张角色牌"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_XunJieChong": {
+    "id": "role-Icon_ZiZouQi_JueSe_XunJieChong",
+    "resource": "Icon_ZiZouQi_JueSe_XunJieChong",
+    "category": "role",
+    "name": "迅捷虫",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [
+      "快手"
+    ],
+    "descriptions": [
+      "快手：造成2点伤害1次（PVE卡牌）"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_HeiHuaGe2": {
+    "id": "role-Icon_ZiZouQi_JueSe_HeiHuaGe2",
+    "resource": "Icon_ZiZouQi_JueSe_HeiHuaGe2",
+    "category": "role",
+    "name": "黑化哥",
+    "quality": "red",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "我很强，但装上81我会更强！"
+    ],
+    "hidden": false
+  },
+  "weapon-Icon_ZiZouQi_WuQi_baleite_huimie": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_baleite_huimie",
+    "resource": "Icon_ZiZouQi_WuQi_baleite_huimie",
+    "category": "weapon",
+    "name": "巴雷特-毁灭",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [
+      "穿透"
+    ],
+    "descriptions": [
+      "穿透，造成50%伤害，攻击时，移除目标遗言，触发1次",
+      "穿透，造成100%伤害，攻击时，移除目标遗言，触发2次"
+    ],
+    "hidden": false
+  },
+  "weapon-Icon_ZiZouQi_WuQi_HeiLongHun": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_HeiLongHun",
+    "resource": "Icon_ZiZouQi_WuQi_HeiLongHun",
+    "category": "weapon",
+    "name": "黑龙魂",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "攻击后，对后排所有角色造成25%伤害",
+      "攻击后，对后排所有角色造成50%伤害"
+    ],
+    "hidden": false
+  },
+  "weapon-Icon_ZiZouQi_WuQi_jiatelin_lianyu": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_jiatelin_lianyu",
+    "resource": "Icon_ZiZouQi_WuQi_jiatelin_lianyu",
+    "category": "weapon",
+    "name": "加特林-炼狱",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [
+      "子弹"
+    ],
+    "descriptions": [
+      "自身造成伤害时，永久+2+4",
+      "子弹+1，自身造成伤害时，永久+4+8"
+    ],
+    "hidden": false
+  },
+  "weapon-Icon_ZiZouQi_WuQi_tomxunlielong": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_tomxunlielong",
+    "resource": "Icon_ZiZouQi_WuQi_tomxunlielong",
+    "category": "weapon",
+    "name": "汤姆逊-烈龙",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [
+      "连续行动",
+      "子弹"
+    ],
+    "descriptions": [
+      "连续行动1次，攻击前永久+3+6",
+      "子弹+1，连续行动1次，攻击前永久+6+12"
+    ],
+    "hidden": false
+  },
+  "weapon-Icon_ZiZouQi_WuQi_AK47_huoqilin": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_AK47_huoqilin",
+    "resource": "Icon_ZiZouQi_WuQi_AK47_huoqilin",
+    "category": "weapon",
+    "name": "AK47-火麒麟",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [
+      "子弹"
+    ],
+    "descriptions": [
+      "同列另一名友方攻击时，自身对其目标追加攻击，触发1次",
+      "子弹+1，同列另一名友方攻击时，自身对其目标追加攻击，触发2次"
+    ],
+    "hidden": false
+  },
+  "weapon-Icon_ZiZouQi_WuQi_KSG_heiqishi": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_KSG_heiqishi",
+    "resource": "Icon_ZiZouQi_WuQi_KSG_heiqishi",
+    "category": "weapon",
+    "name": "KSG-黑骑士",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [
+      "散射",
+      "成长"
+    ],
+    "descriptions": [
+      "散射，造成25%伤害，自身成长效果额外触发1次",
+      "散射，造成50%伤害，自身成长效果额外触发2次"
+    ],
+    "hidden": false
+  },
+  "weapon-Icon_ZiZouQi_WuQi_SCAR_Light_baihu": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_SCAR_Light_baihu",
+    "resource": "Icon_ZiZouQi_WuQi_SCAR_Light_baihu",
+    "category": "weapon",
+    "name": "Light-白虎",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [
+      "遗言",
+      "子弹"
+    ],
+    "descriptions": [
+      "自身的遗言效果额外触发1次",
+      "子弹+1，自身的遗言效果额外触发2次"
+    ],
+    "hidden": false
+  },
+  "weapon-Icon_ZiZouQi_WuQi_MK47_yunwu": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_MK47_yunwu",
+    "resource": "Icon_ZiZouQi_WuQi_MK47_yunwu",
+    "category": "weapon",
+    "name": "MK47-云舞",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [
+      "快手",
+      "子弹"
+    ],
+    "descriptions": [
+      "自身的快手效果额外触发1次",
+      "子弹+1，自身的快手效果额外触发2次"
+    ],
+    "hidden": false
+  },
+  "weapon-Icon_ZiZouQi_WuQi_VEPR12_zhousi": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_VEPR12_zhousi",
+    "resource": "Icon_ZiZouQi_WuQi_VEPR12_zhousi",
+    "category": "weapon",
+    "name": "VEPR12-宙斯",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [
+      "散射",
+      "消灭",
+      "护盾"
+    ],
+    "descriptions": [
+      "散射，造成25%伤害，消灭：自身获得护盾",
+      "散射，造成50%伤害，消灭：自身以及随机1名友方获得护盾"
+    ],
+    "hidden": false
+  },
+  "weapon-Icon_ZiZouQi_WuQi_liuyisi_tianshi": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_liuyisi_tianshi",
+    "resource": "Icon_ZiZouQi_WuQi_liuyisi_tianshi",
+    "category": "weapon",
+    "name": "刘易斯-天使",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [
+      "成长",
+      "增伤",
+      "子弹"
+    ],
+    "descriptions": [
+      "成长：增伤+1",
+      "子弹+1，成长：增伤+2"
+    ],
+    "hidden": false
+  },
+  "weapon-Icon_ZiZouQi_WuQi_9A91_moxi": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_9A91_moxi",
+    "resource": "Icon_ZiZouQi_WuQi_9A91_moxi",
+    "category": "weapon",
+    "name": "9A91-魔蜥",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [
+      "消灭",
+      "生化幽灵",
+      "子弹"
+    ],
+    "descriptions": [
+      "消灭：使你本局的生化幽灵获得+2+3",
+      "子弹+1，消灭：使你本局的生化幽灵获得+4+6"
+    ],
+    "hidden": false
+  },
+  "weapon-Icon_ZiZouQi_WuQi_sitaieremo": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_sitaieremo",
+    "resource": "Icon_ZiZouQi_WuQi_sitaieremo",
+    "category": "weapon",
+    "name": "斯泰尔-恶魔",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [
+      "子弹"
+    ],
+    "descriptions": [
+      "攻击时，获得1张消耗牌",
+      "子弹+1，攻击时，获得2张消耗牌"
+    ],
+    "hidden": false
+  },
+  "weapon-Icon_ZiZouQi_WuQi_A180_DiYuFengHuang": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_A180_DiYuFengHuang",
+    "resource": "Icon_ZiZouQi_WuQi_A180_DiYuFengHuang",
+    "category": "weapon",
+    "name": "A180-地狱凤凰",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [
+      "燃烧",
+      "子弹"
+    ],
+    "descriptions": [
+      "攻击时，使目标获得1层燃烧",
+      "子弹+1，攻击时，使目标获得2层燃烧"
+    ],
+    "hidden": false
+  },
+  "weapon-Icon_ZiZouQi_WuQi_AK12_TianQi": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_AK12_TianQi",
+    "resource": "Icon_ZiZouQi_WuQi_AK12_TianQi",
+    "category": "weapon",
+    "name": "AK12-天启",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [
+      "子弹"
+    ],
+    "descriptions": [
+      "阵亡时，获得击杀者的武器牌复制",
+      "子弹+1，阵亡时，获得击杀的武器牌复制2张"
+    ],
+    "hidden": false
+  },
+  "weapon-Icon_ZiZouQi_WuQi_AN94_chaoxinxing": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_AN94_chaoxinxing",
+    "resource": "Icon_ZiZouQi_WuQi_AN94_chaoxinxing",
+    "category": "weapon",
+    "name": "AN94-超新星",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "攻击后，获得造成伤害值25%的生命",
+      "攻击后，获得造成伤害值50%的生命"
+    ],
+    "hidden": false
+  },
+  "weapon-Icon_ZiZouQi_WuQi_AWM_tianlong": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_AWM_tianlong",
+    "resource": "Icon_ZiZouQi_WuQi_AWM_tianlong",
+    "category": "weapon",
+    "name": "AWM-天龙",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [
+      "穿透",
+      "消灭"
+    ],
+    "descriptions": [
+      "穿透，造成50%伤害，消灭：永久+2+2",
+      "穿透，造成100%伤害，消灭：永久+4+4"
+    ],
+    "hidden": false
+  },
+  "weapon-Icon_ZiZouQi_WuQi_CZS2_shancaitongzi": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_CZS2_shancaitongzi",
+    "resource": "Icon_ZiZouQi_WuQi_CZS2_shancaitongzi",
+    "category": "weapon",
+    "name": "CZS2-善财童子",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [
+      "子弹"
+    ],
+    "descriptions": [
+      "攻击时，所有友方+1+2",
+      "子弹+1，攻击时，所有友方+2+4"
+    ],
+    "hidden": false
+  },
+  "weapon-Icon_ZiZouQi_WuQi_HK416_jiguang": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_HK416_jiguang",
+    "resource": "Icon_ZiZouQi_WuQi_HK416_jiguang",
+    "category": "weapon",
+    "name": "HK416-极光",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [
+      "子弹"
+    ],
+    "descriptions": [
+      "受到攻击前，对攻击者造成3点伤害2次",
+      "子弹+1，受到攻击前，对攻击者造成3点伤害4次"
+    ],
+    "hidden": false
+  },
+  "weapon-Icon_ZiZouQi_WuQi_VEPR12_BenChu": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_VEPR12_BenChu",
+    "resource": "Icon_ZiZouQi_WuQi_VEPR12_BenChu",
+    "category": "weapon",
+    "name": "VEPR12-本初",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [
+      "散射",
+      "消灭"
+    ],
+    "descriptions": [
+      "散射，造成25%伤害，消灭：金币+1",
+      "散射，造成50%伤害，消灭：金币+2"
+    ],
+    "hidden": false
+  },
+  "weapon-Icon_ZiZouQi_WuQi_TAC_qingwu": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_TAC_qingwu",
+    "resource": "Icon_ZiZouQi_WuQi_TAC_qingwu",
+    "category": "weapon",
+    "name": "TAC-晴舞",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [
+      "穿透",
+      "快手"
+    ],
+    "descriptions": [
+      "穿透，造成50%伤害，快手：对随机2个目标造成5点伤害",
+      "穿透，造成100%伤害，快手：对随机2个目标造成5点伤害2次"
+    ],
+    "hidden": false
+  },
+  "weapon-Icon_ZiZouQi_WuQi_MK5_jixiejiyuan": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_MK5_jixiejiyuan",
+    "resource": "Icon_ZiZouQi_WuQi_MK5_jixiejiyuan",
+    "category": "weapon",
+    "name": "MK5-机械纪元",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "攻击时，永久+1+1",
+      "攻击时，永久+2+2"
+    ],
+    "hidden": false
+  },
+  "item-Icon_ZiZouQi_DaoJu_goutou": {
+    "id": "item-Icon_ZiZouQi_DaoJu_goutou",
+    "resource": "Icon_ZiZouQi_DaoJu_goutou",
+    "category": "item",
+    "name": "狗头头套",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [
+      "嘲讽"
+    ],
+    "descriptions": [
+      "嘲讽，生命+20"
+    ],
+    "hidden": false
+  },
+  "item-Icon_ZiZouQi_DaoJu_HouTou": {
+    "id": "item-Icon_ZiZouQi_DaoJu_HouTou",
+    "resource": "Icon_ZiZouQi_DaoJu_HouTou",
+    "category": "item",
+    "name": "猴头头套",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [
+      "成长"
+    ],
+    "descriptions": [
+      "无法行动，成长，无法行动的友方获得+4生命"
+    ],
+    "hidden": false
+  },
+  "item-Icon_ZiZouQi_DaoJu_zhusheqi": {
+    "id": "item-Icon_ZiZouQi_DaoJu_zhusheqi",
+    "resource": "Icon_ZiZouQi_DaoJu_zhusheqi",
+    "category": "item",
+    "name": "肾上腺素",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [
+      "增伤"
+    ],
+    "descriptions": [
+      "自身受到伤害时，增伤+2"
+    ],
+    "hidden": false
+  },
+  "item-Icon_ZiZouQi_DaoJu_TaiTanTouShi": {
+    "id": "item-Icon_ZiZouQi_DaoJu_TaiTanTouShi",
+    "resource": "Icon_ZiZouQi_DaoJu_TaiTanTouShi",
+    "category": "item",
+    "name": "泰坦面饰",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "成长：每有1层增伤，获得+1+1"
+    ],
+    "hidden": false
+  },
+  "item-Icon_ZiZouQi_DaoJu_buqiangdanjia": {
+    "id": "item-Icon_ZiZouQi_DaoJu_buqiangdanjia",
+    "resource": "Icon_ZiZouQi_DaoJu_buqiangdanjia",
+    "category": "item",
+    "name": "弹夹",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [
+      "子弹"
+    ],
+    "descriptions": [
+      "武器子弹+1，攻击时额外造成一次伤害"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_YaoJi": {
+    "id": "role-Icon_ZiZouQi_JueSe_YaoJi",
+    "resource": "Icon_ZiZouQi_JueSe_YaoJi",
+    "category": "role",
+    "name": "妖姬",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "role-Icon_ZiZouQi_JueSe_Youlinglieshou": {
+    "id": "role-Icon_ZiZouQi_JueSe_Youlinglieshou",
+    "resource": "Icon_ZiZouQi_JueSe_Youlinglieshou",
+    "category": "role",
+    "name": "幽灵猎手",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "role-Icon_ZiZouQi_JueSe_JuDuSheNv": {
+    "id": "role-Icon_ZiZouQi_JueSe_JuDuSheNv",
+    "resource": "Icon_ZiZouQi_JueSe_JuDuSheNv",
+    "category": "role",
+    "name": "剧毒蛇女",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "优先攻击后排（PVE卡牌）"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_ShengHuaYouLing": {
+    "id": "role-Icon_ZiZouQi_JueSe_ShengHuaYouLing",
+    "resource": "Icon_ZiZouQi_JueSe_ShengHuaYouLing",
+    "category": "role",
+    "name": "小红",
+    "quality": "green",
+    "factions": [
+      "幽灵"
+    ],
+    "keywords": [],
+    "descriptions": [
+      "无"
+    ],
+    "hidden": false
+  },
+  "weapon-Icon_ZiZouQi_WuQi_81_yu": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_81_yu",
+    "resource": "Icon_ZiZouQi_WuQi_81_yu",
+    "category": "weapon",
+    "name": "81式-瑜",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [
+      "子弹"
+    ],
+    "descriptions": [
+      "攻击后，随机2名友方获得自身50%攻击",
+      "子弹+1，攻击后，随机2名友方获得自身50%攻击"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_LingHunRenZhe": {
+    "id": "role-Icon_ZiZouQi_JueSe_LingHunRenZhe",
+    "resource": "Icon_ZiZouQi_JueSe_LingHunRenZhe",
+    "category": "role",
+    "name": "灵魂忍者",
+    "quality": "blue",
+    "factions": [
+      "幽灵"
+    ],
+    "keywords": [
+      "遗言",
+      "生化幽灵"
+    ],
+    "descriptions": [
+      "遗言：召唤生化幽灵，造成自身50%攻击的伤害",
+      "遗言：召唤生化幽灵，造成自身50%攻击的伤害2次"
+    ],
+    "hidden": false
+  },
+  "role-Icon_ZiZouQi_JueSe_HeiHuaGe1": {
+    "id": "role-Icon_ZiZouQi_JueSe_HeiHuaGe1",
+    "resource": "Icon_ZiZouQi_JueSe_HeiHuaGe1",
+    "category": "role",
+    "name": "黑化哥（带81）",
+    "quality": "red",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "带81后的黑化哥。"
+    ],
+    "hidden": false
+  },
+  "weapon-Icon_ZiZouQi_WuQi_M200_huanshen": {
+    "id": "weapon-Icon_ZiZouQi_WuQi_M200_huanshen",
+    "resource": "Icon_ZiZouQi_WuQi_M200_huanshen",
+    "category": "weapon",
+    "name": "M200-幻神",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [
+      "穿透",
+      "消灭"
+    ],
+    "descriptions": [
+      "穿透，造成50%伤害，攻击后，触发自身消灭效果1次",
+      "穿透，造成100%伤害，攻击后，触发自身消灭效果2次"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_JieZhi_BLUE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_JieZhi_BLUE",
+    "resource": "Icon_ZiZouQi_XiaoHao_JieZhi_BLUE",
+    "category": "consume",
+    "name": "潜能激发Lv2",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [
+      "成长"
+    ],
+    "descriptions": [
+      "使1个友方获得成长：攻击+1"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_DunPai_BLUE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_DunPai_BLUE",
+    "resource": "Icon_ZiZouQi_XiaoHao_DunPai_BLUE",
+    "category": "consume",
+    "name": "盾墙",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "你的前排护盾+1"
+    ],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_XinPian_BLUE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_XinPian_BLUE",
+    "resource": "Icon_ZiZouQi_XiaoHao_XinPian_BLUE",
+    "category": "consume",
+    "name": "成长性",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "你的角色获得成长：永久+2+4"
+    ],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_ShuJu_BLUE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_ShuJu_BLUE",
+    "resource": "Icon_ZiZouQi_XiaoHao_ShuJu_BLUE",
+    "category": "consume",
+    "name": "数据",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_JingYan_BLUE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_JingYan_BLUE",
+    "resource": "Icon_ZiZouQi_XiaoHao_JingYan_BLUE",
+    "category": "consume",
+    "name": "战术思维Lv2",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "经验+3，提升商店等级进度"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_ZiDan_BLUE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_ZiDan_BLUE",
+    "resource": "Icon_ZiZouQi_XiaoHao_ZiDan_BLUE",
+    "category": "consume",
+    "name": "攻击训练Lv2",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "所有角色攻击+2"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_TouKui_BLUE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_TouKui_BLUE",
+    "resource": "Icon_ZiZouQi_XiaoHao_TouKui_BLUE",
+    "category": "consume",
+    "name": "强健体魄Lv2",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "1名角色生命+10"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_JinBi_BLUE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_JinBi_BLUE",
+    "resource": "Icon_ZiZouQi_XiaoHao_JinBi_BLUE",
+    "category": "consume",
+    "name": "意外之财",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "金币+5"
+    ],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_XuanShang_BLUE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_XuanShang_BLUE",
+    "resource": "Icon_ZiZouQi_XiaoHao_XuanShang_BLUE",
+    "category": "consume",
+    "name": "战场回收",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "战斗回合结束时，获得1张随机道具牌"
+    ],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_YaoJi_BLUE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_YaoJi_BLUE",
+    "resource": "Icon_ZiZouQi_XiaoHao_YaoJi_BLUE",
+    "category": "consume",
+    "name": "战备补给Lv2",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "所有友方获得+1+2"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_ZuoLun_BLUE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_ZuoLun_BLUE",
+    "resource": "Icon_ZiZouQi_XiaoHao_ZuoLun_BLUE",
+    "category": "consume",
+    "name": "左轮",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_XinPian2_BLUE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_XinPian2_BLUE",
+    "resource": "Icon_ZiZouQi_XiaoHao_XinPian2_BLUE",
+    "category": "consume",
+    "name": "芯片",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_XiaoHuangYa_BLUE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_XiaoHuangYa_BLUE",
+    "resource": "Icon_ZiZouQi_XiaoHao_XiaoHuangYa_BLUE",
+    "category": "consume",
+    "name": "小黄鸭",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_FengMoTie_BLUE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_FengMoTie_BLUE",
+    "resource": "Icon_ZiZouQi_XiaoHao_FengMoTie_BLUE",
+    "category": "consume",
+    "name": "封魔贴",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_NiuDan_BLUE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_NiuDan_BLUE",
+    "resource": "Icon_ZiZouQi_XiaoHao_NiuDan_BLUE",
+    "category": "consume",
+    "name": "及时支援+",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "获得1张随机金色橙卡角色"
+    ],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_ZhiYuan_BLUE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_ZhiYuan_BLUE",
+    "resource": "Icon_ZiZouQi_XiaoHao_ZhiYuan_BLUE",
+    "category": "consume",
+    "name": "龙映山海",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "获得1张关小雨，你的成长效果额外触发1次8",
+      "获得1张关小雨，你的成长效果额外触发1次"
+    ],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_BeiBao_BLUE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_BeiBao_BLUE",
+    "resource": "Icon_ZiZouQi_XiaoHao_BeiBao_BLUE",
+    "category": "consume",
+    "name": "道具批发商",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "获得2张道具牌，你的角色道具栏+1"
+    ],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_TiaoXuan_BLUE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_TiaoXuan_BLUE",
+    "resource": "Icon_ZiZouQi_XiaoHao_TiaoXuan_BLUE",
+    "category": "consume",
+    "name": "队员集结",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "获得绿色以上品质的角色卡各1张"
+    ],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_FanJi_BLUE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_FanJi_BLUE",
+    "resource": "Icon_ZiZouQi_XiaoHao_FanJi_BLUE",
+    "category": "consume",
+    "name": "后备能源",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "你的角色获得遗言：对随机2个目标造成5点伤害",
+      "光环：获得遗言：对随机2个目标造成5点伤害"
+    ],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_HuoZai_BLUE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_HuoZai_BLUE",
+    "resource": "Icon_ZiZouQi_XiaoHao_HuoZai_BLUE",
+    "category": "consume",
+    "name": "火灾",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_KaPai_BLUE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_KaPai_BLUE",
+    "resource": "Icon_ZiZouQi_XiaoHao_KaPai_BLUE",
+    "category": "consume",
+    "name": "卡牌多多",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "战斗中获得卡牌时，使所有场上的角色永久获得+2+4",
+      "获得+2+4"
+    ],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_ShuaXin_BLUE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_ShuaXin_BLUE",
+    "resource": "Icon_ZiZouQi_XiaoHao_ShuaXin_BLUE",
+    "category": "consume",
+    "name": "物资批发Lv2",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "免费刷新2次"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_XiangLian_BLUE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_XiangLian_BLUE",
+    "resource": "Icon_ZiZouQi_XiaoHao_XiangLian_BLUE",
+    "category": "consume",
+    "name": "隐秘消灭Lv2",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "使一个友方获得消灭：永久+1+1"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_ChouJiang_BLUE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_ChouJiang_BLUE",
+    "resource": "Icon_ZiZouQi_XiaoHao_ChouJiang_BLUE",
+    "category": "consume",
+    "name": "武器轮抽",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "立刻以及每次升级时，获得1张武器卡"
+    ],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_BaoXiang_BLUE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_BaoXiang_BLUE",
+    "resource": "Icon_ZiZouQi_XiaoHao_BaoXiang_BLUE",
+    "category": "consume",
+    "name": "武器补给Lv2",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "随机获得1张蓝色武器"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_MoFang_BLUE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_MoFang_BLUE",
+    "resource": "Icon_ZiZouQi_XiaoHao_MoFang_BLUE",
+    "category": "consume",
+    "name": "异能之力",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "获得1张异能爆发"
+    ],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_WeiZhuang_BLUE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_WeiZhuang_BLUE",
+    "resource": "Icon_ZiZouQi_XiaoHao_WeiZhuang_BLUE",
+    "category": "consume",
+    "name": "伪装",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_ZengShang_BLUE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_ZengShang_BLUE",
+    "resource": "Icon_ZiZouQi_XiaoHao_ZengShang_BLUE",
+    "category": "consume",
+    "name": "稳健射击+",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "你的角色增伤+4，增加武器及技能伤害",
+      "增伤+4，增加武器及技能伤害"
+    ],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_DianTai_BLUE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_DianTai_BLUE",
+    "resource": "Icon_ZiZouQi_XiaoHao_DianTai_BLUE",
+    "category": "consume",
+    "name": "替补登场",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "战斗结束时，获得场上随机角色的复制"
+    ],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_C4_BLUE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_C4_BLUE",
+    "resource": "Icon_ZiZouQi_XiaoHao_C4_BLUE",
+    "category": "consume",
+    "name": "自爆步兵Lv2",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [
+      "遗言"
+    ],
+    "descriptions": [
+      "使一个友方获得遗言：造成5点伤害"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_MianJu_BLUE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_MianJu_BLUE",
+    "resource": "Icon_ZiZouQi_XiaoHao_MianJu_BLUE",
+    "category": "consume",
+    "name": "面具",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_DanJia_BLUE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_DanJia_BLUE",
+    "resource": "Icon_ZiZouQi_XiaoHao_DanJia_BLUE",
+    "category": "consume",
+    "name": "随意开火",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "获得2张随机橙色武器卡以及2张道具卡：弹夹"
+    ],
+    "hidden": true
+  },
+  "consume-custom-1781439049531-fqtbd0": {
+    "id": "consume-custom-1781439049531-fqtbd0",
+    "resource": "Custom_Consume_1781439049531-fqtbd0",
+    "category": "consume",
+    "name": "武器保养Lv2",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "1名角色攻击+5"
+    ],
+    "hidden": false
+  },
+  "consume-custom-1781439121333-8ipndk": {
+    "id": "consume-custom-1781439121333-8ipndk",
+    "resource": "Custom_Consume_1781439121333-8ipndk",
+    "category": "consume",
+    "name": "防御训练Lv2",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "所有角色生命+4"
+    ],
+    "hidden": false
+  },
+  "consume-custom-1781439148166-476s94": {
+    "id": "consume-custom-1781439148166-476s94",
+    "resource": "Custom_Consume_1781439148166-476s94",
+    "category": "consume",
+    "name": "制式精锐Lv2",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "使你本局商店的角色获得+3+3"
+    ],
+    "hidden": false
+  },
+  "consume-custom-1781439173240-tuujj0": {
+    "id": "consume-custom-1781439173240-tuujj0",
+    "resource": "Custom_Consume_1781439173240-tuujj0",
+    "category": "consume",
+    "name": "体能激发Lv2",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [
+      "成长"
+    ],
+    "descriptions": [
+      "使1个友方获得成长：生命+2"
+    ],
+    "hidden": false
+  },
+  "consume-custom-1781439188447-nol7z2": {
+    "id": "consume-custom-1781439188447-nol7z2",
+    "resource": "Custom_Consume_1781439188447-nol7z2",
+    "category": "consume",
+    "name": "先发制人Lv2",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [
+      "快手"
+    ],
+    "descriptions": [
+      "使一个友方获得快手：造成5点伤害"
+    ],
+    "hidden": false
+  },
+  "consume-custom-1781439225959-jmkrj7": {
+    "id": "consume-custom-1781439225959-jmkrj7",
+    "resource": "Custom_Consume_1781439225959-jmkrj7",
+    "category": "consume",
+    "name": "新人入队Lv2",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "随机会的1张蓝色角色"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_ShengHuaBaoShi_BLUE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_ShengHuaBaoShi_BLUE",
+    "resource": "Icon_ZiZouQi_XiaoHao_ShengHuaBaoShi_BLUE",
+    "category": "consume",
+    "name": "营养均衡",
+    "quality": "blue",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "角色战斗中攻击力增加时，永久生命+1",
+      "生命+1"
+    ],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_XinPian_PURPLE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_XinPian_PURPLE",
+    "resource": "Icon_ZiZouQi_XiaoHao_XinPian_PURPLE",
+    "category": "consume",
+    "name": "成长之力Lv3",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [
+      "成长"
+    ],
+    "descriptions": [
+      "触发1个友方的成长效果"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_BeiBao_PURPLE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_BeiBao_PURPLE",
+    "resource": "Icon_ZiZouQi_XiaoHao_BeiBao_PURPLE",
+    "category": "consume",
+    "name": "道具批发商",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "获得2张道具牌，你的角色道具栏+1"
+    ],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_JieZhi_PURPLE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_JieZhi_PURPLE",
+    "resource": "Icon_ZiZouQi_XiaoHao_JieZhi_PURPLE",
+    "category": "consume",
+    "name": "潜能激发Lv3",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [
+      "成长"
+    ],
+    "descriptions": [
+      "使1个友方获得成长：攻击+2"
+    ],
+    "hidden": false
+  },
+  "consume-custom-1781441799906-klresi": {
+    "id": "consume-custom-1781441799906-klresi",
+    "resource": "Custom_Consume_1781441799906-klresi",
+    "category": "consume",
+    "name": "体能激发Lv3",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [
+      "成长"
+    ],
+    "descriptions": [
+      "使1个友方获得成长：生命+4"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_TiaoXuan_PURPLE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_TiaoXuan_PURPLE",
+    "resource": "Icon_ZiZouQi_XiaoHao_TiaoXuan_PURPLE",
+    "category": "consume",
+    "name": "后勤培养Lv3",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "挑选1张1级品质的角色，每回合品质提升"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_DunPai_PURPLE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_DunPai_PURPLE",
+    "resource": "Icon_ZiZouQi_XiaoHao_DunPai_PURPLE",
+    "category": "consume",
+    "name": "盾墙",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "你的前排护盾+1"
+    ],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_TouKui_PURPLE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_TouKui_PURPLE",
+    "resource": "Icon_ZiZouQi_XiaoHao_TouKui_PURPLE",
+    "category": "consume",
+    "name": "防御训练Lv3",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "所有角色生命+8"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_FengMoTie_PURPLE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_FengMoTie_PURPLE",
+    "resource": "Icon_ZiZouQi_XiaoHao_FengMoTie_PURPLE",
+    "category": "consume",
+    "name": "封魔贴",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_JinBi_PURPLE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_JinBi_PURPLE",
+    "resource": "Icon_ZiZouQi_XiaoHao_JinBi_PURPLE",
+    "category": "consume",
+    "name": "利息产生Lv3",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "获得2金币，每回合开始时，额外+2"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_WeiZhuang_PURPLE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_WeiZhuang_PURPLE",
+    "resource": "Icon_ZiZouQi_XiaoHao_WeiZhuang_PURPLE",
+    "category": "consume",
+    "name": "替身操作Lv3",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "使1张角色牌变为品质+1的角色牌"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_XiaoHuangYa_PURPLE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_XiaoHuangYa_PURPLE",
+    "resource": "Icon_ZiZouQi_XiaoHao_XiaoHuangYa_PURPLE",
+    "category": "consume",
+    "name": "小黄鸭",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_XuanShang_PURPLE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_XuanShang_PURPLE",
+    "resource": "Icon_ZiZouQi_XiaoHao_XuanShang_PURPLE",
+    "category": "consume",
+    "name": "战场回收",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "战斗回合结束时，获得1张随机道具牌"
+    ],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_ZuoLun_PURPLE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_ZuoLun_PURPLE",
+    "resource": "Icon_ZiZouQi_XiaoHao_ZuoLun_PURPLE",
+    "category": "consume",
+    "name": "左轮",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_MoFang_PURPLE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_MoFang_PURPLE",
+    "resource": "Icon_ZiZouQi_XiaoHao_MoFang_PURPLE",
+    "category": "consume",
+    "name": "异能之力",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "获得1张异能爆发"
+    ],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_YaoJi_PURPLE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_YaoJi_PURPLE",
+    "resource": "Icon_ZiZouQi_XiaoHao_YaoJi_PURPLE",
+    "category": "consume",
+    "name": "制式精锐Lv3",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "使你本局商店的角色获得+6+6"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_ShengHuaBaoShi_PURPLE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_ShengHuaBaoShi_PURPLE",
+    "resource": "Icon_ZiZouQi_XiaoHao_ShengHuaBaoShi_PURPLE",
+    "category": "consume",
+    "name": "营养均衡",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "角色战斗中攻击力增加时，永久生命+1",
+      "生命+1"
+    ],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_NiuDan_PURPLE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_NiuDan_PURPLE",
+    "resource": "Icon_ZiZouQi_XiaoHao_NiuDan_PURPLE",
+    "category": "consume",
+    "name": "及时支援+",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "获得1张随机金色橙卡角色"
+    ],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_ZiDan_PURPLE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_ZiDan_PURPLE",
+    "resource": "Icon_ZiZouQi_XiaoHao_ZiDan_PURPLE",
+    "category": "consume",
+    "name": "攻击训练Lv3",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "所有角色攻击+4"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_XinPian2_PURPLE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_XinPian2_PURPLE",
+    "resource": "Icon_ZiZouQi_XiaoHao_XinPian2_PURPLE",
+    "category": "consume",
+    "name": "芯片",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_XiangLian_PURPLE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_XiangLian_PURPLE",
+    "resource": "Icon_ZiZouQi_XiaoHao_XiangLian_PURPLE",
+    "category": "consume",
+    "name": "项链",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_DianTai_PURPLE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_DianTai_PURPLE",
+    "resource": "Icon_ZiZouQi_XiaoHao_DianTai_PURPLE",
+    "category": "consume",
+    "name": "替补登场",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "战斗结束时，获得场上随机角色的复制"
+    ],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_MianJu_PURPLE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_MianJu_PURPLE",
+    "resource": "Icon_ZiZouQi_XiaoHao_MianJu_PURPLE",
+    "category": "consume",
+    "name": "面具",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_JingYan_PURPLE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_JingYan_PURPLE",
+    "resource": "Icon_ZiZouQi_XiaoHao_JingYan_PURPLE",
+    "category": "consume",
+    "name": "战术思维Lv3",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "经验+5，提升商店等级进度"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_KaPai_PURPLE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_KaPai_PURPLE",
+    "resource": "Icon_ZiZouQi_XiaoHao_KaPai_PURPLE",
+    "category": "consume",
+    "name": "卡牌多多",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "战斗中获得卡牌时，使所有场上的角色永久获得+2+4",
+      "获得+2+4"
+    ],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_ZhiYuan_PURPLE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_ZhiYuan_PURPLE",
+    "resource": "Icon_ZiZouQi_XiaoHao_ZhiYuan_PURPLE",
+    "category": "consume",
+    "name": "龙映山海",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "获得1张关小雨，你的成长效果额外触发1次8",
+      "获得1张关小雨，你的成长效果额外触发1次"
+    ],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_DanJia_PURPLE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_DanJia_PURPLE",
+    "resource": "Icon_ZiZouQi_XiaoHao_DanJia_PURPLE",
+    "category": "consume",
+    "name": "随意开火",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "获得2张随机橙色武器卡以及2张道具卡：弹夹"
+    ],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_HuoZai_PURPLE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_HuoZai_PURPLE",
+    "resource": "Icon_ZiZouQi_XiaoHao_HuoZai_PURPLE",
+    "category": "consume",
+    "name": "火灾",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_ZengShang_PURPLE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_ZengShang_PURPLE",
+    "resource": "Icon_ZiZouQi_XiaoHao_ZengShang_PURPLE",
+    "category": "consume",
+    "name": "附伤攻击Lv3",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [
+      "增伤"
+    ],
+    "descriptions": [
+      "使1个友方获得增伤+2"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_ShuaXin_PURPLE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_ShuaXin_PURPLE",
+    "resource": "Icon_ZiZouQi_XiaoHao_ShuaXin_PURPLE",
+    "category": "consume",
+    "name": "物资批发Lv3",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "免费刷新3次"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_BaoXiang_PURPLE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_BaoXiang_PURPLE",
+    "resource": "Icon_ZiZouQi_XiaoHao_BaoXiang_PURPLE",
+    "category": "consume",
+    "name": "武器补给Lv3",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "随机获得1张紫色武器"
+    ],
+    "hidden": false
+  },
+  "consume-custom-1781442455799-7a61ng": {
+    "id": "consume-custom-1781442455799-7a61ng",
+    "resource": "Custom_Consume_1781442455799-7a61ng",
+    "category": "consume",
+    "name": "新人入队Lv3",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "随机获得1张紫色角色"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_C4_PURPLE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_C4_PURPLE",
+    "resource": "Icon_ZiZouQi_XiaoHao_C4_PURPLE",
+    "category": "consume",
+    "name": "C4",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_ChouJiang_PURPLE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_ChouJiang_PURPLE",
+    "resource": "Icon_ZiZouQi_XiaoHao_ChouJiang_PURPLE",
+    "category": "consume",
+    "name": "武器轮抽",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "立刻以及每次升级时，获得1张武器卡"
+    ],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_ShuJu_PURPLE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_ShuJu_PURPLE",
+    "resource": "Icon_ZiZouQi_XiaoHao_ShuJu_PURPLE",
+    "category": "consume",
+    "name": "数据",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_FanJi_PURPLE": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_FanJi_PURPLE",
+    "resource": "Icon_ZiZouQi_XiaoHao_FanJi_PURPLE",
+    "category": "consume",
+    "name": "后备能源",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "你的角色获得遗言：对随机2个目标造成5点伤害",
+      "光环：获得遗言：对随机2个目标造成5点伤害"
+    ],
+    "hidden": true
+  },
+  "consume-custom-1781442527698-bqo9f9": {
+    "id": "consume-custom-1781442527698-bqo9f9",
+    "resource": "Custom_Consume_1781442527698-bqo9f9",
+    "category": "consume",
+    "name": "强健体魄Lv3",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "1名角色生命+20"
+    ],
+    "hidden": false
+  },
+  "consume-custom-1781442662056-otm4l1": {
+    "id": "consume-custom-1781442662056-otm4l1",
+    "resource": "Custom_Consume_1781442662056-otm4l1",
+    "category": "consume",
+    "name": "武器保养Lv3",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "1名角色攻击+10"
+    ],
+    "hidden": false
+  },
+  "consume-custom-1781442717731-uubdfa": {
+    "id": "consume-custom-1781442717731-uubdfa",
+    "resource": "Custom_Consume_1781442717731-uubdfa",
+    "category": "consume",
+    "name": "战备补给Lv3",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "所有友方+2+4"
+    ],
+    "hidden": false
+  },
+  "consume-custom-1781442814333-pkx432": {
+    "id": "consume-custom-1781442814333-pkx432",
+    "resource": "Custom_Consume_1781442814333-pkx432",
+    "category": "consume",
+    "name": "全面成长Lv3",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [
+      "成长"
+    ],
+    "descriptions": [
+      "使1个友方获得成长：+1+2"
+    ],
+    "hidden": false
+  },
+  "consume-custom-1781442850059-y1lho7": {
+    "id": "consume-custom-1781442850059-y1lho7",
+    "resource": "Custom_Consume_1781442850059-y1lho7",
+    "category": "consume",
+    "name": "道具补给Lv3",
+    "quality": "purple",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "随机获得1张道具牌"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_XinPian_GOLD": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_XinPian_GOLD",
+    "resource": "Icon_ZiZouQi_XiaoHao_XinPian_GOLD",
+    "category": "consume",
+    "name": "激发针剂Lv4",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [
+      "成长"
+    ],
+    "descriptions": [
+      "触发所有友方成长效果"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_BeiBao_GOLD": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_BeiBao_GOLD",
+    "resource": "Icon_ZiZouQi_XiaoHao_BeiBao_GOLD",
+    "category": "consume",
+    "name": "四次元口袋Lv4",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "道具位+1"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_ZuoLun_GOLD": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_ZuoLun_GOLD",
+    "resource": "Icon_ZiZouQi_XiaoHao_ZuoLun_GOLD",
+    "category": "consume",
+    "name": "快速拔枪Lv4",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [
+      "连续行动"
+    ],
+    "descriptions": [
+      "使1个友方获得连续行动，每次战斗触发1次"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_XuanShang_GOLD": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_XuanShang_GOLD",
+    "resource": "Icon_ZiZouQi_XiaoHao_XuanShang_GOLD",
+    "category": "consume",
+    "name": "战场回收",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "战斗回合结束时，获得1张随机道具牌"
+    ],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_XinPian2_GOLD": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_XinPian2_GOLD",
+    "resource": "Icon_ZiZouQi_XiaoHao_XinPian2_GOLD",
+    "category": "consume",
+    "name": "复制Lv4",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "获得场上1张角色牌的复制"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_KaPai_GOLD": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_KaPai_GOLD",
+    "resource": "Icon_ZiZouQi_XiaoHao_KaPai_GOLD",
+    "category": "consume",
+    "name": "异能爆发Lv4",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "获得1张消耗牌，下回合再获得本卡牌"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_FanJi_GOLD": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_FanJi_GOLD",
+    "resource": "Icon_ZiZouQi_XiaoHao_FanJi_GOLD",
+    "category": "consume",
+    "name": "反抗之心Lv4",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [
+      "反击"
+    ],
+    "descriptions": [
+      "使1个友方获得反击，每次战斗触发1次"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_ShuaXin_GOLD": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_ShuaXin_GOLD",
+    "resource": "Icon_ZiZouQi_XiaoHao_ShuaXin_GOLD",
+    "category": "consume",
+    "name": "暗箱操作Lv4",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "选择1张卡牌，商店刷新出和其相同阵营的卡牌"
+    ],
+    "hidden": false
+  },
+  "consume-custom-1781445641704-wwtby2": {
+    "id": "consume-custom-1781445641704-wwtby2",
+    "resource": "Custom_Consume_1781445641704-wwtby2",
+    "category": "consume",
+    "name": "精致之选Lv4",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "刷新商店，刷出紫-橙色品质的角色"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_TiaoXuan_GOLD": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_TiaoXuan_GOLD",
+    "resource": "Icon_ZiZouQi_XiaoHao_TiaoXuan_GOLD",
+    "category": "consume",
+    "name": "定向招募Lv4",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "挑选一张橙色角色牌"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_YaoJi_GOLD": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_YaoJi_GOLD",
+    "resource": "Icon_ZiZouQi_XiaoHao_YaoJi_GOLD",
+    "category": "consume",
+    "name": "速成训练Lv4",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "使1名角色获得商店中卡牌的属性"
+    ],
+    "hidden": false
+  },
+  "consume-custom-1781445765763-ei0uoj": {
+    "id": "consume-custom-1781445765763-ei0uoj",
+    "resource": "Custom_Consume_1781445765763-ei0uoj",
+    "category": "consume",
+    "name": "制式精锐Lv4",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "使你本局商店的角色获得+12+12"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_JinBi_GOLD": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_JinBi_GOLD",
+    "resource": "Icon_ZiZouQi_XiaoHao_JinBi_GOLD",
+    "category": "consume",
+    "name": "先机致富Lv4",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [
+      "快手"
+    ],
+    "descriptions": [
+      "使1个友方获得快手：金币+1"
+    ],
+    "hidden": false
+  },
+  "consume-custom-1781445843800-p41ybx": {
+    "id": "consume-custom-1781445843800-p41ybx",
+    "resource": "Custom_Consume_1781445843800-p41ybx",
+    "category": "consume",
+    "name": "遗产继承Lv4",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [
+      "遗言"
+    ],
+    "descriptions": [
+      "使1个友方获得遗言：金币+1"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_XiangLian_GOLD": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_XiangLian_GOLD",
+    "resource": "Icon_ZiZouQi_XiaoHao_XiangLian_GOLD",
+    "category": "consume",
+    "name": "隐秘消灭Lv4",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [
+      "消灭"
+    ],
+    "descriptions": [
+      "使1个友方获得消灭：永久+2+2"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_ZengShang_GOLD": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_ZengShang_GOLD",
+    "resource": "Icon_ZiZouQi_XiaoHao_ZengShang_GOLD",
+    "category": "consume",
+    "name": "附伤攻击Lv4",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [
+      "增伤"
+    ],
+    "descriptions": [
+      "使1个友方获得增伤+3"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_WeiZhuang_GOLD": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_WeiZhuang_GOLD",
+    "resource": "Icon_ZiZouQi_XiaoHao_WeiZhuang_GOLD",
+    "category": "consume",
+    "name": "伪装",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_XiaoHuangYa_GOLD": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_XiaoHuangYa_GOLD",
+    "resource": "Icon_ZiZouQi_XiaoHao_XiaoHuangYa_GOLD",
+    "category": "consume",
+    "name": "小黄鸭",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_DanJia_GOLD": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_DanJia_GOLD",
+    "resource": "Icon_ZiZouQi_XiaoHao_DanJia_GOLD",
+    "category": "consume",
+    "name": "弹夹补充Lv4",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [
+      "子弹"
+    ],
+    "descriptions": [
+      "1名角色子弹数+1"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_ChouJiang_GOLD": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_ChouJiang_GOLD",
+    "resource": "Icon_ZiZouQi_XiaoHao_ChouJiang_GOLD",
+    "category": "consume",
+    "name": "武器轮抽",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "立刻以及每次升级时，获得1张武器卡"
+    ],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_ShuJu_GOLD": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_ShuJu_GOLD",
+    "resource": "Icon_ZiZouQi_XiaoHao_ShuJu_GOLD",
+    "category": "consume",
+    "name": "数据",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_HuoZai_GOLD": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_HuoZai_GOLD",
+    "resource": "Icon_ZiZouQi_XiaoHao_HuoZai_GOLD",
+    "category": "consume",
+    "name": "火灾",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_ZhiYuan_GOLD": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_ZhiYuan_GOLD",
+    "resource": "Icon_ZiZouQi_XiaoHao_ZhiYuan_GOLD",
+    "category": "consume",
+    "name": "龙映山海",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "获得1张关小雨，你的成长效果额外触发1次8",
+      "获得1张关小雨，你的成长效果额外触发1次"
+    ],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_FengMoTie_GOLD": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_FengMoTie_GOLD",
+    "resource": "Icon_ZiZouQi_XiaoHao_FengMoTie_GOLD",
+    "category": "consume",
+    "name": "封魔贴",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_MoFang_GOLD": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_MoFang_GOLD",
+    "resource": "Icon_ZiZouQi_XiaoHao_MoFang_GOLD",
+    "category": "consume",
+    "name": "异能之力",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "获得1张异能爆发"
+    ],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_ShengHuaBaoShi_GOLD": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_ShengHuaBaoShi_GOLD",
+    "resource": "Icon_ZiZouQi_XiaoHao_ShengHuaBaoShi_GOLD",
+    "category": "consume",
+    "name": "生化宝石Lv4",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [
+      "遗言",
+      "生化幽灵"
+    ],
+    "descriptions": [
+      "使1名友方获得遗言：召唤生化幽灵"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_DianTai_GOLD": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_DianTai_GOLD",
+    "resource": "Icon_ZiZouQi_XiaoHao_DianTai_GOLD",
+    "category": "consume",
+    "name": "替补登场",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "战斗结束时，获得场上随机角色的复制"
+    ],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_C4_GOLD": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_C4_GOLD",
+    "resource": "Icon_ZiZouQi_XiaoHao_C4_GOLD",
+    "category": "consume",
+    "name": "先发制人Lv4",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [
+      "快手"
+    ],
+    "descriptions": [
+      "使1个友方获得快手：造成5点伤害2次"
+    ],
+    "hidden": false
+  },
+  "consume-custom-1781446166313-qz9aec": {
+    "id": "consume-custom-1781446166313-qz9aec",
+    "resource": "Custom_Consume_1781446166313-qz9aec",
+    "category": "consume",
+    "name": "自爆步兵Lv4",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [
+      "遗言"
+    ],
+    "descriptions": [
+      "使1个友方获得遗言：造成5点伤害2次"
+    ],
+    "hidden": false
+  },
+  "consume-custom-1781446200003-tj2lp1": {
+    "id": "consume-custom-1781446200003-tj2lp1",
+    "resource": "Custom_Consume_1781446200003-tj2lp1",
+    "category": "consume",
+    "name": "稳定收益Lv4",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [
+      "成长"
+    ],
+    "descriptions": [
+      "使1个友方获得成长：金币+1"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_BaoXiang_GOLD": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_BaoXiang_GOLD",
+    "resource": "Icon_ZiZouQi_XiaoHao_BaoXiang_GOLD",
+    "category": "consume",
+    "name": "新人入队Lv4",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "随机获得1张橙色角色"
+    ],
+    "hidden": false
+  },
+  "consume-custom-1781446265147-lokb5v": {
+    "id": "consume-custom-1781446265147-lokb5v",
+    "resource": "Custom_Consume_1781446265147-lokb5v",
+    "category": "consume",
+    "name": "武器补给Lv4",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "随机获得1张橙色武器"
+    ],
+    "hidden": false
+  },
+  "consume-custom-1781446285201-lk11ph": {
+    "id": "consume-custom-1781446285201-lk11ph",
+    "resource": "Custom_Consume_1781446285201-lk11ph",
+    "category": "consume",
+    "name": "道具补给Lv4",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "随机获得2张道具牌"
+    ],
+    "hidden": false
+  },
+  "consume-custom-1781446306714-ib47cm": {
+    "id": "consume-custom-1781446306714-ib47cm",
+    "resource": "Custom_Consume_1781446306714-ib47cm",
+    "category": "consume",
+    "name": "投掷补给Lv4",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "获得1张投掷物牌"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_ZiDan_GOLD": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_ZiDan_GOLD",
+    "resource": "Icon_ZiZouQi_XiaoHao_ZiDan_GOLD",
+    "category": "consume",
+    "name": "子弹",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_NiuDan_GOLD": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_NiuDan_GOLD",
+    "resource": "Icon_ZiZouQi_XiaoHao_NiuDan_GOLD",
+    "category": "consume",
+    "name": "及时支援+",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "获得1张随机金色橙卡角色"
+    ],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_MianJu_GOLD": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_MianJu_GOLD",
+    "resource": "Icon_ZiZouQi_XiaoHao_MianJu_GOLD",
+    "category": "consume",
+    "name": "面具",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_JingYan_GOLD": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_JingYan_GOLD",
+    "resource": "Icon_ZiZouQi_XiaoHao_JingYan_GOLD",
+    "category": "consume",
+    "name": "经验主义",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "经验+6，提升商店等级进度"
+    ],
+    "hidden": true
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_DunPai_GOLD": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_DunPai_GOLD",
+    "resource": "Icon_ZiZouQi_XiaoHao_DunPai_GOLD",
+    "category": "consume",
+    "name": "保护罩Lv4",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [
+      "护盾"
+    ],
+    "descriptions": [
+      "1名角色获得护盾"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_TouKui_GOLD": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_TouKui_GOLD",
+    "resource": "Icon_ZiZouQi_XiaoHao_TouKui_GOLD",
+    "category": "consume",
+    "name": "防御加固",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "玩家生命值+15"
+    ],
+    "hidden": true
+  },
+  "consume-custom-1781446548872-w71wmb": {
+    "id": "consume-custom-1781446548872-w71wmb",
+    "resource": "Custom_Consume_1781446548872-w71wmb",
+    "category": "consume",
+    "name": "物资批发Lv4",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [],
+    "descriptions": [
+      "免费刷新5次"
+    ],
+    "hidden": false
+  },
+  "consume-Icon_ZiZouQi_XiaoHao_JieZhi_GOLD": {
+    "id": "consume-Icon_ZiZouQi_XiaoHao_JieZhi_GOLD",
+    "resource": "Icon_ZiZouQi_XiaoHao_JieZhi_GOLD",
+    "category": "consume",
+    "name": "全面成长",
+    "quality": "gold",
+    "factions": [],
+    "keywords": [
+      "成长"
+    ],
+    "descriptions": [
+      "所有友方获得成长+1+2"
+    ],
+    "hidden": false
+  }
+}

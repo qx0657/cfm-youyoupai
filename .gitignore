@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+cfuu/node_modules/
+
+# Build outputs
+dist/
+cfuu/dist/
+.deploy/
+cfuu/.deploy/
+*.tsbuildinfo
+
+# Local env / secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+cfuu/.env
+cfuu/.env.*
+!cfuu/.env.example
+!cfuu/.env.*.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# APK extraction workspace and bulky reverse-engineering scratch data
+autochess_dump/
+/新建文件夹/
+
+# Admin write backups are local safety snapshots.
+cfuu/data/override-backups/
+
+# Tool-local state
+.codex/
+.claude/settings.local.json
+cfuu/.git-local-backup/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

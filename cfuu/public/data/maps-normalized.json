@@ -1,0 +1,535 @@
+[
+  {
+    "key": "CangNiZhiDi",
+    "name": "藏匿之地",
+    "bonusDescription": "未知",
+    "icon": "/assets/cards/maps/icons/map-icon-CangNiZhiDi.png",
+    "background": "/assets/cards/maps/backgrounds/map-background-CangNiZhiDi.png",
+    "iconResource": "Icon_ZiZouQi_Map_CangNiZhiDi",
+    "backgroundResource": "Icon_ZiZouQi_DiTu_CangNiZhiDi",
+    "raw": [
+      {
+        "index": 1,
+        "kind": "map_icon",
+        "resource": "Icon_ZiZouQi_Map_CangNiZhiDi",
+        "map_key": "CangNiZhiDi",
+        "output_png": "autochess_dump\\organized_maps\\map_icons\\001_Icon_ZiZouQi_Map_CangNiZhiDi.png",
+        "source_crop_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_MapBuff_01\\Icon_ZiZouQi_Map_CangNiZhiDi.png",
+        "source_atlas_png": "autochess_dump\\cab_texture_extract\\ua_260__CAB-0f3fab72a734f78f52dc7f90592ef892\\45_Icon_Pvp_ZiZouQi_Weapon_Han_1024x1024.png",
+        "atlasAssetName": "Icon_Pvp_ZiZouQi_MapBuff_01",
+        "x": 512,
+        "y": 512,
+        "w": 256,
+        "h": 256,
+        "copied_source_atlas_png": "autochess_dump\\organized_maps\\source_atlases\\45_Icon_Pvp_ZiZouQi_Weapon_Han_1024x1024.png"
+      },
+      {
+        "index": 1,
+        "kind": "map_background",
+        "resource": "Icon_ZiZouQi_DiTu_CangNiZhiDi",
+        "map_key": "CangNiZhiDi",
+        "output_png": "autochess_dump\\organized_maps\\map_backgrounds\\001_Icon_ZiZouQi_DiTu_CangNiZhiDi.png",
+        "source_crop_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_BG_01\\Icon_ZiZouQi_DiTu_CangNiZhiDi.png",
+        "source_atlas_png": "autochess_dump\\cab_texture_extract\\ua_248__CAB-8280bb93b84ebd14bfd115695c8d50f1\\68_Icon_Pvp_ZiZouQi_BG_01_1024x1024.png",
+        "atlasAssetName": "Icon_Pvp_ZiZouQi_BG_01",
+        "x": 0,
+        "y": 512,
+        "w": 1024,
+        "h": 512,
+        "copied_source_atlas_png": "autochess_dump\\organized_maps\\source_atlases\\68_Icon_Pvp_ZiZouQi_BG_01_1024x1024.png"
+      }
+    ]
+  },
+  {
+    "key": "ZhaoGeYiJi",
+    "name": "朝歌遗迹",
+    "bonusDescription": "在2级时，获得1张消耗卡：异能爆发",
+    "icon": "/assets/cards/maps/icons/map-icon-ZhaoGeYiJi.png",
+    "background": "/assets/cards/maps/backgrounds/map-background-ZhaoGeYiJi.png",
+    "iconResource": "Icon_ZiZouQi_Map_ZhaoGeYiJi",
+    "backgroundResource": "Icon_ZiZouQi_DiTu_ZhaoGeYiJi",
+    "raw": [
+      {
+        "index": 13,
+        "kind": "map_icon",
+        "resource": "Icon_ZiZouQi_Map_ZhaoGeYiJi",
+        "map_key": "ZhaoGeYiJi",
+        "output_png": "autochess_dump\\organized_maps\\map_icons\\013_Icon_ZiZouQi_Map_ZhaoGeYiJi.png",
+        "source_crop_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_MapBuff_01\\Icon_ZiZouQi_Map_ZhaoGeYiJi.png",
+        "source_atlas_png": "autochess_dump\\cab_texture_extract\\ua_260__CAB-0f3fab72a734f78f52dc7f90592ef892\\45_Icon_Pvp_ZiZouQi_Weapon_Han_1024x1024.png",
+        "atlasAssetName": "Icon_Pvp_ZiZouQi_MapBuff_01",
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 256,
+        "copied_source_atlas_png": "autochess_dump\\organized_maps\\source_atlases\\45_Icon_Pvp_ZiZouQi_Weapon_Han_1024x1024.png"
+      },
+      {
+        "index": 12,
+        "kind": "map_background",
+        "resource": "Icon_ZiZouQi_DiTu_ZhaoGeYiJi",
+        "map_key": "ZhaoGeYiJi",
+        "output_png": "autochess_dump\\organized_maps\\map_backgrounds\\012_Icon_ZiZouQi_DiTu_ZhaoGeYiJi.png",
+        "source_crop_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_BG_01\\Icon_ZiZouQi_DiTu_ZhaoGeYiJi.png",
+        "source_atlas_png": "autochess_dump\\cab_texture_extract\\ua_248__CAB-8280bb93b84ebd14bfd115695c8d50f1\\68_Icon_Pvp_ZiZouQi_BG_01_1024x1024.png",
+        "atlasAssetName": "Icon_Pvp_ZiZouQi_BG_01",
+        "x": 0,
+        "y": 0,
+        "w": 1024,
+        "h": 512,
+        "copied_source_atlas_png": "autochess_dump\\organized_maps\\source_atlases\\68_Icon_Pvp_ZiZouQi_BG_01_1024x1024.png"
+      }
+    ]
+  },
+  {
+    "key": "HeiSeChengZhen",
+    "name": "黑色城镇",
+    "bonusDescription": "在2级时，获得2张复制",
+    "icon": "/assets/cards/maps/icons/map-icon-HeiSeChengZhen.png",
+    "background": "/assets/cards/maps/backgrounds/map-background-HeiSeChengZhen.png",
+    "iconResource": "Icon_ZiZouQi_Map_HeiSeChengZhen",
+    "backgroundResource": "Icon_ZiZouQi_DiTu_HeiSeChengZhen",
+    "raw": [
+      {
+        "index": 2,
+        "kind": "map_icon",
+        "resource": "Icon_ZiZouQi_Map_HeiSeChengZhen",
+        "map_key": "HeiSeChengZhen",
+        "output_png": "autochess_dump\\organized_maps\\map_icons\\002_Icon_ZiZouQi_Map_HeiSeChengZhen.png",
+        "source_crop_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_MapBuff_01\\Icon_ZiZouQi_Map_HeiSeChengZhen.png",
+        "source_atlas_png": "autochess_dump\\cab_texture_extract\\ua_260__CAB-0f3fab72a734f78f52dc7f90592ef892\\45_Icon_Pvp_ZiZouQi_Weapon_Han_1024x1024.png",
+        "atlasAssetName": "Icon_Pvp_ZiZouQi_MapBuff_01",
+        "x": 768,
+        "y": 256,
+        "w": 256,
+        "h": 256,
+        "copied_source_atlas_png": "autochess_dump\\organized_maps\\source_atlases\\45_Icon_Pvp_ZiZouQi_Weapon_Han_1024x1024.png"
+      },
+      {
+        "index": 2,
+        "kind": "map_background",
+        "resource": "Icon_ZiZouQi_DiTu_HeiSeChengZhen",
+        "map_key": "HeiSeChengZhen",
+        "output_png": "autochess_dump\\organized_maps\\map_backgrounds\\002_Icon_ZiZouQi_DiTu_HeiSeChengZhen.png",
+        "source_crop_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_BG_02\\Icon_ZiZouQi_DiTu_HeiSeChengZhen.png",
+        "source_atlas_png": "autochess_dump\\cab_texture_extract\\ua_248__CAB-8280bb93b84ebd14bfd115695c8d50f1\\33_Icon_Pvp_ZiZouQi_BG_02_1024x1024.png",
+        "atlasAssetName": "Icon_Pvp_ZiZouQi_BG_02",
+        "x": 0,
+        "y": 512,
+        "w": 1024,
+        "h": 512,
+        "copied_source_atlas_png": "autochess_dump\\organized_maps\\source_atlases\\33_Icon_Pvp_ZiZouQi_BG_02_1024x1024.png"
+      }
+    ]
+  },
+  {
+    "key": "JuRenChengFeiXu",
+    "name": "巨人城废墟",
+    "bonusDescription": "未知",
+    "icon": "/assets/cards/maps/icons/map-icon-JuRenChengFeiXu.png",
+    "background": "/assets/cards/maps/backgrounds/map-background-JuRenChengFeiXu.png",
+    "iconResource": "Icon_ZiZouQi_Map_JuRenChengFeiXu",
+    "backgroundResource": "Icon_ZiZouQi_DiTu_JuRenCheng",
+    "raw": [
+      {
+        "index": 3,
+        "kind": "map_icon",
+        "resource": "Icon_ZiZouQi_Map_JuRenChengFeiXu",
+        "map_key": "JuRenChengFeiXu",
+        "output_png": "autochess_dump\\organized_maps\\map_icons\\003_Icon_ZiZouQi_Map_JuRenChengFeiXu.png",
+        "source_crop_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_MapBuff_01\\Icon_ZiZouQi_Map_JuRenChengFeiXu.png",
+        "source_atlas_png": "autochess_dump\\cab_texture_extract\\ua_260__CAB-0f3fab72a734f78f52dc7f90592ef892\\45_Icon_Pvp_ZiZouQi_Weapon_Han_1024x1024.png",
+        "atlasAssetName": "Icon_Pvp_ZiZouQi_MapBuff_01",
+        "x": 512,
+        "y": 256,
+        "w": 256,
+        "h": 256,
+        "copied_source_atlas_png": "autochess_dump\\organized_maps\\source_atlases\\45_Icon_Pvp_ZiZouQi_Weapon_Han_1024x1024.png"
+      },
+      {
+        "index": 3,
+        "kind": "map_background",
+        "resource": "Icon_ZiZouQi_DiTu_JuRenCheng",
+        "map_key": "JuRenCheng",
+        "output_png": "autochess_dump\\organized_maps\\map_backgrounds\\003_Icon_ZiZouQi_DiTu_JuRenCheng.png",
+        "source_crop_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_BG_02\\Icon_ZiZouQi_DiTu_JuRenCheng.png",
+        "source_atlas_png": "autochess_dump\\cab_texture_extract\\ua_248__CAB-8280bb93b84ebd14bfd115695c8d50f1\\33_Icon_Pvp_ZiZouQi_BG_02_1024x1024.png",
+        "atlasAssetName": "Icon_Pvp_ZiZouQi_BG_02",
+        "x": 0,
+        "y": 0,
+        "w": 1024,
+        "h": 512,
+        "copied_source_atlas_png": "autochess_dump\\organized_maps\\source_atlases\\33_Icon_Pvp_ZiZouQi_BG_02_1024x1024.png"
+      }
+    ]
+  },
+  {
+    "key": "QingXinYeDao",
+    "name": "清新椰岛",
+    "bonusDescription": "角色每次攻击时，永久+1+2",
+    "icon": "/assets/cards/maps/icons/map-icon-QingXinYeDao.png",
+    "background": "/assets/cards/maps/backgrounds/map-background-QingXinYeDao.png",
+    "iconResource": "Icon_ZiZouQi_Map_QingXinYeDao",
+    "backgroundResource": "Icon_ZiZouQi_DiTu_QingXinYeDao",
+    "raw": [
+      {
+        "index": 4,
+        "kind": "map_icon",
+        "resource": "Icon_ZiZouQi_Map_QingXinYeDao",
+        "map_key": "QingXinYeDao",
+        "output_png": "autochess_dump\\organized_maps\\map_icons\\004_Icon_ZiZouQi_Map_QingXinYeDao.png",
+        "source_crop_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_MapBuff_01\\Icon_ZiZouQi_Map_QingXinYeDao.png",
+        "source_atlas_png": "autochess_dump\\cab_texture_extract\\ua_260__CAB-0f3fab72a734f78f52dc7f90592ef892\\45_Icon_Pvp_ZiZouQi_Weapon_Han_1024x1024.png",
+        "atlasAssetName": "Icon_Pvp_ZiZouQi_MapBuff_01",
+        "x": 256,
+        "y": 768,
+        "w": 256,
+        "h": 256,
+        "copied_source_atlas_png": "autochess_dump\\organized_maps\\source_atlases\\45_Icon_Pvp_ZiZouQi_Weapon_Han_1024x1024.png"
+      },
+      {
+        "index": 4,
+        "kind": "map_background",
+        "resource": "Icon_ZiZouQi_DiTu_QingXinYeDao",
+        "map_key": "QingXinYeDao",
+        "output_png": "autochess_dump\\organized_maps\\map_backgrounds\\004_Icon_ZiZouQi_DiTu_QingXinYeDao.png",
+        "source_crop_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_BG_03\\Icon_ZiZouQi_DiTu_QingXinYeDao.png",
+        "source_atlas_png": "autochess_dump\\cab_texture_extract\\ua_248__CAB-8280bb93b84ebd14bfd115695c8d50f1\\19_Icon_Pvp_ZiZouQi_BG_03_1024x1024.png",
+        "atlasAssetName": "Icon_Pvp_ZiZouQi_BG_03",
+        "x": 0,
+        "y": 512,
+        "w": 1024,
+        "h": 512,
+        "copied_source_atlas_png": "autochess_dump\\organized_maps\\source_atlases\\19_Icon_Pvp_ZiZouQi_BG_03_1024x1024.png"
+      }
+    ]
+  },
+  {
+    "key": "ShaMoHui",
+    "name": "沙漠灰",
+    "bonusDescription": "刷新商店时，使你1号位的角色+1+2",
+    "icon": "/assets/cards/maps/icons/map-icon-ShaMoHui.png",
+    "background": "/assets/cards/maps/backgrounds/map-background-ShaMoHui.png",
+    "iconResource": "Icon_ZiZouQi_Map_ShaMoHui",
+    "backgroundResource": "Icon_ZiZouQi_DiTu__ShaMoHui",
+    "raw": [
+      {
+        "index": 5,
+        "kind": "map_icon",
+        "resource": "Icon_ZiZouQi_Map_ShaMoHui",
+        "map_key": "ShaMoHui",
+        "output_png": "autochess_dump\\organized_maps\\map_icons\\005_Icon_ZiZouQi_Map_ShaMoHui.png",
+        "source_crop_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_MapBuff_01\\Icon_ZiZouQi_Map_ShaMoHui.png",
+        "source_atlas_png": "autochess_dump\\cab_texture_extract\\ua_260__CAB-0f3fab72a734f78f52dc7f90592ef892\\45_Icon_Pvp_ZiZouQi_Weapon_Han_1024x1024.png",
+        "atlasAssetName": "Icon_Pvp_ZiZouQi_MapBuff_01",
+        "x": 256,
+        "y": 512,
+        "w": 256,
+        "h": 256,
+        "copied_source_atlas_png": "autochess_dump\\organized_maps\\source_atlases\\45_Icon_Pvp_ZiZouQi_Weapon_Han_1024x1024.png"
+      },
+      {
+        "index": 13,
+        "kind": "map_background",
+        "resource": "Icon_ZiZouQi_DiTu__ShaMoHui",
+        "map_key": "ShaMoHui",
+        "output_png": "autochess_dump\\organized_maps\\map_backgrounds\\013_Icon_ZiZouQi_DiTu__ShaMoHui.png",
+        "source_crop_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_BG_03\\Icon_ZiZouQi_DiTu__ShaMoHui.png",
+        "source_atlas_png": "autochess_dump\\cab_texture_extract\\ua_248__CAB-8280bb93b84ebd14bfd115695c8d50f1\\19_Icon_Pvp_ZiZouQi_BG_03_1024x1024.png",
+        "atlasAssetName": "Icon_Pvp_ZiZouQi_BG_03",
+        "x": 0,
+        "y": 0,
+        "w": 1024,
+        "h": 512,
+        "copied_source_atlas_png": "autochess_dump\\organized_maps\\source_atlases\\19_Icon_Pvp_ZiZouQi_BG_03_1024x1024.png"
+      }
+    ]
+  },
+  {
+    "key": "ShengHuaJinZiTa",
+    "name": "生化金字塔",
+    "bonusDescription": "每刷新4次商店，获得1金币",
+    "icon": "/assets/cards/maps/icons/map-icon-ShengHuaJinZiTa.png",
+    "background": "/assets/cards/maps/backgrounds/map-background-ShengHuaJinZiTa.png",
+    "iconResource": "Icon_ZiZouQi_Map_ShengHuaJinZiTa",
+    "backgroundResource": "Icon_ZiZouQi_DiTu_ShengHuaJinZiTa",
+    "raw": [
+      {
+        "index": 6,
+        "kind": "map_icon",
+        "resource": "Icon_ZiZouQi_Map_ShengHuaJinZiTa",
+        "map_key": "ShengHuaJinZiTa",
+        "output_png": "autochess_dump\\organized_maps\\map_icons\\006_Icon_ZiZouQi_Map_ShengHuaJinZiTa.png",
+        "source_crop_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_MapBuff_01\\Icon_ZiZouQi_Map_ShengHuaJinZiTa.png",
+        "source_atlas_png": "autochess_dump\\cab_texture_extract\\ua_260__CAB-0f3fab72a734f78f52dc7f90592ef892\\45_Icon_Pvp_ZiZouQi_Weapon_Han_1024x1024.png",
+        "atlasAssetName": "Icon_Pvp_ZiZouQi_MapBuff_01",
+        "x": 256,
+        "y": 256,
+        "w": 256,
+        "h": 256,
+        "copied_source_atlas_png": "autochess_dump\\organized_maps\\source_atlases\\45_Icon_Pvp_ZiZouQi_Weapon_Han_1024x1024.png"
+      },
+      {
+        "index": 5,
+        "kind": "map_background",
+        "resource": "Icon_ZiZouQi_DiTu_ShengHuaJinZiTa",
+        "map_key": "ShengHuaJinZiTa",
+        "output_png": "autochess_dump\\organized_maps\\map_backgrounds\\005_Icon_ZiZouQi_DiTu_ShengHuaJinZiTa.png",
+        "source_crop_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_BG_04\\Icon_ZiZouQi_DiTu_ShengHuaJinZiTa.png",
+        "source_atlas_png": "autochess_dump\\cab_texture_extract\\ua_248__CAB-8280bb93b84ebd14bfd115695c8d50f1\\35_Icon_Pvp_ZiZouQi_BG_02_1024x1024.png",
+        "atlasAssetName": "Icon_Pvp_ZiZouQi_BG_04",
+        "x": 0,
+        "y": 512,
+        "w": 1024,
+        "h": 512,
+        "copied_source_atlas_png": "autochess_dump\\organized_maps\\source_atlases\\35_Icon_Pvp_ZiZouQi_BG_02_1024x1024.png"
+      }
+    ]
+  },
+  {
+    "key": "ShengHuaJiuDian",
+    "name": "生化酒店",
+    "bonusDescription": "每阵亡7个敌方角色，获得1张随机角色牌",
+    "icon": "/assets/cards/maps/icons/map-icon-ShengHuaJiuDian.png",
+    "background": "/assets/cards/maps/backgrounds/map-background-ShengHuaJiuDian.png",
+    "iconResource": "Icon_ZiZouQi_Map_ShengHuaJiuDian",
+    "backgroundResource": "Icon_ZiZouQi_DiTu_ShengHuaJiuDian",
+    "raw": [
+      {
+        "index": 7,
+        "kind": "map_icon",
+        "resource": "Icon_ZiZouQi_Map_ShengHuaJiuDian",
+        "map_key": "ShengHuaJiuDian",
+        "output_png": "autochess_dump\\organized_maps\\map_icons\\007_Icon_ZiZouQi_Map_ShengHuaJiuDian.png",
+        "source_crop_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_MapBuff_01\\Icon_ZiZouQi_Map_ShengHuaJiuDian.png",
+        "source_atlas_png": "autochess_dump\\cab_texture_extract\\ua_260__CAB-0f3fab72a734f78f52dc7f90592ef892\\45_Icon_Pvp_ZiZouQi_Weapon_Han_1024x1024.png",
+        "atlasAssetName": "Icon_Pvp_ZiZouQi_MapBuff_01",
+        "x": 768,
+        "y": 0,
+        "w": 256,
+        "h": 256,
+        "copied_source_atlas_png": "autochess_dump\\organized_maps\\source_atlases\\45_Icon_Pvp_ZiZouQi_Weapon_Han_1024x1024.png"
+      },
+      {
+        "index": 6,
+        "kind": "map_background",
+        "resource": "Icon_ZiZouQi_DiTu_ShengHuaJiuDian",
+        "map_key": "ShengHuaJiuDian",
+        "output_png": "autochess_dump\\organized_maps\\map_backgrounds\\006_Icon_ZiZouQi_DiTu_ShengHuaJiuDian.png",
+        "source_crop_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_BG_04\\Icon_ZiZouQi_DiTu_ShengHuaJiuDian.png",
+        "source_atlas_png": "autochess_dump\\cab_texture_extract\\ua_248__CAB-8280bb93b84ebd14bfd115695c8d50f1\\35_Icon_Pvp_ZiZouQi_BG_02_1024x1024.png",
+        "atlasAssetName": "Icon_Pvp_ZiZouQi_BG_04",
+        "x": 0,
+        "y": 0,
+        "w": 1024,
+        "h": 512,
+        "copied_source_atlas_png": "autochess_dump\\organized_maps\\source_atlases\\35_Icon_Pvp_ZiZouQi_BG_02_1024x1024.png"
+      }
+    ]
+  },
+  {
+    "key": "ShouWangZhiCheng",
+    "name": "守望之城",
+    "bonusDescription": "未知",
+    "icon": "/assets/cards/maps/icons/map-icon-ShouWangZhiCheng.png",
+    "background": "/assets/cards/maps/backgrounds/map-background-ShouWangZhiCheng.png",
+    "iconResource": "Icon_ZiZouQi_Map_ShouWangZhiCheng",
+    "backgroundResource": "Icon_ZiZouQi_DiTu_ShouWangZhiCheng",
+    "raw": [
+      {
+        "index": 8,
+        "kind": "map_icon",
+        "resource": "Icon_ZiZouQi_Map_ShouWangZhiCheng",
+        "map_key": "ShouWangZhiCheng",
+        "output_png": "autochess_dump\\organized_maps\\map_icons\\008_Icon_ZiZouQi_Map_ShouWangZhiCheng.png",
+        "source_crop_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_MapBuff_01\\Icon_ZiZouQi_Map_ShouWangZhiCheng.png",
+        "source_atlas_png": "autochess_dump\\cab_texture_extract\\ua_260__CAB-0f3fab72a734f78f52dc7f90592ef892\\45_Icon_Pvp_ZiZouQi_Weapon_Han_1024x1024.png",
+        "atlasAssetName": "Icon_Pvp_ZiZouQi_MapBuff_01",
+        "x": 512,
+        "y": 0,
+        "w": 256,
+        "h": 256,
+        "copied_source_atlas_png": "autochess_dump\\organized_maps\\source_atlases\\45_Icon_Pvp_ZiZouQi_Weapon_Han_1024x1024.png"
+      },
+      {
+        "index": 7,
+        "kind": "map_background",
+        "resource": "Icon_ZiZouQi_DiTu_ShouWangZhiCheng",
+        "map_key": "ShouWangZhiCheng",
+        "output_png": "autochess_dump\\organized_maps\\map_backgrounds\\007_Icon_ZiZouQi_DiTu_ShouWangZhiCheng.png",
+        "source_crop_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_BG_05\\Icon_ZiZouQi_DiTu_ShouWangZhiCheng.png",
+        "source_atlas_png": "autochess_dump\\cab_texture_extract\\ua_248__CAB-8280bb93b84ebd14bfd115695c8d50f1\\01_Icon_Pvp_ZiZouQi_BG_05_1024x1024.png",
+        "atlasAssetName": "Icon_Pvp_ZiZouQi_BG_05",
+        "x": 0,
+        "y": 512,
+        "w": 1024,
+        "h": 512,
+        "copied_source_atlas_png": "autochess_dump\\organized_maps\\source_atlases\\01_Icon_Pvp_ZiZouQi_BG_05_1024x1024.png"
+      }
+    ]
+  },
+  {
+    "key": "WeiXingJiDi",
+    "name": "卫星基地",
+    "bonusDescription": "商店升级时，获得6次免费刷新",
+    "icon": "/assets/cards/maps/icons/map-icon-WeiXingJiDi.png",
+    "background": "/assets/cards/maps/backgrounds/map-background-WeiXingJiDi.png",
+    "iconResource": "Icon_ZiZouQi_Map_WeiXingJiDi",
+    "backgroundResource": "Icon_ZiZouQi_DiTu_WeiXingJiDi",
+    "raw": [
+      {
+        "index": 9,
+        "kind": "map_icon",
+        "resource": "Icon_ZiZouQi_Map_WeiXingJiDi",
+        "map_key": "WeiXingJiDi",
+        "output_png": "autochess_dump\\organized_maps\\map_icons\\009_Icon_ZiZouQi_Map_WeiXingJiDi.png",
+        "source_crop_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_MapBuff_01\\Icon_ZiZouQi_Map_WeiXingJiDi.png",
+        "source_atlas_png": "autochess_dump\\cab_texture_extract\\ua_260__CAB-0f3fab72a734f78f52dc7f90592ef892\\45_Icon_Pvp_ZiZouQi_Weapon_Han_1024x1024.png",
+        "atlasAssetName": "Icon_Pvp_ZiZouQi_MapBuff_01",
+        "x": 256,
+        "y": 0,
+        "w": 256,
+        "h": 256,
+        "copied_source_atlas_png": "autochess_dump\\organized_maps\\source_atlases\\45_Icon_Pvp_ZiZouQi_Weapon_Han_1024x1024.png"
+      },
+      {
+        "index": 8,
+        "kind": "map_background",
+        "resource": "Icon_ZiZouQi_DiTu_WeiXingJiDi",
+        "map_key": "WeiXingJiDi",
+        "output_png": "autochess_dump\\organized_maps\\map_backgrounds\\008_Icon_ZiZouQi_DiTu_WeiXingJiDi.png",
+        "source_crop_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_BG_05\\Icon_ZiZouQi_DiTu_WeiXingJiDi.png",
+        "source_atlas_png": "autochess_dump\\cab_texture_extract\\ua_248__CAB-8280bb93b84ebd14bfd115695c8d50f1\\01_Icon_Pvp_ZiZouQi_BG_05_1024x1024.png",
+        "atlasAssetName": "Icon_Pvp_ZiZouQi_BG_05",
+        "x": 0,
+        "y": 0,
+        "w": 1024,
+        "h": 512,
+        "copied_source_atlas_png": "autochess_dump\\organized_maps\\source_atlases\\01_Icon_Pvp_ZiZouQi_BG_05_1024x1024.png"
+      }
+    ]
+  },
+  {
+    "key": "XiangZhan",
+    "name": "巷战",
+    "bonusDescription": "未知",
+    "icon": "/assets/cards/maps/icons/map-icon-XiangZhan.png",
+    "background": "/assets/cards/maps/backgrounds/map-background-XiangZhan.png",
+    "iconResource": "Icon_ZiZouQi_Map_XiangZhan",
+    "backgroundResource": "Icon_ZiZouQi_DiTu_XiangZhan",
+    "raw": [
+      {
+        "index": 10,
+        "kind": "map_icon",
+        "resource": "Icon_ZiZouQi_Map_XiangZhan",
+        "map_key": "XiangZhan",
+        "output_png": "autochess_dump\\organized_maps\\map_icons\\010_Icon_ZiZouQi_Map_XiangZhan.png",
+        "source_crop_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_MapBuff_01\\Icon_ZiZouQi_Map_XiangZhan.png",
+        "source_atlas_png": "autochess_dump\\cab_texture_extract\\ua_260__CAB-0f3fab72a734f78f52dc7f90592ef892\\45_Icon_Pvp_ZiZouQi_Weapon_Han_1024x1024.png",
+        "atlasAssetName": "Icon_Pvp_ZiZouQi_MapBuff_01",
+        "x": 0,
+        "y": 768,
+        "w": 256,
+        "h": 256,
+        "copied_source_atlas_png": "autochess_dump\\organized_maps\\source_atlases\\45_Icon_Pvp_ZiZouQi_Weapon_Han_1024x1024.png"
+      },
+      {
+        "index": 9,
+        "kind": "map_background",
+        "resource": "Icon_ZiZouQi_DiTu_XiangZhan",
+        "map_key": "XiangZhan",
+        "output_png": "autochess_dump\\organized_maps\\map_backgrounds\\009_Icon_ZiZouQi_DiTu_XiangZhan.png",
+        "source_crop_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_BG_06\\Icon_ZiZouQi_DiTu_XiangZhan.png",
+        "source_atlas_png": "autochess_dump\\cab_texture_extract\\ua_248__CAB-8280bb93b84ebd14bfd115695c8d50f1\\49_Icon_Pvp_ZiZouQi_BG_06_1024x1024.png",
+        "atlasAssetName": "Icon_Pvp_ZiZouQi_BG_06",
+        "x": 0,
+        "y": 512,
+        "w": 1024,
+        "h": 512,
+        "copied_source_atlas_png": "autochess_dump\\organized_maps\\source_atlases\\49_Icon_Pvp_ZiZouQi_BG_06_1024x1024.png"
+      }
+    ]
+  },
+  {
+    "key": "XinNianGuangChang",
+    "name": "新年广场",
+    "bonusDescription": "所有角色道具栏+1",
+    "icon": "/assets/cards/maps/icons/map-icon-XinNianGuangChang.png",
+    "background": "/assets/cards/maps/backgrounds/map-background-XinNianGuangChang.png",
+    "iconResource": "Icon_ZiZouQi_Map_XinNianGuangChang",
+    "backgroundResource": "Icon_ZiZouQi_DiTu_XinNianGuangChang",
+    "raw": [
+      {
+        "index": 11,
+        "kind": "map_icon",
+        "resource": "Icon_ZiZouQi_Map_XinNianGuangChang",
+        "map_key": "XinNianGuangChang",
+        "output_png": "autochess_dump\\organized_maps\\map_icons\\011_Icon_ZiZouQi_Map_XinNianGuangChang.png",
+        "source_crop_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_MapBuff_01\\Icon_ZiZouQi_Map_XinNianGuangChang.png",
+        "source_atlas_png": "autochess_dump\\cab_texture_extract\\ua_260__CAB-0f3fab72a734f78f52dc7f90592ef892\\45_Icon_Pvp_ZiZouQi_Weapon_Han_1024x1024.png",
+        "atlasAssetName": "Icon_Pvp_ZiZouQi_MapBuff_01",
+        "x": 0,
+        "y": 512,
+        "w": 256,
+        "h": 256,
+        "copied_source_atlas_png": "autochess_dump\\organized_maps\\source_atlases\\45_Icon_Pvp_ZiZouQi_Weapon_Han_1024x1024.png"
+      },
+      {
+        "index": 10,
+        "kind": "map_background",
+        "resource": "Icon_ZiZouQi_DiTu_XinNianGuangChang",
+        "map_key": "XinNianGuangChang",
+        "output_png": "autochess_dump\\organized_maps\\map_backgrounds\\010_Icon_ZiZouQi_DiTu_XinNianGuangChang.png",
+        "source_crop_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_BG_06\\Icon_ZiZouQi_DiTu_XinNianGuangChang.png",
+        "source_atlas_png": "autochess_dump\\cab_texture_extract\\ua_248__CAB-8280bb93b84ebd14bfd115695c8d50f1\\49_Icon_Pvp_ZiZouQi_BG_06_1024x1024.png",
+        "atlasAssetName": "Icon_Pvp_ZiZouQi_BG_06",
+        "x": 0,
+        "y": 0,
+        "w": 1024,
+        "h": 512,
+        "copied_source_atlas_png": "autochess_dump\\organized_maps\\source_atlases\\49_Icon_Pvp_ZiZouQi_BG_06_1024x1024.png"
+      }
+    ]
+  },
+  {
+    "key": "YunShuChuan",
+    "name": "运输船",
+    "bonusDescription": "玩家生命值低于15时，金币+20",
+    "icon": "/assets/cards/maps/icons/map-icon-YunShuChuan.png",
+    "background": "/assets/cards/maps/backgrounds/map-background-YunShuChuan.png",
+    "iconResource": "Icon_ZiZouQi_Map_YunShuChuan",
+    "backgroundResource": "Icon_ZiZouQi_DiTu_YunShuChuan",
+    "raw": [
+      {
+        "index": 12,
+        "kind": "map_icon",
+        "resource": "Icon_ZiZouQi_Map_YunShuChuan",
+        "map_key": "YunShuChuan",
+        "output_png": "autochess_dump\\organized_maps\\map_icons\\012_Icon_ZiZouQi_Map_YunShuChuan.png",
+        "source_crop_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_MapBuff_01\\Icon_ZiZouQi_Map_YunShuChuan.png",
+        "source_atlas_png": "autochess_dump\\cab_texture_extract\\ua_260__CAB-0f3fab72a734f78f52dc7f90592ef892\\45_Icon_Pvp_ZiZouQi_Weapon_Han_1024x1024.png",
+        "atlasAssetName": "Icon_Pvp_ZiZouQi_MapBuff_01",
+        "x": 0,
+        "y": 256,
+        "w": 256,
+        "h": 256,
+        "copied_source_atlas_png": "autochess_dump\\organized_maps\\source_atlases\\45_Icon_Pvp_ZiZouQi_Weapon_Han_1024x1024.png"
+      },
+      {
+        "index": 11,
+        "kind": "map_background",
+        "resource": "Icon_ZiZouQi_DiTu_YunShuChuan",
+        "map_key": "YunShuChuan",
+        "output_png": "autochess_dump\\organized_maps\\map_backgrounds\\011_Icon_ZiZouQi_DiTu_YunShuChuan.png",
+        "source_crop_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_BG_07\\Icon_ZiZouQi_DiTu_YunShuChuan.png",
+        "source_atlas_png": "autochess_dump\\cab_texture_extract\\ua_248__CAB-8280bb93b84ebd14bfd115695c8d50f1\\04_Icon_Pvp_ZiZouQi_BG_07_1024x1024.png",
+        "atlasAssetName": "Icon_Pvp_ZiZouQi_BG_07",
+        "x": 0,
+        "y": 0,
+        "w": 1024,
+        "h": 512,
+        "copied_source_atlas_png": "autochess_dump\\organized_maps\\source_atlases\\04_Icon_Pvp_ZiZouQi_BG_07_1024x1024.png"
+      }
+    ]
+  }
+]

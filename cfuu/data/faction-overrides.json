@@ -1,0 +1,58 @@
+{
+  "ChongFengQiang": {
+    "baseName": "ChongFengQiang",
+    "name": "冲锋枪",
+    "keywordCategory": "待补全",
+    "description": "当前只有阵营图标资源，阵营描述待补全。",
+    "stageEffects": [],
+    "hidden": true
+  },
+  "JuJiQiang": {
+    "baseName": "JuJiQiang",
+    "name": "狙击枪",
+    "keywordCategory": "待补全",
+    "description": "当前只有阵营图标资源，阵营描述待补全。",
+    "stageEffects": [],
+    "hidden": true
+  },
+  "JiQiang": {
+    "baseName": "JiQiang",
+    "name": "机枪",
+    "keywordCategory": "待补全",
+    "description": "当前只有阵营图标资源，阵营描述待补全。",
+    "stageEffects": [],
+    "hidden": true
+  },
+  "SanGuo": {
+    "baseName": "SanGuo",
+    "name": "三国",
+    "keywordCategory": "待补全",
+    "description": "当前只有阵营图标资源，阵营描述待补全。",
+    "stageEffects": [],
+    "hidden": true
+  },
+  "BuQiang": {
+    "baseName": "BuQiang",
+    "name": "步枪",
+    "keywordCategory": "待补全",
+    "description": "当前只有阵营图标资源，阵营描述待补全。",
+    "stageEffects": [],
+    "hidden": true
+  },
+  "XianDanQiang": {
+    "baseName": "XianDanQiang",
+    "name": "霰弹枪",
+    "keywordCategory": "待补全",
+    "description": "当前只有阵营图标资源，阵营描述待补全。",
+    "stageEffects": [],
+    "hidden": true
+  },
+  "JingDianZuHe": {
+    "baseName": "JingDianZuHe",
+    "name": "经典组合",
+    "keywordCategory": "待补全",
+    "description": "当前只有阵营图标资源，阵营描述待补全。",
+    "stageEffects": [],
+    "hidden": true
+  }
+}

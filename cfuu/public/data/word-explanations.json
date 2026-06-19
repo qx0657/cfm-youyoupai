@@ -1,0 +1,77 @@
+[
+  {
+    "term": "快手",
+    "description": "战斗开始时触发的效果",
+    "sourceIndex": 12
+  },
+  {
+    "term": "成长",
+    "description": "在战斗前触发的永久效果",
+    "sourceIndex": 10
+  },
+  {
+    "term": "消灭",
+    "description": "击杀角色时触发的效果",
+    "sourceIndex": 20
+  },
+  {
+    "term": "遗言",
+    "description": "角色死亡时触发的效果",
+    "sourceIndex": 14
+  },
+  {
+    "term": "生化幽灵",
+    "description": "初始属性为2/2的角色牌",
+    "sourceIndex": 42
+  },
+  {
+    "term": "护盾",
+    "description": "抵挡1次伤害",
+    "sourceIndex": 16
+  },
+  {
+    "term": "增伤",
+    "description": "该角色造成伤害时，增加1点",
+    "sourceIndex": 26
+  },
+  {
+    "term": "子弹",
+    "description": "倍率放大角色攻击力，在攻击时造成多段伤害",
+    "sourceIndex": 28
+  },
+  {
+    "term": "燃烧",
+    "description": "攻击前，失去10点生命值，持续到战斗结束",
+    "sourceIndex": 36
+  },
+  {
+    "term": "穿透",
+    "description": "攻击时对同列另一个目标造成伤害",
+    "sourceIndex": 32
+  },
+  {
+    "term": "反击",
+    "description": "该角色受到攻击后，攻击来源进行一次攻击",
+    "sourceIndex": 22
+  },
+  {
+    "term": "散射",
+    "description": "攻击时对同排其他的目标造成一定伤害",
+    "sourceIndex": 30
+  },
+  {
+    "term": "连续行动",
+    "description": "该角色进行攻击时，会额外进行一次",
+    "sourceIndex": 24
+  },
+  {
+    "term": "防护",
+    "description": "受到攻击时，伤害-1",
+    "sourceIndex": 34
+  },
+  {
+    "term": "嘲讽",
+    "description": "让对方优先攻击该角色",
+    "sourceIndex": 18
+  }
+]

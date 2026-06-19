@@ -1,0 +1,2567 @@
+[
+  {
+    "index": 1,
+    "category": "consume",
+    "name": "武器仓库",
+    "resource": "Icon_ZiZouQi_XiaoHao_BaoXiang_BLUE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\001_Icon_ZiZouQi_XiaoHao_BaoXiang_BLUE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_01\\Icon_ZiZouQi_XiaoHao_BaoXiang_BLUE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_01",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [
+      "获得所有品质的武器卡各1张"
+    ],
+    "plain_descriptions": [
+      "获得所有品质的武器卡各1张"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 46,
+    "string_start_index": 163,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\001_Icon_ZiZouQi_XiaoHao_BaoXiang_BLUE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 2,
+    "category": "consume",
+    "name": "武器仓库",
+    "resource": "Icon_ZiZouQi_XiaoHao_BaoXiang_GOLD",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\002_Icon_ZiZouQi_XiaoHao_BaoXiang_GOLD.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_01\\Icon_ZiZouQi_XiaoHao_BaoXiang_GOLD.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_01",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [
+      "获得所有品质的武器卡各1张"
+    ],
+    "plain_descriptions": [
+      "获得所有品质的武器卡各1张"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 46,
+    "string_start_index": 163,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\002_Icon_ZiZouQi_XiaoHao_BaoXiang_GOLD.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 3,
+    "category": "consume",
+    "name": "武器仓库",
+    "resource": "Icon_ZiZouQi_XiaoHao_BaoXiang_PURPLE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\003_Icon_ZiZouQi_XiaoHao_BaoXiang_PURPLE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_01\\Icon_ZiZouQi_XiaoHao_BaoXiang_PURPLE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_01",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [
+      "获得所有品质的武器卡各1张"
+    ],
+    "plain_descriptions": [
+      "获得所有品质的武器卡各1张"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 46,
+    "string_start_index": 163,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\003_Icon_ZiZouQi_XiaoHao_BaoXiang_PURPLE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 4,
+    "category": "consume",
+    "name": "道具批发商",
+    "resource": "Icon_ZiZouQi_XiaoHao_BeiBao_BLUE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\004_Icon_ZiZouQi_XiaoHao_BeiBao_BLUE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_01\\Icon_ZiZouQi_XiaoHao_BeiBao_BLUE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_01",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [
+      "获得2张道具牌，你的角色道具栏+1"
+    ],
+    "plain_descriptions": [
+      "获得2张道具牌，你的角色道具栏+1"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 54,
+    "string_start_index": 195,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\004_Icon_ZiZouQi_XiaoHao_BeiBao_BLUE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 5,
+    "category": "consume",
+    "name": "道具批发商",
+    "resource": "Icon_ZiZouQi_XiaoHao_BeiBao_GOLD",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\005_Icon_ZiZouQi_XiaoHao_BeiBao_GOLD.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_01\\Icon_ZiZouQi_XiaoHao_BeiBao_GOLD.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_01",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [
+      "获得2张道具牌，你的角色道具栏+1"
+    ],
+    "plain_descriptions": [
+      "获得2张道具牌，你的角色道具栏+1"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 54,
+    "string_start_index": 195,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\005_Icon_ZiZouQi_XiaoHao_BeiBao_GOLD.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 6,
+    "category": "consume",
+    "name": "道具批发商",
+    "resource": "Icon_ZiZouQi_XiaoHao_BeiBao_PURPLE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\006_Icon_ZiZouQi_XiaoHao_BeiBao_PURPLE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_01\\Icon_ZiZouQi_XiaoHao_BeiBao_PURPLE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_01",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [
+      "获得2张道具牌，你的角色道具栏+1"
+    ],
+    "plain_descriptions": [
+      "获得2张道具牌，你的角色道具栏+1"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 54,
+    "string_start_index": 195,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\006_Icon_ZiZouQi_XiaoHao_BeiBao_PURPLE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 7,
+    "category": "consume",
+    "name": "C4",
+    "resource": "Icon_ZiZouQi_XiaoHao_C4_BLUE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\007_Icon_ZiZouQi_XiaoHao_C4_BLUE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_01\\Icon_ZiZouQi_XiaoHao_C4_BLUE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_01",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\007_Icon_ZiZouQi_XiaoHao_C4_BLUE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 8,
+    "category": "consume",
+    "name": "C4",
+    "resource": "Icon_ZiZouQi_XiaoHao_C4_GOLD",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\008_Icon_ZiZouQi_XiaoHao_C4_GOLD.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_01\\Icon_ZiZouQi_XiaoHao_C4_GOLD.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_01",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\008_Icon_ZiZouQi_XiaoHao_C4_GOLD.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 9,
+    "category": "consume",
+    "name": "C4",
+    "resource": "Icon_ZiZouQi_XiaoHao_C4_PURPLE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\009_Icon_ZiZouQi_XiaoHao_C4_PURPLE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_01\\Icon_ZiZouQi_XiaoHao_C4_PURPLE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_01",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\009_Icon_ZiZouQi_XiaoHao_C4_PURPLE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 10,
+    "category": "consume",
+    "name": "武器轮抽",
+    "resource": "Icon_ZiZouQi_XiaoHao_ChouJiang_BLUE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\010_Icon_ZiZouQi_XiaoHao_ChouJiang_BLUE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_01\\Icon_ZiZouQi_XiaoHao_ChouJiang_BLUE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_01",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [
+      "立刻以及每次升级时，获得1张武器卡"
+    ],
+    "plain_descriptions": [
+      "立刻以及每次升级时，获得1张武器卡"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 53,
+    "string_start_index": 191,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\010_Icon_ZiZouQi_XiaoHao_ChouJiang_BLUE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 11,
+    "category": "consume",
+    "name": "武器轮抽",
+    "resource": "Icon_ZiZouQi_XiaoHao_ChouJiang_GOLD",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\011_Icon_ZiZouQi_XiaoHao_ChouJiang_GOLD.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_01\\Icon_ZiZouQi_XiaoHao_ChouJiang_GOLD.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_01",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [
+      "立刻以及每次升级时，获得1张武器卡"
+    ],
+    "plain_descriptions": [
+      "立刻以及每次升级时，获得1张武器卡"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 53,
+    "string_start_index": 191,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\011_Icon_ZiZouQi_XiaoHao_ChouJiang_GOLD.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 12,
+    "category": "consume",
+    "name": "武器轮抽",
+    "resource": "Icon_ZiZouQi_XiaoHao_ChouJiang_PURPLE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\012_Icon_ZiZouQi_XiaoHao_ChouJiang_PURPLE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_01\\Icon_ZiZouQi_XiaoHao_ChouJiang_PURPLE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_01",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [
+      "立刻以及每次升级时，获得1张武器卡"
+    ],
+    "plain_descriptions": [
+      "立刻以及每次升级时，获得1张武器卡"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 53,
+    "string_start_index": 191,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\012_Icon_ZiZouQi_XiaoHao_ChouJiang_PURPLE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 13,
+    "category": "consume",
+    "name": "随意开火",
+    "resource": "Icon_ZiZouQi_XiaoHao_DanJia_BLUE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\013_Icon_ZiZouQi_XiaoHao_DanJia_BLUE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_01\\Icon_ZiZouQi_XiaoHao_DanJia_BLUE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_01",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [
+      "获得2张随机橙色武器卡以及2张道具卡：弹夹"
+    ],
+    "plain_descriptions": [
+      "获得2张随机橙色武器卡以及2张道具卡：弹夹"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 49,
+    "string_start_index": 176,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\013_Icon_ZiZouQi_XiaoHao_DanJia_BLUE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 14,
+    "category": "consume",
+    "name": "随意开火",
+    "resource": "Icon_ZiZouQi_XiaoHao_DanJia_GOLD",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\014_Icon_ZiZouQi_XiaoHao_DanJia_GOLD.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_01\\Icon_ZiZouQi_XiaoHao_DanJia_GOLD.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_01",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [
+      "获得2张随机橙色武器卡以及2张道具卡：弹夹"
+    ],
+    "plain_descriptions": [
+      "获得2张随机橙色武器卡以及2张道具卡：弹夹"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 49,
+    "string_start_index": 176,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\014_Icon_ZiZouQi_XiaoHao_DanJia_GOLD.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 15,
+    "category": "consume",
+    "name": "随意开火",
+    "resource": "Icon_ZiZouQi_XiaoHao_DanJia_PURPLE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\015_Icon_ZiZouQi_XiaoHao_DanJia_PURPLE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_01\\Icon_ZiZouQi_XiaoHao_DanJia_PURPLE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_01",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [
+      "获得2张随机橙色武器卡以及2张道具卡：弹夹"
+    ],
+    "plain_descriptions": [
+      "获得2张随机橙色武器卡以及2张道具卡：弹夹"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 49,
+    "string_start_index": 176,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\015_Icon_ZiZouQi_XiaoHao_DanJia_PURPLE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 16,
+    "category": "consume",
+    "name": "替补登场",
+    "resource": "Icon_ZiZouQi_XiaoHao_DianTai_BLUE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\016_Icon_ZiZouQi_XiaoHao_DianTai_BLUE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_01\\Icon_ZiZouQi_XiaoHao_DianTai_BLUE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_01",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [
+      "战斗结束时，获得场上随机角色的复制"
+    ],
+    "plain_descriptions": [
+      "战斗结束时，获得场上随机角色的复制"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 58,
+    "string_start_index": 213,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\016_Icon_ZiZouQi_XiaoHao_DianTai_BLUE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 17,
+    "category": "consume",
+    "name": "替补登场",
+    "resource": "Icon_ZiZouQi_XiaoHao_DianTai_GOLD",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\017_Icon_ZiZouQi_XiaoHao_DianTai_GOLD.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_01\\Icon_ZiZouQi_XiaoHao_DianTai_GOLD.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_01",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [
+      "战斗结束时，获得场上随机角色的复制"
+    ],
+    "plain_descriptions": [
+      "战斗结束时，获得场上随机角色的复制"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 58,
+    "string_start_index": 213,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\017_Icon_ZiZouQi_XiaoHao_DianTai_GOLD.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 18,
+    "category": "consume",
+    "name": "替补登场",
+    "resource": "Icon_ZiZouQi_XiaoHao_DianTai_PURPLE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\018_Icon_ZiZouQi_XiaoHao_DianTai_PURPLE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_01\\Icon_ZiZouQi_XiaoHao_DianTai_PURPLE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_01",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [
+      "战斗结束时，获得场上随机角色的复制"
+    ],
+    "plain_descriptions": [
+      "战斗结束时，获得场上随机角色的复制"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 58,
+    "string_start_index": 213,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\018_Icon_ZiZouQi_XiaoHao_DianTai_PURPLE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 19,
+    "category": "consume",
+    "name": "盾墙",
+    "resource": "Icon_ZiZouQi_XiaoHao_DunPai_BLUE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\019_Icon_ZiZouQi_XiaoHao_DunPai_BLUE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_01\\Icon_ZiZouQi_XiaoHao_DunPai_BLUE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_01",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [
+      "你的前排护盾+1"
+    ],
+    "plain_descriptions": [
+      "你的前排护盾+1"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 59,
+    "string_start_index": 216,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\019_Icon_ZiZouQi_XiaoHao_DunPai_BLUE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 20,
+    "category": "consume",
+    "name": "盾墙",
+    "resource": "Icon_ZiZouQi_XiaoHao_DunPai_GOLD",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\020_Icon_ZiZouQi_XiaoHao_DunPai_GOLD.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_01\\Icon_ZiZouQi_XiaoHao_DunPai_GOLD.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_01",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [
+      "你的前排护盾+1"
+    ],
+    "plain_descriptions": [
+      "你的前排护盾+1"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 59,
+    "string_start_index": 216,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\020_Icon_ZiZouQi_XiaoHao_DunPai_GOLD.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 21,
+    "category": "consume",
+    "name": "盾墙",
+    "resource": "Icon_ZiZouQi_XiaoHao_DunPai_PURPLE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\021_Icon_ZiZouQi_XiaoHao_DunPai_PURPLE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_01\\Icon_ZiZouQi_XiaoHao_DunPai_PURPLE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_01",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [
+      "你的前排护盾+1"
+    ],
+    "plain_descriptions": [
+      "你的前排护盾+1"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 59,
+    "string_start_index": 216,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\021_Icon_ZiZouQi_XiaoHao_DunPai_PURPLE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 22,
+    "category": "consume",
+    "name": "后备能源",
+    "resource": "Icon_ZiZouQi_XiaoHao_FanJi_BLUE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\022_Icon_ZiZouQi_XiaoHao_FanJi_BLUE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_01\\Icon_ZiZouQi_XiaoHao_FanJi_BLUE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_01",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [
+      "你的角色获得遗言：对随机2个目标造成5点伤害",
+      "光环：获得遗言：对随机2个目标造成5点伤害"
+    ],
+    "plain_descriptions": [
+      "你的角色获得遗言：对随机2个目标造成5点伤害",
+      "光环：获得遗言：对随机2个目标造成5点伤害"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 64,
+    "string_start_index": 236,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\022_Icon_ZiZouQi_XiaoHao_FanJi_BLUE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 23,
+    "category": "consume",
+    "name": "后备能源",
+    "resource": "Icon_ZiZouQi_XiaoHao_FanJi_GOLD",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\023_Icon_ZiZouQi_XiaoHao_FanJi_GOLD.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_01\\Icon_ZiZouQi_XiaoHao_FanJi_GOLD.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_01",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [
+      "你的角色获得遗言：对随机2个目标造成5点伤害",
+      "光环：获得遗言：对随机2个目标造成5点伤害"
+    ],
+    "plain_descriptions": [
+      "你的角色获得遗言：对随机2个目标造成5点伤害",
+      "光环：获得遗言：对随机2个目标造成5点伤害"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 64,
+    "string_start_index": 236,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\023_Icon_ZiZouQi_XiaoHao_FanJi_GOLD.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 24,
+    "category": "consume",
+    "name": "后备能源",
+    "resource": "Icon_ZiZouQi_XiaoHao_FanJi_PURPLE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\024_Icon_ZiZouQi_XiaoHao_FanJi_PURPLE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_01\\Icon_ZiZouQi_XiaoHao_FanJi_PURPLE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_01",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [
+      "你的角色获得遗言：对随机2个目标造成5点伤害",
+      "光环：获得遗言：对随机2个目标造成5点伤害"
+    ],
+    "plain_descriptions": [
+      "你的角色获得遗言：对随机2个目标造成5点伤害",
+      "光环：获得遗言：对随机2个目标造成5点伤害"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 64,
+    "string_start_index": 236,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\024_Icon_ZiZouQi_XiaoHao_FanJi_PURPLE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 25,
+    "category": "consume",
+    "name": "封魔贴",
+    "resource": "Icon_ZiZouQi_XiaoHao_FengMoTie_BLUE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\025_Icon_ZiZouQi_XiaoHao_FengMoTie_BLUE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_03\\Icon_ZiZouQi_XiaoHao_FengMoTie_BLUE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_03",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\025_Icon_ZiZouQi_XiaoHao_FengMoTie_BLUE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 26,
+    "category": "consume",
+    "name": "封魔贴",
+    "resource": "Icon_ZiZouQi_XiaoHao_FengMoTie_GOLD",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\026_Icon_ZiZouQi_XiaoHao_FengMoTie_GOLD.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_03\\Icon_ZiZouQi_XiaoHao_FengMoTie_GOLD.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_03",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\026_Icon_ZiZouQi_XiaoHao_FengMoTie_GOLD.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 27,
+    "category": "consume",
+    "name": "封魔贴",
+    "resource": "Icon_ZiZouQi_XiaoHao_FengMoTie_PURPLE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\027_Icon_ZiZouQi_XiaoHao_FengMoTie_PURPLE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_03\\Icon_ZiZouQi_XiaoHao_FengMoTie_PURPLE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_03",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\027_Icon_ZiZouQi_XiaoHao_FengMoTie_PURPLE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 28,
+    "category": "consume",
+    "name": "火灾",
+    "resource": "Icon_ZiZouQi_XiaoHao_HuoZai_BLUE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\028_Icon_ZiZouQi_XiaoHao_HuoZai_BLUE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_03\\Icon_ZiZouQi_XiaoHao_HuoZai_BLUE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_03",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\028_Icon_ZiZouQi_XiaoHao_HuoZai_BLUE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 29,
+    "category": "consume",
+    "name": "火灾",
+    "resource": "Icon_ZiZouQi_XiaoHao_HuoZai_GOLD",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\029_Icon_ZiZouQi_XiaoHao_HuoZai_GOLD.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_03\\Icon_ZiZouQi_XiaoHao_HuoZai_GOLD.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_03",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\029_Icon_ZiZouQi_XiaoHao_HuoZai_GOLD.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 30,
+    "category": "consume",
+    "name": "火灾",
+    "resource": "Icon_ZiZouQi_XiaoHao_HuoZai_PURPLE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\030_Icon_ZiZouQi_XiaoHao_HuoZai_PURPLE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_03\\Icon_ZiZouQi_XiaoHao_HuoZai_PURPLE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_03",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\030_Icon_ZiZouQi_XiaoHao_HuoZai_PURPLE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 31,
+    "category": "consume",
+    "name": "点金手",
+    "resource": "Icon_ZiZouQi_XiaoHao_JieZhi_BLUE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\031_Icon_ZiZouQi_XiaoHao_JieZhi_BLUE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_01\\Icon_ZiZouQi_XiaoHao_JieZhi_BLUE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_01",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [
+      "获得1张点金/",
+      "获得1张点金（使1名角色变为金色）"
+    ],
+    "plain_descriptions": [
+      "获得1张点金/",
+      "获得1张点金（使1名角色变为金色）"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 60,
+    "string_start_index": 219,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\031_Icon_ZiZouQi_XiaoHao_JieZhi_BLUE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 32,
+    "category": "consume",
+    "name": "点金手",
+    "resource": "Icon_ZiZouQi_XiaoHao_JieZhi_GOLD",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\032_Icon_ZiZouQi_XiaoHao_JieZhi_GOLD.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_01\\Icon_ZiZouQi_XiaoHao_JieZhi_GOLD.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_01",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [
+      "获得1张点金/",
+      "获得1张点金（使1名角色变为金色）"
+    ],
+    "plain_descriptions": [
+      "获得1张点金/",
+      "获得1张点金（使1名角色变为金色）"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 60,
+    "string_start_index": 219,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\032_Icon_ZiZouQi_XiaoHao_JieZhi_GOLD.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 33,
+    "category": "consume",
+    "name": "点金手",
+    "resource": "Icon_ZiZouQi_XiaoHao_JieZhi_PURPLE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\033_Icon_ZiZouQi_XiaoHao_JieZhi_PURPLE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_01\\Icon_ZiZouQi_XiaoHao_JieZhi_PURPLE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_01",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [
+      "获得1张点金/",
+      "获得1张点金（使1名角色变为金色）"
+    ],
+    "plain_descriptions": [
+      "获得1张点金/",
+      "获得1张点金（使1名角色变为金色）"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 60,
+    "string_start_index": 219,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\033_Icon_ZiZouQi_XiaoHao_JieZhi_PURPLE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 34,
+    "category": "consume",
+    "name": "意外之财",
+    "resource": "Icon_ZiZouQi_XiaoHao_JinBi_BLUE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\034_Icon_ZiZouQi_XiaoHao_JinBi_BLUE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_01\\Icon_ZiZouQi_XiaoHao_JinBi_BLUE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_01",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [
+      "金币+5"
+    ],
+    "plain_descriptions": [
+      "金币+5"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 45,
+    "string_start_index": 160,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\034_Icon_ZiZouQi_XiaoHao_JinBi_BLUE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 35,
+    "category": "consume",
+    "name": "意外之财",
+    "resource": "Icon_ZiZouQi_XiaoHao_JinBi_GOLD",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\035_Icon_ZiZouQi_XiaoHao_JinBi_GOLD.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_01\\Icon_ZiZouQi_XiaoHao_JinBi_GOLD.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_01",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [
+      "金币+5"
+    ],
+    "plain_descriptions": [
+      "金币+5"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 45,
+    "string_start_index": 160,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\035_Icon_ZiZouQi_XiaoHao_JinBi_GOLD.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 36,
+    "category": "consume",
+    "name": "意外之财",
+    "resource": "Icon_ZiZouQi_XiaoHao_JinBi_PURPLE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\036_Icon_ZiZouQi_XiaoHao_JinBi_PURPLE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_01\\Icon_ZiZouQi_XiaoHao_JinBi_PURPLE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_01",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [
+      "金币+5"
+    ],
+    "plain_descriptions": [
+      "金币+5"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 45,
+    "string_start_index": 160,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\036_Icon_ZiZouQi_XiaoHao_JinBi_PURPLE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 37,
+    "category": "consume",
+    "name": "经验主义",
+    "resource": "Icon_ZiZouQi_XiaoHao_JingYan_BLUE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\037_Icon_ZiZouQi_XiaoHao_JingYan_BLUE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_01\\Icon_ZiZouQi_XiaoHao_JingYan_BLUE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_01",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [
+      "经验+6，提升商店等级进度"
+    ],
+    "plain_descriptions": [
+      "经验+6，提升商店等级进度"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 50,
+    "string_start_index": 181,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\037_Icon_ZiZouQi_XiaoHao_JingYan_BLUE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 38,
+    "category": "consume",
+    "name": "经验主义",
+    "resource": "Icon_ZiZouQi_XiaoHao_JingYan_GOLD",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\038_Icon_ZiZouQi_XiaoHao_JingYan_GOLD.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_01\\Icon_ZiZouQi_XiaoHao_JingYan_GOLD.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_01",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [
+      "经验+6，提升商店等级进度"
+    ],
+    "plain_descriptions": [
+      "经验+6，提升商店等级进度"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 50,
+    "string_start_index": 181,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\038_Icon_ZiZouQi_XiaoHao_JingYan_GOLD.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 39,
+    "category": "consume",
+    "name": "经验主义",
+    "resource": "Icon_ZiZouQi_XiaoHao_JingYan_PURPLE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\039_Icon_ZiZouQi_XiaoHao_JingYan_PURPLE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_01\\Icon_ZiZouQi_XiaoHao_JingYan_PURPLE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_01",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [
+      "经验+6，提升商店等级进度"
+    ],
+    "plain_descriptions": [
+      "经验+6，提升商店等级进度"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 50,
+    "string_start_index": 181,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\039_Icon_ZiZouQi_XiaoHao_JingYan_PURPLE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 40,
+    "category": "consume",
+    "name": "卡牌多多",
+    "resource": "Icon_ZiZouQi_XiaoHao_KaPai_BLUE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\040_Icon_ZiZouQi_XiaoHao_KaPai_BLUE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_01\\Icon_ZiZouQi_XiaoHao_KaPai_BLUE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_01",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [
+      "战斗中获得卡牌时，使所有场上的角色永久获得+2+4",
+      "获得+2+4"
+    ],
+    "plain_descriptions": [
+      "战斗中获得卡牌时，使所有场上的角色永久获得+2+4",
+      "获得+2+4"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 57,
+    "string_start_index": 208,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\040_Icon_ZiZouQi_XiaoHao_KaPai_BLUE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 41,
+    "category": "consume",
+    "name": "卡牌多多",
+    "resource": "Icon_ZiZouQi_XiaoHao_KaPai_GOLD",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\041_Icon_ZiZouQi_XiaoHao_KaPai_GOLD.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_01\\Icon_ZiZouQi_XiaoHao_KaPai_GOLD.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_01",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [
+      "战斗中获得卡牌时，使所有场上的角色永久获得+2+4",
+      "获得+2+4"
+    ],
+    "plain_descriptions": [
+      "战斗中获得卡牌时，使所有场上的角色永久获得+2+4",
+      "获得+2+4"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 57,
+    "string_start_index": 208,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\041_Icon_ZiZouQi_XiaoHao_KaPai_GOLD.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 42,
+    "category": "consume",
+    "name": "卡牌多多",
+    "resource": "Icon_ZiZouQi_XiaoHao_KaPai_PURPLE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\042_Icon_ZiZouQi_XiaoHao_KaPai_PURPLE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_01\\Icon_ZiZouQi_XiaoHao_KaPai_PURPLE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_01",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [
+      "战斗中获得卡牌时，使所有场上的角色永久获得+2+4",
+      "获得+2+4"
+    ],
+    "plain_descriptions": [
+      "战斗中获得卡牌时，使所有场上的角色永久获得+2+4",
+      "获得+2+4"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 57,
+    "string_start_index": 208,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\042_Icon_ZiZouQi_XiaoHao_KaPai_PURPLE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 43,
+    "category": "consume",
+    "name": "面具",
+    "resource": "Icon_ZiZouQi_XiaoHao_MianJu_BLUE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\043_Icon_ZiZouQi_XiaoHao_MianJu_BLUE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_03\\Icon_ZiZouQi_XiaoHao_MianJu_BLUE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_03",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\043_Icon_ZiZouQi_XiaoHao_MianJu_BLUE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 44,
+    "category": "consume",
+    "name": "面具",
+    "resource": "Icon_ZiZouQi_XiaoHao_MianJu_GOLD",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\044_Icon_ZiZouQi_XiaoHao_MianJu_GOLD.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_03\\Icon_ZiZouQi_XiaoHao_MianJu_GOLD.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_03",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\044_Icon_ZiZouQi_XiaoHao_MianJu_GOLD.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 45,
+    "category": "consume",
+    "name": "面具",
+    "resource": "Icon_ZiZouQi_XiaoHao_MianJu_PURPLE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\045_Icon_ZiZouQi_XiaoHao_MianJu_PURPLE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_03\\Icon_ZiZouQi_XiaoHao_MianJu_PURPLE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_03",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\045_Icon_ZiZouQi_XiaoHao_MianJu_PURPLE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 46,
+    "category": "consume",
+    "name": "异能之力",
+    "resource": "Icon_ZiZouQi_XiaoHao_MoFang_BLUE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\046_Icon_ZiZouQi_XiaoHao_MoFang_BLUE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_03\\Icon_ZiZouQi_XiaoHao_MoFang_BLUE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_03",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [
+      "获得1张异能爆发"
+    ],
+    "plain_descriptions": [
+      "获得1张异能爆发"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 56,
+    "string_start_index": 205,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\046_Icon_ZiZouQi_XiaoHao_MoFang_BLUE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 47,
+    "category": "consume",
+    "name": "异能之力",
+    "resource": "Icon_ZiZouQi_XiaoHao_MoFang_GOLD",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\047_Icon_ZiZouQi_XiaoHao_MoFang_GOLD.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_03\\Icon_ZiZouQi_XiaoHao_MoFang_GOLD.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_03",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [
+      "获得1张异能爆发"
+    ],
+    "plain_descriptions": [
+      "获得1张异能爆发"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 56,
+    "string_start_index": 205,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\047_Icon_ZiZouQi_XiaoHao_MoFang_GOLD.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 48,
+    "category": "consume",
+    "name": "异能之力",
+    "resource": "Icon_ZiZouQi_XiaoHao_MoFang_PURPLE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\048_Icon_ZiZouQi_XiaoHao_MoFang_PURPLE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_03\\Icon_ZiZouQi_XiaoHao_MoFang_PURPLE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_03",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [
+      "获得1张异能爆发"
+    ],
+    "plain_descriptions": [
+      "获得1张异能爆发"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 56,
+    "string_start_index": 205,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\048_Icon_ZiZouQi_XiaoHao_MoFang_PURPLE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 49,
+    "category": "consume",
+    "name": "及时支援+",
+    "resource": "Icon_ZiZouQi_XiaoHao_NiuDan_BLUE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\049_Icon_ZiZouQi_XiaoHao_NiuDan_BLUE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_02\\Icon_ZiZouQi_XiaoHao_NiuDan_BLUE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_02",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [
+      "获得1张随机金色橙卡角色"
+    ],
+    "plain_descriptions": [
+      "获得1张随机金色橙卡角色"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 48,
+    "string_start_index": 172,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\049_Icon_ZiZouQi_XiaoHao_NiuDan_BLUE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 50,
+    "category": "consume",
+    "name": "及时支援+",
+    "resource": "Icon_ZiZouQi_XiaoHao_NiuDan_GOLD",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\050_Icon_ZiZouQi_XiaoHao_NiuDan_GOLD.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_02\\Icon_ZiZouQi_XiaoHao_NiuDan_GOLD.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_02",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [
+      "获得1张随机金色橙卡角色"
+    ],
+    "plain_descriptions": [
+      "获得1张随机金色橙卡角色"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 48,
+    "string_start_index": 172,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\050_Icon_ZiZouQi_XiaoHao_NiuDan_GOLD.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 51,
+    "category": "consume",
+    "name": "及时支援+",
+    "resource": "Icon_ZiZouQi_XiaoHao_NiuDan_PURPLE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\051_Icon_ZiZouQi_XiaoHao_NiuDan_PURPLE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_02\\Icon_ZiZouQi_XiaoHao_NiuDan_PURPLE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_02",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [
+      "获得1张随机金色橙卡角色"
+    ],
+    "plain_descriptions": [
+      "获得1张随机金色橙卡角色"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 48,
+    "string_start_index": 172,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\051_Icon_ZiZouQi_XiaoHao_NiuDan_PURPLE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 52,
+    "category": "consume",
+    "name": "营养均衡",
+    "resource": "Icon_ZiZouQi_XiaoHao_ShengHuaBaoShi_BLUE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\052_Icon_ZiZouQi_XiaoHao_ShengHuaBaoShi_BLUE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_02\\Icon_ZiZouQi_XiaoHao_ShengHuaBaoShi_BLUE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_02",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [
+      "角色战斗中攻击力增加时，永久生命+1",
+      "生命+1"
+    ],
+    "plain_descriptions": [
+      "角色战斗中攻击力增加时，永久生命+1",
+      "生命+1"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 67,
+    "string_start_index": 251,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\052_Icon_ZiZouQi_XiaoHao_ShengHuaBaoShi_BLUE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 53,
+    "category": "consume",
+    "name": "营养均衡",
+    "resource": "Icon_ZiZouQi_XiaoHao_ShengHuaBaoShi_GOLD",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\053_Icon_ZiZouQi_XiaoHao_ShengHuaBaoShi_GOLD.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_02\\Icon_ZiZouQi_XiaoHao_ShengHuaBaoShi_GOLD.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_02",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [
+      "角色战斗中攻击力增加时，永久生命+1",
+      "生命+1"
+    ],
+    "plain_descriptions": [
+      "角色战斗中攻击力增加时，永久生命+1",
+      "生命+1"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 67,
+    "string_start_index": 251,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\053_Icon_ZiZouQi_XiaoHao_ShengHuaBaoShi_GOLD.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 54,
+    "category": "consume",
+    "name": "营养均衡",
+    "resource": "Icon_ZiZouQi_XiaoHao_ShengHuaBaoShi_PURPLE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\054_Icon_ZiZouQi_XiaoHao_ShengHuaBaoShi_PURPLE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_02\\Icon_ZiZouQi_XiaoHao_ShengHuaBaoShi_PURPLE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_02",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [
+      "角色战斗中攻击力增加时，永久生命+1",
+      "生命+1"
+    ],
+    "plain_descriptions": [
+      "角色战斗中攻击力增加时，永久生命+1",
+      "生命+1"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 67,
+    "string_start_index": 251,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\054_Icon_ZiZouQi_XiaoHao_ShengHuaBaoShi_PURPLE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 55,
+    "category": "consume",
+    "name": "数据",
+    "resource": "Icon_ZiZouQi_XiaoHao_ShuJu_BLUE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\055_Icon_ZiZouQi_XiaoHao_ShuJu_BLUE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_03\\Icon_ZiZouQi_XiaoHao_ShuJu_BLUE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_03",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\055_Icon_ZiZouQi_XiaoHao_ShuJu_BLUE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 56,
+    "category": "consume",
+    "name": "数据",
+    "resource": "Icon_ZiZouQi_XiaoHao_ShuJu_GOLD",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\056_Icon_ZiZouQi_XiaoHao_ShuJu_GOLD.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_03\\Icon_ZiZouQi_XiaoHao_ShuJu_GOLD.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_03",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\056_Icon_ZiZouQi_XiaoHao_ShuJu_GOLD.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 57,
+    "category": "consume",
+    "name": "数据",
+    "resource": "Icon_ZiZouQi_XiaoHao_ShuJu_PURPLE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\057_Icon_ZiZouQi_XiaoHao_ShuJu_PURPLE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_03\\Icon_ZiZouQi_XiaoHao_ShuJu_PURPLE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_03",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\057_Icon_ZiZouQi_XiaoHao_ShuJu_PURPLE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 58,
+    "category": "consume",
+    "name": "免费门票",
+    "resource": "Icon_ZiZouQi_XiaoHao_ShuaXin_BLUE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\058_Icon_ZiZouQi_XiaoHao_ShuaXin_BLUE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_02\\Icon_ZiZouQi_XiaoHao_ShuaXin_BLUE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_02",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [
+      "每回合获得1次免费刷新"
+    ],
+    "plain_descriptions": [
+      "每回合获得1次免费刷新"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 43,
+    "string_start_index": 152,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\058_Icon_ZiZouQi_XiaoHao_ShuaXin_BLUE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 59,
+    "category": "consume",
+    "name": "免费门票",
+    "resource": "Icon_ZiZouQi_XiaoHao_ShuaXin_GOLD",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\059_Icon_ZiZouQi_XiaoHao_ShuaXin_GOLD.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_02\\Icon_ZiZouQi_XiaoHao_ShuaXin_GOLD.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_02",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [
+      "每回合获得1次免费刷新"
+    ],
+    "plain_descriptions": [
+      "每回合获得1次免费刷新"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 43,
+    "string_start_index": 152,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\059_Icon_ZiZouQi_XiaoHao_ShuaXin_GOLD.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 60,
+    "category": "consume",
+    "name": "免费门票",
+    "resource": "Icon_ZiZouQi_XiaoHao_ShuaXin_PURPLE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\060_Icon_ZiZouQi_XiaoHao_ShuaXin_PURPLE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_02\\Icon_ZiZouQi_XiaoHao_ShuaXin_PURPLE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_02",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [
+      "每回合获得1次免费刷新"
+    ],
+    "plain_descriptions": [
+      "每回合获得1次免费刷新"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 43,
+    "string_start_index": 152,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\060_Icon_ZiZouQi_XiaoHao_ShuaXin_PURPLE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 61,
+    "category": "consume",
+    "name": "队员集结",
+    "resource": "Icon_ZiZouQi_XiaoHao_TiaoXuan_BLUE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\061_Icon_ZiZouQi_XiaoHao_TiaoXuan_BLUE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_02\\Icon_ZiZouQi_XiaoHao_TiaoXuan_BLUE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_02",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [
+      "获得绿色以上品质的角色卡各1张"
+    ],
+    "plain_descriptions": [
+      "获得绿色以上品质的角色卡各1张"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 44,
+    "string_start_index": 154,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\061_Icon_ZiZouQi_XiaoHao_TiaoXuan_BLUE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 62,
+    "category": "consume",
+    "name": "队员集结",
+    "resource": "Icon_ZiZouQi_XiaoHao_TiaoXuan_GOLD",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\062_Icon_ZiZouQi_XiaoHao_TiaoXuan_GOLD.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_02\\Icon_ZiZouQi_XiaoHao_TiaoXuan_GOLD.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_02",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [
+      "获得绿色以上品质的角色卡各1张"
+    ],
+    "plain_descriptions": [
+      "获得绿色以上品质的角色卡各1张"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 44,
+    "string_start_index": 154,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\062_Icon_ZiZouQi_XiaoHao_TiaoXuan_GOLD.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 63,
+    "category": "consume",
+    "name": "队员集结",
+    "resource": "Icon_ZiZouQi_XiaoHao_TiaoXuan_PURPLE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\063_Icon_ZiZouQi_XiaoHao_TiaoXuan_PURPLE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_02\\Icon_ZiZouQi_XiaoHao_TiaoXuan_PURPLE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_02",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [
+      "获得绿色以上品质的角色卡各1张"
+    ],
+    "plain_descriptions": [
+      "获得绿色以上品质的角色卡各1张"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 44,
+    "string_start_index": 154,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\063_Icon_ZiZouQi_XiaoHao_TiaoXuan_PURPLE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 64,
+    "category": "consume",
+    "name": "防御加固",
+    "resource": "Icon_ZiZouQi_XiaoHao_TouKui_BLUE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\064_Icon_ZiZouQi_XiaoHao_TouKui_BLUE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_02\\Icon_ZiZouQi_XiaoHao_TouKui_BLUE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_02",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [
+      "玩家生命值+15"
+    ],
+    "plain_descriptions": [
+      "玩家生命值+15"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 47,
+    "string_start_index": 169,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\064_Icon_ZiZouQi_XiaoHao_TouKui_BLUE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 65,
+    "category": "consume",
+    "name": "防御加固",
+    "resource": "Icon_ZiZouQi_XiaoHao_TouKui_GOLD",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\065_Icon_ZiZouQi_XiaoHao_TouKui_GOLD.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_02\\Icon_ZiZouQi_XiaoHao_TouKui_GOLD.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_02",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [
+      "玩家生命值+15"
+    ],
+    "plain_descriptions": [
+      "玩家生命值+15"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 47,
+    "string_start_index": 169,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\065_Icon_ZiZouQi_XiaoHao_TouKui_GOLD.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 66,
+    "category": "consume",
+    "name": "防御加固",
+    "resource": "Icon_ZiZouQi_XiaoHao_TouKui_PURPLE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\066_Icon_ZiZouQi_XiaoHao_TouKui_PURPLE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_02\\Icon_ZiZouQi_XiaoHao_TouKui_PURPLE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_02",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [
+      "玩家生命值+15"
+    ],
+    "plain_descriptions": [
+      "玩家生命值+15"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 47,
+    "string_start_index": 169,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\066_Icon_ZiZouQi_XiaoHao_TouKui_PURPLE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 67,
+    "category": "consume",
+    "name": "伪装",
+    "resource": "Icon_ZiZouQi_XiaoHao_WeiZhuang_BLUE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\067_Icon_ZiZouQi_XiaoHao_WeiZhuang_BLUE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_02\\Icon_ZiZouQi_XiaoHao_WeiZhuang_BLUE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_02",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\067_Icon_ZiZouQi_XiaoHao_WeiZhuang_BLUE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 68,
+    "category": "consume",
+    "name": "伪装",
+    "resource": "Icon_ZiZouQi_XiaoHao_WeiZhuang_GOLD",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\068_Icon_ZiZouQi_XiaoHao_WeiZhuang_GOLD.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_02\\Icon_ZiZouQi_XiaoHao_WeiZhuang_GOLD.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_02",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\068_Icon_ZiZouQi_XiaoHao_WeiZhuang_GOLD.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 69,
+    "category": "consume",
+    "name": "伪装",
+    "resource": "Icon_ZiZouQi_XiaoHao_WeiZhuang_PURPLE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\069_Icon_ZiZouQi_XiaoHao_WeiZhuang_PURPLE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_02\\Icon_ZiZouQi_XiaoHao_WeiZhuang_PURPLE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_02",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\069_Icon_ZiZouQi_XiaoHao_WeiZhuang_PURPLE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 70,
+    "category": "consume",
+    "name": "项链",
+    "resource": "Icon_ZiZouQi_XiaoHao_XiangLian_BLUE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\070_Icon_ZiZouQi_XiaoHao_XiangLian_BLUE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_02\\Icon_ZiZouQi_XiaoHao_XiangLian_BLUE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_02",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\070_Icon_ZiZouQi_XiaoHao_XiangLian_BLUE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 71,
+    "category": "consume",
+    "name": "项链",
+    "resource": "Icon_ZiZouQi_XiaoHao_XiangLian_GOLD",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\071_Icon_ZiZouQi_XiaoHao_XiangLian_GOLD.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_02\\Icon_ZiZouQi_XiaoHao_XiangLian_GOLD.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_02",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\071_Icon_ZiZouQi_XiaoHao_XiangLian_GOLD.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 72,
+    "category": "consume",
+    "name": "项链",
+    "resource": "Icon_ZiZouQi_XiaoHao_XiangLian_PURPLE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\072_Icon_ZiZouQi_XiaoHao_XiangLian_PURPLE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_02\\Icon_ZiZouQi_XiaoHao_XiangLian_PURPLE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_02",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\072_Icon_ZiZouQi_XiaoHao_XiangLian_PURPLE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 73,
+    "category": "consume",
+    "name": "小黄鸭",
+    "resource": "Icon_ZiZouQi_XiaoHao_XiaoHuangYa_BLUE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\073_Icon_ZiZouQi_XiaoHao_XiaoHuangYa_BLUE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_03\\Icon_ZiZouQi_XiaoHao_XiaoHuangYa_BLUE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_03",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\073_Icon_ZiZouQi_XiaoHao_XiaoHuangYa_BLUE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 74,
+    "category": "consume",
+    "name": "小黄鸭",
+    "resource": "Icon_ZiZouQi_XiaoHao_XiaoHuangYa_GOLD",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\074_Icon_ZiZouQi_XiaoHao_XiaoHuangYa_GOLD.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_03\\Icon_ZiZouQi_XiaoHao_XiaoHuangYa_GOLD.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_03",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\074_Icon_ZiZouQi_XiaoHao_XiaoHuangYa_GOLD.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 75,
+    "category": "consume",
+    "name": "小黄鸭",
+    "resource": "Icon_ZiZouQi_XiaoHao_XiaoHuangYa_PURPLE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\075_Icon_ZiZouQi_XiaoHao_XiaoHuangYa_PURPLE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_03\\Icon_ZiZouQi_XiaoHao_XiaoHuangYa_PURPLE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_03",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\075_Icon_ZiZouQi_XiaoHao_XiaoHuangYa_PURPLE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 76,
+    "category": "consume",
+    "name": "芯片",
+    "resource": "Icon_ZiZouQi_XiaoHao_XinPian2_BLUE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\076_Icon_ZiZouQi_XiaoHao_XinPian2_BLUE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_02\\Icon_ZiZouQi_XiaoHao_XinPian2_BLUE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_02",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\076_Icon_ZiZouQi_XiaoHao_XinPian2_BLUE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 77,
+    "category": "consume",
+    "name": "芯片",
+    "resource": "Icon_ZiZouQi_XiaoHao_XinPian2_GOLD",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\077_Icon_ZiZouQi_XiaoHao_XinPian2_GOLD.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_02\\Icon_ZiZouQi_XiaoHao_XinPian2_GOLD.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_02",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\077_Icon_ZiZouQi_XiaoHao_XinPian2_GOLD.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 78,
+    "category": "consume",
+    "name": "芯片",
+    "resource": "Icon_ZiZouQi_XiaoHao_XinPian2_PURPLE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\078_Icon_ZiZouQi_XiaoHao_XinPian2_PURPLE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_02\\Icon_ZiZouQi_XiaoHao_XinPian2_PURPLE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_02",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\078_Icon_ZiZouQi_XiaoHao_XinPian2_PURPLE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 79,
+    "category": "consume",
+    "name": "成长性",
+    "resource": "Icon_ZiZouQi_XiaoHao_XinPian_BLUE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\079_Icon_ZiZouQi_XiaoHao_XinPian_BLUE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_02\\Icon_ZiZouQi_XiaoHao_XinPian_BLUE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_02",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [
+      "你的角色获得成长：永久+2+4"
+    ],
+    "plain_descriptions": [
+      "你的角色获得成长：永久+2+4"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 66,
+    "string_start_index": 246,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\079_Icon_ZiZouQi_XiaoHao_XinPian_BLUE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 80,
+    "category": "consume",
+    "name": "成长性",
+    "resource": "Icon_ZiZouQi_XiaoHao_XinPian_GOLD",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\080_Icon_ZiZouQi_XiaoHao_XinPian_GOLD.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_02\\Icon_ZiZouQi_XiaoHao_XinPian_GOLD.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_02",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [
+      "你的角色获得成长：永久+2+4"
+    ],
+    "plain_descriptions": [
+      "你的角色获得成长：永久+2+4"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 66,
+    "string_start_index": 246,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\080_Icon_ZiZouQi_XiaoHao_XinPian_GOLD.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 81,
+    "category": "consume",
+    "name": "成长性",
+    "resource": "Icon_ZiZouQi_XiaoHao_XinPian_PURPLE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\081_Icon_ZiZouQi_XiaoHao_XinPian_PURPLE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_02\\Icon_ZiZouQi_XiaoHao_XinPian_PURPLE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_02",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [
+      "你的角色获得成长：永久+2+4"
+    ],
+    "plain_descriptions": [
+      "你的角色获得成长：永久+2+4"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 66,
+    "string_start_index": 246,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\081_Icon_ZiZouQi_XiaoHao_XinPian_PURPLE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 82,
+    "category": "consume",
+    "name": "战场回收",
+    "resource": "Icon_ZiZouQi_XiaoHao_XuanShang_BLUE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\082_Icon_ZiZouQi_XiaoHao_XuanShang_BLUE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_03\\Icon_ZiZouQi_XiaoHao_XuanShang_BLUE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_03",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [
+      "战斗回合结束时，获得1张随机道具牌"
+    ],
+    "plain_descriptions": [
+      "战斗回合结束时，获得1张随机道具牌"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 61,
+    "string_start_index": 224,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\082_Icon_ZiZouQi_XiaoHao_XuanShang_BLUE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 83,
+    "category": "consume",
+    "name": "战场回收",
+    "resource": "Icon_ZiZouQi_XiaoHao_XuanShang_GOLD",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\083_Icon_ZiZouQi_XiaoHao_XuanShang_GOLD.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_03\\Icon_ZiZouQi_XiaoHao_XuanShang_GOLD.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_03",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [
+      "战斗回合结束时，获得1张随机道具牌"
+    ],
+    "plain_descriptions": [
+      "战斗回合结束时，获得1张随机道具牌"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 61,
+    "string_start_index": 224,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\083_Icon_ZiZouQi_XiaoHao_XuanShang_GOLD.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 84,
+    "category": "consume",
+    "name": "战场回收",
+    "resource": "Icon_ZiZouQi_XiaoHao_XuanShang_PURPLE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\084_Icon_ZiZouQi_XiaoHao_XuanShang_PURPLE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_03\\Icon_ZiZouQi_XiaoHao_XuanShang_PURPLE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_03",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [
+      "战斗回合结束时，获得1张随机道具牌"
+    ],
+    "plain_descriptions": [
+      "战斗回合结束时，获得1张随机道具牌"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 61,
+    "string_start_index": 224,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\084_Icon_ZiZouQi_XiaoHao_XuanShang_PURPLE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 85,
+    "category": "consume",
+    "name": "药剂",
+    "resource": "Icon_ZiZouQi_XiaoHao_YaoJi_BLUE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\085_Icon_ZiZouQi_XiaoHao_YaoJi_BLUE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_02\\Icon_ZiZouQi_XiaoHao_YaoJi_BLUE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_02",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\085_Icon_ZiZouQi_XiaoHao_YaoJi_BLUE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 86,
+    "category": "consume",
+    "name": "药剂",
+    "resource": "Icon_ZiZouQi_XiaoHao_YaoJi_GOLD",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\086_Icon_ZiZouQi_XiaoHao_YaoJi_GOLD.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_02\\Icon_ZiZouQi_XiaoHao_YaoJi_GOLD.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_02",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\086_Icon_ZiZouQi_XiaoHao_YaoJi_GOLD.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 87,
+    "category": "consume",
+    "name": "药剂",
+    "resource": "Icon_ZiZouQi_XiaoHao_YaoJi_PURPLE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\087_Icon_ZiZouQi_XiaoHao_YaoJi_PURPLE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_02\\Icon_ZiZouQi_XiaoHao_YaoJi_PURPLE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_02",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\087_Icon_ZiZouQi_XiaoHao_YaoJi_PURPLE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 88,
+    "category": "consume",
+    "name": "稳健射击+",
+    "resource": "Icon_ZiZouQi_XiaoHao_ZengShang_BLUE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\088_Icon_ZiZouQi_XiaoHao_ZengShang_BLUE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_02\\Icon_ZiZouQi_XiaoHao_ZengShang_BLUE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_02",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [
+      "你的角色增伤+4，增加武器及技能伤害",
+      "增伤+4，增加武器及技能伤害"
+    ],
+    "plain_descriptions": [
+      "你的角色增伤+4，增加武器及技能伤害",
+      "增伤+4，增加武器及技能伤害"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 52,
+    "string_start_index": 187,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\088_Icon_ZiZouQi_XiaoHao_ZengShang_BLUE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 89,
+    "category": "consume",
+    "name": "稳健射击+",
+    "resource": "Icon_ZiZouQi_XiaoHao_ZengShang_GOLD",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\089_Icon_ZiZouQi_XiaoHao_ZengShang_GOLD.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_02\\Icon_ZiZouQi_XiaoHao_ZengShang_GOLD.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_02",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [
+      "你的角色增伤+4，增加武器及技能伤害",
+      "增伤+4，增加武器及技能伤害"
+    ],
+    "plain_descriptions": [
+      "你的角色增伤+4，增加武器及技能伤害",
+      "增伤+4，增加武器及技能伤害"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 52,
+    "string_start_index": 187,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\089_Icon_ZiZouQi_XiaoHao_ZengShang_GOLD.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 90,
+    "category": "consume",
+    "name": "稳健射击+",
+    "resource": "Icon_ZiZouQi_XiaoHao_ZengShang_PURPLE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\090_Icon_ZiZouQi_XiaoHao_ZengShang_PURPLE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_02\\Icon_ZiZouQi_XiaoHao_ZengShang_PURPLE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_02",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [
+      "你的角色增伤+4，增加武器及技能伤害",
+      "增伤+4，增加武器及技能伤害"
+    ],
+    "plain_descriptions": [
+      "你的角色增伤+4，增加武器及技能伤害",
+      "增伤+4，增加武器及技能伤害"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 52,
+    "string_start_index": 187,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\090_Icon_ZiZouQi_XiaoHao_ZengShang_PURPLE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 91,
+    "category": "consume",
+    "name": "龙映山海",
+    "resource": "Icon_ZiZouQi_XiaoHao_ZhiYuan_BLUE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\091_Icon_ZiZouQi_XiaoHao_ZhiYuan_BLUE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_02\\Icon_ZiZouQi_XiaoHao_ZhiYuan_BLUE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_02",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [
+      "获得1张关小雨，你的成长效果额外触发1次8",
+      "获得1张关小雨，你的成长效果额外触发1次"
+    ],
+    "plain_descriptions": [
+      "获得1张关小雨，你的成长效果额外触发1次8",
+      "获得1张关小雨，你的成长效果额外触发1次"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 77,
+    "string_start_index": 285,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\091_Icon_ZiZouQi_XiaoHao_ZhiYuan_BLUE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 92,
+    "category": "consume",
+    "name": "龙映山海",
+    "resource": "Icon_ZiZouQi_XiaoHao_ZhiYuan_GOLD",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\092_Icon_ZiZouQi_XiaoHao_ZhiYuan_GOLD.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_02\\Icon_ZiZouQi_XiaoHao_ZhiYuan_GOLD.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_02",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [
+      "获得1张关小雨，你的成长效果额外触发1次8",
+      "获得1张关小雨，你的成长效果额外触发1次"
+    ],
+    "plain_descriptions": [
+      "获得1张关小雨，你的成长效果额外触发1次8",
+      "获得1张关小雨，你的成长效果额外触发1次"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 77,
+    "string_start_index": 285,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\092_Icon_ZiZouQi_XiaoHao_ZhiYuan_GOLD.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 93,
+    "category": "consume",
+    "name": "龙映山海",
+    "resource": "Icon_ZiZouQi_XiaoHao_ZhiYuan_PURPLE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\093_Icon_ZiZouQi_XiaoHao_ZhiYuan_PURPLE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_02\\Icon_ZiZouQi_XiaoHao_ZhiYuan_PURPLE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_02",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [
+      "获得1张关小雨，你的成长效果额外触发1次8",
+      "获得1张关小雨，你的成长效果额外触发1次"
+    ],
+    "plain_descriptions": [
+      "获得1张关小雨，你的成长效果额外触发1次8",
+      "获得1张关小雨，你的成长效果额外触发1次"
+    ],
+    "brief_descriptions": [],
+    "item_table_index": 77,
+    "string_start_index": 285,
+    "match_status": "matched_by_resource_alias",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\093_Icon_ZiZouQi_XiaoHao_ZhiYuan_PURPLE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 94,
+    "category": "consume",
+    "name": "子弹",
+    "resource": "Icon_ZiZouQi_XiaoHao_ZiDan_BLUE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\094_Icon_ZiZouQi_XiaoHao_ZiDan_BLUE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_03\\Icon_ZiZouQi_XiaoHao_ZiDan_BLUE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_03",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\094_Icon_ZiZouQi_XiaoHao_ZiDan_BLUE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 95,
+    "category": "consume",
+    "name": "子弹",
+    "resource": "Icon_ZiZouQi_XiaoHao_ZiDan_GOLD",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\095_Icon_ZiZouQi_XiaoHao_ZiDan_GOLD.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_03\\Icon_ZiZouQi_XiaoHao_ZiDan_GOLD.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_03",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\095_Icon_ZiZouQi_XiaoHao_ZiDan_GOLD.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 96,
+    "category": "consume",
+    "name": "子弹",
+    "resource": "Icon_ZiZouQi_XiaoHao_ZiDan_PURPLE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\096_Icon_ZiZouQi_XiaoHao_ZiDan_PURPLE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_03\\Icon_ZiZouQi_XiaoHao_ZiDan_PURPLE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_03",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\096_Icon_ZiZouQi_XiaoHao_ZiDan_PURPLE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 97,
+    "category": "consume",
+    "name": "左轮",
+    "resource": "Icon_ZiZouQi_XiaoHao_ZuoLun_BLUE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\097_Icon_ZiZouQi_XiaoHao_ZuoLun_BLUE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_03\\Icon_ZiZouQi_XiaoHao_ZuoLun_BLUE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_03",
+    "quality": "blue",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\097_Icon_ZiZouQi_XiaoHao_ZuoLun_BLUE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 98,
+    "category": "consume",
+    "name": "左轮",
+    "resource": "Icon_ZiZouQi_XiaoHao_ZuoLun_GOLD",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\098_Icon_ZiZouQi_XiaoHao_ZuoLun_GOLD.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_03\\Icon_ZiZouQi_XiaoHao_ZuoLun_GOLD.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_03",
+    "quality": "gold",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\098_Icon_ZiZouQi_XiaoHao_ZuoLun_GOLD.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  },
+  {
+    "index": 99,
+    "category": "consume",
+    "name": "左轮",
+    "resource": "Icon_ZiZouQi_XiaoHao_ZuoLun_PURPLE",
+    "png": "autochess_dump\\organized_consume_buffs\\consume_cards\\099_Icon_ZiZouQi_XiaoHao_ZuoLun_PURPLE.png",
+    "source_png": "autochess_dump\\zizouqi_sprite_crops\\Icon_Pvp_ZiZouQi_Spells_03\\Icon_ZiZouQi_XiaoHao_ZuoLun_PURPLE.png",
+    "atlasAssetName": "Icon_Pvp_ZiZouQi_Spells_03",
+    "quality": "purple",
+    "keywords": [],
+    "descriptions": [],
+    "plain_descriptions": [],
+    "brief_descriptions": [],
+    "item_table_index": null,
+    "string_start_index": null,
+    "match_status": "name_from_apk_filename",
+    "composited_card_png": "autochess_dump\\organized_consume_card_previews\\composited_cards\\099_Icon_ZiZouQi_XiaoHao_ZuoLun_PURPLE.png",
+    "spells_background_png": "autochess_dump\\ua257_texture10_card_frame_slices\\slices_rb_swap_flip_y\\shop_ui\\046_4U_Hud_ZiZouQi_Card_ShopAndMainBottom_Spells_Bg.png",
+    "composition_layers": [
+      "spells_background",
+      "consume_image"
+    ]
+  }
+]
