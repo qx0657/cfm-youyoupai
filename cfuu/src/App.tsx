@@ -6,19 +6,23 @@ import {
   X,
   Crosshair,
   Database,
+  Eye,
   EyeOff,
   Filter,
   Flame,
   GraduationCap,
   Layers,
   Library,
+  Link2,
   Map as MapIcon,
   PlaySquare,
+  Plus,
   Search,
   Shield,
   Sparkles,
   Swords,
   Target,
+  Trash2,
 } from "lucide-react";
 import { loadSiteData } from "./data/loaders";
 import type { CardCategory, CardRecord, FactionRecord, MapRecord, RecommendedLineup, Summary, VideoGuide, WordExplanation } from "./data/types";
@@ -26,7 +30,7 @@ import type { CardCategory, CardRecord, FactionRecord, MapRecord, RecommendedLin
 type ViewMode = "cards" | "factions";
 type SitePage = "library" | "guide" | "ai" | "videos";
 type BasicsSection = "guide" | "maps" | "buffs";
-type AiSection = "lineups";
+type AiSection = "lineups" | "custom";
 type LibraryCategory = Exclude<CardCategory, "buff"> | "all";
 
 type AppRoute = {
@@ -93,7 +97,8 @@ function readAppRoute(): AppRoute {
     return { page: "guide", view: "cards", category: "all", basicsSection, aiSection: "lineups" };
   }
   if (section === "ai") {
-    return { page: "ai", view: "cards", category: "all", basicsSection: "guide", aiSection: "lineups" };
+    const aiSection: AiSection = detail === "custom" ? "custom" : "lineups";
+    return { page: "ai", view: "cards", category: "all", basicsSection: "guide", aiSection };
   }
   if (section === "videos") {
     return { page: "videos", view: "cards", category: "all", basicsSection: "guide", aiSection: "lineups" };
@@ -108,7 +113,7 @@ function readAppRoute(): AppRoute {
 
 function appRouteHash(route: Pick<AppRoute, "page" | "view" | "category" | "basicsSection" | "aiSection">) {
   if (route.page === "guide") return `#/basics/${route.basicsSection}`;
-  if (route.page === "ai") return "#/ai";
+  if (route.page === "ai") return route.aiSection === "custom" ? "#/ai/custom" : "#/ai";
   if (route.page === "videos") return "#/videos";
   if (route.view === "factions") return "#/library/factions";
   return `#/library/${libraryCategoryRoutes[route.category]}`;
@@ -550,14 +555,128 @@ function ComingSoonPage({
 type LineupSlot = { role?: string; weapon?: string; items?: string[] };
 
 const unavailableLineupRoles = new Set(["钢铁终结者", "小红", "黑暗金刚", "剧毒蛇女", "迅捷虫"]);
+const customLineupId = "custom-shared-lineup";
+const shareableLineupCategories = new Set<CardCategory>(["role", "weapon", "item", "throwable"]);
+const shareCategoryPrefix: Partial<Record<CardCategory, string>> = {
+  role: "r",
+  weapon: "w",
+  item: "i",
+  throwable: "t",
+};
 
-function LineupRole({ slot, cardsByName, factionIconMap }: { slot: LineupSlot; cardsByName: Map<string, CardRecord>; factionIconMap: Map<string, string | null> }) {
+function normalizeLineupSlots(slots: LineupSlot[] = []) {
+  return Array.from({ length: 6 }, (_, index) => {
+    const slot = slots[index] || {};
+    return {
+      role: slot.role || "",
+      weapon: slot.weapon || "",
+      items: Array.isArray(slot.items) ? slot.items.filter(Boolean).slice(0, 3) : [],
+    };
+  });
+}
+
+function createEmptyCustomLineup(): RecommendedLineup {
+  return {
+    id: customLineupId,
+    name: "我的自定义阵容",
+    label: "自定义",
+    summary: "用前台编辑器临时搭配的阵容，可生成链接分享给其他玩家。",
+    strategy: [],
+    keywords: [],
+    slots: normalizeLineupSlots(),
+    mapKey: "",
+    buffs: [],
+    videos: [],
+    order: 9999,
+    hidden: false,
+  };
+}
+
+function shareHash(value: string) {
+  let hash = 2166136261;
+  for (let index = 0; index < value.length; index += 1) {
+    hash ^= value.charCodeAt(index);
+    hash = Math.imul(hash, 16777619);
+  }
+  return (hash >>> 0).toString(36).padStart(7, "0");
+}
+
+function buildLineupShareCodec(cards: CardRecord[]) {
+  const codeByName = new Map<string, string>();
+  const nameByCode = new Map<string, string>();
+  const shareCards = cards
+    .filter((card) => !card.hidden && shareableLineupCategories.has(card.category))
+    .sort((a, b) => a.category.localeCompare(b.category) || a.id.localeCompare(b.id) || a.name.localeCompare(b.name, "zh-Hans-CN"));
+
+  for (const card of shareCards) {
+    const prefix = shareCategoryPrefix[card.category] || "x";
+    const hash = shareHash(`${card.category}:${card.id}:${card.name}`);
+    let length = 4;
+    let code = `${prefix}${hash.slice(0, length)}`;
+    while (nameByCode.has(code) && nameByCode.get(code) !== card.name) {
+      length += 1;
+      code = `${prefix}${hash.slice(0, length)}`;
+    }
+    codeByName.set(card.name, code);
+    nameByCode.set(code, card.name);
+  }
+
+  return { codeByName, nameByCode };
+}
+
+function encodeSharedLineup(lineup: RecommendedLineup, cards: CardRecord[]) {
+  const { codeByName } = buildLineupShareCodec(cards);
+  const slots = normalizeLineupSlots(lineup.slots).map((slot) => {
+    const role = slot.role ? codeByName.get(slot.role) || "" : "";
+    const weapon = slot.weapon ? codeByName.get(slot.weapon) || "" : "";
+    const items = (slot.items || []).map((name) => codeByName.get(name) || "").filter(Boolean).join(",");
+    return `${role}.${weapon}.${items}`;
+  });
+  return `2:${slots.join(";")}`;
+}
+
+function decodeCompactSharedLineup(value: string, cards: CardRecord[]) {
+  if (!value.startsWith("2:")) return null;
+  const { nameByCode } = buildLineupShareCodec(cards);
+  const slots = value.slice(2).split(";").slice(0, 6).map((slotText) => {
+    const [roleCode = "", weaponCode = "", itemCodes = ""] = slotText.split(".");
+    return {
+      role: nameByCode.get(roleCode) || "",
+      weapon: nameByCode.get(weaponCode) || "",
+      items: itemCodes.split(",").map((code) => nameByCode.get(code) || "").filter(Boolean),
+    };
+  });
+  return {
+    ...createEmptyCustomLineup(),
+    name: "分享阵容",
+    label: "分享",
+    summary: "来自分享链接的自定义阵容。",
+    slots: normalizeLineupSlots(slots),
+  };
+}
+
+function decodeSharedLineup(value: string | null, cards: CardRecord[] = []): RecommendedLineup | null {
+  if (!value) return null;
+  return decodeCompactSharedLineup(value, cards);
+}
+
+function LineupRole({
+  slot,
+  cardsByName,
+  factionIconMap,
+  reserveWeaponSlot,
+}: {
+  slot: LineupSlot;
+  cardsByName: Map<string, CardRecord>;
+  factionIconMap: Map<string, string | null>;
+  reserveWeaponSlot: boolean;
+}) {
   if (!slot.role) return <div className="lineup-role-empty"><span>空位</span><small>按对局补充</small></div>;
   const role = cardsByName.get(slot.role);
   if (!role) return <div className="lineup-role missing">资料缺失</div>;
   const weapon = slot.weapon ? cardsByName.get(slot.weapon) : undefined;
   const items = (slot.items || []).map((name) => cardsByName.get(name)).filter((card): card is CardRecord => Boolean(card));
-  const equipment = [weapon, ...(slot.items || []).map((name) => cardsByName.get(name))].filter((card): card is CardRecord => Boolean(card));
+  const equipment = [weapon, ...items].filter((card): card is CardRecord => Boolean(card));
   const roleEffects = splitRoleUpgradeDescriptions(role);
   const lineupImage = role.goldImage || role.image;
   const roleEffectText = [role.name, ...role.keywords, ...role.descriptions].join(" ");
@@ -567,24 +686,35 @@ function LineupRole({ slot, cardsByName, factionIconMap }: { slot: LineupSlot; c
   return (
     <div className="lineup-role">
       <button className="lineup-role-button" type="button" aria-label={`查看${role.name}阵容详情`}>
-        <span className={classNames("lineup-role-visual", !equipment.length && "without-equipment")}>
-          <span className="lineup-role-card-shell">
-            {lineupImage ? <img className="lineup-role-card-preview" src={lineupImage} alt="" loading="lazy" /> : <span className="lineup-role-card-fallback">{role.name.slice(0, 1)}</span>}
-            {hasTaunt ? <img className="lineup-status-icon taunt" src="/assets/effects/taunt.png" alt="嘲讽" title="嘲讽" /> : null}
-            {cannotAct ? <img className="lineup-status-icon stop" src="/assets/effects/stop.png" alt="无法行动" title="无法行动" /> : null}
+        <span className={classNames("lineup-role-visual", !items.length && "without-side-equipment")}>
+          <span className="lineup-role-main">
+            <span className="lineup-role-card-shell">
+              {lineupImage ? <img className="lineup-role-card-preview" src={lineupImage} alt="" loading="lazy" /> : <span className="lineup-role-card-fallback">{role.name.slice(0, 1)}</span>}
+              {hasTaunt ? <img className="lineup-status-icon taunt" src="/assets/effects/taunt.png" alt="嘲讽" title="嘲讽" /> : null}
+              {cannotAct ? <img className="lineup-status-icon stop" src="/assets/effects/stop.png" alt="无法行动" title="无法行动" /> : null}
+            </span>
+            {weapon || reserveWeaponSlot ? (
+              <span className={classNames("lineup-weapon-slot", !weapon && "empty")}>
+                {weapon ? (
+                  <span className="lineup-equipment-chip lineup-weapon-chip" title={`${weapon.categoryLabel} · ${weapon.name}`}>
+                    {weapon.originalImage || weapon.image ? <img src={weapon.originalImage || weapon.image || ""} alt="" loading="lazy" /> : null}
+                  </span>
+                ) : null}
+              </span>
+            ) : null}
+            <strong>{role.name}</strong>
+            <span className="lineup-role-keywords">{role.keywords.slice(0, 2).join(" · ") || "角色"}</span>
           </span>
-          {equipment.length ? (
-            <span className="lineup-equipment-rail" aria-label={`${role.name}推荐携带`}>
-              {equipment.map((card) => (
-              <span className="lineup-equipment-chip" key={card.id} title={`${card.categoryLabel} · ${card.name}`}>
+          {items.length ? (
+            <span className="lineup-equipment-rail" aria-label={`${role.name}推荐道具或投掷`}>
+              {items.map((card) => (
+              <span className="lineup-equipment-chip lineup-side-item-chip" key={card.id} title={`${card.categoryLabel} · ${card.name}`}>
                 {card.originalImage || card.image ? <img src={card.originalImage || card.image || ""} alt="" loading="lazy" /> : null}
               </span>
               ))}
             </span>
           ) : null}
         </span>
-        <strong>{role.name}</strong>
-        <span>{role.keywords.slice(0, 2).join(" · ") || "角色"}</span>
       </button>
       <div className="lineup-role-popover" role="tooltip">
         {lineupImage ? <img className="lineup-role-card" src={lineupImage} alt={`${role.name}金色卡牌`} loading="lazy" /> : null}
@@ -624,20 +754,402 @@ function LineupRole({ slot, cardsByName, factionIconMap }: { slot: LineupSlot; c
   );
 }
 
+function copyTextToClipboard(text: string) {
+  if (navigator.clipboard?.writeText) return navigator.clipboard.writeText(text);
+  const textarea = document.createElement("textarea");
+  textarea.value = text;
+  textarea.setAttribute("readonly", "true");
+  textarea.style.position = "fixed";
+  textarea.style.opacity = "0";
+  document.body.appendChild(textarea);
+  textarea.select();
+  document.execCommand("copy");
+  textarea.remove();
+  return Promise.resolve();
+}
+
+function lineupFullCardImage(card: CardRecord | undefined, role = false) {
+  if (!card) return "";
+  if (role) return card.goldImage || card.image || card.avatar || card.originalImage || "";
+  return card.image || card.goldImage || card.avatar || card.originalImage || "";
+}
+
+function lineupIconImage(card: CardRecord | undefined) {
+  if (!card) return "";
+  return card.originalImage || card.image || card.avatar || card.goldImage || "";
+}
+
+function cardEffectText(card: CardRecord | undefined) {
+  if (!card) return "";
+  return [card.name, ...card.keywords, ...card.descriptions].join(" ");
+}
+
+function lineupSlotStatus(slot: LineupSlot, role: CardRecord | undefined, cardsByName: Map<string, CardRecord>) {
+  const itemTexts = (slot.items || []).map((name) => cardEffectText(cardsByName.get(name)));
+  const roleText = cardEffectText(role);
+  return {
+    hasTaunt: roleText.includes("嘲讽") || itemTexts.some((text) => text.includes("嘲讽")),
+    cannotAct: itemTexts.some((text) => text.includes("无法行动")),
+  };
+}
+
+function CustomLineupCardPopover({ card, role = false }: { card: CardRecord; role?: boolean }) {
+  const descriptions = role || card.category === "weapon" ? splitRoleUpgradeDescriptions(card) : { base: displayDescriptions(card), upgraded: [] };
+  const rows = [
+    ...descriptions.base.map((description) => ({ label: descriptions.upgraded.length ? "基础" : "", kind: "base", description })),
+    ...descriptions.upgraded.map((description) => ({ label: "升级", kind: "upgraded", description })),
+  ];
+  const image = lineupFullCardImage(card, role);
+  const tags = [...card.factions, ...card.keywords].slice(0, 8);
+
+  return (
+    <div className="lineup-card-popover" role="tooltip">
+      <div className="lineup-card-popover-image">{image ? <img src={image} alt="" loading="lazy" /> : <b>{card.name.slice(0, 1)}</b>}</div>
+      <div className="lineup-card-popover-body">
+        <header><span>{card.categoryLabel}{card.quality ? ` · ${qualityLabel(card.quality)}` : ""}</span><strong>{card.name}</strong></header>
+        {tags.length ? <div className="lineup-card-popover-tags">{tags.map((tag) => <span key={tag}>{tag}</span>)}</div> : null}
+        <div className="lineup-card-popover-effects">
+          {rows.map((row, index) => (
+            <p className={classNames(row.kind === "upgraded" && "upgraded")} key={`${row.description}-${index}`}>
+              {row.label ? <small>{row.label}</small> : null}
+              <span>{row.description}</span>
+            </p>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function CustomLineupEquipmentChip({
+  card,
+  kind,
+  onRemove,
+}: {
+  card: CardRecord;
+  kind: "weapon" | "item";
+  onRemove: () => void;
+}) {
+  const image = lineupIconImage(card);
+  return (
+    <span className={classNames("lineup-editor-equipment-chip", kind)} aria-label={`${card.categoryLabel} · ${card.name}`}>
+      {image ? <img src={image} alt="" loading="lazy" /> : <b>{card.name.slice(0, 1)}</b>}
+      <button type="button" onClick={onRemove} aria-label={`移除${card.name}`}>×</button>
+      <CustomLineupCardPopover card={card} />
+    </span>
+  );
+}
+
+function CustomLineupSlotEditor({
+  cardsByName,
+  draggedSlotIndex,
+  onClear,
+  onDragEnd,
+  onDragStart,
+  onDropSlot,
+  onPick,
+  onRemoveItem,
+  onRemoveWeapon,
+  slot,
+  slotIndex,
+}: {
+  cardsByName: Map<string, CardRecord>;
+  draggedSlotIndex: number | null;
+  onClear: () => void;
+  onDragEnd: () => void;
+  onDragStart: () => void;
+  onDropSlot: () => void;
+  onPick: (kind: "role" | "weapon" | "item") => void;
+  onRemoveItem: (itemIndex: number) => void;
+  onRemoveWeapon: () => void;
+  slot: LineupSlot;
+  slotIndex: number;
+}) {
+  const role = slot.role ? cardsByName.get(slot.role) : undefined;
+  const weapon = slot.weapon ? cardsByName.get(slot.weapon) : undefined;
+  const items = (slot.items || []).map((name) => cardsByName.get(name)).filter((card): card is CardRecord => Boolean(card));
+  const hasContent = Boolean(slot.role || slot.weapon || items.length);
+  const roleImage = lineupFullCardImage(role, true);
+  const status = lineupSlotStatus(slot, role, cardsByName);
+  const slotLabel = `${slotIndex < 3 ? "前排" : "后排"} ${(slotIndex % 3) + 1}`;
+
+  return (
+    <article
+      className={classNames("lineup-slot-editor", hasContent ? "filled" : "empty", draggedSlotIndex !== null && draggedSlotIndex !== slotIndex && "drag-over-target")}
+      draggable={hasContent}
+      onDragStart={(event) => {
+        if (!hasContent) {
+          event.preventDefault();
+          return;
+        }
+        event.dataTransfer.effectAllowed = "move";
+        event.dataTransfer.setData("text/plain", `lineup-slot:${slotIndex}`);
+        onDragStart();
+      }}
+      onDragEnd={onDragEnd}
+      onDragOver={(event) => {
+        if (draggedSlotIndex === null || draggedSlotIndex === slotIndex) return;
+        event.preventDefault();
+        event.dataTransfer.dropEffect = "move";
+      }}
+      onDrop={(event) => {
+        event.preventDefault();
+        onDropSlot();
+      }}
+    >
+      <div className={classNames("lineup-editor-slot-layout", !items.length && "without-side-equipment")}>
+        <div className="lineup-editor-role-column">
+          <div className="lineup-editor-role-area">
+            {slot.role ? (
+              <>
+                <button className="lineup-editor-role-card" type="button" onClick={() => onPick("role")}>
+                  <span className="lineup-editor-card-image">
+                    <span className="lineup-editor-card-art">
+                      {roleImage ? <img src={roleImage} alt="" loading="lazy" /> : <span className="lineup-editor-fallback">{slot.role.slice(0, 1)}</span>}
+                      {status.hasTaunt || status.cannotAct ? (
+                        <span className={classNames("lineup-editor-status-icons", status.hasTaunt && status.cannotAct && "multiple")}>
+                          {status.hasTaunt ? <img className="lineup-editor-status-icon" src="/assets/effects/taunt.png" alt="嘲讽" title="嘲讽" loading="lazy" /> : null}
+                          {status.cannotAct ? <img className="lineup-editor-status-icon" src="/assets/effects/stop.png" alt="无法行动" title="无法行动" loading="lazy" /> : null}
+                        </span>
+                      ) : null}
+                    </span>
+                  </span>
+                </button>
+                {role ? <CustomLineupCardPopover card={role} role /> : null}
+                <button className="lineup-slot-clear" type="button" onClick={onClear} aria-label={`清空${slotLabel}`}>×</button>
+              </>
+            ) : (
+              <button className="lineup-editor-add-role" type="button" onClick={() => onPick("role")}>
+                <span>+</span><b>添加角色</b><small>{slotLabel}</small>
+              </button>
+            )}
+          </div>
+          <div className="lineup-editor-weapon-row">
+            {weapon ? <CustomLineupEquipmentChip card={weapon} kind="weapon" onRemove={onRemoveWeapon} /> : <button className="lineup-editor-equipment-add weapon" type="button" onClick={() => onPick("weapon")} title="添加武器"><Plus size={16} /></button>}
+          </div>
+          {slot.role ? (
+            <div className="lineup-editor-role-caption">
+              <strong>{role?.name || slot.role}</strong>
+              <span>{role?.keywords.slice(0, 2).join(" · ") || "角色"}</span>
+            </div>
+          ) : null}
+        </div>
+        <div className="lineup-editor-item-rail">
+          {items.map((card, index) => <CustomLineupEquipmentChip card={card} kind="item" key={`${card.id}-${index}`} onRemove={() => onRemoveItem(index)} />)}
+          <button className="lineup-editor-equipment-add" type="button" onClick={() => onPick("item")} title="添加道具或投掷物"><Plus size={16} /></button>
+        </div>
+      </div>
+    </article>
+  );
+}
+
+function CustomLineupBuilder({
+  cards,
+  lineup,
+  onLineupChange,
+  onPreview,
+}: {
+  cards: CardRecord[];
+  lineup: RecommendedLineup;
+  onLineupChange: (lineup: RecommendedLineup) => void;
+  onPreview: () => void;
+}) {
+  const [shareStatus, setShareStatus] = useState("");
+  const [picker, setPicker] = useState<{ kind: "role" | "weapon" | "item"; slotIndex: number; query: string } | null>(null);
+  const [draggedSlotIndex, setDraggedSlotIndex] = useState<number | null>(null);
+  const roleCards = useMemo(
+    () => cards.filter((card) => card.category === "role" && !card.hidden && !unavailableLineupRoles.has(card.name) && !card.name.includes("异形")).sort(compareCardsByQualityDesc),
+    [cards],
+  );
+  const weaponCards = useMemo(() => cards.filter((card) => card.category === "weapon" && !card.hidden).sort(compareCardsByQualityDesc), [cards]);
+  const itemCards = useMemo(() => cards.filter((card) => (card.category === "item" || card.category === "throwable") && !card.hidden).sort(compareCardsByQualityDesc), [cards]);
+  const cardsByName = useMemo(() => new Map(cards.filter((card) => !card.hidden).map((card) => [card.name, card])), [cards]);
+  const slots = normalizeLineupSlots(lineup.slots);
+
+  const updateLineup = (patch: Partial<RecommendedLineup>) => {
+    onLineupChange({ ...lineup, ...patch, id: customLineupId, hidden: false, order: 9999 });
+    setShareStatus("");
+  };
+
+  const updateSlot = (slotIndex: number, patch: Partial<LineupSlot>) => {
+    const nextSlots = normalizeLineupSlots(slots);
+    nextSlots[slotIndex] = { ...nextSlots[slotIndex], ...patch };
+    updateLineup({ slots: nextSlots });
+  };
+
+  const clearSlot = (slotIndex: number) => {
+    const nextSlots = normalizeLineupSlots(slots);
+    nextSlots[slotIndex] = { role: "", weapon: "", items: [] };
+    updateLineup({ slots: nextSlots });
+  };
+
+  const removeItem = (slotIndex: number, itemIndex: number) => {
+    const slot = slots[slotIndex] || {};
+    updateSlot(slotIndex, { items: (slot.items || []).filter((_, index) => index !== itemIndex) });
+  };
+
+  const swapSlots = (fromIndex: number, toIndex: number) => {
+    if (fromIndex === toIndex) return;
+    const nextSlots = normalizeLineupSlots(slots);
+    [nextSlots[fromIndex], nextSlots[toIndex]] = [nextSlots[toIndex], nextSlots[fromIndex]];
+    updateLineup({ slots: nextSlots });
+  };
+
+  const applyPickerChoice = (name: string) => {
+    if (!picker) return;
+    const slot = slots[picker.slotIndex] || {};
+    if (picker.kind === "role") {
+      updateSlot(picker.slotIndex, { role: name });
+    } else if (picker.kind === "weapon") {
+      updateSlot(picker.slotIndex, { weapon: name });
+    } else if (!(slot.items || []).includes(name)) {
+      updateSlot(picker.slotIndex, { items: [...(slot.items || []), name] });
+    }
+    setPicker(null);
+  };
+
+  const copyShareLink = async () => {
+    const shareUrl = `${window.location.origin}${window.location.pathname}?lineup=${encodeSharedLineup(lineup, cards)}#/ai/custom`;
+    await copyTextToClipboard(shareUrl);
+    setShareStatus("分享链接已复制。");
+  };
+
+  const resetLineup = () => {
+    onLineupChange(createEmptyCustomLineup());
+    setShareStatus("已清空自定义阵容。");
+  };
+
+  const pickerCards = picker
+    ? (picker.kind === "role" ? roleCards : picker.kind === "weapon" ? weaponCards : itemCards)
+        .filter((card) => !picker.query.trim() || searchableText(card).includes(picker.query.trim().toLowerCase()))
+        .slice(0, 80)
+    : [];
+
+  return (
+    <section className="custom-lineup-builder">
+      <header className="custom-lineup-builder-header">
+        <div>
+          <span>自定义阵容</span>
+          <h3>创建并分享你的站位方案</h3>
+        </div>
+        <div className="custom-lineup-actions">
+          <button type="button" onClick={resetLineup}><Trash2 size={16} /> 清空</button>
+          <button className="primary" type="button" onClick={copyShareLink}><Link2 size={16} /> 复制分享链接</button>
+          <button className="primary" type="button" onClick={onPreview}><Eye size={16} /> 预览</button>
+        </div>
+      </header>
+
+      <div className={classNames("custom-lineup-board-editor", draggedSlotIndex !== null && "lineup-slot-dragging")}>
+        <div className="custom-lineup-editor-lane front">
+          <span className="custom-lineup-editor-row-label"><b>前排</b><small>承伤 · 启动</small></span>
+          <div className="custom-lineup-editor-row">
+            {slots.slice(0, 3).map((slot, index) => (
+              <CustomLineupSlotEditor
+                cardsByName={cardsByName}
+                draggedSlotIndex={draggedSlotIndex}
+                key={index}
+                onClear={() => clearSlot(index)}
+                onDragEnd={() => setDraggedSlotIndex(null)}
+                onDragStart={() => setDraggedSlotIndex(index)}
+                onDropSlot={() => {
+                  if (draggedSlotIndex !== null) swapSlots(draggedSlotIndex, index);
+                  setDraggedSlotIndex(null);
+                }}
+                onPick={(kind) => setPicker({ kind, slotIndex: index, query: "" })}
+                onRemoveItem={(itemIndex) => removeItem(index, itemIndex)}
+                onRemoveWeapon={() => updateSlot(index, { weapon: "" })}
+                slot={slot}
+                slotIndex={index}
+              />
+            ))}
+          </div>
+        </div>
+        <div className="custom-lineup-editor-lane back">
+          <span className="custom-lineup-editor-row-label"><b>后排</b><small>输出 · 辅助</small></span>
+          <div className="custom-lineup-editor-row">
+            {slots.slice(3, 6).map((slot, rowIndex) => {
+              const index = rowIndex + 3;
+              return (
+                <CustomLineupSlotEditor
+                  cardsByName={cardsByName}
+                  draggedSlotIndex={draggedSlotIndex}
+                  key={index}
+                  onClear={() => clearSlot(index)}
+                  onDragEnd={() => setDraggedSlotIndex(null)}
+                  onDragStart={() => setDraggedSlotIndex(index)}
+                  onDropSlot={() => {
+                    if (draggedSlotIndex !== null) swapSlots(draggedSlotIndex, index);
+                    setDraggedSlotIndex(null);
+                  }}
+                  onPick={(kind) => setPicker({ kind, slotIndex: index, query: "" })}
+                  onRemoveItem={(itemIndex) => removeItem(index, itemIndex)}
+                  onRemoveWeapon={() => updateSlot(index, { weapon: "" })}
+                  slot={slot}
+                  slotIndex={index}
+                />
+              );
+            })}
+          </div>
+        </div>
+      </div>
+
+      {shareStatus ? <p className="custom-lineup-status">{shareStatus}</p> : null}
+      {picker ? (
+        <div className="lineup-card-picker" role="dialog" aria-modal="true">
+          <div className="lineup-picker-panel">
+            <header>
+              <div>
+                <span>{picker.kind === "role" ? "选择角色" : picker.kind === "weapon" ? "选择武器" : "选择装备"}</span>
+                <strong>{picker.slotIndex < 3 ? "前排" : "后排"} {(picker.slotIndex % 3) + 1}</strong>
+              </div>
+              <button className="lineup-picker-close" type="button" onClick={() => setPicker(null)} aria-label="关闭"><X size={18} /></button>
+            </header>
+            <input className="lineup-picker-search" value={picker.query} onChange={(event) => setPicker({ ...picker, query: event.target.value })} placeholder="搜索名称、品质或标签" autoFocus />
+            <div className="lineup-picker-results">
+              {pickerCards.length ? pickerCards.map((card) => {
+                const image = lineupFullCardImage(card, picker.kind === "role");
+                const isSelected = picker.kind === "role"
+                  ? slots[picker.slotIndex].role === card.name
+                  : picker.kind === "weapon"
+                    ? slots[picker.slotIndex].weapon === card.name
+                    : (slots[picker.slotIndex].items || []).includes(card.name);
+                return (
+                  <button className={classNames("lineup-picker-card", isSelected && "selected")} key={card.id} type="button" onClick={() => applyPickerChoice(card.name)}>
+                    <span className="lineup-picker-image">{image ? <img src={image} alt="" loading="lazy" /> : <b>{card.name.slice(0, 1)}</b>}</span>
+                    <span><strong>{card.name}</strong><small>{card.categoryLabel}{card.quality ? ` · ${qualityLabel(card.quality)}` : ""}</small></span>
+                  </button>
+                );
+              }) : <p className="lineup-picker-empty">没有找到匹配卡牌</p>}
+            </div>
+          </div>
+        </div>
+      ) : null}
+    </section>
+  );
+}
+
 function AiLineupsPage({
   cards,
   maps,
   factionIconMap,
   lineups,
+  section,
+  onSectionChange,
 }: {
   cards: CardRecord[];
   maps: MapRecord[];
   factionIconMap: Map<string, string | null>;
   lineups: RecommendedLineup[];
+  section: AiSection;
+  onSectionChange: (section: AiSection) => void;
 }) {
-  const visibleLineups = useMemo(() => lineups.filter((item) => !item.hidden).sort((a, b) => a.order - b.order || a.name.localeCompare(b.name, "zh-Hans-CN")), [lineups]);
+  const sharedLineupParam = new URLSearchParams(window.location.search).get("lineup");
+  const [customLineup, setCustomLineup] = useState<RecommendedLineup>(() => decodeSharedLineup(sharedLineupParam, cards) || createEmptyCustomLineup());
+  const [customMode, setCustomMode] = useState<"preview" | "edit">(() => sharedLineupParam ? "preview" : "edit");
+  const isCustomPage = section === "custom";
   const [selectedId, setSelectedId] = useState("");
-  const build = visibleLineups.find((item) => item.id === selectedId) || visibleLineups[0];
+  const visibleLineups = useMemo(() => lineups.filter((item) => !item.hidden).sort((a, b) => a.order - b.order || a.name.localeCompare(b.name, "zh-Hans-CN")), [lineups]);
+  const build = isCustomPage ? customLineup : visibleLineups.find((item) => item.id === selectedId) || visibleLineups[0] || customLineup;
   const cardsByName = useMemo(
     () => new Map(cards.filter((card) => !card.hidden && !unavailableLineupRoles.has(card.name) && !card.name.includes("异形")).map((card) => [card.name, card])),
     [cards],
@@ -646,11 +1158,117 @@ function AiLineupsPage({
   const map = maps.find((item) => item.key === build.mapKey);
   const buffs = build.buffs.map((item) => cards.find((card) => card.category === "buff" && !card.hidden && card.name === item.name && card.quality === item.quality)).filter((card): card is CardRecord => Boolean(card));
   const lineupVideos = build.videos || [];
+  const frontSlots = build.slots.slice(0, 3);
+  const backSlots = build.slots.slice(3, 6);
+  const frontHasWeapon = frontSlots.some((slot) => Boolean(slot.weapon));
+  const backHasWeapon = backSlots.some((slot) => Boolean(slot.weapon));
+  const lineupBoardSection = (
+    <section className={classNames("lineup-board-section", isCustomPage && "custom-preview-board-section")}>
+      {!isCustomPage ? <div className="lineup-section-title"><div><span>推荐站位</span><h3>最多前排 3 · 后排 3</h3></div><Swords size={20} /></div> : null}
+      <div className="lineup-board">
+        <div className="lineup-lane front">
+          <span className="lineup-row-label"><b>前排</b><small>承伤 · 启动</small></span>
+          <div className="lineup-row">{frontSlots.map((slot, index) => <LineupRole cardsByName={cardsByName} factionIconMap={factionIconMap} key={`${slot.role || "empty"}-${index}`} reserveWeaponSlot={frontHasWeapon} slot={slot} />)}</div>
+        </div>
+        <div className="lineup-lane back">
+          <span className="lineup-row-label"><b>后排</b><small>输出 · 辅助</small></span>
+          <div className="lineup-row">{backSlots.map((slot, index) => <LineupRole cardsByName={cardsByName} factionIconMap={factionIconMap} key={`${slot.role || "empty"}-${index}`} reserveWeaponSlot={backHasWeapon} slot={slot} />)}</div>
+        </div>
+      </div>
+    </section>
+  );
+  const lineupDetail = (
+    <article className="lineup-detail">
+      <header className="lineup-detail-header">
+        <div><span>{build.label}</span><h2>{build.name}</h2><p>{build.summary}</p></div>
+        <div className="chip-row">{build.keywords.map((keyword) => <span className="chip strong" key={keyword}>{keyword}</span>)}</div>
+      </header>
+      <div className="lineup-main-grid">
+        {lineupBoardSection}
+        <section className="lineup-strategy">
+          <div className="lineup-section-title"><div><span>运转逻辑</span><h3>构筑要点</h3></div><Target size={20} /></div>
+          {build.strategy.length ? <ol>{build.strategy.map((item) => <li key={item}>{item}</li>)}</ol> : <p className="empty-text">暂无构筑要点</p>}
+        </section>
+      </div>
+      <div className="lineup-support-grid">
+        <section className="lineup-map">
+          <div className="lineup-section-title"><div><span>推荐地图</span><h3>全局环境</h3></div><MapIcon size={20} /></div>
+          {map ? <div className="lineup-map-content">{map.icon ? <img src={map.icon} alt="" loading="lazy" /> : null}<div><strong>{map.name}</strong><p>{map.bonusDescription}</p></div></div> : <p className="empty-text">暂无地图资料</p>}
+        </section>
+        <section className="lineup-buffs">
+          <div className="lineup-section-title"><div><span>推荐增益</span><h3>优先选择 2 项</h3></div><Sparkles size={20} /></div>
+          <div className="lineup-buff-list">{buffs.map((buff) => <article key={buff.id}>{buff.image ? <img src={buff.image} alt="" loading="lazy" /> : null}<div><strong>{buff.name}</strong><p>{displayDescriptions(buff)[0]}</p></div></article>)}</div>
+        </section>
+      </div>
+      {lineupVideos.length ? (
+        <section className="lineup-videos">
+          <div className="lineup-section-title"><div><span>相关视频</span><h3>实战与讲解</h3></div><PlaySquare size={20} /></div>
+          <div className="lineup-video-links">
+            {lineupVideos.map((video) => (
+              <a href={video.url} key={`${video.platform}-${video.url}`} target="_blank" rel="noreferrer">
+                <span>{video.platform === "douyin" ? "抖音" : video.platform === "kuaishou" ? "快手" : video.platform === "bilibili" ? "B站" : "视频"}</span>
+                <strong>{video.title || "查看视频攻略"}</strong>
+              </a>
+            ))}
+          </div>
+        </section>
+      ) : null}
+    </article>
+  );
+
+  if (isCustomPage) {
+    return (
+      <section className="content-page ai-lineups-page custom-lineup-page">
+        <div className="page-hero ai-lineups-hero">
+          <div><span>分享工具</span><h2>自定义阵容</h2><p>独立编辑站位和装备，生成链接后可直接分享给其他玩家。</p></div>
+          <Swords size={34} />
+        </div>
+        <button className="custom-lineup-back" type="button" onClick={() => onSectionChange("lineups")}>返回推荐阵容</button>
+        {customMode === "preview" ? (
+          <section className="custom-lineup-preview">
+            <div className="lineup-section-title">
+              <div><span>自定义预览</span><h3>分享链接中的阵容展示</h3></div>
+              <button className="custom-lineup-edit-button" type="button" onClick={() => setCustomMode("edit")}>
+                <Swords size={16} /> 编辑阵容
+              </button>
+            </div>
+            <article className="lineup-detail custom-lineup-preview-detail">
+              {lineupBoardSection}
+            </article>
+          </section>
+        ) : (
+          <CustomLineupBuilder
+            cards={cards}
+            lineup={customLineup}
+            onLineupChange={setCustomLineup}
+            onPreview={() => setCustomMode("preview")}
+          />
+        )}
+      </section>
+    );
+  }
+
   return (
     <section className="content-page ai-lineups-page">
       <div className="page-hero ai-lineups-hero">
         <div><span>流派资料</span><h2>推荐阵容</h2><p>由资料库管理员维护的阵容方案，包含站位、装备、地图和增益组合参考。</p></div>
         <Bot size={34} />
+      </div>
+      <div className="lineup-custom-entry">
+        <div>
+          <span>分享工具</span>
+          <strong>自定义阵容分享</strong>
+          <p>打开独立编辑器，自由配置站位和装备，再生成链接分享。</p>
+        </div>
+        <button
+          type="button"
+          onClick={() => {
+            setCustomMode("edit");
+            onSectionChange("custom");
+          }}
+        >
+          <Plus size={18} /> 创建自定义阵容
+        </button>
       </div>
       <div className="ai-lineups-layout">
         <nav className="lineup-selector" aria-label="流派选择">
@@ -660,54 +1278,7 @@ function AiLineupsPage({
             </button>
           ))}
         </nav>
-        <article className="lineup-detail">
-          <header className="lineup-detail-header">
-            <div><span>{build.label}</span><h2>{build.name}</h2><p>{build.summary}</p></div>
-            <div className="chip-row">{build.keywords.map((keyword) => <span className="chip strong" key={keyword}>{keyword}</span>)}</div>
-          </header>
-          <div className="lineup-main-grid">
-            <section className="lineup-board-section">
-              <div className="lineup-section-title"><div><span>推荐站位</span><h3>最多前排 3 · 后排 3</h3></div><Swords size={20} /></div>
-              <div className="lineup-board">
-                <div className="lineup-lane front">
-                  <span className="lineup-row-label"><b>前排</b><small>承伤 · 启动</small></span>
-                  <div className="lineup-row">{build.slots.slice(0, 3).map((slot, index) => <LineupRole cardsByName={cardsByName} factionIconMap={factionIconMap} key={`${slot.role || "empty"}-${index}`} slot={slot} />)}</div>
-                </div>
-                <div className="lineup-lane back">
-                  <span className="lineup-row-label"><b>后排</b><small>输出 · 辅助</small></span>
-                  <div className="lineup-row">{build.slots.slice(3, 6).map((slot, index) => <LineupRole cardsByName={cardsByName} factionIconMap={factionIconMap} key={`${slot.role || "empty"}-${index}`} slot={slot} />)}</div>
-                </div>
-              </div>
-            </section>
-            <section className="lineup-strategy">
-              <div className="lineup-section-title"><div><span>运转逻辑</span><h3>构筑要点</h3></div><Target size={20} /></div>
-              <ol>{build.strategy.map((item) => <li key={item}>{item}</li>)}</ol>
-            </section>
-          </div>
-          <div className="lineup-support-grid">
-            <section className="lineup-map">
-              <div className="lineup-section-title"><div><span>推荐地图</span><h3>全局环境</h3></div><MapIcon size={20} /></div>
-              {map ? <div className="lineup-map-content">{map.icon ? <img src={map.icon} alt="" loading="lazy" /> : null}<div><strong>{map.name}</strong><p>{map.bonusDescription}</p></div></div> : <p className="empty-text">暂无地图资料</p>}
-            </section>
-            <section className="lineup-buffs">
-              <div className="lineup-section-title"><div><span>推荐增益</span><h3>优先选择 2 项</h3></div><Sparkles size={20} /></div>
-              <div className="lineup-buff-list">{buffs.map((buff) => <article key={buff.id}>{buff.image ? <img src={buff.image} alt="" loading="lazy" /> : null}<div><strong>{buff.name}</strong><p>{displayDescriptions(buff)[0]}</p></div></article>)}</div>
-            </section>
-          </div>
-          {lineupVideos.length ? (
-            <section className="lineup-videos">
-              <div className="lineup-section-title"><div><span>相关视频</span><h3>实战与讲解</h3></div><PlaySquare size={20} /></div>
-              <div className="lineup-video-links">
-                {lineupVideos.map((video) => (
-                  <a href={video.url} key={`${video.platform}-${video.url}`} target="_blank" rel="noreferrer">
-                    <span>{video.platform === "douyin" ? "抖音" : video.platform === "kuaishou" ? "快手" : video.platform === "bilibili" ? "B站" : "视频"}</span>
-                    <strong>{video.title || "查看视频攻略"}</strong>
-                  </a>
-                ))}
-              </div>
-            </section>
-          ) : null}
-        </article>
+        {lineupDetail}
       </div>
     </section>
   );
@@ -1337,7 +1908,7 @@ export function App() {
             ? "增益资料"
             : "基础教学"
         : page === "ai"
-          ? "推荐阵容"
+          ? aiSection === "custom" ? "自定义阵容" : "推荐阵容"
           : page === "videos"
             ? "视频攻略"
             : view === "factions"
@@ -1629,7 +2200,14 @@ export function App() {
           }}
         />
       ) : page === "ai" ? (
-        <AiLineupsPage cards={cards} maps={maps} factionIconMap={factionIconMap} lineups={recommendedLineups} />
+        <AiLineupsPage
+          cards={cards}
+          maps={maps}
+          factionIconMap={factionIconMap}
+          lineups={recommendedLineups}
+          section={aiSection}
+          onSectionChange={(nextSection) => navigate({ page: "ai", view: "cards", category: "all", basicsSection: "guide", aiSection: nextSection })}
+        />
       ) : (
         <VideosPage videos={videoGuides} />
       )}
