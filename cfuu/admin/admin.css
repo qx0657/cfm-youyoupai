@@ -761,12 +761,32 @@ textarea {
   border-radius: 6px;
 }
 
+.lineup-slot-editor[draggable="true"] {
+  cursor: grab;
+}
+
+.lineup-slot-editor[draggable="true"]:active {
+  cursor: grabbing;
+}
+
 .lineup-slot-editor.empty {
   border-style: dashed;
   background: rgba(13, 24, 38, 0.62);
 }
 
+.lineup-slot-editor.dragging {
+  opacity: 0.48;
+  border-color: #57b6ff;
+}
+
+.lineup-slot-editor.drag-over {
+  border-color: #57b6ff;
+  background: #102139;
+  box-shadow: 0 0 0 2px rgba(87, 182, 255, 0.18);
+}
+
 .lineup-editor-role-area {
+  position: relative;
   min-width: 0;
 }
 
@@ -786,6 +806,14 @@ textarea {
   grid-template-rows: 132px auto;
   gap: 7px;
   padding: 7px;
+}
+
+.lineup-slot-editor[draggable="true"] .lineup-editor-role-card {
+  cursor: grab;
+}
+
+.lineup-slot-editor[draggable="true"]:active .lineup-editor-role-card {
+  cursor: grabbing;
 }
 
 .lineup-editor-role-card:hover,
@@ -817,6 +845,7 @@ textarea {
   border-radius: 4px;
   border: 1px solid #1f344a;
   background: #050b13;
+  -webkit-user-drag: none;
 }
 
 .lineup-editor-status-icons {
@@ -956,6 +985,170 @@ textarea {
 .lineup-editor-equipment-chip b {
   color: #edf6ff;
   font-size: 13px;
+}
+
+.lineup-card-popover {
+  position: absolute;
+  left: calc(100% + 8px);
+  top: 50%;
+  z-index: 80;
+  display: none;
+  grid-template-columns: 104px minmax(0, 1fr);
+  gap: 11px;
+  width: min(410px, calc(100vw - 36px));
+  padding: 11px;
+  border: 1px solid rgba(87, 182, 255, 0.55);
+  background: rgba(7, 13, 21, 0.99);
+  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.62);
+  color: #edf6ff;
+  text-align: left;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.lineup-editor-row .lineup-slot-editor:nth-child(3) .lineup-editor-role-area > .lineup-card-popover {
+  right: calc(100% + 8px);
+  left: auto;
+}
+
+.lineup-editor-role-card:hover + .lineup-card-popover,
+.lineup-editor-role-card:focus + .lineup-card-popover,
+.lineup-editor-equipment-chip:hover .lineup-card-popover,
+.lineup-editor-equipment-chip:focus-within .lineup-card-popover {
+  display: grid;
+}
+
+.lineup-slots-editor.lineup-slot-dragging .lineup-card-popover,
+.lineup-slots-editor.lineup-slot-dragging .lineup-editor-role-card:hover + .lineup-card-popover,
+.lineup-slots-editor.lineup-slot-dragging .lineup-editor-role-card:focus + .lineup-card-popover,
+.lineup-slots-editor.lineup-slot-dragging .lineup-editor-equipment-chip:hover .lineup-card-popover,
+.lineup-slots-editor.lineup-slot-dragging .lineup-editor-equipment-chip:focus-within .lineup-card-popover {
+  display: none;
+}
+
+.lineup-editor-equipment-chip .lineup-card-popover {
+  bottom: calc(100% + 9px);
+  left: 0;
+  top: auto;
+  grid-template-columns: 96px minmax(0, 1fr);
+  width: min(390px, calc(100vw - 36px));
+  transform: none;
+}
+
+.lineup-editor-row .lineup-slot-editor:nth-child(3) .lineup-editor-equipment-chip .lineup-card-popover {
+  right: 0;
+  left: auto;
+}
+
+.lineup-card-popover-image {
+  display: grid;
+  place-items: center;
+  min-width: 0;
+}
+
+.lineup-card-popover-image img {
+  width: 100%;
+  height: auto;
+  max-height: 182px;
+  object-fit: contain;
+  border: 1px solid #1f344a;
+  border-radius: 4px;
+  background: #050b13;
+}
+
+.lineup-editor-equipment-chip .lineup-card-popover-image img {
+  width: auto;
+  height: 156px;
+  max-width: 100%;
+  max-height: 156px;
+}
+
+.lineup-card-popover-image b {
+  display: grid;
+  place-items: center;
+  width: 72px;
+  height: 72px;
+  border: 1px solid #1f344a;
+  border-radius: 4px;
+  background: #050b13;
+  color: #57b6ff;
+  font-size: 24px;
+}
+
+.lineup-card-popover-body {
+  display: grid;
+  align-content: start;
+  gap: 8px;
+  min-width: 0;
+}
+
+.lineup-card-popover-body header {
+  display: grid;
+  gap: 3px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid rgba(133, 164, 204, 0.2);
+}
+
+.lineup-card-popover-body header span {
+  color: #8fa9c3;
+  font-size: 11px;
+}
+
+.lineup-card-popover-body header strong {
+  overflow: hidden;
+  color: #fff7db;
+  font-size: 16px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.lineup-card-popover-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.lineup-card-popover-tags span {
+  padding: 2px 6px;
+  border: 1px solid #2e4660;
+  background: rgba(87, 182, 255, 0.1);
+  color: #b9d9f5;
+  border-radius: 999px;
+  font-size: 11px;
+  line-height: 1.35;
+}
+
+.lineup-card-popover-effects {
+  display: grid;
+  gap: 6px;
+  max-height: 142px;
+  overflow-y: auto;
+}
+
+.lineup-card-popover-effects p {
+  display: grid;
+  gap: 3px;
+  margin: 0;
+  padding: 7px 8px;
+  border-left: 2px solid #6686a8;
+  background: rgba(133, 164, 204, 0.08);
+  color: #c7d7ea;
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.lineup-card-popover-effects p.upgraded {
+  border-left-color: #f2c94c;
+  background: rgba(242, 201, 76, 0.09);
+}
+
+.lineup-card-popover-effects small {
+  color: #8fa9c5;
+  font-size: 10px;
+}
+
+.lineup-card-popover-effects p.upgraded small {
+  color: #f2c94c;
 }
 
 .lineup-editor-equipment-chip button {
@@ -1225,34 +1418,35 @@ textarea {
 /* ── Chip / tag input ── */
 
 .chip-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
+  display: grid;
+  gap: 8px;
   min-height: 34px;
   padding: 4px 0;
 }
 
 .chip-list.sortable-list {
-  cursor: grab;
+  cursor: default;
 }
 
 .chip-list.sortable-list:active {
-  cursor: grabbing;
+  cursor: default;
 }
 
 .chip-item {
-  display: inline-flex;
+  display: grid;
+  grid-template-columns: 28px minmax(0, 1fr) 24px;
   align-items: center;
-  gap: 4px;
-  padding: 4px 8px;
+  gap: 8px;
+  padding: 6px;
   background: #14243a;
   border: 1px solid #2e4660;
   border-radius: 4px;
   font-size: 13px;
   color: #edf6ff;
-  cursor: grab;
-  user-select: none;
+  cursor: default;
+  user-select: auto;
   transition: background 0.12s;
+  min-width: 0;
 }
 
 .chip-item:hover {
@@ -1261,7 +1455,6 @@ textarea {
 
 .chip-item.dragging {
   opacity: 0.4;
-  cursor: grabbing;
 }
 
 .chip-item.drag-over-top {
@@ -1276,8 +1469,8 @@ textarea {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 16px;
-  height: 16px;
+  width: 24px;
+  height: 24px;
   border: none;
   background: rgba(255, 255, 255, 0.1);
   color: #9fb2c7;
@@ -1287,6 +1480,49 @@ textarea {
   cursor: pointer;
   padding: 0;
   font-weight: 700;
+}
+
+.chip-drag-handle {
+  position: relative;
+  width: 28px;
+  height: 32px;
+  border: 1px solid #34465e;
+  background: #101c2c;
+  cursor: grab;
+  padding: 0;
+  border-radius: 4px;
+}
+
+.chip-drag-handle:active {
+  cursor: grabbing;
+}
+
+.chip-drag-handle::before,
+.chip-drag-handle::after {
+  content: "";
+  position: absolute;
+  left: 8px;
+  right: 8px;
+  height: 2px;
+  border-radius: 999px;
+  background: #8fa9c3;
+  box-shadow: 0 5px 0 #8fa9c3;
+}
+
+.chip-drag-handle::before {
+  top: 9px;
+}
+
+.chip-drag-handle::after {
+  top: 19px;
+}
+
+.strategy-chip-edit {
+  min-width: 0;
+  height: 34px;
+  padding: 7px 9px;
+  background: #0d1826;
+  border-color: #263a51;
 }
 
 .chip-remove:hover {
@@ -1310,6 +1546,14 @@ textarea {
 .strategy-chip-input {
   display: flex;
   gap: 8px;
+}
+
+.strategy-point-list {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.strategy-point-list .strategy-chip-item {
+  width: 100%;
 }
 
 /* ── Lineup card picker ── */
@@ -1378,13 +1622,34 @@ textarea {
   color: #ff9ba8;
 }
 
+.lineup-picker-panel.has-filters {
+  grid-template-rows: auto auto auto minmax(0, 1fr);
+}
+
 .lineup-picker-search {
   width: 100%;
 }
 
+.lineup-picker-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+}
+
+.lineup-picker-filter {
+  display: grid;
+  gap: 3px;
+  font-size: 12px;
+  color: #8fa9c3;
+}
+
+.lineup-picker-filter select {
+  min-width: 132px;
+}
+
 .lineup-picker-results {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
   gap: 9px;
   overflow-y: auto;
   padding-right: 4px;
@@ -1392,8 +1657,8 @@ textarea {
 
 .lineup-picker-card {
   display: grid;
-  grid-template-columns: 44px minmax(0, 1fr);
-  gap: 9px;
+  grid-template-columns: 78px minmax(0, 1fr);
+  gap: 10px;
   align-items: center;
   min-width: 0;
   border: 1px solid #263a51;
@@ -1413,18 +1678,19 @@ textarea {
 .lineup-picker-image {
   display: grid;
   place-items: center;
-  width: 44px;
-  height: 44px;
+  width: 78px;
+  height: 118px;
   border: 1px solid #1f344a;
   background: #07111d;
   border-radius: 5px;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .lineup-picker-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  -webkit-user-drag: none;
 }
 
 .lineup-picker-image b {
@@ -1577,6 +1843,23 @@ textarea {
   .lineup-editor-row-label {
     grid-auto-flow: column;
     justify-content: space-between;
+  }
+
+  .lineup-card-popover,
+  .lineup-editor-row .lineup-slot-editor:nth-child(3) .lineup-editor-role-area > .lineup-card-popover,
+  .lineup-editor-equipment-chip .lineup-card-popover,
+  .lineup-editor-row .lineup-slot-editor:nth-child(3) .lineup-editor-equipment-chip .lineup-card-popover {
+    right: auto;
+    left: 0;
+    top: calc(100% + 8px);
+    bottom: auto;
+    grid-template-columns: 82px minmax(0, 1fr);
+    width: min(100%, calc(100vw - 32px));
+    transform: none;
+  }
+
+  .lineup-card-popover-image img {
+    max-height: 112px;
   }
 
   .lineup-picker-results {

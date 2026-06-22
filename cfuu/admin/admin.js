@@ -13,6 +13,7 @@ const state = {
   strategyChips: [],
   lineupSlots: Array.from({ length: 6 }, () => ({})),
   lineupPicker: null,
+  lineupDraggedSlotIndex: null,
   // Debounce timer for live preview
   previewTimer: null,
 };
@@ -913,7 +914,28 @@ function visibleCardsByName() {
 function cardArtwork(card, preferred = "image") {
   if (!card) return "";
   if (preferred === "role") return card.goldImage || card.image || card.avatar || "";
-  return card.image || card.avatar || card.goldImage || "";
+  return card.originalImage || card.image || card.avatar || card.goldImage || "";
+}
+
+function cardPopoverArtwork(card, preferred = "image") {
+  if (!card) return "";
+  if (preferred === "role") return card.goldImage || card.image || card.avatar || card.originalImage || "";
+  return card.image || card.goldImage || card.avatar || card.originalImage || "";
+}
+
+function displayCardDescriptions(card) {
+  const descriptions = (card?.descriptions || [])
+    .map((description) => String(description || "").trim())
+    .filter((description) => description && description !== "数据待补全");
+  return descriptions.length ? descriptions : ["未知"];
+}
+
+function splitCardUpgradeDescriptions(card) {
+  const descriptions = displayCardDescriptions(card);
+  if (!card || !["role", "weapon"].includes(card.category) || descriptions.length < 2) {
+    return { base: descriptions, upgraded: [] };
+  }
+  return { base: [descriptions[0]], upgraded: descriptions.slice(1) };
 }
 
 function cardEffectText(card) {
@@ -935,6 +957,44 @@ function lineupSlotStatus(slot, role, cardsByName) {
     hasTaunt: roleText.includes("嘲讽") || itemTexts.some((text) => text.includes("嘲讽")),
     cannotAct: itemTexts.some((text) => text.includes("无法行动")),
   };
+}
+
+function renderLineupCardPopover(card, preferredImage = "image") {
+  if (!card) return "";
+  const image = cardPopoverArtwork(card, preferredImage);
+  const descriptions = splitCardUpgradeDescriptions(card);
+  const detailRows = [
+    ...descriptions.base.map((description) => ({ label: descriptions.upgraded.length ? "基础" : "", kind: "base", description })),
+    ...descriptions.upgraded.map((description) => ({ label: "升级", kind: "upgraded", description })),
+  ];
+  const tags = [...(card.factions || []), ...(card.keywords || [])].filter(Boolean).slice(0, 8);
+
+  return `
+    <div class="lineup-card-popover" role="tooltip">
+      <div class="lineup-card-popover-image">
+        ${image ? `<img src="${escapeHtml(image)}" alt="" loading="lazy" />` : `<b>${escapeHtml(card.name.slice(0, 1))}</b>`}
+      </div>
+      <div class="lineup-card-popover-body">
+        <header>
+          <span>${escapeHtml(card.categoryLabel || "卡牌")}${card.quality ? ` · ${escapeHtml(qualityLabel(card.quality))}` : ""}</span>
+          <strong>${escapeHtml(card.name)}</strong>
+        </header>
+        ${tags.length ? `<div class="lineup-card-popover-tags">${tags.map((tag) => `<span>${escapeHtml(tag)}</span>`).join("")}</div>` : ""}
+        <div class="lineup-card-popover-effects">
+          ${detailRows.map((row) => `
+            <p class="${row.kind === "upgraded" ? "upgraded" : ""}">
+              ${row.label ? `<small>${escapeHtml(row.label)}</small>` : ""}
+              <span>${escapeHtml(row.description)}</span>
+            </p>
+          `).join("")}
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function lineupSlotHasContent(slot = {}) {
+  return Boolean(slot.role || slot.weapon || (slot.items || []).length);
 }
 
 function renderLineupSlots(slots = []) {
@@ -961,10 +1021,12 @@ function renderLineupSlotsDOM() {
     </div>
   `;
   elements.lineupSlotsEditor.onclick = handleLineupBoardClick;
+  bindLineupSlotDragEvents();
   renderLineupPreview();
 }
 
 function renderLineupSlotEditor(slot, index, cardsByName) {
+  const hasContent = lineupSlotHasContent(slot);
   const role = slot.role ? cardsByName.get(slot.role) : null;
   const roleImage = role ? cardArtwork(role, "role") : "";
   const status = lineupSlotStatus(slot, role, cardsByName);
@@ -978,7 +1040,7 @@ function renderLineupSlotEditor(slot, index, cardsByName) {
   const slotLabel = `${index < 3 ? "前排" : "后排"} ${(index % 3) + 1}`;
   const roleContent = slot.role
     ? `
-      <button class="lineup-editor-role-card" type="button" data-lineup-action="pick-role" data-slot-index="${index}" title="更换角色">
+      <button class="lineup-editor-role-card" type="button" data-lineup-action="pick-role" data-slot-index="${index}">
         <span class="lineup-editor-card-image">
           <span class="lineup-editor-card-art">
             ${roleImage ? `<img src="${escapeHtml(roleImage)}" alt="" loading="lazy" />` : `<span class="lineup-editor-fallback">${escapeHtml(slot.role.slice(0, 1))}</span>`}
@@ -987,6 +1049,7 @@ function renderLineupSlotEditor(slot, index, cardsByName) {
         </span>
         <strong>${escapeHtml(role?.name || slot.role)}</strong>
       </button>
+      ${role ? renderLineupCardPopover(role, "role") : ""}
       <button class="lineup-slot-clear" type="button" data-lineup-action="clear-slot" data-slot-index="${index}" aria-label="清空${slotLabel}">×</button>
     `
     : `
@@ -1006,7 +1069,7 @@ function renderLineupSlotEditor(slot, index, cardsByName) {
   }
 
   return `
-    <article class="lineup-slot-editor ${slot.role ? "filled" : "empty"}" data-slot-index="${index}">
+    <article class="lineup-slot-editor ${hasContent ? "filled" : "empty"}" data-slot-index="${index}"${hasContent ? ` draggable="true" title="拖拽换位"` : ""}>
       <div class="lineup-editor-role-area">${roleContent}</div>
       <div class="lineup-editor-equipment">
         ${equipment.join("")}
@@ -1017,15 +1080,68 @@ function renderLineupSlotEditor(slot, index, cardsByName) {
   `;
 }
 
+function clearLineupSlotDragState() {
+  state.lineupDraggedSlotIndex = null;
+  elements.lineupSlotsEditor.classList.remove("lineup-slot-dragging");
+  $$(".lineup-slot-editor").forEach((slot) => {
+    slot.classList.remove("dragging", "drag-over");
+  });
+}
+
+function bindLineupSlotDragEvents() {
+  elements.lineupSlotsEditor.querySelectorAll(".lineup-slot-editor").forEach((slotElement) => {
+    const toIndex = Number(slotElement.dataset.slotIndex);
+
+    slotElement.addEventListener("dragstart", (event) => {
+      if (!lineupSlotHasContent(state.lineupSlots[toIndex])) {
+        event.preventDefault();
+        return;
+      }
+      state.lineupDraggedSlotIndex = toIndex;
+      event.dataTransfer.setData("application/x-cfuu-lineup-slot", String(toIndex));
+      event.dataTransfer.setData("text/plain", `lineup-slot:${toIndex}`);
+      event.dataTransfer.effectAllowed = "move";
+      elements.lineupSlotsEditor.classList.add("lineup-slot-dragging");
+      slotElement.classList.add("dragging");
+    });
+
+    slotElement.addEventListener("dragend", clearLineupSlotDragState);
+
+    slotElement.addEventListener("dragover", (event) => {
+      const fromIndex = state.lineupDraggedSlotIndex;
+      if (!Number.isInteger(fromIndex) || fromIndex === toIndex) return;
+      event.preventDefault();
+      event.dataTransfer.dropEffect = "move";
+      slotElement.classList.add("drag-over");
+    });
+
+    slotElement.addEventListener("dragleave", () => {
+      slotElement.classList.remove("drag-over");
+    });
+
+    slotElement.addEventListener("drop", (event) => {
+      const fromIndex = state.lineupDraggedSlotIndex;
+      if (!Number.isInteger(fromIndex) || fromIndex === toIndex) return;
+      event.preventDefault();
+      [state.lineupSlots[fromIndex], state.lineupSlots[toIndex]] = [state.lineupSlots[toIndex], state.lineupSlots[fromIndex]];
+      state.lineupSlots = normalizeLineupSlots(state.lineupSlots);
+      clearLineupSlotDragState();
+      renderLineupSlotsDOM();
+      schedulePreviewUpdate();
+    });
+  });
+}
+
 function renderEquipmentChip(kind, name, card, slotIndex, itemIndex) {
   const image = cardArtwork(card);
   const action = kind === "weapon" ? "remove-weapon" : "remove-item";
   const meta = kind === "weapon" ? "武器" : card?.categoryLabel || "装备";
   const itemIndexAttr = kind === "item" ? ` data-item-index="${itemIndex}"` : "";
   return `
-    <span class="lineup-editor-equipment-chip ${kind}" title="${escapeHtml(meta)} · ${escapeHtml(card?.name || name)}">
+    <span class="lineup-editor-equipment-chip ${kind}" aria-label="${escapeHtml(meta)} · ${escapeHtml(card?.name || name)}">
       ${image ? `<img src="${escapeHtml(image)}" alt="" loading="lazy" />` : `<b>${escapeHtml(name.slice(0, 1))}</b>`}
       <button type="button" data-lineup-action="${action}" data-slot-index="${slotIndex}"${itemIndexAttr} aria-label="移除${escapeHtml(name)}">×</button>
+      ${card ? renderLineupCardPopover(card) : ""}
     </span>
   `;
 }
@@ -1066,24 +1182,55 @@ function pickerCards(kind) {
     .sort(compareCards);
 }
 
+// Build the filter dimensions (quality / faction / keyword) available in a picker pool.
+function pickerFilterOptions(kind) {
+  const cards = pickerCards(kind);
+  const qualities = qualityOrder.filter((quality, index) => {
+    if (qualityOrder.indexOf(quality) !== index && quality === "gray") return false;
+    return cards.some((card) => (card.quality === quality) || (quality === "grey" && card.quality === "gray"));
+  });
+  const factions = Array.from(new Set(cards.flatMap((card) => card.factions || []).filter(Boolean)))
+    .sort((a, b) => a.localeCompare(b, "zh-Hans-CN"));
+  const keywords = Array.from(new Set(cards.flatMap((card) => card.keywords || []).filter(Boolean)))
+    .sort((a, b) => a.localeCompare(b, "zh-Hans-CN"));
+  return { qualities, factions, keywords };
+}
+
 function openLineupCardPicker(kind, slotIndex) {
   closeLineupCardPicker();
+  const { qualities, factions, keywords } = pickerFilterOptions(kind);
+  const filterSelect = (name, label, options, renderOption) =>
+    options.length
+      ? `<label class="lineup-picker-filter">
+          <span>${label}</span>
+          <select data-picker-filter="${name}">
+            <option value="all">全部</option>
+            ${options.map((value) => `<option value="${escapeHtml(value)}">${escapeHtml(renderOption ? renderOption(value) : value)}</option>`).join("")}
+          </select>
+        </label>`
+      : "";
+  const filtersHtml = [
+    filterSelect("quality", "品质", qualities, (value) => qualityLabel(value)),
+    filterSelect("faction", "阵营", factions),
+    filterSelect("keyword", "标签", keywords),
+  ].join("");
   const picker = document.createElement("div");
   picker.className = "lineup-card-picker";
   picker.setAttribute("role", "dialog");
   picker.setAttribute("aria-modal", "true");
   picker.innerHTML = `
-    <div class="lineup-picker-panel">
+    <div class="lineup-picker-panel${filtersHtml ? " has-filters" : ""}">
       <header>
         <div><span>${kind === "role" ? "选择角色" : kind === "weapon" ? "选择武器" : "选择装备"}</span><strong>${slotIndex < 3 ? "前排" : "后排"} ${(slotIndex % 3) + 1}</strong></div>
         <button class="lineup-picker-close" type="button" data-picker-close aria-label="关闭">×</button>
       </header>
       <input class="lineup-picker-search" placeholder="搜索名称、品质或标签" autocomplete="off" />
+      ${filtersHtml ? `<div class="lineup-picker-filters">${filtersHtml}</div>` : ""}
       <div class="lineup-picker-results"></div>
     </div>
   `;
   document.body.appendChild(picker);
-  state.lineupPicker = { kind, slotIndex, picker };
+  state.lineupPicker = { kind, slotIndex, picker, filters: { quality: "all", faction: "all", keyword: "all" } };
 
   const searchInput = picker.querySelector(".lineup-picker-search");
   const render = () => renderLineupPickerResults(kind, slotIndex, searchInput.value);
@@ -1094,6 +1241,12 @@ function openLineupCardPicker(kind, slotIndex) {
     if (event.key === "Escape") closeLineupCardPicker();
   });
   searchInput.addEventListener("input", render);
+  picker.querySelectorAll("[data-picker-filter]").forEach((select) => {
+    select.addEventListener("change", () => {
+      if (state.lineupPicker) state.lineupPicker.filters[select.dataset.pickerFilter] = select.value;
+      render();
+    });
+  });
   render();
   searchInput.focus();
 }
@@ -1108,13 +1261,25 @@ function renderLineupPickerResults(kind, slotIndex, query = "") {
   if (!state.lineupPicker) return;
   const results = state.lineupPicker.picker.querySelector(".lineup-picker-results");
   const q = query.trim().toLowerCase();
-  const cards = pickerCards(kind).filter((card) => !q || searchable(card).includes(q)).slice(0, 80);
+  const filters = state.lineupPicker.filters || {};
+  const cards = pickerCards(kind)
+    .filter((card) => {
+      if (q && !searchable(card).includes(q)) return false;
+      if (filters.quality && filters.quality !== "all") {
+        const matchQuality = card.quality === filters.quality || (filters.quality === "grey" && card.quality === "gray");
+        if (!matchQuality) return false;
+      }
+      if (filters.faction && filters.faction !== "all" && !(card.factions || []).includes(filters.faction)) return false;
+      if (filters.keyword && filters.keyword !== "all" && !(card.keywords || []).includes(filters.keyword)) return false;
+      return true;
+    })
+    .slice(0, 80);
   if (!cards.length) {
     results.innerHTML = `<p class="lineup-picker-empty">没有找到匹配卡牌</p>`;
     return;
   }
   results.innerHTML = cards.map((card) => {
-    const image = cardArtwork(card, kind === "role" ? "role" : "image");
+    const image = cardPopoverArtwork(card, kind === "role" ? "role" : "image");
     const isSelected = kind === "role"
       ? state.lineupSlots[slotIndex].role === card.name
       : kind === "weapon"
@@ -1152,32 +1317,73 @@ function applyLineupPickerChoice(kind, slotIndex, name) {
 // ── Strategy chips ──
 
 function renderStrategyChips(strategies = []) {
-  state.strategyChips = [...strategies];
+  state.strategyChips = strategies.map((item) => String(item || "").trim()).filter(Boolean);
   renderStrategyChipsDOM();
 }
 
-function renderStrategyChipsDOM() {
+function renderStrategyChipsDOM(focusIndex = -1) {
   elements.lineupStrategyChips.innerHTML = "";
   for (let i = 0; i < state.strategyChips.length; i++) {
     const chip = document.createElement("span");
-    chip.className = "chip-item";
-    chip.draggable = true;
+    chip.className = "chip-item strategy-chip-item";
     chip.dataset.index = i;
-    chip.innerHTML = `${escapeHtml(state.strategyChips[i])}<button type="button" class="chip-remove">×</button>`;
 
-    chip.querySelector(".chip-remove").addEventListener("click", () => {
+    const dragHandle = document.createElement("button");
+    dragHandle.type = "button";
+    dragHandle.className = "chip-drag-handle";
+    dragHandle.draggable = true;
+    dragHandle.title = "拖拽排序";
+    dragHandle.setAttribute("aria-label", "拖拽排序");
+
+    const input = document.createElement("input");
+    input.className = "strategy-chip-edit";
+    input.value = state.strategyChips[i];
+    input.placeholder = "构筑要点";
+    input.setAttribute("aria-label", `构筑要点 ${i + 1}`);
+
+    const removeButton = document.createElement("button");
+    removeButton.type = "button";
+    removeButton.className = "chip-remove";
+    removeButton.textContent = "×";
+    removeButton.setAttribute("aria-label", "删除构筑要点");
+
+    input.addEventListener("input", () => {
+      state.strategyChips[i] = input.value;
+      schedulePreviewUpdate();
+    });
+
+    input.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        input.blur();
+      }
+    });
+
+    input.addEventListener("blur", () => {
+      const trimmed = input.value.trim();
+      if (!trimmed) {
+        state.strategyChips.splice(i, 1);
+        renderStrategyChipsDOM();
+      } else {
+        state.strategyChips[i] = trimmed;
+        input.value = trimmed;
+      }
+      schedulePreviewUpdate();
+    });
+
+    removeButton.addEventListener("click", () => {
       state.strategyChips.splice(i, 1);
       renderStrategyChipsDOM();
       schedulePreviewUpdate();
     });
 
     // Drag events for reordering
-    chip.addEventListener("dragstart", (e) => {
+    dragHandle.addEventListener("dragstart", (e) => {
       e.dataTransfer.setData("text/plain", String(i));
       e.dataTransfer.effectAllowed = "move";
       chip.classList.add("dragging");
     });
-    chip.addEventListener("dragend", () => {
+    dragHandle.addEventListener("dragend", () => {
       chip.classList.remove("dragging");
       $$(".chip-item").forEach((c) => c.classList.remove("drag-over-top", "drag-over-bottom"));
     });
@@ -1202,7 +1408,12 @@ function renderStrategyChipsDOM() {
       schedulePreviewUpdate();
     });
 
+    chip.append(dragHandle, input, removeButton);
     elements.lineupStrategyChips.appendChild(chip);
+    if (i === focusIndex) {
+      input.focus();
+      input.select();
+    }
   }
 }
 
@@ -1211,7 +1422,7 @@ function addStrategyChip() {
   if (!val) return;
   state.strategyChips.push(val);
   elements.lineupStrategyAddInput.value = "";
-  renderStrategyChipsDOM();
+  renderStrategyChipsDOM(state.strategyChips.length - 1);
   schedulePreviewUpdate();
 }
 
@@ -1432,7 +1643,7 @@ function buildCurrentLineup() {
     name: elements.lineupNameInput.value.trim(),
     label: elements.lineupLabelInput.value.trim(),
     summary: elements.lineupSummaryInput.value.trim(),
-    strategy: [...state.strategyChips],
+    strategy: state.strategyChips.map((item) => String(item || "").trim()).filter(Boolean),
     keywords: textToList(elements.lineupKeywordsInput.value),
     slots,
     mapKey: elements.lineupMapInput.value,

@@ -955,7 +955,7 @@ function CustomLineupBuilder({
   onPreview: () => void;
 }) {
   const [shareStatus, setShareStatus] = useState("");
-  const [picker, setPicker] = useState<{ kind: "role" | "weapon" | "item"; slotIndex: number; query: string } | null>(null);
+  const [picker, setPicker] = useState<{ kind: "role" | "weapon" | "item"; slotIndex: number; query: string; quality: string; faction: string; keyword: string } | null>(null);
   const [draggedSlotIndex, setDraggedSlotIndex] = useState<number | null>(null);
   const roleCards = useMemo(
     () => cards.filter((card) => card.category === "role" && !card.hidden && !unavailableLineupRoles.has(card.name) && !card.name.includes("异形")).sort(compareCardsByQualityDesc),
@@ -1019,9 +1019,31 @@ function CustomLineupBuilder({
     setShareStatus("已清空自定义阵容。");
   };
 
+  const pickerPool = picker ? (picker.kind === "role" ? roleCards : picker.kind === "weapon" ? weaponCards : itemCards) : [];
+  const pickerFilterOptions = useMemo(() => {
+    const qualities = qualityOrder.filter(
+      (quality, index) =>
+        qualityOrder.indexOf(quality) === index &&
+        pickerPool.some((card) => card.quality === quality || (quality === "grey" && card.quality === "gray")),
+    );
+    const factions = Array.from(new Set(pickerPool.flatMap((card) => card.factions).filter(Boolean))).sort((a, b) =>
+      a.localeCompare(b, "zh-Hans-CN"),
+    );
+    const keywords = Array.from(new Set(pickerPool.flatMap((card) => card.keywords).filter(Boolean))).sort((a, b) =>
+      a.localeCompare(b, "zh-Hans-CN"),
+    );
+    return { qualities, factions, keywords };
+  }, [pickerPool]);
+
   const pickerCards = picker
-    ? (picker.kind === "role" ? roleCards : picker.kind === "weapon" ? weaponCards : itemCards)
-        .filter((card) => !picker.query.trim() || searchableText(card).includes(picker.query.trim().toLowerCase()))
+    ? pickerPool
+        .filter((card) => {
+          if (picker.query.trim() && !searchableText(card).includes(picker.query.trim().toLowerCase())) return false;
+          if (picker.quality !== "all" && card.quality !== picker.quality && !(picker.quality === "grey" && card.quality === "gray")) return false;
+          if (picker.faction !== "all" && !card.factions.includes(picker.faction)) return false;
+          if (picker.keyword !== "all" && !card.keywords.includes(picker.keyword)) return false;
+          return true;
+        })
         .slice(0, 80)
     : [];
 
@@ -1055,7 +1077,7 @@ function CustomLineupBuilder({
                   if (draggedSlotIndex !== null) swapSlots(draggedSlotIndex, index);
                   setDraggedSlotIndex(null);
                 }}
-                onPick={(kind) => setPicker({ kind, slotIndex: index, query: "" })}
+                onPick={(kind) => setPicker({ kind, slotIndex: index, query: "", quality: "all", faction: "all", keyword: "all" })}
                 onRemoveItem={(itemIndex) => removeItem(index, itemIndex)}
                 onRemoveWeapon={() => updateSlot(index, { weapon: "" })}
                 slot={slot}
@@ -1081,7 +1103,7 @@ function CustomLineupBuilder({
                     if (draggedSlotIndex !== null) swapSlots(draggedSlotIndex, index);
                     setDraggedSlotIndex(null);
                   }}
-                  onPick={(kind) => setPicker({ kind, slotIndex: index, query: "" })}
+                  onPick={(kind) => setPicker({ kind, slotIndex: index, query: "", quality: "all", faction: "all", keyword: "all" })}
                   onRemoveItem={(itemIndex) => removeItem(index, itemIndex)}
                   onRemoveWeapon={() => updateSlot(index, { weapon: "" })}
                   slot={slot}
@@ -1096,7 +1118,7 @@ function CustomLineupBuilder({
       {shareStatus ? <p className="custom-lineup-status">{shareStatus}</p> : null}
       {picker ? (
         <div className="lineup-card-picker" role="dialog" aria-modal="true">
-          <div className="lineup-picker-panel">
+          <div className={classNames("lineup-picker-panel", Boolean(pickerFilterOptions.qualities.length || pickerFilterOptions.factions.length || pickerFilterOptions.keywords.length) && "has-filters")}>
             <header>
               <div>
                 <span>{picker.kind === "role" ? "选择角色" : picker.kind === "weapon" ? "选择武器" : "选择装备"}</span>
@@ -1105,6 +1127,43 @@ function CustomLineupBuilder({
               <button className="lineup-picker-close" type="button" onClick={() => setPicker(null)} aria-label="关闭"><X size={18} /></button>
             </header>
             <input className="lineup-picker-search" value={picker.query} onChange={(event) => setPicker({ ...picker, query: event.target.value })} placeholder="搜索名称、品质或标签" autoFocus />
+            {(pickerFilterOptions.qualities.length || pickerFilterOptions.factions.length || pickerFilterOptions.keywords.length) ? (
+              <div className="lineup-picker-filters">
+                {pickerFilterOptions.qualities.length ? (
+                  <label className="lineup-picker-filter">
+                    <span>品质</span>
+                    <select value={picker.quality} onChange={(event) => setPicker({ ...picker, quality: event.target.value })}>
+                      <option value="all">全部</option>
+                      {pickerFilterOptions.qualities.map((quality) => (
+                        <option key={quality} value={quality}>{qualityLabel(quality)}</option>
+                      ))}
+                    </select>
+                  </label>
+                ) : null}
+                {pickerFilterOptions.factions.length ? (
+                  <label className="lineup-picker-filter">
+                    <span>阵营</span>
+                    <select value={picker.faction} onChange={(event) => setPicker({ ...picker, faction: event.target.value })}>
+                      <option value="all">全部</option>
+                      {pickerFilterOptions.factions.map((faction) => (
+                        <option key={faction} value={faction}>{faction}</option>
+                      ))}
+                    </select>
+                  </label>
+                ) : null}
+                {pickerFilterOptions.keywords.length ? (
+                  <label className="lineup-picker-filter">
+                    <span>标签</span>
+                    <select value={picker.keyword} onChange={(event) => setPicker({ ...picker, keyword: event.target.value })}>
+                      <option value="all">全部</option>
+                      {pickerFilterOptions.keywords.map((keyword) => (
+                        <option key={keyword} value={keyword}>{keyword}</option>
+                      ))}
+                    </select>
+                  </label>
+                ) : null}
+              </div>
+            ) : null}
             <div className="lineup-picker-results">
               {pickerCards.length ? pickerCards.map((card) => {
                 const image = lineupFullCardImage(card, picker.kind === "role");

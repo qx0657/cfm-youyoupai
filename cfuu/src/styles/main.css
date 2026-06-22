@@ -3075,6 +3075,10 @@ button {
   cursor: pointer;
 }
 
+.lineup-picker-panel.has-filters {
+  grid-template-rows: auto auto auto minmax(0, 1fr);
+}
+
 .lineup-picker-search {
   width: 100%;
   min-height: 40px;
@@ -3083,6 +3087,30 @@ button {
   color: #edf5ff;
   border-radius: 5px;
   padding: 8px 9px;
+  font: inherit;
+}
+
+.lineup-picker-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+}
+
+.lineup-picker-filter {
+  display: grid;
+  gap: 3px;
+  font-size: 12px;
+  color: #8fa9c3;
+}
+
+.lineup-picker-filter select {
+  min-width: 132px;
+  min-height: 38px;
+  border: 1px solid rgba(133, 164, 204, 0.24);
+  background: #081320;
+  color: #edf5ff;
+  border-radius: 5px;
+  padding: 6px 9px;
   font: inherit;
 }
 

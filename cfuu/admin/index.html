@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex, nofollow, noarchive" />
     <title>CF 悠悠牌管理后台</title>
-    <link rel="stylesheet" href="/admin/admin.css?v=20260616-redesign" />
+    <link rel="stylesheet" href="/admin/admin.css?v=20260621-lineup-card-popover" />
   </head>
   <body>
     <main class="admin-shell">
@@ -274,17 +274,17 @@
 
           <!-- Strategy points with chips -->
           <section class="lineup-editor-section">
-            <header><span>构筑要点</span><small>点击添加，拖拽排序</small></header>
+            <header><span>构筑要点</span><small>添加后在下方逐行编辑，左侧拖拽排序。</small></header>
             <div class="strategy-chip-input">
               <input id="lineupStrategyAddInput" placeholder="输入构筑要点后按回车或点击添加" />
               <button id="lineupStrategyAddButton" type="button" class="secondary">添加</button>
             </div>
-            <div id="lineupStrategyChips" class="chip-list sortable-list"></div>
+            <div id="lineupStrategyChips" class="chip-list sortable-list strategy-point-list"></div>
           </section>
 
           <!-- Slot editor with autocomplete -->
           <section class="lineup-editor-section">
-            <header><span>角色站位与装备</span><small>前三格为前排，后三格为后排；均可留空。</small></header>
+            <header><span>角色站位与装备</span><small>前三格为前排，后三格为后排；拖拽角色卡可换位。</small></header>
             <div id="lineupSlotsEditor" class="lineup-slots-editor"></div>
           </section>
 
@@ -307,6 +307,6 @@
         </form>
       </aside>
     </main>
-    <script type="module" src="/admin/admin.js?v=20260616-redesign"></script>
+    <script type="module" src="/admin/admin.js?v=20260621-lineup-card-popover"></script>
   </body>
 </html>
